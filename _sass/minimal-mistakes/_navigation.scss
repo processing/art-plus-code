@@ -127,12 +127,14 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
+    color: $pf-magenta-body;
+    border: 1px solid $border-color;
     border-radius: $border-radius;
 
-    &:hover {
+    &:hover,
+    &:focus {
       @include yiq-contrasted($muted-text-color);
+      text-decoration: none;
     }
 
     &:first-child {
@@ -150,6 +152,10 @@
       color: rgba($muted-text-color, 0.5);
       pointer-events: none;
       cursor: not-allowed;
+    }
+
+    i {
+      padding: 0 0.2em;
     }
   }
 }
