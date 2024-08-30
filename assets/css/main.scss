@@ -5,12 +5,30 @@ search: false
 
 @charset "utf-8";
 
+@import "colors";
+
 /* Overriding Minimal Mistakes default sass variables */
 
 /* System typefaces */
 $serif: "Courier", monospace;
 $sans-serif: "National Park", sans-serif;
 $monospace: "Courier", monospace;
+
+/* Colors */
+$text-color: #000000;
+
+$link-color: $pf-magenta-body;
+$link-color-hover: $pf-magenta-body;
+$link-color-visited: $pf-magenta-body;
+$masthead-link-color: #000000;
+$masthead-link-color-hover: $pf-magenta-body;
+$navicon-link-color-hover: $pf-magenta-body;
+
+$border-color: $dark-border;
+$focus-color: $dark-border;
+
+$footer-background-color: $pf-magenta-70;
+$active-color: $pf-magenta-20;
 
 /* headline scale */
 $h-size-1: 2em;
