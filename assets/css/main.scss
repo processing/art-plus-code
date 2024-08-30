@@ -7,9 +7,15 @@ search: false
 
 /* Overriding Minimal Mistakes default sass variables */
 
+/* System typefaces */
+$serif: "Courier", monospace;
+$sans-serif: "National Park", sans-serif;
+$monospace: "Courier", monospace;
+
 /* Animations */
 $intro-transition  : none;
 $global-transition : none;
 
+@import "fonts";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
