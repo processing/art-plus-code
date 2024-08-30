@@ -51,9 +51,9 @@ function setup() {
 
 ### Images
 
-**Images** can be added to the `/assets/images/` directory before being included on pages.
+**Images** can be added to the `/assets/images/` directory.
 
-![Soft gradient with pinks and greens](/assets/images/sample-img.jpg)
+![Soft gradient with pinks and greens]({{ "/assets/images/sample-img.jpg" | relative_url }})
 
 You can also create a `<figure>` element with a caption:
 
@@ -63,7 +63,4 @@ You can also create a [gallery of images](https://mmistakes.github.io/minimal-mi
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
-If you want to resize an image, you can use HTML to set the `width` and `height` attributes in pixels.
-
-<img src="/assets/images/sample-img.jpg" alt="Soft gradient with pinks and greens" width="300" height="200">
 

@@ -23,7 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Art + Code Teacher Camp is an immersive professional development 
   program designed to empower US-based educators to integrate fundamental 
   software concepts into their K-12 art classrooms.
-url: "https://processing.github.io/art-plus-code" # base hostname & protocol for your site, e.g. http://example.com
+url: "" # base hostname & protocol for your site, e.g. http://example.com
+base_url: "/art-plus-code" # Just while using github project page
 locale: "en-US"
 
 # Build settings
