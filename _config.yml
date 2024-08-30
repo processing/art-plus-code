@@ -32,11 +32,54 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 
+include:
+  - _pages
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+  # _curriculum
+  - scope:
+      path: ""
+      type: "curriculum"
+    values:
+      layout: "single"
+      sidebar:
+        nav: "curriculum"
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      toc_icon: none
+      author_profile: false
+
+# Collections
+collections:
+  curriculum:
+    output: true
+    permalink: /:collection/:path/
+
+# Archive pages
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+atom_feed:
+  hide: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,14 +100,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
-
-atom_feed:
-  hide: true
