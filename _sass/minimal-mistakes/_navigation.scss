@@ -135,6 +135,7 @@
     &:focus {
       @include yiq-contrasted($muted-text-color);
       text-decoration: none;
+      background-color: $primary-color;
     }
 
     &:first-child {
@@ -392,7 +393,7 @@
       &:hover {
         color: #fff;
         border-color: $border-color;
-        background-color: mix(white, #000, 20%);
+        background-color: $primary-color;
 
         &:before,
         &:after {
@@ -404,7 +405,7 @@
     /* selected*/
     input:checked + label {
       color: white;
-      background-color: mix(white, #000, 20%);
+      background-color: $primary-color;
 
       &:before,
       &:after {
