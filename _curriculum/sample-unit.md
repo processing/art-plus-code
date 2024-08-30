@@ -28,7 +28,7 @@ For more info on syntax, check out this [Markdown Guide](https://www.markdowngui
 
 ## Minimal Mistakes Theme
 
-
+This site uses a customized version of the Minimal Mistakes theme. You can read more about it at the [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ The table of contents on the right is auto-generated using the [headings]([headi
 
 ## Formatting Options
 
-Below are a few examples of formatting options you may want to use.
+Below are examples of formatting options you may want to use.
 
 ### Code Snippets
 
