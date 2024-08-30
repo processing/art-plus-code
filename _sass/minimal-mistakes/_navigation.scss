@@ -93,7 +93,7 @@
       }
 
       &.disabled {
-        color: rgba($muted-text-color, 0.5);
+        color: rgba($muted-text-color, 0.7);
         pointer-events: none;
         cursor: not-allowed;
       }
@@ -503,7 +503,7 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: $text-color;
   background-color: $background-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -511,9 +511,9 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: $text-color;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: $pf-magenta-70;
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
   }
@@ -521,6 +521,7 @@
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
     @include yiq-contrasted($active-color);
+    color: $text-color;
   }
 }
 
@@ -530,6 +531,8 @@
   width: 100%;
   list-style: none;
   font-size: $type-size-6;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
 
   @include breakpoint($large) {
     font-size: $type-size-7;
@@ -538,14 +541,10 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
+    color: $text-color;
     font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1px solid $border-color;
-
-    &:hover {
-      color: $text-color;
-    }
+    border-top: 1px solid $border-color;
   }
 
   li ul > li a {

@@ -37,6 +37,9 @@ $h-size-1: 2em;
 $intro-transition  : none;
 $global-transition : none;
 
+/* Other */
+$border-radius: 20px;
+
 @import "fonts";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
