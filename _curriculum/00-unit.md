@@ -6,6 +6,7 @@ permalink: /introduction/
 Insert content here
 
 ## Heading 2
+This is some sample content
 
 ### Heading 3
 
