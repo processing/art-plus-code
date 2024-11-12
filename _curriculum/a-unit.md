@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Topic A: Capturing Movement with Digital Lines" # Title and Heading 1
+title: "Topic A" # Title and Heading 1
 permalink: /unit-a/ # Give your page a permalink
 hidden: false # Remove this line for any units you want added to the sidebar navigation
 
@@ -20,28 +20,18 @@ gallery: # Below is for including an image gallery
 
 ---
 
-_A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.”_ 
- - Donis A. Dondis, A Primer of Visual Literacy
+# Capturing Movement with Digital Lines
+
+> A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
+>
+> \- Donis A. Dondis, A Primer of Visual Literacy
 
 In many of her drawings, artist Christine Sun Kim captures the motions of sign language through lines. Words like “future” and “time” are depicted with arching curves, mimicking the vertical and horizontal movements of the hand making the sign in ASL. The scale of Kim’s work ranges from intimate drawings to monumental murals. In each of her works, her deliberate choices around the form, weight, and composition of the lines she uses are essential in communicating a unique sense of motion and personality. 
 
 In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
 
 
-## References & Artworks for Discussion: Line Quality
-* A Primer of Visual Literacy, Donis A. Dondis
-* [Art21: Christine Sun Kim](https://art21.org/watch/art-in-the-twenty-first-century/s11/christine-sun-kim-in-friends-strangers/)
-* Christine Sun Kim, [Time Owes Me Rest Again](https://queensmuseum.org/exhibition/christine-sun-kim/), 2022, Queens Museum
-* Christine Sun Kim, [Too Much Future](https://whitney.org/exhibitions/christine-sun-kim), 2018, Whitney Museum
-* Hilma af Klint, [Spiritual Drawing](https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04), ca. 1903, Guggenheim Museum
-* Jean-Michel Basquiat, [Untitled](https://www.moma.org/collection/works/34633?artist_id=370&page=1&sov_referrer=artist), 1981, Museum of Modern Art
-* Wassily Kandinsky, [Untitled (drawing for Diagram 17)](https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17), 1925, Mount Holyoke College Art Museum
-* William Kentridge, [Learning the Flute](https://www.moma.org/collection/works/91559), 2003, Museum of Modern Art
-* Elizabeth Peyton, [Craig in Tokyo](https://rubellmuseum.org/elizabeth-peyton), 1997, Rubell Museum
-
-
 ## Objectives
-**Art**
 - Gaining insight into diverse practices in traditional and contemporary drawing
 - Understanding the relationship between drawing tools and artistic intention
 - **Visual Arts Vocabulary**: line, space, value, form, texture, color
@@ -53,6 +43,19 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 - drawing methods: [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/),  [fill()](https://p5js.org/reference/p5/fill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
 - mouse variables and methods: [mouseX](https://p5js.org/reference/p5/mouseX/), [mouseY](https://p5js.org/reference/p5/mouseY/), [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/)
 - [save()](https://p5js.org/reference/p5/save/)
+- console.log()
+
+  
+## References & Artworks for Discussion: Line Quality
+* A Primer of Visual Literacy, Donis A. Dondis
+* [Art21: Christine Sun Kim](https://art21.org/watch/art-in-the-twenty-first-century/s11/christine-sun-kim-in-friends-strangers/)
+* Christine Sun Kim, [Time Owes Me Rest Again](https://queensmuseum.org/exhibition/christine-sun-kim/), 2022, Queens Museum
+* Christine Sun Kim, [Too Much Future](https://whitney.org/exhibitions/christine-sun-kim), 2018, Whitney Museum
+* Hilma af Klint, [Spiritual Drawing](https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04), ca. 1903, Guggenheim Museum
+* Jean-Michel Basquiat, [Untitled](https://www.moma.org/collection/works/34633?artist_id=370&page=1&sov_referrer=artist), 1981, Museum of Modern Art
+* Wassily Kandinsky, [Untitled (drawing for Diagram 17)](https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17), 1925, Mount Holyoke College Art Museum
+* William Kentridge, [Learning the Flute](https://www.moma.org/collection/works/91559), 2003, Museum of Modern Art
+* Elizabeth Peyton, [Craig in Tokyo](https://rubellmuseum.org/elizabeth-peyton), 1997, Rubell Museum
 
 
 ## Timeline
@@ -129,7 +132,7 @@ You can output messages to the console to keep track of changing values like thi
 ```js
 console.log("your message between these quotation marks");
 console.log(nameOfAVariable);
-console.log("your message between these quotation marks" + nameOfAVariableNoQuotes
+console.log("your message between these quotation marks" + nameOfAVariableNoQuotes);
 ```
 
 Notice how the messages are popping up over and over again in the console with different numbers. This is because the code in the draw function is looping. That means that the command to print a message in the console is being executed again and again and the mouseX and mouseY values are constantly being updated. 
