@@ -18,9 +18,19 @@ curriculum:
         url: /unit-1/
       - title: "Unit 2"
         url: /unit-2/
-  - title: Stream 2
+  - title: Digital Drawing Tool
     children:
-      - title: "Unit 3"
-        url: /unit-3/
-      - title: "Unit 4"
-        url: /unit-4/
+      - title: "Introduction"
+        url: /1-intro/
+      - title: "Unplugged Activities"
+        url: /1-unplugged/
+      - title: "Drawing with P5JS"
+        url: /1-drawing_1/
+      - title: "Mouse Interactions"
+        url: /1-mouse/
+      - title: "Key Interactions"
+        url: /1-key/
+      - title: "Refining Drawing"
+        url: /1-drawing_2/
+      - title: "Assessment"
+        url: /1-assessment/
