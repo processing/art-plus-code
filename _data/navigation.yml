@@ -20,15 +20,13 @@ curriculum:
         url: /unit-2/
   - title: Digital Drawing Tool
     children:
-      - title: "Introduction"
+      - title: "Introduction & Inspiration"
         url: /1-intro/
       - title: "Drawing with P5JS"
-        url: /1-drawing_1/
-      - title: "Mouse Interactions"
-        url: /1-mouse/
-      - title: "Key Interactions"
-        url: /1-key/
-      - title: "Refining Drawing"
-        url: /1-drawing_2/
-      - title: "Assessment"
-        url: /1-assessment/
+        url: /1-drawing/
+      - title: "Interactivity"
+        url: /1-interactivity/
+      - title: "Practice Exercises"
+        url: /1-practice/
+      - title: "Discussion Questions"
+        url: /1-discussion/
