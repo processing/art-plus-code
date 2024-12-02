@@ -22,8 +22,6 @@ curriculum:
     children:
       - title: "Introduction"
         url: /1-intro/
-      - title: "Unplugged Activities"
-        url: /1-unplugged/
       - title: "Drawing with P5JS"
         url: /1-drawing_1/
       - title: "Mouse Interactions"
