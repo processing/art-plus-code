@@ -15,7 +15,7 @@ gallery: # Below is for including an image gallery
 
 ---
 
-# Capturing Movement with Digital Lines
+# Interactive Drawing
 
 > A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
 >
