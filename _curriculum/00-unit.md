@@ -4,15 +4,6 @@ permalink: /introduction/
 published: false
 ---
 
-Insert content here
+Please stay tuned for resources for K-12 Educators from the 2024 Art+Code participating educators and the Processing Foundation! 
 
-## Heading 2
-This is some sample content
-
-### Heading 3
-
-## Heading 2
-
-### Heading 3
-
-### Heading 3
+For more information about the Art+Code program, please visit the [information page](https://processingfoundation.org/education/artpluscode) on the [Processing Foundation](https://processingfoundation.org/) website.
