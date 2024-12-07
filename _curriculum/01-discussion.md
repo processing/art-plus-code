@@ -2,6 +2,7 @@
 # This is the frontmatter
 title: "Digital Drawing Tool: Discussion Questions" # Title and Heading 1
 permalink: /1-discussion/ # Give your page a permalink
+published: false
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/unit_a_example-1.png
