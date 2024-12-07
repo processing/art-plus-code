@@ -2,6 +2,7 @@
 # This is the frontmatter
 title: "Digital Drawing: Interactive Art" # Title and Heading 1
 permalink: /1-interactivity/ # Give your page a permalink
+published: false
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/unit_a_example-1.png
