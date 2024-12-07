@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Collection page for resources.
+Please stay tuned for a collection of resources for K-12 Educators by 2024 Art+Code Participants!
