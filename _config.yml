@@ -64,9 +64,9 @@ defaults:
       toc_sticky: true
       toc_icon: none
       author_profile: false
-  # Project pages
+  # Resource pages
   - scope:
-      path: "_posts/projects"
+      path: "_posts/resources"
     values:
       layout: "single"
       author_profile: true

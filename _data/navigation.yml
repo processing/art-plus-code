@@ -1,8 +1,8 @@
 main:
   - title: "Curriculum"
     url: /introduction/
-  - title: "Projects"
-    url: /projects/
+  - title: "Resources"
+    url: /resources/
   - title: "Contact"
     url: /contact/
 

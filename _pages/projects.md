@@ -1,10 +1,10 @@
 ---
-title: Projects
+title: Resources
 layout: collection
-permalink: /projects/
+permalink: /resources/
 collection: posts
 entries_layout: grid
 classes: wide
 ---
 
-Collection page for projects.
+Collection page for resources.
