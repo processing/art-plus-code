@@ -2,6 +2,7 @@
 # This is the frontmatter
 title: "Topic A" # Title and Heading 1
 permalink: /unit-a/ # Give your page a permalink
+published: false
 hidden: false # Remove this line for any units you want added to the sidebar navigation
 
 gallery: # Below is for including an image gallery
