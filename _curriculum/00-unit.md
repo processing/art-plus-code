@@ -1,6 +1,7 @@
 ---
 title: "How to Use This Curriculum"
 permalink: /introduction/
+published: false
 ---
 
 Insert content here
