@@ -1,7 +1,6 @@
 ---
 title: "How to Use This Curriculum"
 permalink: /introduction/
-published: false
 ---
 
 Please stay tuned for resources for K-12 Educators from the 2024 Art+Code participating educators and the Processing Foundation! 
