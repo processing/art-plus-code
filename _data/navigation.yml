@@ -9,24 +9,24 @@ main:
 # Curriculum navigation sidebar
 curriculum:
   - title: "Introduction"
-    children:
-      - title: "How to Use This Curriculum"
-        url: /introduction/
-  - title: "Stream 1"
-    children:
-      - title: "Unit 1"
-        url: /unit-1/
-      - title: "Unit 2"
-        url: /unit-2/
-  - title: Digital Drawing Tool
-    children:
-      - title: "Introduction & Inspiration"
-        url: /1-intro/
-      - title: "Drawing with P5JS"
-        url: /1-drawing/
-      - title: "Interactivity"
-        url: /1-interactivity/
-      - title: "Practice Exercises"
-        url: /1-practice/
-      - title: "Discussion Questions"
-        url: /1-discussion/
+    #children:
+     # - title: "How to Use This Curriculum"
+      #  url: /introduction/
+ # - title: "Stream 1"
+  #  children:
+   #   - title: "Unit 1"
+    #    url: /unit-1/
+     # - title: "Unit 2"
+      #  url: /unit-2/
+  #- title: Digital Drawing Tool
+   # children:
+    #  - title: "Introduction & Inspiration"
+     #   url: /1-intro/
+      #- title: "Drawing with P5JS"
+       # url: /1-drawing/
+      #- title: "Interactivity"
+       # url: /1-interactivity/
+      #- title: "Practice Exercises"
+       # url: /1-practice/
+      #- title: "Discussion Questions"
+       # url: /1-discussion/
