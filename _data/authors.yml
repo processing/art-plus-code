@@ -1,0 +1,31 @@
+# These files stores info for all author profiles
+
+Sample Author:
+  name: "Sample Author"
+  bio: "Here's a bio for a sample author"
+  location: "Location"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "https://processing.github.io/art-plus-code/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://processing.github.io/art-plus-code/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://processing.github.io/art-plus-code/"
+
+Adrienne Gifford:
+  name: "Adrienne Gifford"
+  bio: "Sample bio for author"
+  location: "Sample location"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: ""
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: ""
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: ""
