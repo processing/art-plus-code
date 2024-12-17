@@ -1,8 +1,8 @@
 ---
 # This is the frontmatter
-title: "Digital Drawing Tool: Introduction & Inspiration" # Title and Heading 1
-permalink: /1-intro/ # Give your page a permalink
-published: false
+title: "Capturing Movement with Digital Lines" # Title and Heading 1
+permalink: /capturingMovement-intro/ # Give your page a permalink
+published: true
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/unit_a_example-1.png
@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 ---
 
-# Interactive Drawing
+# Capturing Movement with Digital Lines
 
 > A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
 >
