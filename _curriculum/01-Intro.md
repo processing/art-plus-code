@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines" # Title and Heading 1
+title: "Capturing Movement with Digital Lines: Introduction & Inspiration" # Title and Heading 1
 permalink: /capturingMovement-intro/ # Give your page a permalink
 published: true
 
