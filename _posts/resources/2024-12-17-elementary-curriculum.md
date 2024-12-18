@@ -12,6 +12,7 @@ Because I teach elementary in a bilingual setting, my students need step-by-step
 
 ## Slideshow
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRk2LoZAosvICml39vRP_IFkGbwdMCxQQeRwxcarRpx7hm1KXsQ55QQ5ulAnMT4CArFAlqiYXRdIddV/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## p5.js Sketches
 
