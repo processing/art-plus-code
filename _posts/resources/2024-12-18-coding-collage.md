@@ -1,8 +1,11 @@
 ---
-title:  "Coding Collage - Exploring self, place, and space in digital art"
+title:  "Coding Collage: Exploring self, place, and space in digital art"
 author: Jennie Canning
 date:   2024-12-18 00:00:00 -0400
 published: false
+
+header:
+  teaser: /assets/images/resources/jennie-canning/resource-thumbnail.png
 ---
 
 ## Introduction/Overview

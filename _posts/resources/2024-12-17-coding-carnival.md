@@ -3,6 +3,9 @@ title:  "Coding Carnival: Unit Plan"
 author: Jennie Maydew
 date:   2024-12-17 00:00:00 -0400
 published: false
+
+header:
+  teaser: /assets/images/resources/jennie-maydew/resource-thumbnail.png
 ---
 
 ## Unit Design Highlights:

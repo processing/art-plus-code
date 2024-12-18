@@ -3,6 +3,9 @@ title:  "p5 Elementary Curriculum"
 author: Lucia Herrera
 date:   2024-12-17 00:00:00 -0400
 published: false
+
+header:
+  teaser: /assets/images/resources/lucia-herrera/resource-thumbnail.png
 ---
 
 ## Introduction

@@ -3,6 +3,9 @@ title:  "Participatory Cartography"
 author: Adrienne Gifford
 date:   2024-12-16 00:00:00 -0400
 published: false
+
+header:
+  teaser: /assets/images/resources/adrienne-gifford/resource-thumbnail.png
 ---
 
 ## Introduction

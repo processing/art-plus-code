@@ -3,6 +3,9 @@ title:  "6th Grade Unit: Intro to P5.js Grid and Coding Platform"
 author: Mariana Sandoval
 date:   2024-12-16 00:00:00 -0400
 published: false
+
+header:
+  teaser: /assets/images/resources/mariana-sandoval/resource-thumbnail.png
 ---
 
 ## Lesson 1: Navigating the x, y coordinates in P5.js to create shapes
