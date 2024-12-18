@@ -29,3 +29,33 @@ Adrienne Gifford:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: ""
+
+Jennie Maydew:
+  name: "Jennie Maydew"
+  bio: "Sample bio for author"
+  location: "Brooklyn, NY"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: ""
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: ""
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: ""
+
+Lucia Herrera:
+  name: "Lucia Herrera"
+  bio: "Sample bio for author"
+  location: "Sample location"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: ""
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: ""
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: ""
