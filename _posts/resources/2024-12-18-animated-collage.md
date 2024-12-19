@@ -2,7 +2,7 @@
 title:  "Animated collage"
 author: Krissie Olson
 date:   2024-12-18 00:00:00 -0400
-published: false
+published: true
 
 header:
   teaser: /assets/images/resources/krissie-olson/resource-thumbnail.png
