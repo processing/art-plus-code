@@ -1,3 +1,21 @@
+---
+# This is the frontmatter
+title: "Instructional Art: Lessons" # Title and Heading 1
+permalink: /instrucitonalArt-lessons/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: /assets/images/unit_a_example-1.png
+    image_path: /assets/images/unit_a_example-1.png
+    alt: "black and white abstract drawing of curves"
+    title: "Sample Drawing 1"
+  - url: /assets/images/unit_a_example-2.png
+    image_path: /assets/images/unit_a_example-2.png
+    alt: "simplified line drawing of a face with red oval pattern"
+    title: "Sample Drawing 2"
+
+---
+
 ## Let’s make — an About Me Collage!
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
