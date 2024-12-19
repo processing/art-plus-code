@@ -15,10 +15,6 @@ gallery: # Below is for including an image gallery
     title: "Image 2 title caption"
 
 ---
-
-
-# Unit 2: Instructional Art
-
 ## Introduction
 
 *How can instructions and systems transform into art? How can computation initiate new ideas of making or propel art forward?*
