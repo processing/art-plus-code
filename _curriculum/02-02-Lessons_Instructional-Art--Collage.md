@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Instructional Art: Lessons" # Title and Heading 1
-permalink: /instrucitonalArt-lessons/ # Give your page a permalink
+permalink: /instructionalArt-Lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
