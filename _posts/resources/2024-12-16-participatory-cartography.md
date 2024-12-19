@@ -14,7 +14,8 @@ header:
 
 Participatory cartography is a collaborative process in which individuals or communities actively contribute to the creation of maps that represent their own knowledge, experiences, and perspectives.  Unlike traditional mapping methods, which are often created by “experts” or organizations with top-down perspectives, participatory mapping emphasizes local input and involvement, aiming to empower communities and make maps more reflective of diverse viewpoints.
 
-***Related spheres: human geography, critical cartography, spatial data justice, sensory and emotional geographies.***
+**Related spheres:** *human geography, critical cartography, spatial data justice, sensory and emotional geographies*
+{: .notice}
 
 ### References & Artworks for Discussion
 

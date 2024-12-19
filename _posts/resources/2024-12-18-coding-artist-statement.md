@@ -12,7 +12,8 @@ header:
 
 The lesson I will be presenting to my Ceramics students will happen in multiple steps. They will be looking at historic vessels throughout history and then creating their own version that tells a more modern day story. Once their project is complete and handed in, they will be introduced to P5.js.  The goal of the project is to create a small artist statement to go on display with their ceramic vessel. They will be learning how to create in P5.js, basic introductory skills, use of text and then creating a drawing tool to draw out the shape of their vessel on the artist statement as well. 
 
-[Example completed sketches](https://editor.p5js.org/Dollkait/sketches/KinqAAFc_)
+**Example completed sketches:** [Artist Statement Card](https://editor.p5js.org/Dollkait/sketches/KinqAAFc_)
+{: .notice--info}
 
 ## Learning Audience
 

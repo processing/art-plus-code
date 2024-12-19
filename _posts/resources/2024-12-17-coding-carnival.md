@@ -16,11 +16,8 @@ header:
 - Culminating celebration shares projects with a broader audience, making meaning beyond the assignment
 - Unit plan is adaptable to a range of coding abilities
 
-> ***Play is powerful*** - it limits overthinking, builds connections, decreases risk and invites new outcomes.
-Games are fun because they allow us to use our creativity to solve problems. Designing games adds a
-new layer of complexity; now, the artist is a problem solver and problem generator. In this unit plan we
-engage with games, interactivity and play to create an immersive experience and share it with others. We
-use collaboration to build upon each other’s ideas and provide a balance to the competition of games.
+***Play is powerful*** - it limits overthinking, builds connections, decreases risk and invites new outcomes. Games are fun because they allow us to use our creativity to solve problems. Designing games adds a new layer of complexity; now, the artist is a problem solver and problem generator. In this unit plan we engage with games, interactivity and play to create an immersive experience and share it with others. We use collaboration to build upon each other’s ideas and provide a balance to the competition of games.
+{: .notice--success}
 
 ## References & Artworks:
 

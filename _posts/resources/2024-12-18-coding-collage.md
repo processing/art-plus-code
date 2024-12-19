@@ -13,7 +13,9 @@ header:
 Students will look at who they are in connection to their community. Taking inspiration for one of Pittsburgh’s most notable artist, Romare Bearden, they will explore ways to show their place in their community be it a neighborhood, a family, a street, or their school.  Students will take pictures, find images, and create shapes to create a digital collage in P5JS. After the collage has been created, we will explore ways to invite audience reaction through interactions that have been created in P5JS like the drawing tools, changing objects appearance based on the mouse positioning, and typing with the keyboard. Students will get a chance to reflect on how the audience has changed their piece through the interactions.
 
 - [Full lesson](https://docs.google.com/document/d/1dpokQdBL041a1g545nvVG9Kwu1tM5qwCXXTWxMhQ-HE/edit?usp=sharing)
-- [Example completed sketches](https://editor.p5js.org/canning.jennie/sketches/Z8tjurPJ2)
+
+**Example completed sketches:** [Neighbourhood](https://editor.p5js.org/canning.jennie/sketches/Z8tjurPJ2)
+{: .notice--info}
 
 ## Learning Audience
 
