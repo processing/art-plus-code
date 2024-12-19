@@ -2,7 +2,7 @@
 # This is the frontmatter
 title: "Unit 2: Instructional Art" # Title and Heading 1
 permalink: /instructionalArt-Intro # Give your page a permalink
-published: false
+published: true
 hidden: true # Remove this line for any units you want added to the sidebar navigation
 
 gallery: # Below is for including an image gallery
