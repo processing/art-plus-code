@@ -36,8 +36,8 @@ gallery: # Below is for including an image gallery
 
 ---
 
-# Unplugged Activities
-## Chance Operations
+## Unplugged Activities
+### Chance Operations
 **Materials you need:**
 
 - Quarter or any coin, for each student
