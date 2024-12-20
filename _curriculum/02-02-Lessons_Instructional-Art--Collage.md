@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Instructional Art: Lessons" # Title and Heading 1
+permalink: /instructionalArt-Lessons/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit2.png
+    image_path: Assets/thumbnails/unit2.png
+    alt: "Screenshot of a collage on books using the p5.js web editor"
+    title: "About Me Collage"
+
+---
+
 ## Let’s make — an About Me Collage!
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
@@ -478,3 +492,5 @@ Try loading a gif, image (png, jpg), or even [fonts](https://p5js.org/reference/
 If you want to try using videos: [https://p5js.org/reference/#/p5/createVideo](https://p5js.org/reference/#/p5/createVideo)
 
 - Example: [https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB](https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB)
+
+## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/instructionalArt-Assessments/)

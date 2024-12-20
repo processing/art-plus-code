@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Generative Art: Lessons" # Title and Heading 1
+permalink: /generativeArt-Lessons/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit8.png
+    image_path: Assets/thumbnails/unit8.png
+    alt: "Screenshot of an generative weaving pattern tool using the p5.js web editor"
+    title: "Generative Weaving Pattern"
+
+---
+
 ## Let’s make — Generative Weaving Pattern!
 
 **Template link here:** [https://editor.p5js.org/chellyjin/sketches/3-7xyzKng](https://editor.p5js.org/chellyjin/sketches/3-7xyzKng) 
@@ -431,3 +445,6 @@ function draw() {
 ```
 
 Play with different ideas of what a stitch might look like, what a cross-stitch or a beading section could be? What threads or colors can you use? 
+
+
+## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/generativeArt-Assessments/)

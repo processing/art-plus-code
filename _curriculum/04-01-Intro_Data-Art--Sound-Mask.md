@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Data Art: Introduction" # Title and Heading 1
+permalink: /dataArt-Intro/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit4.png
+    image_path: Assets/thumbnails/unit4.png
+    alt: "Screenshot of a digital mask using the p5.js web editor"
+    title: "Sound Reactive Mask"
+
+---
+
 # Unit 4: Data Art
 
 ## Introduction
@@ -32,3 +46,5 @@ Romi Morrison, [The Future Conditional](https://elegantcollisions.com/the-future
 2. Some of the artists are utilizing art as a visualization technique for the data they’re wishing to delve deeper in; whereas some artists are utilizing art as a means to disrupt or remix the data from its initial origins to reproduce new meaning. What are some ways you’ve seen artists or communities take information and data to help bridge various understandings, reconnect to histories that were suppressed, or highlight archives that might be lost to the sands of time? 
 3. Romi Morrison’s work takes physical manifestations of data (archived prints, archival material, and primary sources) and revisits them in a curation that allows for deeper conversation. How does this change or illicit new understandings of data in art? 
 4. Mimi Onuoha curates a series of datasets that are missing as a new form of a dataset. How can datasets offer narrative, shape representation, or reveal biases? 
+
+## Ready to move on? [Let's start the Lessons](https://processing.github.io/art-plus-code/dataArt-Lessons/)

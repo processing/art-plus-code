@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Data Art: Lessons" # Title and Heading 1
+permalink: /dataArt-Lessons/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit4.png
+    image_path: Assets/thumbnails/unit4.png
+    alt: "Screenshot of a digital mask using the p5.js web editor"
+    title: "Sound Reactive Mask"
+
+---
+
 ## Let’s make — Sound-reactive Mask!
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
@@ -414,3 +428,5 @@ function draw() {
     - if using “let” changing what the variable is used for: holding numbers or text or array of values
 - one way we can check what is stored inside the variable is to use : “console.log” — how to see the output of variables: vol
     - using it to see all the “data” and numbers taken from the microphone
+
+## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/dataArt-Assessments/)
