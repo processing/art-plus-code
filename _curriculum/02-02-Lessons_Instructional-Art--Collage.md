@@ -5,10 +5,10 @@ permalink: /instructionalArt-Lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: /assets/images/unit_a_example-1.png
-    image_path: /assets/images/unit_a_example-1.png
-    alt: "black and white abstract drawing of curves"
-    title: "Sample Drawing 1"
+  - url: Assets/Screenshot_2024-07-29_at_5.08.31_PM.png
+    image_path: Assets/Screenshot_2024-07-29_at_5.08.31_PM.png
+    alt: "Screenshot of a collage on books using the p5.js web editor"
+    title: "About Me Collage"
   - url: /assets/images/unit_a_example-2.png
     image_path: /assets/images/unit_a_example-2.png
     alt: "simplified line drawing of a face with red oval pattern"
