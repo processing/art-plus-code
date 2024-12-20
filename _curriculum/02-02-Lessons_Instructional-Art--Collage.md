@@ -155,11 +155,9 @@ This translates to TOP of the code == BACK of the canvas, and BOTTOM of the code
 
 The idea is that we’re telling the computer a series of instructions. And the order does matter – the bread needs to go down first, before the peanut butter. Just like how we need to add fill() before the objects to indicate which color marker we’re picking up next. And the specificity of these directions also matter:
 
-<aside>
-🧠 Teacher Trick:
+**🧠 Teacher Trick:**
 Print out code on sheets of paper (pull from the example or templates of any and all projects/exercises). Have the students highlight, with different markers or highlighters, the bracket pairings in such a way that each bracket pairing is a different color marker. Help students identify where their code needs to go and look for brackets. As conditionals come into play or code gets longer, this activity will help student succeed in future debugging.
 
-</aside>
 
 ---
 
@@ -207,15 +205,13 @@ Notice, each one has their own syntax on HOW to use it
 
 Look into the Reference page to help you define how these functions work and how they need to be written!
 
-<aside>
-🧠 Teacher Trick
+**🧠 Teacher Trick**
 
 Think of Functions and their Properties and how they might apply to the real world. Instead of Ellipse(x,y,d) → Bread(where does it go, how many slices)
 
-- We could say: Bread(plate, 1, rye, 70%) — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
-- We could say: Flower(grass, pink, 5, short) — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
-- So when we say things like Circle(x, y, d); at the top of our code – we’re suggesting, “hey put a Circle down on the canvas first. And what’s that circle like: well it’s placed at “x and y”, and it “d” pixels in size.
-</aside>
+- We could say: **Bread(plate, 1, rye, 70%)** — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
+- We could say:** Flower(grass, pink, 5, short)** — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
+- So when we say things like **Circle(x, y, d)**; at the top of our code – we’re suggesting, “hey put a Circle down on the canvas first. And what’s that circle like: well it’s placed at “x and y”, and it “d” pixels in size.
 
 **🎨 In our About-Me Collage example:** We started the draw() section with shapes. We have a series of circles and rectangles. 
 
@@ -306,7 +302,6 @@ We use other functions to play with the outline of shapes:
 - strokeWeight(n); == changes stroke weight / thickness
 - stroke(r,g,b,a); == like fill() except, it colors the outline of the shape
 
-<aside>
 🧠 **Teacher Trick**
 Think of fill() or stroke() as **the marker**! In code, ORDER MATTERS. Sometimes it helps to envision the instruction as:
 
@@ -317,7 +312,6 @@ circle(200,200,200); == Use the green marker to draw the circle
 fill(0,0,255); == PICK UP the BLUE marker 
 circle(300,300,300); == Use the blue marker to draw the circle
 
-</aside>
 
 ### Text
 
@@ -351,9 +345,9 @@ function draw(){
 }
 ```
 
-Notice, we can also add unique things to make our text interesting:
+Notice, we can also add unique characteristics to make our text interesting:
 
-- fill(), stroke() and strokeWeight() will also impact the color of the text
+- fill(), stroke() and strokeWeight() will impact the color of the text
 - textFont(“font name”); == We can select from a predetermined list of available fonts. The default is Helvetica.
 - textSize(n); == Change the size of your text
 
@@ -452,7 +446,7 @@ img = loadImage('assets/yourImageFileNameHere.jpg');
 
 ---
 
-Don’t worry if you don’t know what a variable is quite yet! We’ll cover that in our next unit :) Try it out for now. 
+Don’t worry if you don’t know what a variable is quite yet! We’ll cover that in our next unit. Try it out for now. 
 
 ### Loading Images
 
@@ -460,7 +454,7 @@ Images can be loaded directly into your p5.js sketch on the Editor, using the �
 
 [https://lh7-rt.googleusercontent.com/docsz/AD_4nXdY2Nb5H5AShRstLx5SkI4Ho3xNRfZcxQRKcCVc9H6K4u92R_i_H8HJDwFMBBSgtiKXmaYjWIF-gsnyVaiFpLFd2TZHALO_CgkQubmRKnqawisDHysjl7MAdZXOgZJBBGRG0MGQ1eSUO_HheV1kbhLM-4Y?key=F-S1j5G6bHDaZ0HWIyKiDw](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdY2Nb5H5AShRstLx5SkI4Ho3xNRfZcxQRKcCVc9H6K4u92R_i_H8HJDwFMBBSgtiKXmaYjWIF-gsnyVaiFpLFd2TZHALO_CgkQubmRKnqawisDHysjl7MAdZXOgZJBBGRG0MGQ1eSUO_HheV1kbhLM-4Y?key=F-S1j5G6bHDaZ0HWIyKiDw)
 
-Images can be loaded using links from websites: refer to class About Me template. The puppy and gif images were both directly loaded from the internet
+Images can be loaded using links from websites: refer to class About Me template.
 
 Tips
 
