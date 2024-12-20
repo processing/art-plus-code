@@ -20,7 +20,7 @@ gallery: # Below is for including an image gallery
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
 
-![Screenshot 2024-07-29 at 5.08.31 PM.png](master/Assets/Screenshot_2024-07-29_at_5.08.31_PM.png)
+![Screenshot 2024-07-29 at 5.08.31 PM.png](Assets/Screenshot_2024-07-29_at_5.08.31_PM.png)
 
 ## What we need to begin
 
