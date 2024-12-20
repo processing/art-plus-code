@@ -208,13 +208,13 @@ Notice, each one has their own syntax on HOW to use it
 Look into the Reference page to help you define how these functions work and how they need to be written!
 
 <aside>
-🧠 **Teacher Trick**
+🧠 Teacher Trick
 
 Think of Functions and their Properties and how they might apply to the real world. Instead of Ellipse(x,y,d) → Bread(where does it go, how many slices)
 
-- We could say: **Bread(plate, 1, rye, 70%)** — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
-- We could say: **Flower(grass, pink, 5, short)** — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
-- So when we say things like **Circle(x, y, d);** at the top of our code – we’re suggesting, “hey put a Circle down on the canvas first. And what’s that circle like: well it’s placed at “x and y”, and it “d” pixels in size.
+- We could say: Bread(plate, 1, rye, 70%) — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
+- We could say: Flower(grass, pink, 5, short) — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
+- So when we say things like Circle(x, y, d); at the top of our code – we’re suggesting, “hey put a Circle down on the canvas first. And what’s that circle like: well it’s placed at “x and y”, and it “d” pixels in size.
 </aside>
 
 **🎨 In our About-Me Collage example:** We started the draw() section with shapes. We have a series of circles and rectangles. 
