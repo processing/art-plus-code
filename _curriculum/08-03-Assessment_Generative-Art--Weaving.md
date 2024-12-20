@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Generative Art: Assessment" # Title and Heading 1
+permalink: /generativeArt-Assessment/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit8.png
+    image_path: Assets/thumbnails/unit8.png
+    alt: "Screenshot of an generative weaving pattern tool using the p5.js web editor"
+    title: "Generative Weaving Pattern"
+
+---
+
 # Assignment
 
 🪜 This assignment is design for Higher Education. Please refer to Modifications for K-12 adjusted assignments.

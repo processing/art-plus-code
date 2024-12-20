@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Interactive Art: Lessons" # Title and Heading 1
+permalink: /interactiveArt-Lessons/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit6.png
+    image_path: Assets/thumbnails/unit6.png
+    alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
+    title: "Drawing Tool"
+
+---
+
 ## Let’s make — Drawing Tools!
 
 **Template link here: [https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW](https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW)** 
@@ -824,3 +838,6 @@ How can I save the canvas as an image with a specific key press? (look into the 
     1. Why might we use Key Codes as opposed to keys in some instances? 
 2. What is the difference between a Function (ie. keyPressed) and the Variable (ie. key)? 
 3. What might you use a key interaction for? Can you list a few ideas?  
+
+
+## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/interactiveArt-Assessments/)

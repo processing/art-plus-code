@@ -5,15 +5,10 @@ permalink: /instructionalArt-Lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/Screenshot_2024-07-29_at_5.08.31_PM.png
-    image_path: Assets/Screenshot_2024-07-29_at_5.08.31_PM.png
+  - url: Assets/thumbnails/unit2.png
+    image_path: Assets/thumbnails/unit2.png
     alt: "Screenshot of a collage on books using the p5.js web editor"
     title: "About Me Collage"
-  - url: /assets/images/unit_a_example-2.png
-    image_path: /assets/images/unit_a_example-2.png
-    alt: "simplified line drawing of a face with red oval pattern"
-    title: "Sample Drawing 2"
-
 ---
 
 ## Let’s make — an About Me Collage!
@@ -488,3 +483,5 @@ Try loading a gif, image (png, jpg), or even [fonts](https://p5js.org/reference/
 If you want to try using videos: [https://p5js.org/reference/#/p5/createVideo](https://p5js.org/reference/#/p5/createVideo)
 
 - Example: [https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB](https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB)
+
+## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/instructionalArt-Assessments/)

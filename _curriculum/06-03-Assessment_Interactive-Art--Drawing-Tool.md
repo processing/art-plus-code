@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Interactive Art: Assessment" # Title and Heading 1
+permalink: /interactiveArt-Assessment/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit6.png
+    image_path: Assets/thumbnails/unit6.png
+    alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
+    title: "Drawing Tool"
+
+---
+
 # Assignment
 
 🪜 This assignment is design for Higher Education. Please refer to Modifications for K-12 adjusted assignments.

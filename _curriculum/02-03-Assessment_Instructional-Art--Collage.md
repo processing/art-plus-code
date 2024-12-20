@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Instructional Art: Assessment" # Title and Heading 1
+permalink: /instructionalArt-Assessment # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit2.png
+    image_path: Assets/thumbnails/unit2.png
+    alt: "Screenshot of a collage on books using the p5.js web editor"
+    title: "About Me Collage"
+
+---
+
 # Assignment
 
 🪜 This assignment is design for All Levels. 

@@ -1,20 +1,20 @@
 ---
 # This is the frontmatter
-title: "Instructional Art - Introduction" # Title and Heading 1
-permalink: /instructionalArt-Intro # Give your page a permalink
+
+title: "Instructional Art: Introduction" # Title and Heading 1
+permalink: /instructionalArt-Intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: /assets/images/sample-img.jpg
-    image_path: /assets/images/sample-img.jpg
-    alt: "Soft gradient with pinks and greens"
-    title: "Image 1 title caption"
-  - url: /assets/images/sample-img.jpg
-    image_path: /assets/images/sample-img.jpg
-    alt: "Soft gradient with pinks and greens"
-    title: "Image 2 title caption"
+  - url: Assets/thumbnails/unit2.png
+    image_path: Assets/thumbnails/unit2.png
+    alt: "Screenshot of a collage on books using the p5.js web editor"
+    title: "About Me Collage"
 
 ---
+
+# Unit 2: Instructional Art
+
 ## Introduction
 
 *How can instructions and systems transform into art? How can computation initiate new ideas of making or propel art forward?*

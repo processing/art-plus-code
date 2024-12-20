@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Data Art: Assessment" # Title and Heading 1
+permalink: /dataArt-Assessment/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit4.png
+    image_path: Assets/thumbnails/unit4.png
+    alt: "Screenshot of a digital mask using the p5.js web editor"
+    title: "Sound Reactive Mask"
+
+---
+
 # Assignment
 
 🪜 This assignment is designed for Middle school and older. Please refer to Modifications for K-12 adjusted assignments.

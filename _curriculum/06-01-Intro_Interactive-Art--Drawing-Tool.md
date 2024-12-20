@@ -1,3 +1,17 @@
+---
+# This is the frontmatter
+title: "Interactive Art: Introduction" # Title and Heading 1
+permalink: /interactiveArt-Intro/ # Give your page a permalink
+published: true
+
+gallery: # Below is for including an image gallery
+  - url: Assets/thumbnails/unit6.png
+    image_path: Assets/thumbnails/unit6.png
+    alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
+    title: "Drawing Tool"
+
+---
+
 # Unit 6: Interactive Art
 
 ## Introduction
@@ -34,3 +48,5 @@ Everest Pipkin, [Barnacle Goose Experiment](https://everest-pipkin.com/#games/ba
 2. How might the work’s meaning or intention change if it had otherwise been non-interactive? In reflection to that, what does interactivity then add to the work?
 3. Everest Pipkin, James Friend and Ivan Sutherland utilize toolmaking as part of their practice: some as open-source tools, some as participatory practice, some as tools for the individual artists. In what ways does digital toolmaking in relation to interactive art democratize the creation and consumption of art? In what ways might it be limited?
 4. How might these works and artists reflect the evolution or changes in technology and art of its time?
+
+## Ready to move on? [Let's start the Lessons](https://processing.github.io/art-plus-code/interactiveArt-Lessons/)
