@@ -32,17 +32,12 @@ gallery: # Below is for including an image gallery
 - Becoming comfortable with writing in Javascript syntax: finding, debugging and writing brackets, brackets vs. parenthesis, semi-colons for statements, and functions
 - Creating a digital collage using p5.js code
 - Learning about instructional art, engaging with conceptual artists that use instruction-making as art practice
-- Engaging with a brief history on computation, as related to predecessor: the weaving loom
 - Linking history in instructional art as related and connected to history of computation. Understanding the resonance between computation, code, and art.
 
 ---
 
 # Unplugged Activities
 ## Chance Operations
-
-Unit: 01 - Instructional Art, 03 - Interactive Art
-Levels: All Levels (Kid to Adults)
-
 **Materials you need:**
 
 - Quarter or any coin, for each student
@@ -53,7 +48,7 @@ Levels: All Levels (Kid to Adults)
 
 Part 1: 
 
-1. Create a print out or have students fold a piece of paper in half (hotdog / portrait / vertical). Have students write at the top of the paper “Heads” and “Tails” on the two halves. 
+1. Create a print out or have students fold a piece of paper in half (portrait / vertical). Have students write at the top of the paper “Heads” and “Tails” on the two halves. 
 2. Then, they create a list of pairs. A pair of shapes, art forms, colors etc. in a duetted list. Feel free to call out the categories, or if older students, allow them to create their own. Like below:
     
     
@@ -134,7 +129,7 @@ Part 2:
     - { code that runs once }
 - **draw()**
     - { code that runs forever until you stop it.
-    - But there is an order! The code here runs from top to bottom, then repeats until you quit the program. Each time the code is run through draw() is a frame.
+    - But there is an order! The code here runs from top to bottom, then repeats until you quit the program. Each time the code is run through draw(), we consider this a frame.
     - Similar to camera or film, there is a frame per second that the code is run. p5.js has a default of running the code 60 times per second aka 60 frames per second. We can change the frame rate, using frameRate(#);
     - Think of a flip book animation created on screen by drawing an image, then drawing a slightly different image, then another, and so on. The illusion of fluid motion is created by persistence of vision. When a set of similar images is presented at a fast enough rate, our brains translate these images into motion. }
 - **createCanvas(w, h);**
@@ -154,7 +149,7 @@ Take a look at the basic syntax
 
 **Order matters in your code!** 
 
-The code will run first what is in setup(), then preload(), then draw() and then within draw() it will repeat it from TOP to BOTTOM. 
+The code will run first what is in setup(), preload(), then draw() and then within draw() it will repeat it from TOP to BOTTOM. 
 
 This translates to TOP of the code == BACK of the canvas, and BOTTOM of the code == FRONT of the canvas.
 
@@ -164,7 +159,7 @@ The idea is that we’re telling the computer a series of instructions. And the 
 
 <aside>
 🧠 Teacher Trick:
-Print out code on sheets of paper from the example or templates of any and all projects/exercises. Have the students highlight, with different markers or highlighters, the bracket pairings in such a way that each bracket pairing is a different color marker. Help students identify where their code needs to go and look for brackets. As conditionals come into play or code gets longer, this activity will help student succeed in future debugging.
+Print out code on sheets of paper (pull from the example or templates of any and all projects/exercises). Have the students highlight, with different markers or highlighters, the bracket pairings in such a way that each bracket pairing is a different color marker. Help students identify where their code needs to go and look for brackets. As conditionals come into play or code gets longer, this activity will help student succeed in future debugging.
 
 </aside>
 
@@ -228,8 +223,8 @@ Think of Functions and their Properties and how they might apply to the real wor
 
 ```jsx
 function draw(){
-	
-	fill(201, 127, 56);
+    
+  fill(201, 127, 56);
   circle(150, 150, 250);
   fill(201, 189, 56);
   rect(500, 400, 200, 400);
