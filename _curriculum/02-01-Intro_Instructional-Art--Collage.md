@@ -53,3 +53,5 @@ Others:
 2. In what ways do these artists challenge traditional notions of computation and coding? Conversely, how might they challenge traditional notions of art?
 3. Merce Cunningham and John Cage use Chance Operations, a fundamental concept in their work and likened to Binary code, Randomness and Algorithms — why do you think it was so successful, unique or intriguing of artwork for its time? What do you think it reflects on its then time and society? What do you think it speaks to in its legacy even now?
 4. Sol LeWitt’s work is both the instruction and the visual output; what does it mean to you to write instructions that you may not execute, but for a computer / another human / another entity to do on your behalf?
+
+## Ready to move on? [Let's start the Lessons](https://processing.github.io/art-plus-code/instructionalArt-Lessons/)
