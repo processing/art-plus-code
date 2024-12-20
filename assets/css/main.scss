@@ -20,7 +20,7 @@ $primary-color: #000000;
 $text-color: #000000;
 
 $link-color: $pf-magenta-body;
-$link-color-hover: $pf-magenta-body;
+$link-color-hover: mix(#000, $pf-magenta-body, 25%);
 $link-color-visited: $pf-magenta-body;
 $masthead-link-color-hover: $pf-magenta-body;
 $navicon-link-color-hover: $pf-magenta-body;

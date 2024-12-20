@@ -2,7 +2,7 @@
 title:  "Participatory Cartography"
 author: Adrienne Gifford
 date:   2024-12-16 00:00:00 -0400
-published: false
+published: true
 
 header:
   teaser: /assets/images/resources/adrienne-gifford/resource-thumbnail.png
@@ -11,10 +11,12 @@ header:
 ## Introduction
 
 *How can p5.js be used to create collaborative maps that reflect the diverse experiences and perspectives of a community?*
+{: .notice--success}
 
 Participatory cartography is a collaborative process in which individuals or communities actively contribute to the creation of maps that represent their own knowledge, experiences, and perspectives.  Unlike traditional mapping methods, which are often created by “experts” or organizations with top-down perspectives, participatory mapping emphasizes local input and involvement, aiming to empower communities and make maps more reflective of diverse viewpoints.
 
-***Related spheres: human geography, critical cartography, spatial data justice, sensory and emotional geographies.***
+**Related spheres:** human geography, critical cartography, spatial data justice, sensory and emotional geographies
+{: .notice}
 
 ### References & Artworks for Discussion
 
@@ -36,12 +38,16 @@ Participatory cartography is a collaborative process in which individuals or com
 
 ### Let’s make a Participatory Map!
 
+![Screenshot of finished participatory map in p5.js editor]({{ "/assets/images/resources/adrienne-gifford/participatory-map.png" | relative_url }})
+
+**Example completed sketch:** [Participatory Mapping Sample Shared Map](https://editor.p5js.org/adrienneg/sketches/3aqMXgsxY)
+{: .notice--info}
 
 ## The Activities
 
-⏰ Each activity will take approximately 60 minutes  
-5️⃣ Activities   
-🔗 Link to the sample project: [https://editor.p5js.org/adrienneg/sketches/3aqMXgsxY](https://editor.p5js.org/adrienneg/sketches/3aqMXgsxY)
+- ⏰ Each activity will take approximately 60 minutes
+- 5️⃣ Activities
+- 🔗 Link to the sample project: [Participatory Mapping Sample Shared Map](https://editor.p5js.org/adrienneg/sketches/3aqMXgsxY)
 
 ## Activity 1: Creating the Shared Map Template (Teacher)
 
@@ -82,8 +88,9 @@ In this activity, the teacher will write a p5.js sketch to display a map (an ima
 
 1. If you haven’t already, go to the [p5.js Web Editor](http://p5.js) and create a free account.   
 2. Prepare your map image:  
-   - Find or create an image of your map.  Think about what the scope of your map will be and how much area you want it to cover.  For my example map, I used [Stadia Maps’ Build a Map Tool](https://stadiamaps.com/build-a-map), where you can customize the look of your map image to fit your project.    
-   - Load your image to your sketch.  Images can be loaded directly into your p5.js sketch on the Editor, using the “+” button next to your sketch files.    
+  - Find or create an image of your map.  Think about what the scope of your map will be and how much area you want it to cover.  For my example map, I used [Stadia Maps’ Build a Map Tool](https://stadiamaps.com/build-a-map), where you can customize the look of your map image to fit your project.    
+  - Load your image to your sketch.  Images can be loaded directly into your p5.js sketch on the Editor, using the “+” button next to your sketch files.
+  ![Screenshot of p5.js editor with plus button highlighted]({{ "/assets/images/resources/adrienne-gifford/map-upload.png" | relative_url }})
 
 3. In p5.js, every sketch has two main parts (which will already be there when you start a new sketch):  
    - setup( ): Runs once at the beginning to set up with canvas or initial settings.  

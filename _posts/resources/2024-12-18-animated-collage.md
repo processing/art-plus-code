@@ -2,7 +2,7 @@
 title:  "Animated collage"
 author: Krissie Olson
 date:   2024-12-18 00:00:00 -0400
-published: false
+published: true
 
 header:
   teaser: /assets/images/resources/krissie-olson/resource-thumbnail.png
@@ -12,7 +12,8 @@ header:
 
 Once students have created their own collage in p5.js, they will learn to animate the images they have imported into their collage to create a dynamic and interactive art piece. 
 
-[Example completed sketches](https://editor.p5js.org/krissie.olson/sketches/0_6CmRjmW)
+**Example completed sketches:** [Collage Mover](https://editor.p5js.org/krissie.olson/sketches/0_6CmRjmW)
+{: .notice--info}
 
 ## Learning Audience
 

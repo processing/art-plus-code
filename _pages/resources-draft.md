@@ -1,8 +1,8 @@
 ---
 title: Resources
 layout: collection
-permalink: /resources/
-# collection: posts
+permalink: /draft-resources-2024-12-19/
+collection: posts
 entries_layout: grid
 classes: wide
 ---

@@ -2,7 +2,7 @@
 title:  "Creating a Skyline"
 author: Laura Ramirez
 date:   2024-12-18 00:00:00 -0400
-published: false
+published: true
 
 header:
   teaser: /assets/images/resources/laura-ramirez/resource-thumbnail.png

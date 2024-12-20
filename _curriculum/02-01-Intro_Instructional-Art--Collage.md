@@ -1,5 +1,6 @@
 ---
 # This is the frontmatter
+
 title: "Instructional Art: Introduction" # Title and Heading 1
 permalink: /instructionalArt-Intro/ # Give your page a permalink
 published: true
