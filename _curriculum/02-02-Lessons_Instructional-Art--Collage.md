@@ -53,7 +53,6 @@ Part 1:
     
     
     |  | Heads | Tails |
-    | --- | --- | --- |
     | (Color) | Green | Blue |
     | (Shape) | Circle | Triangle |
     | (Line style) | Straight | Squiggly  |
@@ -62,7 +61,6 @@ Part 1:
     
     
     |  | Heads | Tails |
-    | --- | --- | --- |
     | (Color) | Green | Blue |
     | (Shape) | Circle | Triangle |
     | (Line style) | Straight | Squiggly  |
