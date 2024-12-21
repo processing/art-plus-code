@@ -15,7 +15,7 @@ gallery: # Below is for including an image gallery
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
 
-![Screenshot 2024-07-29 at 5.08.31 PM.png](Assets/Screenshot_2024-07-29_at_5.08.31_PM.png)
+![Screenshot of completed collage in p5.js editor]({{ "/assets/images/curriculum/Screenshot_2024-07-29_at_5.08.31_PM.png" | relative_url }})
 
 ## What we need to begin
 

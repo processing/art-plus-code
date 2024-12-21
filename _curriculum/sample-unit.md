@@ -2,7 +2,7 @@
 # This is the frontmatter
 title: "Sample Unit Page" # Title and Heading 1
 permalink: /unit-sample/ # Give your page a permalink
-published: false
+published: true
 hidden: true # Remove this line for any units you want added to the sidebar navigation
 
 gallery: # Below is for including an image gallery
@@ -54,7 +54,7 @@ function setup() {
 
 **Images** can be added to the `/assets/images/` directory.
 
-![Soft gradient with pinks and greens]({{ "/assets/images/sample-img.jpg" | relative_url }})
+![Soft gradient with pinks and greens - this is placeholder alt text]({{ "/assets/images/sample-img.jpg" | relative_url }})
 
 You can also create a `<figure>` element with a caption:
 
