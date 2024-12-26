@@ -39,21 +39,20 @@ gallery: # Below is for including an image gallery
 
 Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore grid structures, chance operations, binary trees, collaborative drawing, and other topics.
 
-### MESH
+MESH
 
 1. Draw a triangle
 2. Use one edge of the triangle and two new lines to draw a new triangle, but don’t intersect with another triangle
 3. Repeat 2, until the drawing is finished
 
-### BINARY
+BINARY
 
 1. Draw a line from the edge of the drawing area toward the center
 2. Draw two lines growing from the open endpoint of the line
 3. For each new line drawn in 2, repeat 2
 
-### NETWORK
-
-### (PHASE 1)
+NETWORK
+(PHASE 1)
 
 A. Draw a dot on the paper
 
@@ -61,7 +60,7 @@ B. Draw another dot in the most empty space on the page
 
 C. Take turns; repeat B until satisfied with the density
 
-### (PHASE 2)
+(PHASE 2)
 
 A. Draw a circle around the first dot
 
@@ -69,11 +68,10 @@ B. Draw a circle around the closest dot and make sure the circle overlaps the la
 
 C. Take turns; repeat B until each dot has a circle
 
-### (PHASE 3)
+(PHASE 3)
 
 A. Take turns drawing a strong, straight line to connect the center points of each overlapping circle
 
-- Conditional Design (find) wesbite from 15 years ago : )
 ---
 
 # The Lessons
