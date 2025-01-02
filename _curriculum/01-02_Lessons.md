@@ -22,7 +22,7 @@ gallery: # Below is for including an image gallery
     alt: "cursor creating a drawing of vertical blue lines and stamping red ellipses"
     title: "Digital Drawing Tool Step 4"
 ---
-# Plans & Technical Steps
+## Lesson Plans & Technical Steps
 {% include gallery caption="Creating a digital drawing tool using P5JS!" %}
 ### Step 1: Drawing with P5js
 ![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | https://editor.p5js.org/jyk/sketches/tS5O2kwg9 }})
