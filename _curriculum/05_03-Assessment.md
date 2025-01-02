@@ -15,16 +15,17 @@ gallery: # Below is for including an image gallery
     title: "Sample Drawing 2"
 
 ---
+# Assessment Activities & Checking for Understanding
+![A collaborative garden created by Art+Code Teacher Participants (2024)]({{ "/assets/images/curriculum/Unit-5_Sample-1.png" | relative_url }})
 
 ## Assessment Activities
-[Example Sketch](https://editor.p5js.org/jyk/sketches/0r_40Opil) 
 
 ### Designing individual components and bringing them together:
 * After discussing with their teammates, students build their own individual components of the collaborative drawing, incorporating animation. 
 * Once the components are ready (or after the allotted time), group partners come together to bring the pieces into one sketch. The groups will have to discuss concerns like variable names and the order of the code.
 * A helpful model for collaborating with code is the driver-navigator model, in which one person is in charge of typing and teammates tell them what to type.
 
-###Exquisite Corpse Activity
+### Exquisite Corpse Activity
 * Share [starter sketch](https://editor.p5js.org/jyk/sketches/d6HszwGdF) with students. 
 * Group students and assign each member of a group to a part of a face such as eye, mouth, nose, hair, accessories.
 * Have each student write a function for their part of the face. 
@@ -33,7 +34,7 @@ gallery: # Below is for including an image gallery
 * Each group shares their ‘exquisite corpse’ to the class.
 * Extension: Create a ‘crowd’ of exquisite corpses using and reusing the functions written by students (will require the use of parameters for x and y coordinates).
 
-###Creating modular components
+### Creating modular components
 * Students independently create drawings that are meant to be reused for their collaborative drawing using functions and parameters.
 * In groups, the students bring the components into one function. This process should be faster than the previous as less code will need to be edited to make it functional. 
 * Groups work collaboratively to add animations to their system drawing. 

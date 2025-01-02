@@ -4,22 +4,13 @@ title: "Movement, Collaboration & Harmony: Technical Steps" # Title and Heading 
 permalink: /movementCollaborationHarmony-steps/ # Give your page a permalink
 published: true
 
-gallery: # Below is for including an image gallery
-  - url: /assets/images/unit_a_example-1.png
-    image_path: /assets/images/unit_a_example-1.png
-    alt: "black and white abstract drawing of curves"
-    title: "Sample Drawing 1"
-  - url: /assets/images/unit_a_example-2.png
-    image_path: /assets/images/unit_a_example-2.png
-    alt: "simplified line drawing of a face with red oval pattern"
-    title: "Sample Drawing 2"
-
 ---
 
-## Technical Steps
+# Lesson Plans & Technical Steps
 
-### Step 1: Introduction to Variables & Animation
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/SwhyQV9_v)
+## Step 1: Introduction to Variables & Animation
+![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SwhyQV9_v)
 
 You may be familiar with variables that are included with the P5JS library like mouseX and hour(). Here, we’ll make our own variables and manipulate them for our own purposes. 
 
@@ -102,8 +93,9 @@ You can see that we are using the same logic inside of the draw function, which 
 
 
 
-### Step 2: Controlling Animations with If/Else Statements
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/F8Bo0cx46)
+## Step 2: Controlling Animations with If/Else Statements
+![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/F8Bo0cx46)
 
 You can see that in the animation above, the circle does not stop growing. To gain more control of the animation, we can use if/else statements. This example will reset the value of the variables, thereby resetting the animation.
 ```js
@@ -178,8 +170,9 @@ function draw() {
 You can create variables and manipulate them this way for all aspects of your drawing including the color and coordinates! 
 
 
-### Step 3: Functions
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/Tw4-5FrJY) 
+## Step 3: Functions
+![Creating custom functions.]({{ "/assets/images/curriculum/Unit-5_Sample-4.png" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/Tw4-5FrJY) 
 
 You may be familiar with P5JS included functions like mouseDragged(). Just like with variables, we can create our own functions to reuse code. This helps keep code modular and efficient. The syntax for creating a function is: 
 ```js
@@ -242,8 +235,9 @@ function eye() { // setting up the eye function
 
 
 
-### Step 5: Parameters
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/SoSuHE6Cl) 
+## Step 5: Parameters
+![Modifying functions with parameters.]({{ "/assets/images/curriculum/Unit-5_Sample-5.png" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SoSuHE6Cl) 
 
 We can call a function as many times as we want, by writing the command to call the function again and again:
 ```js
@@ -318,8 +312,9 @@ function eye(x, y, r, g, b, size) {
 }
 ```
 
-### Step 5: Using Global and Local Variables
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE) 
+## Step 5: Using Global and Local Variables
+![Global and Local Variables]({{ "/assets/images/curriculum/Unit-5_Sample-6.gif" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tuuCIAUrm) 
 
 When a variable’s scope is limited to the curly braces of a single function, that is called a local variable. Variables that are declared outside of any function, and can be used inside any function are called global variables. Programmers use a combination of local and global variables to serve different purposes. In our case, we’ll use local variables to set the rules of our drawing components and global variables to animate them.
 
@@ -359,3 +354,5 @@ function eye(x, y, pupil) {
   ellipse(pupil, y, 40, 40);
 }
 ```
+
+Functions are important for coding because they allow us to organize our projects in a modular way, that is with multiple pieces making up a whole. See how functions can help us collaborate with code!
