@@ -27,22 +27,22 @@ Students can also share their tools and resulting drawings. Questions to conside
 
 ## Checking for Understanding
 
-Do students grasp the core concepts of the topic?
+**Do students grasp the core concepts of the topic?**
 - Do their drawings and digital tools demonstrate deliberate choices behind the lines used in their drawings?
 - Do the lines in the digital and physical drawings align with the goals of their drawing (e.g fits in with a descriptor or concept).
 - Is the code written by the student free of errors that prevent the code from working?
 
-Are the students comfortable with the technical aspects of the topic?
+**Are the students comfortable with the technical aspects of the topic?**
 - Do they make use of multiple tools discussed in the lesson? How much did they adapt the example code to fit their drawing’s goals?
 - Are the methods being used deliberately and in order to support the purpose of the sketch? Or are they copying and pasting without much thought?
 - Are the student’s questions specific to issues in their project? Or is it just ‘it’s not working’?
 
-Are the students using their creative and visual communication skills?
+**Are the students using their creative and visual communication skills?**
 - How many different techniques or combination of tools did they use before settling on an idea? Or did they stop at the first idea they came up with?
 - Did the student extend themself by looking at tools beyond the demonstration?
 - Is the student demonstrating a similar amount of care and attention to detail in their digital as well as physical drawings? 
 
-How are the students keeping track of their personal and artistic growth?
+**How are the students keeping track of their personal and artistic growth?**
 - Was the student’s summary of their tool and drawings provide a clear and specific overview of their process?
 - How did the student articulate the difference between the digital and physical drawing processes?
 - How did the student manage frustration or challenges throughout the process and how did they comment on these challenges after they were resolved?
