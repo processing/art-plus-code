@@ -5,11 +5,10 @@ permalink: /capturingMovement-assessment/ # Give your page a permalink
 published: true
 
 ---
-
-## Assessment Activities & Checking for Understanding
+# Assessment Activities & Checking for Understanding
 ![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
 
-### Assessment Activities
+## Assessment Activities
 Once ready, students should use the drawing tool they designed to create a drawing:
 - Descriptors, using the same descriptors from the warm-up activities, students can create a drawing that depicts an object moving in a specific manner (slowly, hurriedly, loudly)
 - Creating a blind contour drawing of the same subject that they did in the warm-up
@@ -26,7 +25,7 @@ Students can also share their tools and resulting drawings. Questions to conside
 - If you had more time (and technical knowledge) how would you modify your design tool?
 
 
-### Checking for Understanding
+## Checking for Understanding
 
 Do students grasp the core concepts of the topic?
 - Do their drawings and digital tools demonstrate deliberate choices behind the lines used in their drawings?
