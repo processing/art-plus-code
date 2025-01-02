@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Movement, Collaboration & Harmony: Assessment Activites & Checking for Understanding" # Title and Heading 1
+title: "Movement, Collaboration & Harmony" # Title and Heading 1
 permalink: /movementCollaborationHarmony-assessment/ # Give your page a permalink
 published: true
 
@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 ---
 # Assessment Activities & Checking for Understanding
-![A collaborative garden created by Art+Code Teacher Participants (2024)]({{ "/assets/images/curriculum/Unit-5_Sample-1.png" | relative_url }})
+![P5JS Exquisite Corpses made by students]({{ "/assets/images/curriculum/Unit-5_Sample-7.png" | relative_url }})
 
 ## Assessment Activities
 
