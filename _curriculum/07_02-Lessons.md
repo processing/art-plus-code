@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Observing Patterns: Technical Steps" # Title and Heading 1
+title: "Observing Patterns" # Title and Heading 1
 permalink: /patterns-steps/ # Give your page a permalink
 published: true
 
@@ -20,10 +20,10 @@ gallery: # Below is for including an image gallery
 
 ---
 
-## Lesson Plans & Technical Steps
+# Lesson Plans & Technical Steps
 
 ## Step 1: Iteration
-![Starting off with loops]({{ "/assets/images/curriculum/Unit-7_Sample-2.png" | relative_url }})
+![Starting off with loops]({{ "/assets/images/curriculum/Unit-7_Sample-2.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/eDdQWe8XG) 
 
 *If you have the Auto-refresh box checked while working in the P5JS editor, it might be a good idea to uncheck the box as loop errors (like infinite loops) can crash the page.*
@@ -118,7 +118,7 @@ function draw() {
 
 
 ## Step 2: Making the Counter Variable Multi-task
-![Getting comfortable with loops]({{ "/assets/images/curriculum/Unit-7_Sample-3.png" | relative_url }})
+![Getting comfortable with loops]({{ "/assets/images/curriculum/Unit-7_Sample-3.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/KmP0J0Ek_) 
 
 When using for loops, there are a few different ways that the counter variable can be manipulated. These can be especially useful in an environment like P5JS when the loop is tied to a specific design. 
@@ -149,12 +149,14 @@ for (let i = 0; i <= 20; i++) {
 Try these puzzles for practicing loops! 
 *Hint: It can help to sketch out the pattern on a sheet of paper to get a sense of the pattern first…*
 
-{% include gallery %}
-[➡️ #1 Solution](https://editor.p5js.org/jyk/sketches/L7HQXUsG-Q) | [➡️  #2 Solution](https://editor.p5js.org/jyk/sketches/lFcZtVJf0) | [➡️ #3 Solution](https://editor.p5js.org/jyk/sketches/bn-SKEAW7)
+{% include gallery %}  
+➡️ [#1 Solution](https://editor.p5js.org/jyk/sketches/L7HQXUsG-Q)  
+➡️ [#2 Solution](https://editor.p5js.org/jyk/sketches/lFcZtVJf0)  
+➡️ [#3 Solution](https://editor.p5js.org/jyk/sketches/bn-SKEAW7)  
 
 
 ## Step 3: Adding Variance with Random Elements
-![Incorporating Random Elements]({{ "/assets/images/curriculum/Unit-7_Sample-4.png" | relative_url }})
+![Incorporating Random Elements]({{ "/assets/images/curriculum/Unit-7_Sample-4.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/hPcZzmaOj) 
 
 If you want to add some seemingly organic variation within the loop, you can incorporate the [random()](https://p5js.org/reference/p5/random/) function. This function generates a pseudo-random number between a specified range. When using the random for a still drawing, it might be a good idea to move your code into the set-up function. This will avoid creating a flashing and chaotic animation as the random numbers would otherwise be newly generated every time the draw function loops.
@@ -187,7 +189,7 @@ function setup() {
 *Note that our drawing is within the setup() function and not the draw() function. Can you guess why?*
 
 ## Step 4: Grids with Nested For Loops
-![Putting a loop within a loop.]({{ "/assets/images/curriculum/Unit-7_Sample-5.png" | relative_url }})
+![Putting a loop within a loop.]({{ "/assets/images/curriculum/Unit-7_Sample-5.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/g0XLwASAH) 
 
 For the purposes of a simple drawing, a lot can be achieved with layering multiple for loops. But grid like structures can be achieved with nested for loops, or loops inside of loops. 
