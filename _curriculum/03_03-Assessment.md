@@ -31,17 +31,17 @@ Students can also share their tools and resulting drawings. Questions to conside
 
 ## Checking for Understanding
 
-Do students grasp the core concepts of the topic?
+**Do students grasp the core concepts of the topic?**
 Are the students applying text, drawing, clock components of P5JS to support the goals of their design? 
 Are students trying new ways of conveying information?
 Is the code written by the student free of errors that prevent the code from working?
 
-Are the students comfortable with the technical aspects of the topic?
+**Are the students comfortable with the technical aspects of the topic?**
 - Are students combining elements like if/else statements and boolean operators to create multiple possibilities for their design? 
 - Are students applying computational logic effectively in their work (e.g. being deliberate about the order of their if/else statements)?
 - Is the code free of errors and executing in the way the student intended?
 
-Are the students using their creative and visual communication skills?
+**Are the students using their creative and visual communication skills?**
 - How are students engaging with representing concepts through abstraction? 
 - How responsive are students to feedback about their designs?
 - Are students making an effort to deviate from familiar methods of representing time?
