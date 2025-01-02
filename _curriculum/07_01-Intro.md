@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Observing Patterns: Introduction & Inspiration" # Title and Heading 1
+title: "Observing Patterns" # Title and Heading 1
 permalink: /patterns-intro/ # Give your page a permalink
 published: true
 
