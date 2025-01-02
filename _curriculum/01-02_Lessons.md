@@ -25,7 +25,7 @@ gallery: # Below is for including an image gallery
 ## Lesson Plans & Technical Steps
 
 ### Step 1: Drawing with P5js
-![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | relative_url }})
+![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
 
 Let’s get some code on the board to start fiddling around. When we open the [P5JS web editor](http://editor.p5js.org), we see the following code: 
