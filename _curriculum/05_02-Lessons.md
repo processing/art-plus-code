@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Movement, Collaboration & Harmony: Technical Steps" # Title and Heading 1
+title: "Movement, Collaboration & Harmony" # Title and Heading 1
 permalink: /movementCollaborationHarmony-steps/ # Give your page a permalink
 published: true
 
@@ -9,7 +9,7 @@ published: true
 # Lesson Plans & Technical Steps
 
 ## Step 1: Introduction to Variables & Animation
-![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})
+![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SwhyQV9_v)
 
 You may be familiar with variables that are included with the P5JS library like mouseX and hour(). Here, we’ll make our own variables and manipulate them for our own purposes. 
@@ -94,7 +94,7 @@ You can see that we are using the same logic inside of the draw function, which 
 
 
 ## Step 2: Controlling Animations with If/Else Statements
-![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})
+![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/F8Bo0cx46)
 
 You can see that in the animation above, the circle does not stop growing. To gain more control of the animation, we can use if/else statements. This example will reset the value of the variables, thereby resetting the animation.
