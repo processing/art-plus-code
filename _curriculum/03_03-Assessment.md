@@ -8,9 +8,10 @@ published: true
 
 ---
 
-## Assessment Activities & Checking for Understanding
+# Assessment Activities & Checking for Understanding
 ![Create an original clock with P5JS!]({{ "/assets/images/curriculum/Unit-3_Sample-1.png" | relative_url }})
-### Assessment Activities
+
+## Assessment Activities
 
 Once ready, students should use the tools at hand, drawing, if/else statements, arithmetic and boolean operators to create their original clock design. 
 
@@ -28,7 +29,7 @@ Students can also share their tools and resulting drawings. Questions to conside
 
 
 
-### Checking for Understanding
+## Checking for Understanding
 
 Do students grasp the core concepts of the topic?
 Are the students applying text, drawing, clock components of P5JS to support the goals of their design? 
