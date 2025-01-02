@@ -22,9 +22,9 @@ gallery: # Below is for including an image gallery
     alt: "cursor creating a drawing of vertical blue lines and stamping red ellipses"
     title: "Digital Drawing Tool Step 4"
 ---
-## Lesson Plans & Technical Steps
+# Lesson Plans & Technical Steps
 
-### Step 1: Drawing with P5js
+## Step 1: Drawing with P5js
 ![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
 
@@ -94,7 +94,7 @@ function draw() { // this function will loop 60x a second
   ellipse(mouseX, mouseY, 40, 40); // making the circle move with the mouse
 }
 ```
-### Step 2: Making a Drawing Tool
+## Step 2: Making a Drawing Tool
 !['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
 
@@ -121,7 +121,7 @@ function draw() { // this function will loop 60x a second
 } // end of the draw() function
 ```
 
-### Step 3: Refining the Tool for Drawing
+## Step 3: Refining the Tool for Drawing
 ![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
 
@@ -229,7 +229,7 @@ function doubleClicked() {
 }
 ```
 
-### Step 4: Extending the Tool with Complexity
+## Step 4: Extending the Tool with Complexity
 ![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
 
