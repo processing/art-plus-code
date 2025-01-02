@@ -6,27 +6,28 @@ published: true
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/curriculum/Unit-1_Sample-2.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-4.gif
+    image_path: /assets/images/curriculum/Unit-1_Sample-2.gif
     alt: "black circle following a mouse"
     title: "Digital Drawing Tool Step 1"
-  - url: /assets/images/curriculum/Unit-1_Sample-2.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-4.gif
+  - url: /assets/images/curriculum/Unit-1_Sample-3.gif
+    image_path: /assets/images/curriculum/Unit-1_Sample-3.gif
     alt: "cursor drawing a black line made up of a series of translucent circles"
     title: "Digital Drawing Tool Step 2"
-  - url: /assets/images/curriculum/Unit-1_Sample-3.gif
+  - url: /assets/images/curriculum/Unit-1_Sample-4.gif
     image_path: /assets/images/curriculum/Unit-1_Sample-4.gif
     alt: "cursor drawing multiple black arches made up of translucent circles"
     title: "Digital Drawing Tool Step 3"
-  - url: /assets/images/curriculum/Unit-1_Sample-4.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-4.gif
+  - url: /assets/images/curriculum/Unit-1_Sample-5.gif
+    image_path: /assets/images/curriculum/Unit-1_Sample-5.gif
     alt: "cursor creating a drawing of vertical blue lines and stamping red ellipses"
     title: "Digital Drawing Tool Step 4"
 ---
 # Plans & Technical Steps
-
+{% include gallery caption="Creating a digital drawing tool using P5JS!" %}
 ### Step 1: Drawing with P5js
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
-![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | relative_url }})
+![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | https://editor.p5js.org/jyk/sketches/tS5O2kwg9 }})
+➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
+
 Let’s get some code on the board to start fiddling around. When we open the [P5JS web editor](http://editor.p5js.org), we see the following code: 
 ```js
 function setup() {
@@ -38,7 +39,7 @@ function draw() {
 }
 ```
 
-Our P5JS sketch is divided into 2 sections, function [setup() {}](https://p5js.org/reference/p5/setup/) and function [draw() {}](https://p5js.org/reference/p5/draw/). All of the code between the curly brackets {} after setup() will run once from top to bottom when the page loads. All of the code between the draw() {} curly brackets will repeat.
+Our P5JS sketch is divided into 2 sections, function [setup() {}](https://p5js.org/reference/p5/setup/) and function [draw() {}](https://p5js.org/reference/p5/draw/). All of the code between the curly brackets **{}** after setup() will run once from top to bottom when the page loads. All of the code between the draw() {} curly brackets will repeat.
 
 Let’s modify this code to start drawing. First, we’ll set the size of the canvas to take up the entire width and height of the browser window using the [windowWidth](https://p5js.org/reference/p5/windowWidth/) and [windowHeight](https://p5js.org/reference/p5/windowHeight/) variables. windowWidth and windowHeight are examples of variables that come with the P5JS library. We’ll be using a few of these to make our drawing tool. Here, windowWidth is keeping track of the width of the browser, and by using the keyword windowWidth, we are referring to that number. So if the width of your browser window  is 804 and the height of your browser is 476, writing in createCanvas(windowWidth, windowHeight) is the same as writing[ createCanvas(804, 476)](https://p5js.org/reference/p5/createCanvas/). 
 
@@ -94,8 +95,9 @@ function draw() { // this function will loop 60x a second
 }
 ```
 ### Step 2: Making a Drawing Tool
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
 !['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})
+➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
+
 Now that we have the basic interaction mechanism for our drawing tool, we now need to make the drawing ‘stick’ to the canvas. 
 
 Notice that the command to draw the background is in between the **draw()** curly braces. This means that everytime the code inside the draw function repeats, the background is drawn again over the previous drawing. Sometimes this is a useful mechanism, but not very helpful for our current goal. 
@@ -120,11 +122,13 @@ function draw() { // this function will loop 60x a second
 ```
 
 ### Step 3: Refining the Tool for Drawing
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
-![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})
+![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})
+➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
+
+
 Let’s find some way to make this drawing tool more conducive to the experience of drawing by adding some controls. 
 
-The first thing that we’ll use is the [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/) function. You’ll notice that the syntax for this is very similar to the setup() {} and draw() {} sections. These are called functions. Functions are a way to group a section of code together. This lets us control when a selection of code lines will execute. The way we make a function is: 
+The first thing that we’ll use is the [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/) function. You’ll notice that the syntax for this is very similar to the setup() {} and draw() {} sections. These are called **functions**. Functions are a way to group a section of code together. This lets us control when a selection of code lines will execute. The way we make a function is: 
 
 ```js
 function functionName() { // beginning of function
@@ -133,7 +137,7 @@ function functionName() { // beginning of function
 } // end of function
 ```
 
-Like variables, the P5JS library comes with functions that will be triggered, or called automatically. For instance, the setup() function automatically runs once when the browser window opens. We’ll try out the mouseDragged() function which will run while the mouse is clicked and dragged:
+Like variables, the P5JS library comes with functions that will be triggered, or called automatically for specific purposes. For instance, the setup() function automatically runs once when the browser window opens. We’ll try out the mouseDragged() function which will run while the mouse is clicked and dragged:
 
 ```js
 function mouseDragged() {
@@ -161,7 +165,7 @@ function mouseDragged() {
 }
 ```
 
-In addition to mouseDragged(), there are several functions that we can use to make use of the mouse input. Try adding one or many of these to the bottom of your code:
+In addition to mouseDragged(), there are several functions that we can use to make use of the [mouse input](https://p5js.org/reference/#Events). Try adding one or many of these to the bottom of your code:
 ```js
 function mouseClicked() {
 }
@@ -177,7 +181,7 @@ function doubleClicked() {
 }
 ```
 
-We can also use the save() command to save the drawing. We’ll combine that with the [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) function so that when the mouse is double-clicked, a copy of our drawing will be saved to the computer. 
+We can also use the [save()](https://p5js.org/reference/p5/save/) command to save the drawing. We’ll combine that with the [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) function so that when the mouse is double-clicked, a copy of our drawing will be saved to the computer. 
 
 ```js
 function setup() {  
@@ -226,8 +230,10 @@ function doubleClicked() {
 ```
 
 ### Step 4: Extending the Tool with Complexity
-[Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
-![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})
+![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})
+➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
+
+
 Now that we have the basics for a drawing tool, we can refine the details of the tool to design a line to best capture movement and support our drawing’s goals. 
 
 You use a variety of shapes instead of the ellipse to create unique lines:
@@ -240,7 +246,7 @@ triangle(x1, y1, x2, y2, x3, y3);
 quad(x1, y1, x2, y2, x3, y3, x4, y4);
 ```
 
-You can also incorporate key functions. These are similar to the mouse functions, but instead are triggered by key inputs. You can add these functions to the bottom of your code:
+You can also incorporate key functions. These are similar to the mouse functions, but instead are triggered by [key inputs](https://p5js.org/reference/#Events). You can add these functions to the bottom of your code:
 ```js
 function keyPressed() {
 }
