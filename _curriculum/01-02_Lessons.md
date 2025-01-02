@@ -23,10 +23,10 @@ gallery: # Below is for including an image gallery
     title: "Digital Drawing Tool Step 4"
 ---
 ## Lesson Plans & Technical Steps
-{% include gallery caption="Creating a digital drawing tool using P5JS!" %}
+
 ### Step 1: Drawing with P5js
-![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | https://editor.p5js.org/jyk/sketches/tS5O2kwg9 }})
-➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
+![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
 
 Let’s get some code on the board to start fiddling around. When we open the [P5JS web editor](http://editor.p5js.org), we see the following code: 
 ```js
@@ -96,7 +96,7 @@ function draw() { // this function will loop 60x a second
 ```
 ### Step 2: Making a Drawing Tool
 !['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})
-➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
 
 Now that we have the basic interaction mechanism for our drawing tool, we now need to make the drawing ‘stick’ to the canvas. 
 
@@ -123,7 +123,7 @@ function draw() { // this function will loop 60x a second
 
 ### Step 3: Refining the Tool for Drawing
 ![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})
-➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
 
 
 Let’s find some way to make this drawing tool more conducive to the experience of drawing by adding some controls. 
@@ -231,7 +231,7 @@ function doubleClicked() {
 
 ### Step 4: Extending the Tool with Complexity
 ![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})
-➡️[Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
 
 
 Now that we have the basics for a drawing tool, we can refine the details of the tool to design a line to best capture movement and support our drawing’s goals. 
