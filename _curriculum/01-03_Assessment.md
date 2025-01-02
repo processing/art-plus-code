@@ -1,25 +1,15 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines: Assessment" # Title and Heading 1
+title: "Capturing Movement with Digital Lines" # Title and Heading 1
 permalink: /capturingMovement-assessment/ # Give your page a permalink
 published: true
 
-gallery: # Below is for including an image gallery
-  - url: /assets/images/unit_a_example-1.png
-    image_path: /assets/images/unit_a_example-1.png
-    alt: "black and white abstract drawing of curves"
-    title: "Sample Drawing 1"
-  - url: /assets/images/unit_a_example-2.png
-    image_path: /assets/images/unit_a_example-2.png
-    alt: "simplified line drawing of a face with red oval pattern"
-    title: "Sample Drawing 2"
-
 ---
 
-# Capturing Movement with Digital Lines
+# Assessment Activities & Checking for Understanding
+![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
 
 ## Assessment Activities
-
 Once ready, students should use the drawing tool they designed to create a drawing:
 - Descriptors, using the same descriptors from the warm-up activities, students can create a drawing that depicts an object moving in a specific manner (slowly, hurriedly, loudly)
 - Creating a blind contour drawing of the same subject that they did in the warm-up
