@@ -5,10 +5,6 @@ permalink: /artTime-introduction/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: https://www.singaporeartmuseum.sg/-/media/SAM/Images/Ho-Tzu-Nyen/Artwork-highlights/T-for-Time_1920x1440.png
-    image_path: https://www.singaporeartmuseum.sg/-/media/SAM/Images/Ho-Tzu-Nyen/Artwork-highlights/T-for-Time_1920x1440.png
-    alt: "many screens of various sizes displaying animated interpretations of time"
-    title: "Ho Tzu Nyen, T for Time, 2023 - , Singapore Art Museum"
   - url: https://ids.si.edu/ids/deliveryService?id=SAAM-NJP.1.TV.42.1-.11_1&max=2600
     image_path: https://ids.si.edu/ids/deliveryService?id=SAAM-NJP.1.TV.42.1-.11_1&max=2600
     alt: "12 CRT televisions on pedestals displaying a single line at rotating angles"
@@ -30,7 +26,6 @@ How do artists engage with the concept of time? This can include time-based medi
 
 The goal of this sequence is to have students create an original design for a clock, or find an interesting way of representing the passage of time. As some age groups and cohorts can find working with abstraction challenging, the visual ideas in this topic can be differentiated for the student group in two ways, pursuing abstraction and/or using text as a graphic element. Coding examples as well as artistic precedents for both directions are provided.
 
-{% include gallery caption="Design an artwork that functions as a clock in P5JS!" %}
 
 ## Objectives
 - Creating individual interpretations of "universal concepts"
