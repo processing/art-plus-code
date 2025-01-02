@@ -5,10 +5,10 @@ permalink: /capturingMovement-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: /assets/images/unit_a_example-1.png
-    image_path: /assets/images/unit_a_example-1.png
-    alt: "black and white abstract drawing of curves"
-    title: "Sample Drawing 1"
+  - url: 
+    image_path: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
+    alt: "black and white abstract drawing of curves with handwritten text: too much future "
+    title: "Christine Sun Kim, Too Much Future, 2018 (Whitney Museum)"
   - url: /assets/images/unit_a_example-2.png
     image_path: /assets/images/unit_a_example-2.png
     alt: "simplified line drawing of a face with red oval pattern"
@@ -44,6 +44,7 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 
 
 ## References & Artworks for Discussion: Line Quality
+{% include gallery%}
 * A Primer of Visual Literacy, Donis A. Dondis
 * [Art21: Christine Sun Kim](https://art21.org/watch/art-in-the-twenty-first-century/s11/christine-sun-kim-in-friends-strangers/)
 * Christine Sun Kim, [Time Owes Me Rest Again](https://queensmuseum.org/exhibition/christine-sun-kim/), 2022, Queens Museum
@@ -57,9 +58,9 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 
 ## Timeline
 This project will take approximately two to three 45minute sessions:
-1. Discussing artists and line, Warm-up Exercises, Introduction to P5JS (Step A1)
-2. Creating a drawing tool (A2 - A3), Extending the tool (A4)
-3. Finishing the tool (A4), Using the Tool & Sharing Out (Assessment)
+1. Discussing artists and line, Warm-up Exercises, Introduction to P5JS
+2. Creating a drawing tool, Extending the tool
+3. Finishing the tool, Using the Tool & Sharing Out (Assessment)
 
 
 ### Warm-Up Exercises
