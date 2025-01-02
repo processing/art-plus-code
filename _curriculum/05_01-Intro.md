@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Movement, Collaboration & Harmony: Introduction & Inspiration" # Title and Heading 1
+title: "Movement, Collaboration & Harmony" # Title and Heading 1
 permalink: /movementCollaborationHarmony-intro/ # Give your page a permalink
 published: true
 
