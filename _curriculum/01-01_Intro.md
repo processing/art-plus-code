@@ -8,22 +8,18 @@ gallery: # Below is for including an image gallery
   - url: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
     image_path: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
     alt: "black and white abstract drawing of curves with handwritten text: too much future "
-    title: "Christine Sun Kim, Too Much Future, 2018 ([Whitney Museum](https://whitney.org/collection/works/60038))"
-  - url: https://www.guggenheim.org/wp-content/uploads/2018/10/art-hilma-af-klint-spritual-drawings-1903-04.jpg
-    image_path: https://www.guggenheim.org/wp-content/uploads/2018/10/art-hilma-af-klint-spritual-drawings-1903-04.jpg
-    alt: "fine lines drawings of flowers"
-    title: "Hilma af Klint, Spiritual Drawing, ca. 1903 ([Guggenheim Museum](https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04))"
+    title: "Christine Sun Kim, Too Much Future, 2018, Whitney Museum"
   - url: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7
     image_path: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7
     alt: "abstract drawings of straight and curved lines of varying thickness"
-    title: "Wassily Kandinsky, Untitled (drawing for Diagram 17), 1925 ([Mount Holyoke College Art Museum](https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17))"
+    title: "Wassily Kandinsky, Untitled (drawing for Diagram 17), 1925, Mount Holyoke College Art Museum"
   - url: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
     image_path: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
     alt: "sketched portrait of a young man"
-    title: "Elizabeth Peyton, Craig in Tokyo, 1997 ([Rubell Museum](https://rubellmuseum.org/elizabeth-peyton))"
+    title: "Elizabeth Peyton, Craig in Tokyo, 1997, Rubell Museum"
 ---
 
-![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/JYK_DrawingTool_Sample-1.png" | relative_url }})
+![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
 
 # Introduction & Inspiration
 
