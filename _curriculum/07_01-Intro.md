@@ -13,10 +13,6 @@ gallery: # Below is for including an image gallery
     image_path: https://ids.si.edu/ids/deliveryService?id=SAAM-1980.36.12_1&max=2600
     alt: "abstract painting made of repeating vertical rectangles creating the atmosphere of grass"
     title: "Alma Thomas, Spring Grass, 1973, Smithsonian American Art Museum"
-  - url: https://whitneymedia.org/assets/artwork/61435/2019_381_vw1_cropped.jpeg
-    image_path: https://whitneymedia.org/assets/artwork/61435/2019_381_vw1_cropped.jpeg
-    alt: "woven jar with horizontal navy blue rectangular pattern"
-    title: "Shan Goshorn, Roll Call, 2016, Whitney Museum "
 
 ---
 # Introduction & Inspiration
@@ -29,8 +25,6 @@ Art is a powerful tool for building a stronger connection between a person and t
 
 In this topic, we engage with the practice of close observation to find moments of repetition in our surroundings and recreate them using iteration in P5JS.
 
-
-{% include gallery caption="Create your own drawing tool using P5JS!" %}
 
 ## Objectives
 - Rediscovering and gaining inspiration from familiar surroundings through close observation
@@ -71,6 +65,6 @@ Some options for unplugged exercises:
 - Either by sketching or snapping a photo, students collect the patterns to draw inspiration from. 
 - Students can share the patterns they found with their classmates and peers by playing a guessing game where they try to identify the source of the patterns. If students have found multiple patterns, they can use feedback from their peers to decide on which pattern to use. 
 
-### Sketching a Base**
+### Sketching a Base
 - Keeping the final medium of code in mind, students sketch out one element to be repeated using physical drawing tools. 
 - For instance, if the source of the pattern is an old stone wall, how can circles, triangles, and rectangles be used to create a digital version of an old stone brick? 
