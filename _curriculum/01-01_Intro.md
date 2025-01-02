@@ -21,7 +21,7 @@ gallery: # Below is for including an image gallery
 
 ![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
 
-# Introduction & Inspiration
+## Introduction & Inspiration
 
 > A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
 >
@@ -32,13 +32,13 @@ In many of her drawings, artist Christine Sun Kim captures the motions of sign l
 In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
 
 
-## Objectives
+### Objectives
 - Gaining insight into diverse practices in traditional and contemporary drawing
 - Understanding the relationship between drawing tools and artistic intention
 - **Visual Arts Vocabulary**: line, space, value, form, texture, color
 
 
-## Technical Terms & P5JS Elements
+### Technical Terms & P5JS Elements
 - functions: [setup()](https://p5js.org/reference/p5/setup/), [draw()](https://p5js.org/reference/p5/draw/)
 - canvas methods and variables: [windowWidth](https://p5js.org/reference/p5/windowWidth/), [windowHeight](https://p5js.org/reference/p5/windowHeight/), [background()](https://p5js.org/reference/p5/background/), [frameRate()](https://p5js.org/reference/p5/frameRate/)
 - drawing methods: [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/),  [fill()](https://p5js.org/reference/p5/fill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
@@ -47,7 +47,7 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 - console.log()
 
 
-## References & Artworks for Discussion: Line Quality
+### References & Artworks for Discussion: Line Quality
 {% include gallery%}
 * A Primer of Visual Literacy, Donis A. Dondis
 * [Art21: Christine Sun Kim](https://art21.org/watch/art-in-the-twenty-first-century/s11/christine-sun-kim-in-friends-strangers/)
@@ -60,7 +60,7 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 * Elizabeth Peyton, [Craig in Tokyo](https://rubellmuseum.org/elizabeth-peyton), 1997, Rubell Museum
 
 
-## Timeline
+### Timeline
 This project will take approximately two to three 45minute sessions:
 1. Discussing artists and line, Warm-up Exercises, Introduction to P5JS
 2. Creating a drawing tool, Extending the tool
