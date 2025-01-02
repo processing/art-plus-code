@@ -1,22 +1,31 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines: Introduction & Inspiration" # Title and Heading 1
+title: "Capturing Movement with Digital Lines" # Title and Heading 1
 permalink: /capturingMovement-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: 
+  - url: [https://whitney.org/collection/works/60038](https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg)
     image_path: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
     alt: "black and white abstract drawing of curves with handwritten text: too much future "
-    title: "Christine Sun Kim, Too Much Future, 2018 (Whitney Museum)"
-  - url: /assets/images/unit_a_example-2.png
-    image_path: /assets/images/unit_a_example-2.png
-    alt: "simplified line drawing of a face with red oval pattern"
-    title: "Sample Drawing 2"
-
+    title: "Christine Sun Kim, Too Much Future, 2018 ([Whitney Museum](https://whitney.org/collection/works/60038))"
+  - url: [https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04](https://www.guggenheim.org/wp-content/uploads/2018/10/art-hilma-af-klint-spritual-drawings-1903-04.jpg)
+    image_path: https://www.guggenheim.org/wp-content/uploads/2018/10/art-hilma-af-klint-spritual-drawings-1903-04.jpg
+    alt: "fine lines drawings of flowers"
+    title: "Hilma af Klint, Spiritual Drawing, ca. 1903 ([Guggenheim Museum](https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04))"
+  - url: [https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04](https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7)
+    image_path: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7
+    alt: "abstract drawings of straight and curved lines of varying thickness"
+    title: "Wassily Kandinsky, Untitled (drawing for Diagram 17), 1925 ([Mount Holyoke College Art Museum](https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17))"
+  - url: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
+    image_path: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
+    alt: "sketched portrait of a young man"
+    title: "Elizabeth Peyton, Craig in Tokyo, 1997 ([Rubell Museum](https://rubellmuseum.org/elizabeth-peyton))"
 ---
 
-# Capturing Movement with Digital Lines
+![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/JYK_DrawingTool_Sample-1.png" | relative_url }})
+
+# Introduction & Inspiration
 
 > A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
 >
@@ -26,7 +35,6 @@ In many of her drawings, artist Christine Sun Kim captures the motions of sign l
 
 In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
 
-{% include gallery caption="Create your own drawing tool using P5JS!" %}
 
 ## Objectives
 - Gaining insight into diverse practices in traditional and contemporary drawing
