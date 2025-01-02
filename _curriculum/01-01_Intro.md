@@ -9,8 +9,8 @@ gallery: # Below is for including an image gallery
     image_path: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
     alt: "black and white abstract drawing of curves with handwritten text: too much future "
     title: "Christine Sun Kim, Too Much Future, 2018, Whitney Museum"
-  - url: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7
-    image_path: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg?itok=jLfn99q7
+  - url: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg
+    image_path: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg
     alt: "abstract drawings of straight and curved lines of varying thickness"
     title: "Wassily Kandinsky, Untitled (drawing for Diagram 17), 1925, Mount Holyoke College Art Museum"
   - url: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
