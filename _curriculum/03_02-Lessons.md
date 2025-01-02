@@ -5,9 +5,9 @@ permalink: /artTime-lessons/ # Give your page a permalink
 published: true
 
 ---
-## Lesson Plans & Technical Steps
+# Lesson Plans & Technical Steps
 
-### Step 1: Working with Text
+## Step 1: Working with Text
 ![Incorporating text into a P5JS sketch.]({{ "/assets/images/curriculum/Unit-3_Sample-2.gif" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/l6NvshaaP)
 
@@ -67,7 +67,7 @@ function draw() {
 
 
 
-### Step 2: Clock Variables
+## Step 2: Clock Variables
 ![Displaying the hour, minute, and second.]({{ "/assets/images/curriculum/Unit-3_Sample-3.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/ToNnvOTSi)
 
@@ -147,7 +147,7 @@ function draw() {
 ```
 
 
-### Step 4: Adding Complexity with Conditional Statements
+## Step 4: Adding Complexity with Conditional Statements
 ![Create a drawing that changes according to time of day!]({{ "/assets/images/curriculum/Unit-3_Sample-5.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/V5XyoyD41)
 
