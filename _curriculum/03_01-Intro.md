@@ -68,18 +68,18 @@ This project will take approximately four 45minute sessions:
 Some options for unplugged exercises:
 
 ### Mindfulness
-  - The goal of this activity is to share a meditative activity with students and also practice a little bit of mindfulness. Select at least 2 amounts of time including one ‘short’ and one ‘long’ such as 30 seconds and 10 minutes. Sit with students in silence for that duration of time, then discuss the physical experience of that time. 
-  - Some ways of facilitating that discussion include pair-sharing (small groups of students share with each other their experiences of that time and each group shares out a summary) and creating a word cloud of the board of key words students would use to describe their experience (“long”, “short”, “surprising”)
-  - The goal of the exercise is for the students to have some concrete descriptors to draw from and reference as they create their designs. Helpful questions for students to discuss might be “What kind of physical sensations did you feel in your body, such as twitchiness or calm”, “What did you focus your eyesight on during this unit of time?”, “What are some things you noticed in the room that you might not have noticed before?” and “What emotions might you connect with these units of time?”
+- The goal of this activity is to share a meditative activity with students and also practice a little bit of mindfulness. Select at least 2 amounts of time including one ‘short’ and one ‘long’ such as 30 seconds and 10 minutes. Sit with students in silence for that duration of time, then discuss the physical experience of that time. 
+- Some ways of facilitating that discussion include pair-sharing (small groups of students share with each other their experiences of that time and each group shares out a summary) and creating a word cloud of the board of key words students would use to describe their experience (“long”, “short”, “surprising”)
+- The goal of the exercise is for the students to have some concrete descriptors to draw from and reference as they create their designs. Helpful questions for students to discuss might be “What kind of physical sensations did you feel in your body, such as twitchiness or calm”, “What did you focus your eyesight on during this unit of time?”, “What are some things you noticed in the room that you might not have noticed before?” and “What emotions might you connect with these units of time?”
 
 ### Times of Day
-  - Have students write or sketch an object or location at different times of day, from morning, mid-afternoon, to evening such as a plant or room. 
-  - Consider the intensity and color of light, surrounding objects, any possible movements.
+- Have students write or sketch an object or location at different times of day, from morning, mid-afternoon, to evening such as a plant or room. 
+- Consider the intensity and color of light, surrounding objects, any possible movements.
 
 ### Long exposure photography
-  - If a dark environment and photographic equipment (cameras, tripods) are available, students can try out long exposure photography to gain a sensitivity for light-based information accumulating on a surface.
-  - In pairs or groups of three, students set up cameras (or smart devices with manual camera apps installed) with tripods. The cameras should have long shutter speeds, ranging from 1 second to manually open to create long exposure photographs. 
-  - Incorporating lights, either with small LEDs or the flash of their phone can allow for students to create light paintings.
+- If a dark environment and photographic equipment (cameras, tripods) are available, students can try out long exposure photography to gain a sensitivity for light-based information accumulating on a surface.
+- In pairs or groups of three, students set up cameras (or smart devices with manual camera apps installed) with tripods. The cameras should have long shutter speeds, ranging from 1 second to manually open to create long exposure photographs. 
+- Incorporating lights, either with small LEDs or the flash of their phone can allow for students to create light paintings.
 
 - Drafting an Original Clock Design
   - To prepare for the project  of designing a clock, students draft a design for an original clock. Depending on the age group and differentiation needs of the students, useful guidelines or constraints might be “no numbers”, “only use the shapes we’ve tried so far in P5JS”
