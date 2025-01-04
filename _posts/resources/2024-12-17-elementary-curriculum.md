@@ -6,6 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/lucia-herrera/resource-thumbnail.png
+excerpt: "This is an example description. You can add a high-level description for this page here."
 ---
 
 ## Introduction

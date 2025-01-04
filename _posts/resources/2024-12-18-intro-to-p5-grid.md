@@ -6,6 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/mariana-sandoval/resource-thumbnail.png
+excerpt: "This is an example description. You can add a high-level description for this page here."
 ---
 
 ## Lesson 1: Navigating the x, y coordinates in P5.js to create shapes
