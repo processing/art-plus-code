@@ -1,3 +1,4 @@
+## Main header navigation bar
 main:
   - title: "Curriculum"
     url: /curriculum/
@@ -9,20 +10,20 @@ main:
 # Curriculum navigation sidebar
 curriculum:
   - title: "Introduction"
-    #children:
-     # - title: "How to Use This Curriculum"
-      #  url: /introduction/
-  #- title: Capturing Movement with Digital Lines
-   # children:
-    #  - title: "Introduction & Inspiration"
-     #   url: /capturingMovement-intro/
-      #- title: "Lessons & Technical Steps"
-       # url: /capturingMovement-lessons/
-      #- title: "Assessment Activities"
-       # url: /capturingMovement-assessment/
- # - title: "Stream 1"
-  #  children:
-   #   - title: "Unit 1"
-    #    url: /unit-1/
-     # - title: "Unit 2"
-      #  url: /unit-2/
+  #   children:
+  #     - title: "How to Use This Curriculum"
+  #       url: /introduction/
+  # - title: Capturing Movement with Digital Lines
+  #   children:
+  #     - title: "Introduction & Inspiration"
+  #       url: /capturingMovement-intro/
+  #     - title: "Lessons & Technical Steps"
+  #       url: /capturingMovement-lessons/
+  #     - title: "Assessment Activities"
+  #       url: /capturingMovement-assessment/
+  # - title: "Stream 1"
+  #   children:
+  #     - title: "Unit 1"
+  #       url: /unit-1/
+  #     - title: "Unit 2"
+  #       url: /unit-2/
