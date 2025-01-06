@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/kaitlyn-dollard/resource-thumbnail.png
-excerpt: "This is an example description. You can add a high-level description for this page here."
+excerpt: "Coding an modern day artist statement to accompany a historic vessel inspired ceramic sculpture."
 ---
 
 ## Introduction/Overview
