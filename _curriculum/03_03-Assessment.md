@@ -46,7 +46,7 @@ Is the code written by the student free of errors that prevent the code from wor
 - How responsive are students to feedback about their designs?
 - Are students making an effort to deviate from familiar methods of representing time?
 
-How are the students keeping track of their personal and artistic growth?
+**How are the students keeping track of their personal and artistic growth?**
 - How are students articulating their goals and process throughout the design and building stages?
 - How are students providing feedback to each other? Is the feedback constructive and specific?
 
