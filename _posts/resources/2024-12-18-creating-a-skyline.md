@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/laura-ramirez/resource-thumbnail.png
-excerpt: "This is an example description. You can add a high-level description for this page here."
+excerpt: "A city skyline built with P5JS shapes and loops, brought to life with animations and sound-reactive elements. "
 ---
 
 ## Learning Audience
