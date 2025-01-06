@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 
-title: "Instructional Art: Introduction" # Title and Heading 1
+title: "Instructional Art" # Title and Heading 1
 permalink: /instructionalArt-Intro/ # Give your page a permalink
 published: true
 
@@ -13,9 +13,7 @@ gallery: # Below is for including an image gallery
 
 ---
 
-# Unit 2: Instructional Art
-
-## Introduction
+# Introduction
 
 *How can instructions and systems transform into art? How can computation initiate new ideas of making or propel art forward?*
 
