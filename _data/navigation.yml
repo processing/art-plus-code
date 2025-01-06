@@ -19,59 +19,59 @@ curriculum:
         url: /capturingMovement-lessons/
       - title: "Assessment Activities & Checking for Understanding"
         url: /capturingMovement-assessment/
-#   - title: "Instructional Art"
-#     children:
-#       - title: "Introduction"
-#         url: /instructionalArt-Intro/
-#       - title: "Lessons"
-#         url: /instructionalArt-Lessons/
-#       - title: "Assessment"
-#         url: /instructionalArt-Assessment
-#   - title: "Art & Time"
-#     children:
-#       - title: "Introduction & Inspiration"
-#         url: /artTime-introduction/
-#       - title: "Lesson Plans & Technical Steps"
-#         url: /artTime-lessons/
-#       - title: "Assessment Activities & Checking for Understanding"
-#         url: /artTime-assessment/
-#   - title: "Data Art"
-#     children:
-#       - title: "Introduction"
-#         url: /dataArt-Intro/
-#       - title: "Lessons"
-#         url: /dataArt-Lessons/
-#       - title: "Assessment"
-#         url: /dataArt-Assessment/
-#   - title: "Movement, Collaboration & Harmony
-#     children:
-#       - title: "Introduction & Inspiration"
-#         url: /movementCollaborationHarmony-intro/
-#       - title: "Lesson Plans & Technical Steps"
-#         url: /movementCollaborationHarmony-steps/
-#       - title: "Assessment Activities & Checking for Understanding"
-#         url: /movementCollaborationHarmony-assessment/
-#   - title: "Interactive Art"
-#     children:
-#       - title: "Introduction"
-#         url: /interactiveArt-Intro/
-#       - title: "Lessons"
-#         url: /interactiveArt-Lessons/
-#       - title: "Assessment"
-#         url: /interactiveArt-Assessment/
-#   - title: "Observing Patterns"
-#     children:
-#       - title: "Introduction & Inspiration"
-#         url: /patterns-intro/
-#       - title: "Lesson Plans & Technical Steps"
-#         url: /patterns-steps/
-#       - title: "Assessment Activities & Checking for Understanding"
-#         url: /patterns-assessment/
-#   - title: "Generative Art"
-#     children:
-#       - title: "Introduction"
-#         url: /generativeArt-Intro/
-#       - title: "Lessons"
-#         url: /generativeArt-Lessons/
-#       - title: "Assessment"
-#         url: /generativeArt-Assessment/
+  - title: "Instructional Art"
+    children:
+      - title: "Introduction"
+        url: /instructionalArt-Intro/
+      - title: "Lessons"
+        url: /instructionalArt-Lessons/
+      - title: "Assessment"
+        url: /instructionalArt-Assessment
+  - title: "Art & Time"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /artTime-introduction/
+      - title: "Lesson Plans & Technical Steps"
+        url: /artTime-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /artTime-assessment/
+  - title: "Data Art"
+    children:
+      - title: "Introduction"
+        url: /dataArt-Intro/
+      - title: "Lessons"
+        url: /dataArt-Lessons/
+      - title: "Assessment"
+        url: /dataArt-Assessment/
+  - title: "Movement, Collaboration & Harmony"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /movementCollaborationHarmony-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /movementCollaborationHarmony-steps/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /movementCollaborationHarmony-assessment/
+  - title: "Interactive Art"
+    children:
+      - title: "Introduction"
+        url: /interactiveArt-Intro/
+      - title: "Lessons"
+        url: /interactiveArt-Lessons/
+      - title: "Assessment"
+        url: /interactiveArt-Assessment/
+  - title: "Observing Patterns"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /patterns-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /patterns-steps/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /patterns-assessment/
+  - title: "Generative Art"
+    children:
+      - title: "Introduction"
+        url: /generativeArt-Intro/
+      - title: "Lessons"
+        url: /generativeArt-Lessons/
+      - title: "Assessment"
+        url: /generativeArt-Assessment/
