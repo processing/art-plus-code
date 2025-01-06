@@ -8,7 +8,7 @@ published: true
 
 # Lesson Plans & Technical Steps
 
-## Step 1: Introduction to Variables & Animation
+## 1: Introduction to Variables & Animation
 ![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SwhyQV9_v)
 
@@ -93,7 +93,7 @@ You can see that we are using the same logic inside of the draw function, which 
 
 
 
-## Step 2: Controlling Animations with If/Else Statements
+## 2: Controlling Animations with If/Else Statements
 ![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/F8Bo0cx46)
 
@@ -170,7 +170,7 @@ function draw() {
 You can create variables and manipulate them this way for all aspects of your drawing including the color and coordinates! 
 
 
-## Step 3: Functions
+## 3: Functions
 ![Creating custom functions.]({{ "/assets/images/curriculum/Unit-5_Sample-4.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/Tw4-5FrJY) 
 
@@ -235,7 +235,7 @@ function eye() { // setting up the eye function
 
 
 
-## Step 5: Parameters
+## 5: Parameters
 ![Modifying functions with parameters.]({{ "/assets/images/curriculum/Unit-5_Sample-5.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SoSuHE6Cl) 
 
@@ -312,7 +312,7 @@ function eye(x, y, r, g, b, size) {
 }
 ```
 
-## Step 5: Using Global and Local Variables
+## 5: Using Global and Local Variables
 ![Global and Local Variables]({{ "/assets/images/curriculum/Unit-5_Sample-6.gif" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tuuCIAUrm) 
 
