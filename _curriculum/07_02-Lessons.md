@@ -22,7 +22,7 @@ gallery: # Below is for including an image gallery
 
 # Lesson Plans & Technical Steps
 
-## Step 1: Iteration
+## 1: Iteration
 ![Starting off with loops]({{ "/assets/images/curriculum/Unit-7_Sample-2.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/eDdQWe8XG) 
 
@@ -117,7 +117,7 @@ function draw() {
 ```
 
 
-## Step 2: Making the Counter Variable Multi-task
+## 2: Making the Counter Variable Multi-task
 ![Getting comfortable with loops]({{ "/assets/images/curriculum/Unit-7_Sample-3.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/KmP0J0Ek_) 
 
@@ -155,7 +155,7 @@ Try these puzzles for practicing loops!
 ➡️ [#3 Solution](https://editor.p5js.org/jyk/sketches/bn-SKEAW7)  
 
 
-## Step 3: Adding Variance with Random Elements
+## 3: Adding Variance with Random Elements
 ![Incorporating Random Elements]({{ "/assets/images/curriculum/Unit-7_Sample-4.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/hPcZzmaOj) 
 
@@ -188,7 +188,7 @@ function setup() {
 ```
 *Note that our drawing is within the setup() function and not the draw() function. Can you guess why?*
 
-## Step 4: Grids with Nested For Loops
+## 4: Grids with Nested For Loops
 ![Putting a loop within a loop.]({{ "/assets/images/curriculum/Unit-7_Sample-5.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/g0XLwASAH) 
 
