@@ -1,19 +1,33 @@
-# These files stores info for all author profiles
+# These files store information for all author profiles
 
-Sample Author:
-  name: "Sample Author"
-  bio: "Here's a bio for a sample author"
-  location: "Location"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "https://processing.github.io/art-plus-code/"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://processing.github.io/art-plus-code/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://processing.github.io/art-plus-code/"
+# Below is an example of all default variables that can be included - all are optional
+# https://mmistakes.github.io/minimal-mistakes/docs/authors/
+
+# Sample Author:
+#   name: "Sample Author"
+#   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#   bio: "Here's a sample bio for an author"
+#   location: "Somewhere"
+#   email: # email address
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:your.name@email.com"
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://processing.github.io/art-plus-code/"
+#      - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/"
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       url: "https://facebook.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
 
 Adrienne Gifford:
   name: "Adrienne Gifford"
