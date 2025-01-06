@@ -7,8 +7,8 @@ published: true
 ---
 # Lesson Plans & Technical Steps
 
-## Step 1: Working with Text
-![Incorporating text into a P5JS sketch.]({{ "/assets/images/curriculum/Unit-3_Sample-2.gif" | relative_url }})
+## 1: Working with Text
+![Incorporating text into a P5JS sketch.]({{ "/assets/images/curriculum/Unit-3_Sample-2.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/l6NvshaaP)
 
 You'll probably be familiar with using different shapes such as [rectangles](https://p5js.org/reference/p5/rect/) and [ellipses](https://p5js.org/reference/p5/ellipse/) to create drawings. In P5JS, we can also incorporate text into our drawings. To display text, use the [text()](https://p5js.org/reference/p5/text/) command: 
@@ -67,8 +67,8 @@ function draw() {
 
 
 
-## Step 2: Clock Variables
-![Displaying the hour, minute, and second.]({{ "/assets/images/curriculum/Unit-3_Sample-3.png" | relative_url }})
+## 2: Clock Variables
+![Displaying the hour, minute, and second.]({{ "/assets/images/curriculum/Unit-3_Sample-3.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/ToNnvOTSi)
 
 The P5JS library includes variables that allows us to access interactive data easily like [mouseX](https://p5js.org/reference/p5/mouseX/) and [windowWidth](https://p5js.org/reference/p5/windowWidth/). Here, we’ll work with some commands that use the clock on your computer. These are:
@@ -103,8 +103,8 @@ function draw() {
 You’ll notice that we are joining text and numbers together inside the text() command with a + sign. This is called ‘string concatenation’. 
 
 
-### Step 3: Designing a Clock
-![Create a drawing that changes according to time of day!]({{ "/assets/images/curriculum/Unit-3_Sample-4.png" | relative_url }})
+## 3: Designing a Clock
+![Create a drawing that changes according to time of day!]({{ "/assets/images/curriculum/Unit-3_Sample-4.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/bW8K_lRzg)
 
 We can use these clock values along with some **arithmetic operators** (+ - * /) to create a drawing that moves according to the time of day and design our own clock. This sketch incorporates *arithmetic expressions* like (hour() * 22) so that we can adjust the values to fit the dimensions of our drawing.
@@ -147,8 +147,8 @@ function draw() {
 ```
 
 
-## Step 4: Adding Complexity with Conditional Statements
-![Create a drawing that changes according to time of day!]({{ "/assets/images/curriculum/Unit-3_Sample-5.png" | relative_url }})
+## 4: Adding Complexity with Conditional Statements
+![Create a drawing that changes according to time of day!]({{ "/assets/images/curriculum/Unit-3_Sample-5.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/V5XyoyD41)
 
 To gain more functionality from the clock variables, we can use **if/else statements**, also referred to as *conditional statements*. The syntax for an if/else statement looks like this: 
