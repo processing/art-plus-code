@@ -232,7 +232,7 @@ Now that we have the basics for a drawing tool, we can refine the details of the
 You use a variety of shapes in addition to the ellipse to create unique lines:
 - [ellipse(x, y, w, h);](https://p5js.org/reference/p5/ellipse/)
 - [rect(x, y, w, h);](https://p5js.org/reference/p5/rect/)
-- [line(x1, y1, x2, y2);](https://p5js.org/reference/p5/line/) // note that for the line, you'll need a stroke() command.
+- [line(x1, y1, x2, y2);](https://p5js.org/reference/p5/line/) *(Note that for the line, you'll need a stroke() command)*
 - [triangle(x1, y1, x2, y2, x3, y3);](https://p5js.org/reference/p5/triangle/)
 - [quad(x1, y1, x2, y2, x3, y3, x4, y4);](https://p5js.org/reference/p5/quad/)
 
