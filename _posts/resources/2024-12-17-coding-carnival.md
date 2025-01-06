@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/jennie-maydew/resource-thumbnail.png
-excerpt: "This is an example description. You can add a high-level description for this page here."
+excerpt: "An immersive carnival experience with options for beginner and advanced artist to contribute games, gifts and elements for visitors to experience."
 ---
 
 ## Unit Design Highlights:
