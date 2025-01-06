@@ -7,8 +7,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-1_Sample-0.png # Add image in /assets/images and link it here
     title: "Capturing Movement with Digital Lines" # Include a title
     excerpt: | # Multi-line description
-        *Design a digital drawing tool using P5JS. Customize your tool to express unique qualities of line and composition!*
-        This unit discusses: 
+        *Design a digital drawing tool using P5JS. Customize your tool to express unique qualities of line and composition!* 
         - P5JS setup & structure
         - drawing methods
         - mouse and key inputs
@@ -17,8 +16,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
     title: "Instructional Art"
     excerpt: |
-        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait and explore the P5JS editor and its many features.*
-       This unit discusses:
+        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait and explore the P5JS editor and its many features.* 
         - P5JS Web Editor
         - drawing methods
         - text methods
@@ -30,7 +28,6 @@ unit2_row:
     title: "Art & Time"
     excerpt: |
         *Bring together drawing, animation and the computer's clock to engage with **time** as an artistic concept and design your own clock!*
-       This unit discusses:
         - working with text in P5JS
         - clock methods
         - arithmetic operators and expressions
@@ -42,7 +39,6 @@ unit2_row:
     title: "Data Art"
     excerpt: |
         *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs/*
-       This unit discusses:
         - variables
         - map(), constrain() functions
         - P5JS Sound Library
@@ -53,7 +49,6 @@ unit3_row:
     title: "Movement, Collaboration & Harmony"
     excerpt: |
         *Collaborate with code to create animated modular drawings that add up to more than the sum of their parts.*
-       This unit discusses:
         - animation
         - variable declaration & instantiation
         - functions & parameters
@@ -63,7 +58,6 @@ unit3_row:
     title: "Interactive Art"
     excerpt: |
         *Consider interactivity while creating a drawing tool that responds to user inputs.*
-       This unit discusses:
         - conditional statements and computational logic
         - mouse and key functions
         - booleans and operators
@@ -74,7 +68,6 @@ unit4_row:
     title: "Observing Patterns"
     excerpt: |
         *Recreate patterns from daily life to practice close observation and iteration.*
-       This unit discusses:
         - for loops
         - random methods
         - nested for loops
@@ -84,7 +77,6 @@ unit4_row:
     title: "Generative Art"
     excerpt: |
         *Create a “weaving” program that generates new, unique patterns based on programmatic randomness.*
-       This unit discusses:
         - random() methods and randomness
         - frame rate and P5JS looping mechanism
         - for loops
