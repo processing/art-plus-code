@@ -1,5 +1,5 @@
 ---
-title: "How to Use This Curriculum"
+title: "Units"
 permalink: /introduction/
 
 # Include links, images, and descriptions for each unit row below:
