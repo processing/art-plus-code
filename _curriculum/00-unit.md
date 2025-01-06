@@ -48,7 +48,7 @@ unit3_row:
   - image_path: /assets/images/curriculum/Unit-5_Sample-0.png
     title: "Movement, Collaboration & Harmony"
     excerpt: |
-        *Collaborate with code to create animated modular drawings that add up to more than the sum of their parts.*
+        *Collaborate with code to create animated drawings that add up to more than the sum of their parts.*
         - animation
         - variable declaration & instantiation
         - functions & parameters
