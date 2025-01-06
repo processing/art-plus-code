@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/adrienne-gifford/resource-thumbnail.png
-excerpt: "This is an example description. You can add a high-level description for this page here."
+excerpt: "Exploring personal connections to place, storytelling, and community empowerment through participatory mapping."
 ---
 
 ## Introduction
