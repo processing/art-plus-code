@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/jennie-canning/resource-thumbnail.png
-excerpt: "This is an example description. You can add a high-level description for this page here."
+excerpt: "An interactive collage inspired by Romare Bearden to explore connections to community using images, shapes and audience interactions. "
 ---
 
 ## Introduction/Overview
