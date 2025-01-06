@@ -19,7 +19,7 @@ gallery: # Below is for including an image gallery
     title: "Elizabeth Peyton, Craig in Tokyo, 1997, Rubell Museum"
 ---
 
-![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
+![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})  
 
 # Introduction & Inspiration
 
