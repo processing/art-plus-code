@@ -24,8 +24,8 @@ gallery: # Below is for including an image gallery
 ---
 # Lesson Plans & Technical Steps
 
-## Step 1: Drawing with P5js
-![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.png" | relative_url }})
+## 1. Drawing with P5js
+![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
 
 Let’s get some code on the board to start fiddling around. When we open the [P5JS web editor](http://editor.p5js.org), we see the following code: 
@@ -94,8 +94,8 @@ function draw() { // this function will loop 60x a second
   ellipse(mouseX, mouseY, 40, 40); // making the circle move with the mouse
 }
 ```
-## Step 2: Making a Drawing Tool
-!['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})
+## 2. Making a Drawing Tool
+!['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
 
 Now that we have the basic interaction mechanism for our drawing tool, we now need to make the drawing ‘stick’ to the canvas. 
@@ -121,8 +121,8 @@ function draw() { // this function will loop 60x a second
 } // end of the draw() function
 ```
 
-## Step 3: Refining the Tool for Drawing
-![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})
+## 3. Refining the Tool for Drawing
+![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
 
 
@@ -166,20 +166,13 @@ function mouseDragged() {
 ```
 
 In addition to mouseDragged(), there are several functions that we can use to make use of the [mouse input](https://p5js.org/reference/#Events). Try adding one or many of these to the bottom of your code:
-```js
-function mouseClicked() {
-}
-function mousePressed() {
-}
-function mouseMoved() {
-}
-function mouseReleased() {
-}
-function mouseWheel() {
-}
-function doubleClicked() {
-}
-```
+- function [mouseClicked()](https://p5js.org/reference/p5/mouseClicked/) { ... }
+- function [mousePressed()](https://p5js.org/reference/p5/mousePressed/) { ... }
+- function [mouseMoved()](https://p5js.org/reference/p5/mouseMoved/) { ... }
+- function [mouseReleased()](https://p5js.org/reference/p5/mouseReleased/) { ... }
+- function [mouseWheel()](https://p5js.org/reference/p5/mouseWheel/) { ... }
+- function [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) { ... }
+
 
 We can also use the [save()](https://p5js.org/reference/p5/save/) command to save the drawing. We’ll combine that with the [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) function so that when the mouse is double-clicked, a copy of our drawing will be saved to the computer. 
 
@@ -229,30 +222,23 @@ function doubleClicked() {
 }
 ```
 
-## Step 4: Extending the Tool with Complexity
-![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})
+## 4. Extending the Tool with Complexity
+![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
 
 
 Now that we have the basics for a drawing tool, we can refine the details of the tool to design a line to best capture movement and support our drawing’s goals. 
 
-You use a variety of shapes instead of the ellipse to create unique lines:
-
-```js
-ellipse(x, y, w, h);
-rect(x, y, w, h);
-line(x1, y1, x2, y2); // note that for the line, you'll need a stroke() command.
-triangle(x1, y1, x2, y2, x3, y3);
-quad(x1, y1, x2, y2, x3, y3, x4, y4);
-```
+You use a variety of shapes in addition to the ellipse to create unique lines:
+- [ellipse(x, y, w, h);](https://p5js.org/reference/p5/ellipse/)
+- [rect(x, y, w, h);](https://p5js.org/reference/p5/rect/)
+- [line(x1, y1, x2, y2);](https://p5js.org/reference/p5/line/) // note that for the line, you'll need a stroke() command.
+- [triangle(x1, y1, x2, y2, x3, y3);](https://p5js.org/reference/p5/triangle/)
+- [quad(x1, y1, x2, y2, x3, y3, x4, y4);](https://p5js.org/reference/p5/quad/)
 
 You can also incorporate key functions. These are similar to the mouse functions, but instead are triggered by [key inputs](https://p5js.org/reference/#Events). You can add these functions to the bottom of your code:
-```js
-function keyPressed() {
-}
-function keyReleased() {
-}
-```
+- function [keyPressed()](https://p5js.org/reference/p5/keyPressed/) { ... }
+- function [keyReleased()](https://p5js.org/reference/p5/keyReleased/) { ... }
 
 You can mix and match these components with the ones already being used to add complexity to the drawing tool. 
 
