@@ -12,7 +12,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
         - P5JS setup & structure
         - drawing methods
         - mouse and key inputs
-    url: "/capturingMovement-intro/" # Include the permalink specified on the unit's page
+    url: /capturingMovement-intro/ # Include the permalink specified on the unit's page
 
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
     title: "Instructional Art"
@@ -23,7 +23,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
         - drawing methods
         - text methods
         - loading and displaying images
-    url: "/instructionalArt-Intro/"
+    url: /instructionalArt-Intro/
 
 unit2_row:
   - image_path: /assets/images/curriculum/Unit-3_Sample-4.png
@@ -36,7 +36,7 @@ unit2_row:
         - arithmetic operators and expressions
         - if/else statements
         - boolean expressions and operators
-    url: "/artTime-introduction/"
+    url: /artTime-introduction/
 
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
     title: "Data Art"
@@ -46,7 +46,7 @@ unit2_row:
         - variables
         - map(), constrain() functions
         - P5JS Sound Library
-    url: "/dataArt-Intro/"
+    url: /dataArt-Intro/
 
 unit3_row:
   - image_path: /assets/images/curriculum/Unit-5_Sample-0.png
@@ -57,7 +57,7 @@ unit3_row:
         - animation
         - variable declaration & instantiation
         - functions & parameters
-    url: "/movementCollaborationHarmony-intro/"
+    url: /movementCollaborationHarmony-intro/
 
   - image_path: /assets/images/curriculum/Unit-6_Sample-0.png
     title: "Interactive Art"
@@ -67,7 +67,7 @@ unit3_row:
         - conditional statements and computational logic
         - mouse and key functions
         - booleans and operators
-    url: "/interactiveArt-Intro/"
+    url: /interactiveArt-Intro/
 
 unit4_row:
   - image_path: /assets/images/curriculum/Unit-7_Sample-5.png
@@ -78,7 +78,7 @@ unit4_row:
         - for loops
         - random methods
         - nested for loops
-    url: "/patterns-intro/"
+    url: /patterns-intro/
 
   - image_path: /assets/images/curriculum/Unit-8_Sample-0.png
     title: "Generative Art"
@@ -90,7 +90,7 @@ unit4_row:
         - for loops
         - nested for loops
         - while, do loops
-    url: "/generativeArt-Intro/"
+    url: /generativeArt-Intro/
 
 ---
 
