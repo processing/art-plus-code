@@ -6,7 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/lucia-herrera/resource-thumbnail.png
-excerpt: "Bringing paintings of parents to life through animation."
+excerpt: "Bringing portraits of family members at work life through animation."
 ---
 
 ## Introduction
