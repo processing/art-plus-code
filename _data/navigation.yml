@@ -11,14 +11,14 @@ main:
 curriculum:
   - title: "Units"
     url: /introduction/
-#   - title: "Capturing Movement with Digital Lines"
-#     children:
-#       - title: "Introduction & Inspiration"
-#         url: /capturingMovement-intro/
-#       - title: "Lesson Plans & Technical Steps"
-#         url: /capturingMovement-lessons/
-#       - title: "Assessment Activities & Checking for Understanding"
-#         url: /capturingMovement-assessment/
+  - title: "Capturing Movement with Digital Lines"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /capturingMovement-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /capturingMovement-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /capturingMovement-assessment/
 #   - title: "Instructional Art"
 #     children:
 #       - title: "Introduction"
