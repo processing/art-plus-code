@@ -86,7 +86,13 @@ unit4_row:
 
 ---
 
-Introductory text about how to use this curriculum...
+The Art + Code Teacher Camp’s curriculum is a visual arts forward approach that drives an understanding of core programming concepts through an art-focused lens. Designed for K-12 Educators, this curriculum explore a range of technical and artistic topics grouped into four categories: Start Here!, Bringing Numbers to Life, Creative Coding, and Generating Patterns. 
+
+Each module provides resources to support student artistic development including 'unplugged' warm-up activities, tips for teaching code, discussion prompts and suggestions for assessment activities. Each unit provides a glimpse into an artistic practice supported by code, or digital media driven by visual arts ideas. 
+
+The modules here are designed to meet teachers and students where they’re at: first time coders, interactive media art enthusiasts and artists looking for new tools to incorporate into their practice.
+
+For additional curricular resources designed by the Art+Code participants, click [here](https://processing.github.io/art-plus-code/resources/).
 
 ## Start Here!
 
