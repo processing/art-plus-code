@@ -54,13 +54,10 @@ Jennie Canning:
   #    url: ""
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "www.pghschools.org"
+      url: "https://www.pghschools.org"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/diondega"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jennie-canning"
       
 Jennie Maydew:
   name: "Jennie Maydew"
