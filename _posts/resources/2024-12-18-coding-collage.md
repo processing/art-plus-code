@@ -8,9 +8,9 @@ header:
   teaser: /assets/images/resources/jennie-canning/resource-thumbnail.png
 excerpt: "An interactive collage inspired by Romare Bearden to explore connections to community using images, shapes and audience interactions. "
 ---
-![Sample code and image of an interactive collage project in p5.js]({{ "assets/images/resources/jennie-canning/Sample_JennieC_Collage.png" | relative_url }})  
 
 ## Introduction/Overview
+![Sample code and image of an interactive collage project in p5.js]({{ "assets/images/resources/jennie-canning/Sample_JennieC_Collage.png" | relative_url }})  
 
 Students will look at who they are in connection to their community. Taking inspiration for one of Pittsburgh’s most notable artist, Romare Bearden, they will explore ways to show their place in their community be it a neighborhood, a family, a street, or their school.  Students will take pictures, find images, and create shapes to create a digital collage in p5.js. After the collage has been created, we will explore ways to invite audience reaction through interactions that have been created in p5.js like the drawing tools, changing objects appearance based on the mouse positioning, and typing with the keyboard. Students will get a chance to reflect on how the audience has changed their piece through the interactions.
 
