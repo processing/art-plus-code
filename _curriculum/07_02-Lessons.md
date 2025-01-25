@@ -26,9 +26,9 @@ gallery: # Below is for including an image gallery
 ![Starting off with loops]({{ "/assets/images/curriculum/Unit-7_Sample-2.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/eDdQWe8XG) 
 
-*If you have the Auto-refresh box checked while working in the P5JS editor, it might be a good idea to uncheck the box as loop errors (like infinite loops) can crash the page.*
+*If you have the Auto-refresh box checked while working in the p5.js editor, it might be a good idea to uncheck the box as loop errors (like infinite loops) can crash the page.*
 
-Let’s say that we want to draw a striped pattern in P5JS. To do so, we will probably need to draw a rectangle multiple times at regular intervals. The code will probably look like this:
+Let’s say that we want to draw a striped pattern in p5.js. To do so, we will probably need to draw a rectangle multiple times at regular intervals. The code will probably look like this:
 ```js
 rect(0, 20, 5, 100);
 rect(10, 20, 5, 100);
@@ -121,7 +121,7 @@ function draw() {
 ![Getting comfortable with loops]({{ "/assets/images/curriculum/Unit-7_Sample-3.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/KmP0J0Ek_) 
 
-When using for loops, there are a few different ways that the counter variable can be manipulated. These can be especially useful in an environment like P5JS when the loop is tied to a specific design. 
+When using for loops, there are a few different ways that the counter variable can be manipulated. These can be especially useful in an environment like p5.js when the loop is tied to a specific design. 
 
 Some ways that we can extend the usefulness of the counter variable include…
 
