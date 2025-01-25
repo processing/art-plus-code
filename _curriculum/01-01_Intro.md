@@ -39,11 +39,11 @@ In this topic, we’ll use p5.js to design a unique drawing tool. We’ll design
 
 
 ## Technical Terms & p5.js Elements
-- functions: [setup()](https://p5.js.org/reference/p5/setup/), [draw()](https://p5.js.org/reference/p5/draw/)
-- canvas methods and variables: [windowWidth](https://p5.js.org/reference/p5/windowWidth/), [windowHeight](https://p5.js.org/reference/p5/windowHeight/), [background()](https://p5.js.org/reference/p5/background/), [frameRate()](https://p5.js.org/reference/p5/frameRate/)
-- drawing methods: [rect()](https://p5.js.org/reference/p5/rect/), [ellipse()](https://p5.js.org/reference/p5/ellipse/),  [fill()](https://p5.js.org/reference/p5/fill/), [stroke()](https://p5.js.org/reference/p5/stroke/), [noStroke()](https://p5.js.org/reference/p5/noStroke/)
-- mouse variables and methods: [mouseX](https://p5.js.org/reference/p5/mouseX/), [mouseY](https://p5.js.org/reference/p5/mouseY/), [mouseDragged()](https://p5.js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5.js.org/reference/p5/doubleClicked/)
-- [save()](https://p5.js.org/reference/p5/save/)
+- functions: [setup()](https://p5js.org/reference/p5/setup/), [draw()](https://p5js.org/reference/p5/draw/)
+- canvas methods and variables: [windowWidth](https://p5js.org/reference/p5/windowWidth/), [windowHeight](https://p5js.org/reference/p5/windowHeight/), [background()](https://p5js.org/reference/p5/background/), [frameRate()](https://p5js.org/reference/p5/frameRate/)
+- drawing methods: [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/),  [fill()](https://p5js.org/reference/p5/fill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
+- mouse variables and methods: [mouseX](https://p5js.org/reference/p5/mouseX/), [mouseY](https://p5js.org/reference/p5/mouseY/), [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/)
+- [save()](https://p5js.org/reference/p5/save/)
 - console.log()
 
 
