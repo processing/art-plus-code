@@ -16,14 +16,14 @@ gallery: # Below is for including an image gallery
 
 ---
 # Introduction & Inspiration
-![Recreate a pattern using P5JS]({{ "/assets/images/curriculum/Unit-7_Sample-1.png" | relative_url }})
+![Recreate a pattern using p5.js]({{ "/assets/images/curriculum/Unit-7_Sample-1.png" | relative_url }})
 > The relation between what we see and what we know is never settled. 
 >
 > \- John Berger, Ways of Seeing, 1972
 
 Art is a powerful tool for building a stronger connection between a person and their relationship to their surroundings. School, work, and life in general can take up so much time and attention that people can lose themselves in their schedule. Making art often requires close observation of a subject or environment. Engaging in this kind of close observation can provide respite from a routine, and provide an opportunity for rediscovering familiar surroundings. 
 
-In this topic, we engage with the practice of close observation to find moments of repetition in our surroundings and recreate them using iteration in P5JS.
+In this topic, we engage with the practice of close observation to find moments of repetition in our surroundings and recreate them using iteration in p5.js.
 
 
 ## Objectives
@@ -32,7 +32,7 @@ In this topic, we engage with the practice of close observation to find moments 
 - **Visual Arts Vocabulary**: repetition, pattern, decomposition, constructive drawing
 
 
-## Technical Terms & P5JS Elements
+## Technical Terms & p5.js Elements
 - iteration & for loops
 - [random()](https://p5js.org/reference/p5/random/)
 - nested for loops
