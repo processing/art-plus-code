@@ -6,7 +6,7 @@ published: true
 
 ---
 # Assessment Activities & Checking for Understanding
-![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
+![Create a digital drawing tool with p5.js!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})
 
 ## Assessment Activities
 Once ready, students should use the drawing tool they designed to create a drawing:
@@ -17,7 +17,7 @@ Once ready, students should use the drawing tool they designed to create a drawi
 Once the drawings are complete, they should be saved to the computer. It is recommended that the drawings are uploaded to a shared folder on Google Drive or a class’s LMS. The drawings can then be printed out to be displayed.
 
 Students can also share their tools and resulting drawings. Questions to consider for discussion and reflection:
-- Describe some of the P5JS elements that you used for your drawing tool (shapes, inputs, etc)
+- Describe some of the p5.js elements that you used for your drawing tool (shapes, inputs, etc)
 - Why did you make the decision to design your tool in the way that you did? E.g. did you create a translucent effect to mimic charcoal? Did you make the lines wider to have a more playful effect?
 - What were some of the challenges that you ran into?
 - Looking at the digital and physical drawings that you made, what are some observations that you make about the result?
