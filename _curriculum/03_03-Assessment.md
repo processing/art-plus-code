@@ -9,7 +9,7 @@ published: true
 ---
 
 # Assessment Activities & Checking for Understanding
-![Create an original clock with P5JS!]({{ "/assets/images/curriculum/Unit-3_Sample-1.png" | relative_url }})
+![Create an original clock with p5.js!]({{ "/assets/images/curriculum/Unit-3_Sample-1.png" | relative_url }})
 
 ## Assessment Activities
 
@@ -32,7 +32,7 @@ Students can also share their tools and resulting drawings. Questions to conside
 ## Checking for Understanding
 
 **Do students grasp the core concepts of the topic?**
-Are the students applying text, drawing, clock components of P5JS to support the goals of their design? 
+Are the students applying text, drawing, clock components of p5.js to support the goals of their design? 
 Are students trying new ways of conveying information?
 Is the code written by the student free of errors that prevent the code from working?
 
