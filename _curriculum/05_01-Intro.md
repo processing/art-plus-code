@@ -32,7 +32,7 @@ Combining discrete components together in balance is a goal in almost every fiel
 - **Visual Arts Vocabulary**: composition, movement, harmony, balance
 
 
-## Technical Terms & P5JS Elements
+## Technical Terms & p5.js Elements
 - variable declaration & instantiation
 - arithmetic operators
 - if/else statements & boolean operators
