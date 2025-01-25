@@ -7,8 +7,8 @@ unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-1_Sample-0.png # Add image in /assets/images and link it here
     title: "Capturing Movement with Digital Lines" # Include a title
     excerpt: | # Multi-line description
-        *Design a digital drawing tool using P5JS. Customize your tool to express unique qualities of line and composition!* 
-        - P5JS setup & structure
+        *Design a digital drawing tool using p5.js. Customize your tool to express unique qualities of line and composition!* 
+        - p5.js setup & structure
         - drawing methods
         - mouse and key inputs
     url: /capturingMovement-intro/ # Include the permalink specified on the unit's page
@@ -16,8 +16,8 @@ unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
     title: "Instructional Art"
     excerpt: |
-        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait and explore the P5JS editor and its many features.* 
-        - P5JS Web Editor
+        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait and explore the p5.js editor and its many features.* 
+        - p5.js Editor
         - drawing methods
         - text methods
         - loading and displaying images
@@ -28,7 +28,7 @@ unit2_row:
     title: "Art & Time"
     excerpt: |
         *Bring together drawing, animation and the computer's clock to engage with **time** as an artistic concept and design your own clock!*
-        - working with text in P5JS
+        - working with text in p5.js
         - clock methods
         - arithmetic operators and expressions
         - if/else statements
@@ -38,10 +38,10 @@ unit2_row:
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
     title: "Data Art"
     excerpt: |
-        *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs/*
+        *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs*
         - variables
         - map(), constrain() functions
-        - P5JS Sound Library
+        - p5.js Sound Library
     url: /dataArt-Intro/
 
 unit3_row:
@@ -78,7 +78,7 @@ unit4_row:
     excerpt: |
         *Create a “weaving” program that generates new, unique patterns based on programmatic randomness.*
         - random() methods and randomness
-        - frame rate and P5JS looping mechanism
+        - frame rate and p5.js looping mechanism
         - for loops
         - nested for loops
         - while, do loops
