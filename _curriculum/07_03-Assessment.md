@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 ---
 # Assessment Activities & Checking for Understanding
-![Recreate a pattern using P5JS]({{ "/assets/images/curriculum/Unit-7_Sample-1.png" | relative_url }})
+![Recreate a pattern using p5.js]({{ "/assets/images/curriculum/Unit-7_Sample-1.png" | relative_url }})
 ## Assessment Activities
 
 Once ready and comfortable with loops, students can recreate the patterns they’ve found:
@@ -50,7 +50,7 @@ Once finished, students can use the save function to save their image. The drawi
 
 **How are the students keeping track of their personal and artistic growth?**
 - How are students reflecting on their environments while selecting their patterns?
-- How are students providing each other feedback prior to coding? Is the feedback constructive and tied to the process of coding with P5JS?
+- How are students providing each other feedback prior to coding? Is the feedback constructive and tied to the process of coding with p5.js?
 - How engaged is the student with the goals of the project? i.e. are they rushing through the selection process?
 - How is the student making modifications to their design based on their comfort level with technical components?
 
