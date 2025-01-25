@@ -8,10 +8,10 @@ published: true
 # Lesson Plans & Technical Steps
 
 ## 1: Working with Text
-![Incorporating text into a P5JS sketch.]({{ "/assets/images/curriculum/Unit-3_Sample-2.png" | relative_url }})  
+![Incorporating text into a p5.js sketch.]({{ "/assets/images/curriculum/Unit-3_Sample-2.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/l6NvshaaP)
 
-You'll probably be familiar with using different shapes such as [rectangles](https://p5js.org/reference/p5/rect/) and [ellipses](https://p5js.org/reference/p5/ellipse/) to create drawings. In P5JS, we can also incorporate text into our drawings. To display text, use the [text()](https://p5js.org/reference/p5/text/) command: 
+You'll probably be familiar with using different shapes such as [rectangles](https://p5js.org/reference/p5/rect/) and [ellipses](https://p5js.org/reference/p5/ellipse/) to create drawings. In p5.js, we can also incorporate text into our drawings. To display text, use the [text()](https://p5js.org/reference/p5/text/) command: 
 ```js
 text("your text here", x position, y position);
 ```
@@ -71,7 +71,7 @@ function draw() {
 ![Displaying the hour, minute, and second.]({{ "/assets/images/curriculum/Unit-3_Sample-3.png" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/ToNnvOTSi)
 
-The P5JS library includes variables that allows us to access interactive data easily like [mouseX](https://p5js.org/reference/p5/mouseX/) and [windowWidth](https://p5js.org/reference/p5/windowWidth/). Here, we’ll work with some commands that use the clock on your computer. These are:
+The p5.js library includes variables that allows us to access interactive data easily like [mouseX](https://p5js.org/reference/p5/mouseX/) and [windowWidth](https://p5js.org/reference/p5/windowWidth/). Here, we’ll work with some commands that use the clock on your computer. These are:
 * [hour()](https://p5js.org/reference/p5/hour/), which will return the hour on your computer's clock
 * [minute()](https://p5js.org/reference/p5/minute/), which returns the current minute
 * [second()](https://p5js.org/reference/p5/second/), which returns the second
