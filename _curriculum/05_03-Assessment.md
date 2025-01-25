@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 ---
 # Assessment Activities & Checking for Understanding
-![P5JS Exquisite Corpses made by students]({{ "/assets/images/curriculum/Unit-5_Sample-7.png" | relative_url }})
+![p5.js Exquisite Corpses made by students]({{ "/assets/images/curriculum/Unit-5_Sample-7.png" | relative_url }})
 
 ## Assessment Activities
 
