@@ -19,7 +19,7 @@ gallery: # Below is for including an image gallery
     title: "Elizabeth Peyton, Craig in Tokyo, 1997, Rubell Museum"
 ---
 
-![Create a digital drawing tool with P5JS!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})  
+![Create a digital drawing tool with p5.js!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})  
 
 # Introduction & Inspiration
 
@@ -29,7 +29,7 @@ gallery: # Below is for including an image gallery
 
 In many of her drawings, artist Christine Sun Kim captures the motions of sign language through lines. Words like “future” and “time” are depicted with arching curves, mimicking the vertical and horizontal movements of the hand making the sign in ASL. The scale of Kim’s work ranges from intimate drawings to monumental murals. In each of her works, her deliberate choices around the form, weight, and composition of the lines she uses are essential in communicating a unique sense of motion and personality. 
 
-In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
+In this topic, we’ll use p5.js to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
 
 
 ## Objectives
@@ -38,12 +38,12 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 - **Visual Arts Vocabulary**: line, space, value, form, texture, color
 
 
-## Technical Terms & P5JS Elements
-- functions: [setup()](https://p5js.org/reference/p5/setup/), [draw()](https://p5js.org/reference/p5/draw/)
-- canvas methods and variables: [windowWidth](https://p5js.org/reference/p5/windowWidth/), [windowHeight](https://p5js.org/reference/p5/windowHeight/), [background()](https://p5js.org/reference/p5/background/), [frameRate()](https://p5js.org/reference/p5/frameRate/)
-- drawing methods: [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/),  [fill()](https://p5js.org/reference/p5/fill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
-- mouse variables and methods: [mouseX](https://p5js.org/reference/p5/mouseX/), [mouseY](https://p5js.org/reference/p5/mouseY/), [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/)
-- [save()](https://p5js.org/reference/p5/save/)
+## Technical Terms & p5.js Elements
+- functions: [setup()](https://p5.js.org/reference/p5/setup/), [draw()](https://p5.js.org/reference/p5/draw/)
+- canvas methods and variables: [windowWidth](https://p5.js.org/reference/p5/windowWidth/), [windowHeight](https://p5.js.org/reference/p5/windowHeight/), [background()](https://p5.js.org/reference/p5/background/), [frameRate()](https://p5.js.org/reference/p5/frameRate/)
+- drawing methods: [rect()](https://p5.js.org/reference/p5/rect/), [ellipse()](https://p5.js.org/reference/p5/ellipse/),  [fill()](https://p5.js.org/reference/p5/fill/), [stroke()](https://p5.js.org/reference/p5/stroke/), [noStroke()](https://p5.js.org/reference/p5/noStroke/)
+- mouse variables and methods: [mouseX](https://p5.js.org/reference/p5/mouseX/), [mouseY](https://p5.js.org/reference/p5/mouseY/), [mouseDragged()](https://p5.js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5.js.org/reference/p5/doubleClicked/)
+- [save()](https://p5.js.org/reference/p5/save/)
 - console.log()
 
 
@@ -62,7 +62,7 @@ In this topic, we’ll use P5JS to design a unique drawing tool. We’ll design 
 
 ## Timeline
 This project will take approximately two to three 45minute sessions:
-1. Discussing artists and line, Warm-up Exercises, Introduction to P5JS
+1. Discussing artists and line, Warm-up Exercises, Introduction to p5.js
 2. Creating a drawing tool, Extending the tool
 3. Finishing the tool, Using the Tool & Sharing Out (Assessment)
 
@@ -72,13 +72,13 @@ Some options for unplugged exercises:
 ### Blind Contour Drawing
 - Using different drawing utensils (pencil, marker, charcoal, ink) students create blind contour drawings of a single object. Comparing the different drawings, students discuss how the quality of the lines affects the tone and effect of the drawing. 
 - Divide students into pairs and have them create blind contour drawings of each other using different drawing materials. Students discuss how the features of the lines made by different drawing tools supports or doesn’t support the ‘portrait’ of their classmate. 
-- Once the initial P5JS drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features. 
+- Once the initial p5.js drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features. 
 
 ### Depicting Movement with Lines
 - Provide students with a simple reference object for drawing (e.g. cube, pencil, eraser) and multiple sheets of paper. For 3 minutes at a time, have random words related to motion (fast, awkwardly, quietly, laboriously) displayed on the board. Have students draw the object moving according to the word on the board.
 - Have students display their work on tables or the board according to the descriptors (e.g. all the quickly drawings on one table). Discuss what are qualities the images have in common for different descriptors. 
 - Students choose one descriptor, and create an intermediate sketch depicting that descriptor. 
-- Students use the P5JS drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.
+- Students use the p5.js drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.
 
 ### Make Your Own Paintbrush
 - Using found materials, students create their own paintbrush. While creating a drawing with their brush, students make observations about the relationship between the shape of their brush and the lines they are creating.
