@@ -91,8 +91,8 @@ More advanced STEAM classes could incorporate dragging and placing interactions.
 ## External References & Resources
 
 - [Romare Bearden's Artwork](https://beardenfoundation.org/art/)
-- [Topic 1: Instructional Art](https://docs.google.com/document/d/15e8wWkGawdsb5mJHbUPcfmIKxIK8-W4g2T2eMA7OLoc/edit?usp=sharing)
-- [Topic 3: Interactive Art](https://docs.google.com/document/d/1l-uPBb4R9LQCBPZxTUP8PBl1XDzFS0RJQvZrkY_BJxI/edit?usp=sharing)
+- [Art+Code: Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/)
+- [Art+Code: Interactive Art](https://processing.github.io/art-plus-code/interactiveArt-Intro/)
 
 ## Learning Plan
 
@@ -161,7 +161,7 @@ Engaged in the process. Walk through creating a portrait from observation.
 **Individual:** Studio work period
 
 **P5JS:** placing objects on the grid. Changing colors.
-Full technical lesson plan created by Chelly Jin for Art+code: [Topic 1: Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/).
+Full technical lesson plan created by Chelly Jin for Art+Code: [Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/).
 
 **Peer evaluation:** Use peer evaluation rubric and questions with at least one more work day to finish the image and mage changes.
 
@@ -183,7 +183,7 @@ Full technical lesson plan created by Chelly Jin for Art+code: [Topic 1: Instruc
 - Loop
 - Saving pictures
 
-Full technology resources view the lesson plan created by Chelly Jin for Art+Code here: [Topic 3: Interactive Art](https://processing.github.io/art-plus-code/interactiveArt-Intro/)
+Full technology resources view the lesson plan created by Chelly Jin for Art+Code here: [Interactive Art](https://processing.github.io/art-plus-code/interactiveArt-Intro/)
 
 **Symbolism:** All students should have at least 3 symbols, they can be written, imagery, color ect… students should be able to explain their symbolism choices
 
