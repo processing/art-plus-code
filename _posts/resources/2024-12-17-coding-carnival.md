@@ -90,7 +90,7 @@ Customize the theme of the game by replacing characters and background.
 
 ---
 
-**Ball Toss:** [Code by P5.js contributors and Jennie Maydew](https://editor.p5js.org/jemdew/sketches/Nk7t-um7-)
+**Ball Toss:** [Code by p5.js contributors and Jennie Maydew](https://editor.p5js.org/jemdew/sketches/Nk7t-um7-)
 {: .notice--info .text-center}
 
 ![]({{ "/assets/images/resources/jennie-maydew/balltoss.png" | relative_url}}){: width="50%" .align-center}
