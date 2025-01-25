@@ -9,10 +9,10 @@ published: true
 # Lesson Plans & Technical Steps
 
 ## 1: Introduction to Variables & Animation
-![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})  
+![Animating with p5.js]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SwhyQV9_v)
 
-You may be familiar with variables that are included with the P5JS library like mouseX and hour(). Here, we’ll make our own variables and manipulate them for our own purposes. 
+You may be familiar with variables that are included with the p5.js library like mouseX and hour(). Here, we’ll make our own variables and manipulate them for our own purposes. 
 
 Variables are essentially containers that store information. In Javascript, variables can contain different types of information from numbers to text (strings) and more. Creating a variable is called ‘declaring’ a variable and saving a value in that variable is called ‘instantiating’ the variable. Let’s take a look at what that looks like: 
 ```js
@@ -73,7 +73,7 @@ function setup() {
 }
 
 function draw() {
-  console.log("current frame: " + frameCount); // frameCount is a P5JS variable that shows the number of frames that have elapsed since the canvas loaded
+  console.log("current frame: " + frameCount); // frameCount is a p5.js variable that shows the number of frames that have elapsed since the canvas loaded
   
   background(245, 245, 255);
   
@@ -94,7 +94,7 @@ You can see that we are using the same logic inside of the draw function, which 
 
 
 ## 2: Controlling Animations with If/Else Statements
-![Animating with P5JS]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})  
+![Animating with p5.js]({{ "/assets/images/curriculum/Unit-5_Sample-3.gif" | relative_url }})  
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/F8Bo0cx46)
 
 You can see that in the animation above, the circle does not stop growing. To gain more control of the animation, we can use if/else statements. This example will reset the value of the variables, thereby resetting the animation.
@@ -174,7 +174,7 @@ You can create variables and manipulate them this way for all aspects of your dr
 ![Creating custom functions.]({{ "/assets/images/curriculum/Unit-5_Sample-4.png" | relative_url }})
 [➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/Tw4-5FrJY) 
 
-You may be familiar with P5JS included functions like mouseDragged(). Just like with variables, we can create our own functions to reuse code. This helps keep code modular and efficient. The syntax for creating a function is: 
+You may be familiar with p5.js included functions like mouseDragged(). Just like with variables, we can create our own functions to reuse code. This helps keep code modular and efficient. The syntax for creating a function is: 
 ```js
 function functionName() { // beginning of function
 // everything in between these curly brackets 
@@ -210,7 +210,7 @@ You’ll notice that nothing happened. This is because in order for the code ins
 functionName();
 ```
 
-You might notice that this syntax looks very similar to the commands for shapes like ellipse() and rect(). This is because those commands are functions that are included in the P5JS library! Let’s now call the function in the example:
+You might notice that this syntax looks very similar to the commands for shapes like ellipse() and rect(). This is because those commands are functions that are included in the p5.js library! Let’s now call the function in the example:
 ```js
 function setup() {
   createCanvas(600, 600);
