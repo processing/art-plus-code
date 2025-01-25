@@ -9,7 +9,7 @@ header:
 excerpt: "Resources for introducing the p5.js environment and the x-y coordinate system.
 "
 ---
-![Sample sketch created with p5.js]({{ "assets/images/resources/mariana-sandoval" | relative_url }})  
+![Sample sketch created with p5.js]({{ "assets/images/resources/mariana-sandoval/Sample_MarianaS.png" | relative_url }})  
 
 
 ## Lesson 1: Navigating the x, y coordinates in p5.js to create shapes
