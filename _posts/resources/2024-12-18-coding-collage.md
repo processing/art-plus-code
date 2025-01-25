@@ -8,6 +8,7 @@ header:
   teaser: /assets/images/resources/jennie-canning/resource-thumbnail.png
 excerpt: "An interactive collage inspired by Romare Bearden to explore connections to community using images, shapes and audience interactions. "
 ---
+![Sample code and image of an interactive collage project in p5.js]({{ "assets/images/resources/jennie-canning/Sample_JennieC_Collage.png" | relative_url }})  
 
 ## Introduction/Overview
 
@@ -15,7 +16,6 @@ Students will look at who they are in connection to their community. Taking insp
 
 - [Full lesson](https://docs.google.com/document/d/1dpokQdBL041a1g545nvVG9Kwu1tM5qwCXXTWxMhQ-HE/edit?usp=sharing)
 
-![Sample code and image of an interactive collage project in p5.js]({{ "assets/images/resources/jennie-canning/Sample_JennieC_Collage.png" | relative_url }})  
 **Example completed sketches:** [Neighbourhood](https://editor.p5js.org/canning.jennie/sketches/Z8tjurPJ2)
 {: .notice--info}
 
