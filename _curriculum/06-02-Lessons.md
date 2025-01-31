@@ -1,39 +1,30 @@
 ---
 # This is the frontmatter
-title: "Interactive Art: Lessons" # Title and Heading 1
-permalink: /interactiveArt-Lessons/ # Give your page a permalink
+title: "Creating with Interactivity" # Title and Heading 1
+permalink: /creatingwithinteractivity-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit6.png
-    image_path: Assets/thumbnails/unit6.png
+  - url: /assets/images/thumbnails/unit6.png
+    image_path: /assets/images/thumbnails/unit6.png
     alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
     title: "Drawing Tool"
 
 ---
+# Lesson Plans & Technical Steps
 
 ## Let’s make — Drawing Tools!
 
 **Template link here: [https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW](https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW)** 
 
-![Screenshot 2024-07-12 at 4.30.03 PM.png](Assets/Screenshot_2024-07-12_at_4.30.03_PM.png)
+![Screenshot of p5.js sketch of a drawing tool using red, green, blue and black circles!]({{ "/assets/images/unit6.png" | relative_url }})  
+
 
 ## What we need to begin
 
 - Computer with p5.js on web browser (Google Chrome)
 - Mouse
 - Keyboard
-
-## Objectives
-
-- Understanding the basics of building a computational logic, specifically Conditional statements to execute interactivity.
-- Becoming comfortable with coding mouse- and key- functions, booleans, special variables and operators.
-- Creating an illustrative tool and program that others and themselves can use to create unique drawings.
-- Learning about programmatic drawings, code-based illustrations, and the relevant artists in this space.
-
----
-
-# Unplugged Activities
 
 
 ---
@@ -840,4 +831,3 @@ How can I save the canvas as an image with a specific key press? (look into the 
 3. What might you use a key interaction for? Can you list a few ideas?  
 
 
-## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/interactiveArt-Assessments/)

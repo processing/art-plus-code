@@ -1,18 +1,18 @@
 ---
 # This is the frontmatter
-title: "Interactive Art: Assessment" # Title and Heading 1
-permalink: /interactiveArt-Assessment/ # Give your page a permalink
+title: "Creating with Interactivity" # Title and Heading 1
+permalink: /creatingwithinteractivity-assessment/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit6.png
-    image_path: Assets/thumbnails/unit6.png
+  - url: /assets/images/thumbnails/unit6.png
+    image_path: /assets/images/thumbnails/unit6.png
     alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
     title: "Drawing Tool"
 
 ---
 
-# Assignment
+# Assessment Activities & Checking for Understanding
 
 🪜 This assignment is design for Higher Education. Please refer to Modifications for K-12 adjusted assignments.
 
@@ -90,7 +90,7 @@ For K-8: Create a drawing tool using different shapes and colors. Refer to the t
 
 For 9-12: Create a drawing tool surrounding a theme of your choosing. All brushes, colors, and images contribute to one overarching idea and concept. 
 
-## Assessments
+## Checking for Understanding
 
 As an educator and facilitator, we’re looking for a thorough understanding of:
 

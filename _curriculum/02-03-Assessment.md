@@ -1,18 +1,18 @@
 ---
 # This is the frontmatter
-title: "Instructional Art: Assessment" # Title and Heading 1
-permalink: /instructionalArt-Assessment # Give your page a permalink
+title: "Collaging with Instructions" # Title and Heading 1
+permalink: /collagingwithinstructions-assessment # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit2.png
-    image_path: Assets/thumbnails/unit2.png
+  - url: /assets/images/thumbnails/unit2.png
+    image_path: /assets/images/thumbnails/unit2.png
     alt: "Screenshot of a collage on books using the p5.js web editor"
     title: "About Me Collage"
 
 ---
 
-# Assignment
+# Assessment Activities & Checking for Understanding
 
 🪜 This assignment is design for All Levels. 
 
@@ -105,7 +105,7 @@ For 9-12: Create an About Me Collage that includes all lessons above. In the pro
 
 - What is your favorite book? …color? …movie? …emoji? …quote?
 
-## Assessments
+## Checking for Understanding
 
 As an educator and facilitator, we’re looking for a thorough understanding of:
 

@@ -1,18 +1,18 @@
 ---
 # This is the frontmatter
-title: "Generative Art: Assessment" # Title and Heading 1
-permalink: /generativeArt-Assessment/ # Give your page a permalink
+title: "Generative Patterns + Weaving" # Title and Heading 1
+permalink: /generativepatternsweaving-assessment/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit8.png
-    image_path: Assets/thumbnails/unit8.png
+  - url: /assets/images/thumbnails/unit8.png
+    image_path: /assets/images/thumbnails/unit8.png
     alt: "Screenshot of an generative weaving pattern tool using the p5.js web editor"
     title: "Generative Weaving Pattern"
 
 ---
 
-# Assignment
+# Assessment Activities & Checking for Understanding
 
 🪜 This assignment is design for Higher Education. Please refer to Modifications for K-12 adjusted assignments.
 
@@ -37,7 +37,7 @@ For K-8: Modify the existing code template to swap out colors and shapes to crea
 
 For 9-12: Modify the existing code template or create your own generative weaving sketch. Consider adding new elements such as importing images or letter / text-based characters. Consider how you might export these pattern and use it for something new. Consider how allowing computation to randomly select pieces create for unique pattern making.  
 
-## Assessments
+## Checking for Understanding
 
 As an educator and facilitator, we’re looking for a thorough understanding of:
 
