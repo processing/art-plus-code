@@ -16,18 +16,18 @@ gallery: # Below is for including an image gallery
 
 # Introduction & Inspiration
 
-*How can we manipulate computational instruction as source for generative, collaborative process? How can we define a system that allows room for randomness, spontaneity and the unexpected or unintended?* 
+> *How can we manipulate computational instruction as source for generative, collaborative process? How can we define a system that allows room for randomness, spontaneity and the unexpected or unintended?* 
 
 In 1804, Joseph M. Jacquard, a French merchant and inventor, develops the Jacquard Loom - a mechanical weaving loom utilizing wooden punch cards as input. The holes of the cards controlled which threads were raised, but set a precedence for technological revolution. Later in 1884, Herman Hollerith would rethink this punch-card system for a tabulating machine aiding in the calculation of the 1890 U.S. Census. There is an undeniable deep connection between the origins of computing, textile, weaving and labor. The Generative Weaving sketch we’ll create today references this history. 
 
 Many advancements have been made since 1804; and generative art is a field of study that highlights a new era of technological transformation. Generative art is “post-conceptual art that has been created (in whole or in part) with the use of an autonomous system… generally one that is non-human and can independently determine features of an artwork that would otherwise require decisions made directly by the artist” ([Wikipedia](https://en.wikipedia.org/wiki/Generative_art)). In using the computational concept of the loop, we can iteratively cycle through code and create pathways for random choice, and question what aspects of our art are within our agency and what lives outside of it.
 
-**Related spheres: AI art, creative coding, algorithmic art, autonomous art.** 
+**Related spheres: Artificial Intelligence in art, creative coding, algorithmic art, autonomous art.** 
 
 
 ## Objectives
 
-- Understanding the code basics of loops and looping and becoming comfortable with using p5 elements: random(), frameRate(), noLoop()
+- Understanding code basics of loops and looping; becoming comfortable with using p5.js elements: random(), frameRate(), noLoop()
 - Creating a “weaving” program that generates new, unique patterns based on programmatic randomness
 - Learning about the history of computation and it’s relationship to weaving
 - Introduction to generative art and its relevant artists in this space
@@ -54,10 +54,20 @@ Sol Lewitt, [Wall Drawing 797](https://massmoca.org/event/walldrawing797/)
 ## Related Artists Discussion Questions
 
 1. We introduced how generative art involves autonomous systems. Where do you draw the line in authorship between the artist’s intent and the machine’s output? 
-2. In Ahree Lee's bio, Lee “use(s) patterns and algorithms interchangeable to show that the line between craft and technology is arbitrary and often based on gender-biased valuations of female labor.” How can traditional practices, like weaving, inform our views, biases, or perspectives of technology? 
+2. In Ahree Lee's artist bio, Lee “use(s) patterns and algorithms interchangeable to show that the line between craft and technology is arbitrary and often based on gender-biased valuations of female labor.” How can traditional practices, like weaving, inform our views, biases, or perspectives of technology? 
 3. How do you feel about writing instructions for unpredictability and randomness? Does it allow for a freedom or does it invite a level of skepticism? 
 
----
 
-# Unplugged Activities
+## Unplugged Activities
+### Binary Tiles
+**Materials you need:**
+
+- Paper
+- 2 different colored Markers
+
+**Instructions** 
+
+1. Have students collect one sheet of paper and 2 different colored markers. Have them draw a grid using markers on a piece of paper. If it is helpful, you can fold the paper like a fan (folding back and front), unopenning the paper and then folding it in a fan pattern the other way -- to reveal a grid on the paper. Another method is to simply print out a grid on paper ahead of time.
+2. Have students look at binary sequences. Here are some famous ones: Fibonacci or Cantor.
+3. Connecting a color to the 0s or 1s, have students color in tiles of the grid following these sequences.
 
