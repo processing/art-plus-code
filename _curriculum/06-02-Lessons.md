@@ -33,15 +33,17 @@ gallery: # Below is for including an image gallery
 
 ⏰ Each of the 3 lessons will take approximately 20-25 minutes
 
-🔗 Here the link to the main template we will be learning from : [https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW](https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW) 
+🔗 Link to template: [https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW](https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW) 
 
 ## Vocabulary
 
-1. Conditional Statement
-    1. If-then, If-then-else, Else-if 
-2. Mouse
-    1. Right and Left Click  
-3. Keys and Keyboard
+-  Conditional Statement
+    - If-then
+    - If-then-else
+    - Else-if 
+- Mouse
+    - Right and Left Click  
+- Keys and Keyboard
 
 ## Lesson Plan 1: Mouse interactions
 
@@ -60,7 +62,7 @@ function draw(){
 }
 ```
 
-So, now the circle is following our every cursor’s move. But why is it that for some folks it might be tracking the mouse vs. some it’s actually drawing? Try it out!
+So, the circle is following our every cursor’s move. But, in some sketches, a circle might be tracking the mouse whereas for others the circle is actually drawing? Try it out!
 
 **Circle FOLLOWS mouse:**
 
@@ -88,11 +90,11 @@ function draw() {
 }
 ```
 
-Let’s return to our original question: Why is in one the circle is following the mouse vs. some it’s actually drawing?
+Let’s return to our original question: Why is it that in one sketch the circle is following the mouse vs. in the other it’s actually drawing?
 
 - 🙋*Answer*
     
-    Remember, the code runs in order! Check out where background() is. If it’s in setup(), then background only draws once! But if it’s inside draw() then your background keeps drawing on top of your circle, which gives the illusion that it’s only tracking instead of drawing.
+    Remember, the code runs in order! Look where background() is. If it’s in setup(), then background only draws once! But if it’s inside draw() then your background keeps drawing on top of your circle, which gives the illusion that it’s only tracking instead of drawing.
     
 
 ### Booleans: Mouse Is Pressed?
@@ -107,21 +109,17 @@ So, have you noticed how in the earlier example, the circles just automatically 
 
 ```jsx
 function draw(){
-
-		if (mouseIsPressed) {
-
-				circle(mouseX, mouseY, mW);
-
-		}
-
+   if (mouseIsPressed) {
+      circle(mouseX, mouseY, mW);
+   }
 }
 ```
 
-It’s saying, if “mouseIsPressed == true” or in other words,” is the mouse pressed? Yes!” – then complete the actions or code inside the { brackets }. 
+It’s saying, if “mouseIsPressed == true” or in other words, "Is the mouse pressed? Yes!,” then complete the actions or code inside the { brackets }. 
 
-Now, we can move our mouse freely without the circle drawing. And only when the mouse is pressed, will it create a circle wherever the mouse x and y positions are, at the size of “mW” and filled with the color we set as “r,g,b”. We will discuss this more in Lesson 3: Conditionals.
+Now, we can move our mouse freely without the circle drawing. And only when the mouse is pressed, will it create a circle wherever the mouse x and y positions are. Not only that, but the circle will be at the size of “mW” and filled with the color we set as “r,g,b”. We will discuss this more later in this unit during Lesson 3: Conditionals.
 
-In mouseIsPressed (examples above), this is a type of variable called a boolean which can only store one of two values. But there are some other exciting things we can use, like functions! Let’s check them out in the next section.
+In mouseIsPressed (example above), this is a type of variable called a boolean which can only store one of two values. But there are some other exciting things we can use, like functions! Let’s check them out in the next section.
 
 ### Mouse-related Functions
 
@@ -130,19 +128,17 @@ Functions are events or actions that p5.js is aware of, much like draw() or setu
 - mousePressed() { // code runs automatically when the user presses a mouse button  }
 - mouseDragged() { //  code runs automatically when the mouse moves while a button is pressed (click and drag mouse) }
 - mouseReleased() { // code runs automatically when the user releases a mouse button after having pressed it (so it won’t run on press, only after you release after pressing) }
-- mouseClicked() {  // gosh, this is tricky but its a “click” the action of a mouse being pressed and released :) haha }
+- mouseClicked() {  // gosh, this is tricky but it is a “click” - the action of a mouse being pressed and released }
 
-What?! This is the super exciting thing about code and math; there are so many ways to solve the same “problem.”
+This is the super exciting thing about code and math; there are so many ways to solve the same “problem.”
 
-Instead of using a boolean inside of draw, we can use the mousePressed() function. p5.js now knows that whatever code you put inside the { brackets } of mousePressed() it will run it, when the mouse gets Pressed.
+Instead of using a boolean inside of draw, we can use the mousePressed() function. p5.js knows that whatever code you put inside the { brackets } of mousePressed() it will run it, when the mouse gets pressed.
 
 **🎨  In our Drawing Tool:** 
 
 ```jsx
 function setup() {
-
-createCanvas(400, 400);
-
+    createCanvas(400, 400);
 }
 
 function draw() {
@@ -150,9 +146,7 @@ function draw() {
 }
 
 function mousePressed() {
-
-		ellipse(mouseX,mouseY, 50);
-
+    ellipse(mouseX,mouseY, 50);
 }
 ```
 
@@ -223,7 +217,7 @@ How can you make a circle appear in the center of the page when mouse is pressed
     }
     ```
     
-    But, there are many ways we could achieve this as well, here’s another example using: functions mousePressed() and mouseReleased()
+    But, there are many ways we could achieve this as well. Here’s another example using: functions mousePressed() and mouseReleased()
     
     ```jsx
     function setup() {
@@ -247,7 +241,7 @@ How can you make a circle appear in the center of the page when mouse is pressed
 
 **Extra push (Hard)**
 
-Can you make a “button”? This Button will change the color of a circle depending on the different mouse events we can use. Consider what does the “button” (ie. a circle or square) look like on press, vs. on release vs. dragged. 
+Can you make a “button”? Make a button that will change the color of a circle depending on the different mouse events we can use. Consider what does the “button” (ie. a circle or square) look like on press vs. on release vs. dragged. 
 
 - 🙋*Answer*
     
@@ -311,16 +305,16 @@ Can you make a “button”? This Button will change the color of a circle depen
 ### Prompts
 
 1. What is the difference between a Function (ie. mousePressed) and a Boolean (ie. mouseIsPressed)? And what does the interaction or output look like: how are they similar? how are they different? 
-2. What are the ways we’ve used mouseX and mouseY in this session? How else might we use mouseX and mouseY? (Consider other games: Pong, Lilo & Stitch Sandwich Stacker games) 
+2. What are the ways we’ve used mouseX and mouseY in this session? How else might we use mouseX and mouseY? (Consider games like Pong or Breakout) 
 3. What might you use a mouse interaction for? Can you list a few ideas? 
 
----
+
 
 ## Lesson Plan 2: Conditional Statements
 
 ### What is a Conditional Statement?
 
-Conditional statements, or sometimes called conditional expressions, is a fundamental concept in programming that can be akin to a sort of flow chart. From CodeAcademy, conditionals “enable programs to make decisions and perform different actions depending on whether a condition is true or false and help with flow control.”
+Conditional statements, or sometimes called conditional expressions, is a fundamental concept in programming that can be akin to a flow chart. From CodeAcademy, conditionals “enable programs to make decisions and perform different actions depending on whether a condition is true or false and help with flow control.”
 
 There are various kinds of conditional statements:
 
@@ -329,8 +323,9 @@ There are various kinds of conditional statements:
 - If-then-else
 
 And we can use our operators (&&, ==, ||, < or >) in addition to it all! 
+✨ Understanding conditional statements will provide a foundational logic that we can continually use and come back to in mouse- and key-based interactions.
 
-**✨ Understanding conditional statements will provide a foundational logic that we can continually use and come back to in mouse- and key-based interactions.** 
+
 
 ### If-then Statements
 
@@ -338,7 +333,7 @@ An if-then statement is essentially asking **if** (something is true), and **the
 
 ```jsx
 if (test) {
-		run statement;
+    run statement;
 }
 ```
 
@@ -347,25 +342,23 @@ We might write this in pseudo-code as:
 
 ```jsx
 if (You like pizza) {
-			We order pizza;
+    We order pizza;
 }
 ```
 
 If the “test” (as indicated by the parenthesis) is true, then execute the { statements within the brackets }.
 
-**🎨 In our Drawing Tool:** We need to start with adding circles to the canvas wherever the mouse is pressed. We can do that by using a special p5 boolean variable called “mouseIsPressed.” We will talk more about mouse interactions in Lesson 2: Mouse interactions. This variable tests if the mouse is pressed — and IF it is true (that the mouse is pressed), THEN { draw a circle a the x and y position of where my mouse’s x and y position is }. 
+**🎨 In our Drawing Tool:** We need to start with adding circles to the canvas wherever the mouse is pressed. We can do that by using a special p5.js boolean variable called “mouseIsPressed.” This variable tests if the mouse is pressed — and IF it is true (that the mouse is pressed), THEN { draw a circle a the x and y position of where my mouse’s x and y position is }. 
 
 ```jsx
 function draw(){
- 
-	  if (mouseIsPressed) {  // If the mouseIsPressed is (==) true
-	    circle(mouseX, mouseY, mW);  // Then draw a circle where mouseX and mouseY is, and the diameter of the circle is mW 
-	  }
-
+    if (mouseIsPressed) {  // If the mouseIsPressed is (==) true
+	    circle(mouseX, mouseY, mW);  // Then draw a circle where mouseX and mouseY is, and the diameter of the circle is mW                     
+    }
 }
 ```
 
-In our previous examples, we ONLY order the pizza if it is true that we like pizza or “a” appears ONLY when the letter key “a” is pressed. But what happens if we don’t like pizza (*gasp*) or if we pressed any other key? 
+In our previous example, we ONLY order the pizza if it is true that we like pizza. But what happens if we don’t like pizza (*gasp*) or if we pressed any other key? 
 
 *The answer is: nothing.* 
 
@@ -377,9 +370,9 @@ An if-then statement executes what is true, but adding an “else” then offers
 
 ```jsx
 if (test) {
-		statement 1;
+    statement 1;
 } else {
-		statement 2;
+    statement 2;
 }
 ```
 
@@ -387,15 +380,15 @@ Let’s revisit our pizza example. Now, if you like pizza, we will order pizza. 
 
 ```jsx
 if (You like pizza) {
-		We order pizza;
+    We order pizza;
 } else {
-		We order spaghetti;
+    We order spaghetti;
 }
 ```
 
 The “else” offers us the ability to execute another function if we respond with “anything ELSE” than what the initial test was asking for. So, it may be the case that I don’t like spaghetti either. But as long as you DON’T like pizza, and irregardless if you like spaghetti, you’ll end up with spaghetti anyway. All the “else” looks for is if your input was “anything ELSE” than what needs to be true. 
 
-**🎨  In our Drawing Tool:** We might want to add different interactions based on the keys pressed on the keyboard. We’ll talk more about it in Lesson 3: Key interactions. If you check out our code example, we’re drawing circles. But  Here’s a way we can change the color of the circles based on if we press the letter key “r” vs. another key. 
+**🎨  In our Drawing Tool:** We might want to add different interactions based on the keys pressed on the keyboard. We’ll talk more about it in Lesson 2: Key interactions. If you check out our code example, we’re drawing circles. But here’s a way we can change the color of circles based on if we press the letter key “r” vs. another key. 
 
 ```jsx
 function keyPressed() { // We're going to add our if-then-else statement inside the keyPressed function. So whenever a key is pressed:
@@ -411,23 +404,23 @@ function keyPressed() { // We're going to add our if-then-else statement inside 
 
 ### Else-if Statements
 
-Not to be confused with an “else” but this is adding BOTH and words  “else” AND “if” together: an “else-if”
+Not to be confused with an “else” but this is adding both “else” and “if” together: an **“else-if”**
 
 In our earlier example, all that our statements looked for was whether or not we liked pizza. And it offered us one of two options: we’d either end up with pizza or spaghetti. Adding the Else-if statements gives us the option for more specificity in the form of adding more tests. 
 
 ```jsx
 if (test 1) {
-		statement 1;
+    statement 1;
 } else if (test 2) {
-		statement 2;
+    statement 2;
 }
 ```
 
 ```jsx
 if (You like pizza) {
-		We order pizza;
+    We order pizza;
 } else if (You like spaghetti) {
-		We order spaghetti;
+    We order spaghetti;
 }
 ```
 
@@ -435,15 +428,15 @@ And we can add an else to the mix:
 
 ```jsx
 if (You like pizza) {
-		We order pizza;
+    We order pizza;
 } else if (You like spaghetti) {
-		We order spaghetti;
+    We order spaghetti;
 } else {
-		We'll look at delivery services;
+    We'll look at delivery services;
 }
 ```
 
-**🎨  In our Drawing Tool:** We’ve made color changes for one key, but now we can assign different colors to different keys! Woo hoo~ Read the comments below to see how we’ve added to our initial If-Then-Else statement by adding Else-if. 
+**🎨  In our Drawing Tool:** We’ve made color changes for one key, but now we can assign different colors to different keys! Read the comments below to see how we’ve added to our initial If-Then-Else statement by adding Else-if. 
 
 ```jsx
 function keyPressed() { // When the key is pressed
@@ -464,7 +457,7 @@ function keyPressed() { // When the key is pressed
 
 - We can have as many if-then statements as we want, but they’d be separate
 - We can attach on as many “else-if” to our “if-then” statements as we need
-- We can only have one “else” at the end, because it’s saying if it’s “anything ELSE” other than what was tested for, run this statement. “else” acts as a catch-all, so we couldn’t have more than one “else” in one if-then group at a time.
+- We can only have one “else” at the end, because it’s saying if it’s “anything ELSE” other than what was tested for, run this statement. “else” acts as a catch-all, so we couldn’t have more than one “else” in one if-then group at a time
 
 ### Practice
 
@@ -592,16 +585,17 @@ How can we change the shapes into an image?
 
 ### Prompts
 
-1. When do we use “if-then” statements in our daily lives? Have you negotiated anything, or concocted a plan with someone where you’ll follow through with a plan IF someone occurs, and a back-up plan (”if-then-else”) had it not. Can you map it out in a flow chart? 
+1. When do we use “if-then” statements in our daily lives? Can you map it out in a flow chart? 
 2. In our examples, we used “if-then” statements for selecting colors: what else could we use the “if-then” statement for in a drawing program?
 
----
+
+
 
 ## Lesson Plan 3: Key interactions
 
 Now, we’ve learned the basics of conditional statements and tried mouse interactions. We can look at the similarities and transfer the knowledge from mouse interactions to key interactions. And furthermore, combining our knowledge of conditionals, we can use specific keys to unlock new potential interactions! 
 
-First, to note, when we say keys — we’re referring to the keys on your computer or laptop’s keyboard. Not house keys, or piano keys. But, that’s not to say we couldn’t make our own custom alternative keyboards in the future 😉 Every key on our computer keyboard is a programmed object — when we press the letter “a” key, it sends information to our computer to write down the letter “a” on our screen. But, we could re-program it to mean anything! And we’ll get into that shortly. 
+First, to note, when we say *keys* — we’re referring to the keys on your computer or laptop’s keyboard. Not house keys, or piano keys. But, that’s not to say we couldn’t make our own custom alternative keyboards in future units! Every key on our computer keyboard is a programmed object — when we press the letter “a” key, it sends information to our computer to write down the letter “a” on our screen. But, we could re-program it to mean anything! And we’ll get into that shortly. 
 
 Similarly to the mouse interactions, p5.js offers various key interactions with functions, booleans and special variables!
 
@@ -631,7 +625,7 @@ Here are some fun ones to know:
 
 **🎨  In our Drawing Tool:** Let’s re-review our earlier example in the Lesson 2: Conditionals. 
 
-```wasm
+```jsx
 function keyPressed() { // When the key is pressed
 
   if (key == "r") {  // And if the key is "r" , fill the circle with red 
@@ -825,7 +819,7 @@ How can I save the canvas as an image with a specific key press? (look into the 
 
 ### Prompts
 
-1. We references Key Codes. Can you spell your name with Key Codes, using an existing Key Code table? 
+1. We reference Key Codes. Can you spell your name with Key Codes, using an existing Key Code table? 
     1. Why might we use Key Codes as opposed to keys in some instances? 
 2. What is the difference between a Function (ie. keyPressed) and the Variable (ie. key)? 
 3. What might you use a key interaction for? Can you list a few ideas?  

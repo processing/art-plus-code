@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 # Introduction & Inspiration
 
-*How can art transform viewers into active participants? How can interactivity catalyze unique, immersive, and responsive experiences? How might a viewer, user, participant deepen their understanding of an art piece’s meaning and expression by interacting with it?*
+> *How can art transform viewers into active participants? How can interactivity catalyze unique, immersive, and responsive experiences? How might a viewer, user, participant deepen their understanding of an art piece’s meaning and expression by interacting with it?*
 
 Throughout history, interactive media has evolved in tandem with technological advancements, pushing boundaries of traditional art and inviting viewers to actively engage in the artistic process. From Marcel Duchamp's "Rotary Glass Plates" to Myron Krueger's pioneering computer-controlled interactive art in 1969, artists have continually sought new ways to incorporate interactivity into their work. 
 
@@ -27,10 +27,10 @@ Interactive art is distinct from generative art in that it fosters a dialogue be
 
 ## Objectives
 
-- Understanding the basics of building a computational logic, specifically Conditional statements to execute interactivity.
-- Becoming comfortable with coding mouse- and key- functions, booleans, special variables and operators.
-- Creating an illustrative tool and program that others and themselves can use to create unique drawings.
-- Learning about programmatic drawings, code-based illustrations, and the relevant artists in this space.
+- Understanding the basics of building a computational logic, specifically Conditional statements to execute interactivity
+- Becoming comfortable with coding mouse- and key- functions, booleans, special variables and operators
+- Creating an illustrative tool and program that others and themselves can use to create unique drawings
+- Learning about programmatic drawings, code-based illustrations, and the relevant artists in this space
 
 
 ## References & Artworks for Discussion
@@ -58,7 +58,34 @@ Everest Pipkin, [Barnacle Goose Experiment](https://everest-pipkin.com/#games/ba
 3. Everest Pipkin, James Friend and Ivan Sutherland utilize toolmaking as part of their practice: some as open-source tools, some as participatory practice, some as tools for the individual artists. In what ways does digital toolmaking in relation to interactive art democratize the creation and consumption of art? In what ways might it be limited?
 4. How might these works and artists reflect the evolution or changes in technology and art of its time?
 
----
 
-# Unplugged Activities
 
+## Unplugged Activities
+### Programmatic Drawing
+
+Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore collaborative methods of building networks.
+
+### NETWORK
+
+### (PHASE 1)
+
+A. Draw a dot on the paper
+
+B. Draw another dot in the most empty space on the page
+
+C. Take turns; repeat B until satisfied with the density
+
+### (PHASE 2)
+
+A. Draw a circle around the first dot
+
+B. Draw a circle around the closest dot and make sure the circle overlaps the last drawn circle
+
+C. Take turns; repeat B until each dot has a circle
+
+### (PHASE 3)
+
+A. Take turns drawing a strong, straight line to connect the center points of each overlapping circle
+
+
+Bring all the drawings together and as a class, examine the various interpretations of these instructions. Discuss the similarities and differences. 

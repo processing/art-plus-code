@@ -18,7 +18,7 @@ gallery: # Below is for including an image gallery
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
 
-- Review the template code:
+Review the template code:
     
     ```jsx
     let libraryScene;

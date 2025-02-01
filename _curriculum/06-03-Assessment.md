@@ -18,7 +18,7 @@ gallery: # Below is for including an image gallery
 
 **🔗 Template link here: [https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW](https://editor.p5js.org/chellyjin/sketches/ppfJ4V0YW)** 
 
-- Review the template code:
+Review the template code:
     
     ```jsx
     let brushSize = 10;
@@ -71,7 +71,7 @@ gallery: # Below is for including an image gallery
     ```
     
 
-**In this assignment, you will create an interactive art piece that engages the participant** 
+**In this assignment, you will create an interactive art piece that engages the participant.** 
 
 Feel free to incorporate images, shapes, colors, or text to your tool. 
 
