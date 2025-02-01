@@ -20,55 +20,55 @@ gallery: # Below is for including an image gallery
 
 Review the template code:
     
-    ```jsx
-    let brushSize = 10;
-    
-    function setup() {
-      createCanvas(600, 600);
-      background(0);
-      fill(255);
-      text("Welcome to my drawing tool!", 10, 25);
-      text("Press r,g,b, or x to change color.", 10, 50);
-      text("Press n or m to change brush size.", 10, 75);
-      text("Press 0 to refresh the page.", 10, 100);
-      text("Press s to save.", 10, 125);
+```jsx
+let brushSize = 10;
+
+function setup() {
+  createCanvas(600, 600);
+  background(0);
+  fill(255);
+  text("Welcome to my drawing tool!", 10, 25);
+  text("Press r,g,b, or x to change color.", 10, 50);
+  text("Press n or m to change brush size.", 10, 75);
+  text("Press 0 to refresh the page.", 10, 100);
+  text("Press s to save.", 10, 125);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    circle(mouseX, mouseY, brushSize);
+  }
+
+  if (keyIsPressed) {
+    if (key == "n") {
+      brushSize = brushSize + 1;
+      console.log("bigger");
+    } else if (key == "m") {
+      brushSize = brushSize - 1;
+      console.log("smaller");
     }
+  }
+}
+
+function keyPressed() {
+  if (key == "r") {
+    fill(255, 0, 0);
+  } else if (key == "g") {
+    fill(0, 255, 0);
+  } else if (key == "b") {
+    fill(0, 0, 255);
+  } else if (key == "x") {
+    fill(random(255), random(255), random(255));
+  } else if (key == 0) {
+    background(0);
+  } else if (key == "s"){
+    saveCanvas();
+  } else {
+    fill(255);
+  }
+}
     
-    function draw() {
-      if (mouseIsPressed) {
-        circle(mouseX, mouseY, brushSize);
-      }
-    
-      if (keyIsPressed) {
-        if (key == "n") {
-          brushSize = brushSize + 1;
-          console.log("bigger");
-        } else if (key == "m") {
-          brushSize = brushSize - 1;
-          console.log("smaller");
-        }
-      }
-    }
-    
-    function keyPressed() {
-      if (key == "r") {
-        fill(255, 0, 0);
-      } else if (key == "g") {
-        fill(0, 255, 0);
-      } else if (key == "b") {
-        fill(0, 0, 255);
-      } else if (key == "x") {
-        fill(random(255), random(255), random(255));
-      } else if (key == 0) {
-        background(0);
-      } else if (key == "s"){
-        saveCanvas();
-      } else {
-        fill(255);
-      }
-    }
-    
-    ```
+```
     
 
 **In this assignment, you will create an interactive art piece that engages the participant.** 

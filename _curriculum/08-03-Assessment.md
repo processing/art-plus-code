@@ -21,84 +21,84 @@ gallery: # Below is for including an image gallery
 
 Review the template code:
     
-    ```jsx
+```jsx
     
-    let size = 10;
+let size = 10;
 
-    function setup() {
-      createCanvas(1080,1920);
-      frameRate(1);
-      noLoop();
-      // noStroke();
-    }
+function setup() {
+  createCanvas(1080,1920);
+  frameRate(1);
+  noLoop();
+  // noStroke();
+}
 
-    function draw() {
-      // background(255);
-      rectMode(CENTER);
+function draw() {
+  // background(255);
+  rectMode(CENTER);
 
-      // random color picker 
-      let startColorR = random(50,200);
-      let startColorB= random(50,200);
-      let startColorG = random(50,200);
+  // random color picker 
+  let startColorR = random(50,200);
+  let startColorB= random(50,200);
+  let startColorG = random(50,200);
 
-      // MOUSE REACTIVE!!! 
-      // let startColorR = mouseX;
-      // let startColorB= mouseY;
-      // let startColorG = random(50,200);
+  // MOUSE REACTIVE!!! 
+  // let startColorR = mouseX;
+  // let startColorB= mouseY;
+  // let startColorG = random(50,200);
 
-      for(x=size/2; x<width; x += size){
-        for(y=size/2; y<height; y += size){
+  for(x=size/2; x<width; x += size){
+    for(y=size/2; y<height; y += size){
 
-          // COLOR 
-          //for each element: add on top a different random value, so it gives a color near the starting color 
-          fill(startColorR+random(100), startColorB+random(100), startColorG+random(100));
-          stroke(startColorR+random(100), startColorB+random(100), startColorG+random(100));
+      // COLOR 
+      //for each element: add on top a different random value, so it gives a color near the starting color 
+      fill(startColorR+random(100), startColorB+random(100), startColorG+random(100));
+      stroke(startColorR+random(100), startColorB+random(100), startColorG+random(100));
 
 
-          // DIFFERENT ELEMENTS <if-then statement>
+      // DIFFERENT ELEMENTS <if-then statement>
 
-          let selection = int(random(0,6));
+      let selection = int(random(0,6));
 
-          if (selection == 0 || selection == 1){
-          // CIRCLE
-          // draw our circles at each point, using a different size between 0 - circSize variable 
-            noStroke();
-          ellipse(x, y, int(random(5,size))); 
-          }
+      if (selection == 0 || selection == 1){
+      // CIRCLE
+      // draw our circles at each point, using a different size between 0 - circSize variable 
+        noStroke();
+      ellipse(x, y, int(random(5,size))); 
+      }
 
-          if (selection == 2){
-          // RECTANGLES / SQUARE
-            noStroke();
-          rect(x, y, int(random(3,size)));
-          }
+      if (selection == 2){
+      // RECTANGLES / SQUARE
+        noStroke();
+      rect(x, y, int(random(3,size)));
+      }
 
-          if(selection ==3){
-            // blank space :) 
-          }
+      if(selection ==3){
+        // blank space :) 
+      }
 
-          if (selection == 4){
-            // LINE
-            line(x - size/4,y - size/4,x + size/4, y + size/4);
-          }
+      if (selection == 4){
+        // LINE
+        line(x - size/4,y - size/4,x + size/4, y + size/4);
+      }
 
-          if (selection == 5){
-            line(x - size/4 ,y+size/4, x+size/3,y -size/4);
-          }
-          if (selection == 4){
-            line(x - size/4,y - size/4,x + size/4, y + size/4);
-            line(x - size/4 ,y+size/4, x+size/3,y -size/4);
-          }
-        }
+      if (selection == 5){
+        line(x - size/4 ,y+size/4, x+size/3,y -size/4);
+      }
+      if (selection == 4){
+        line(x - size/4,y - size/4,x + size/4, y + size/4);
+        line(x - size/4 ,y+size/4, x+size/3,y -size/4);
       }
     }
+  }
+}
 
-    function keyPressed(){
-      if (key == "s"){
-        saveCanvas();
-      }
-    }
+function keyPressed(){
+  if (key == "s"){
+    saveCanvas();
+  }
+}
     
-    ```
+```
 
 **In this assignment, you will create a generative weaving pattern.**
 

@@ -14,14 +14,14 @@ unit1_row: # One row that has two columns (1 column for each unit)
     url: /capturingMovement-intro/ # Include the permalink specified on the unit's page
 
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
-    title: "Instructional Art"
+    title: "Collaging with Instructions"
     excerpt: |
-        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait and explore the p5.js editor and its many features.* 
+        *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait while exploring the p5.js editor and its many features.* 
         - p5.js Editor
         - drawing methods
         - text methods
         - loading and displaying images
-    url: /instructionalArt-Intro/
+    url: /collaginginstructions-intro/
 
 unit2_row:
   - image_path: /assets/images/curriculum/Unit-3_Sample-4.png
@@ -36,13 +36,13 @@ unit2_row:
     url: /artTime-introduction/
 
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
-    title: "Data Art"
+    title: "Responsive Visual Data"
     excerpt: |
         *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs*
         - variables
         - map(), constrain() functions
         - p5.js Sound Library
-    url: /dataArt-Intro/
+    url: /responsivevisualdata-intro/
 
 unit3_row:
   - image_path: /assets/images/curriculum/Unit-5_Sample-0.png
@@ -55,13 +55,13 @@ unit3_row:
     url: /movementCollaborationHarmony-intro/
 
   - image_path: /assets/images/curriculum/Unit-6_Sample-0.png
-    title: "Interactive Art"
+    title: "Creating with Interactivity"
     excerpt: |
         *Consider interactivity while creating a drawing tool that responds to user inputs.*
         - conditional statements and computational logic
         - mouse and key functions
         - booleans and operators
-    url: /interactiveArt-Intro/
+    url: /creatinginteractivity-intro/
 
 unit4_row:
   - image_path: /assets/images/curriculum/Unit-7_Sample-5.png
@@ -74,7 +74,7 @@ unit4_row:
     url: /patterns-intro/
 
   - image_path: /assets/images/curriculum/Unit-8_Sample-0.png
-    title: "Generative Art"
+    title: "Generative Patterns & Weaving"
     excerpt: |
         *Create a “weaving” program that generates new, unique patterns based on programmatic randomness.*
         - random() methods and randomness
@@ -82,7 +82,7 @@ unit4_row:
         - for loops
         - nested for loops
         - while, do loops
-    url: /generativeArt-Intro/
+    url: /generativeweaving-intro/
 
 ---
 
