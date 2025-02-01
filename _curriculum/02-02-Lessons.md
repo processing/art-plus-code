@@ -24,6 +24,8 @@ gallery: # Below is for including an image gallery
 
 - Computer with p5.js on web browser (Google Chrome)
 
+---
+
 
 # The Lessons
 
@@ -109,7 +111,7 @@ This translates to **top** of the code as the back layer of the canvas, and **bo
 
 The idea is that we’re telling the computer a series of instructions. And the order does matter – the bread needs to go down first, before the peanut butter. Just like how we need to add fill(); before the objects to indicate which color marker we’re picking up next. And the specificity of these directions also matter:
 
-**🧠 Teacher Trick:** Print out code on sheets of paper (pull from the example or templates of any and all projects/exercises). Have the students highlight, with different markers or highlighters, the bracket pairings in such a way that each bracket pairing is a different color marker. Help students identify where their code needs to go and look for brackets. As conditionals come into play or code gets longer, this activity will help student succeed in future debugging.
+> **🧠 Teacher Trick:** Print out code on sheets of paper (pull from the example or templates of any and all projects/exercises). Have the students highlight, with different markers or highlighters, the bracket pairings in such a way that each bracket pairing is a different color marker. Help students identify where their code needs to go and look for brackets. As conditionals come into play or code gets longer, this activity will help student succeed in future debugging.
 
 
 
@@ -158,11 +160,11 @@ Notice, each one has their own syntax on how to use it
 
 Look into the Reference page to help you define how these functions work and how they need to be written!
 
-**🧠 Teacher Trick:** Think of Functions and their Properties as how they might apply to the real world. Instead of Ellipse(x,y,d) → Bread(where does it go, how many slices)
+> **🧠 Teacher Trick:** Think of Functions and their Properties as how they might apply to the real world. Instead of Ellipse(x,y,d) → Bread(where does it go, how many slices)
 
-- We could say: **Bread(plate, 1, rye, 70%)** — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
-- We could say: **Flower(grass, pink, 5, short)** — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
-- So when we say things like **Circle(x, y, d)**; at the top of our code – we’re telling the computer, “hey put a Circle on the canvas first. But, what is that circle like? It’s placed at “x and y”, and it “d” pixels in size.
+> - We could say: **Bread(plate, 1, rye, 70%)** — The function of bread and the properties of where we place the bread in space and how many slices, etc. Or we could additionally have optional properties like: grain type (rye, wheat, buckwheat) or hydration (70% vs 90%)
+> - We could say: **Flower(grass, pink, 5, short)** — The function of Flower and the properties of where is the flower (in grass), what color is the flower (pink), how many petals does it have (5), what is the height (short).
+> - So when we say things like **Circle(x, y, d)**; at the top of our code – we’re telling the computer, “hey put a Circle on the canvas first. But, what is that circle like? It’s placed at “x and y”, and it “d” pixels in size.
 
 **🎨 In our About-Me Collage example:** We started the draw() section with shapes. We have a series of circles and rectangles. 
 
@@ -254,15 +256,14 @@ We use other functions to play with the outline of shapes:
 - strokeWeight(n); == changes stroke weight / thickness
 - stroke(r,g,b,a); == like fill() except, it colors the outline of the shape
 
-🧠 **Teacher Trick:**
+> 🧠 **Teacher Trick:**
 Think of fill() or stroke() as **the marker**! In code, ORDER MATTERS. Sometimes it helps to envision the instruction as:
-
-- fill(255,0,0); == PICK UP the RED marker
-- circle(100,100,100); == Use the red marker to draw the circle 
-- fill(0,255,0); == PICK UP the GREEN marker 
-- circle(200,200,200); == Use the green marker to draw the circle
-- fill(0,0,255); == PICK UP the BLUE marker 
-- circle(300,300,300); == Use the blue marker to draw the circle
+> - fill(255,0,0); == PICK UP the RED marker
+> - circle(100,100,100); == Use the red marker to draw the circle 
+> - fill(0,255,0); == PICK UP the GREEN marker 
+> - circle(200,200,200); == Use the green marker to draw the circle
+> - fill(0,0,255); == PICK UP the BLUE marker 
+> - circle(300,300,300); == Use the blue marker to draw the circle
 
 
 ### Text
