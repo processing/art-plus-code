@@ -21,9 +21,9 @@ gallery: # Below is for including an image gallery
 
 We could understand computation as a system of mathematical calculations – but more simply as a set of instructions (detailed information on how things should operate.) Early understandings of modern day programming can be traced to 1801, starting with Joseph M. Jacquard’s loom, Charles Babbage’s Analytical and Difference Engine and Ada Lovelace’s notes as the first programmer. But, the invention of transistors in 1953 allowed for a new wave of mass-production in computers. This technological shift could be felt in the art world. Technology's rapid expansion sparked a new age of contemporary art reflective of the systems, logic, and critique surrounding early digital, electronic computers. In 1963, Merce Cunningham and John Cage created *Rondo*, a dance performance using “chance operations,” a coin toss to determine the dance piece’s order, sequence, and form. In 1964, Yoko Ono wrote a series of poems in a book titled, Grapefruit, as a set of instructions ranging from beautiful to impossible. In 1960-64, Stanley Brouwn illustrated a drawing series of directions from random participants on the street instructing ways he should walk. Instructions found their way into the ever-evolving space of art, performance, poetry and dance; and became foundations to a new world of contemporary art. 
 
-In this topic, we’ll use p5.js to create an “About Me” Collage, using shapes, colors, text and images to share more about each other; and as a way to explore the p5.js editor with its many features.
+In this unit, we’ll use p5.js to create an “About Me” Collage, using shapes, colors, text and images to explore the editor's many features.
 
-***Related spheres: Performance art, Dadaism, Cubism, Conceptual Art, Anti-art movements, Poetry*** 
+***Related spheres: Performance art, Conceptual Art, Anti-art movements*** 
 
 
 ## Objectives
@@ -61,10 +61,9 @@ Others:
 
 1. Many of these artworks are series of instructions; can you draw parallels between these instructions and basic syntax or structures of code?
 2. In what ways do these artists challenge traditional notions of computation and coding? Conversely, how might they challenge traditional notions of art?
-3. Merce Cunningham and John Cage use Chance Operations, a fundamental concept in their work and likened to Binary code, Randomness and Algorithms — why do you think it was so successful, unique or intriguing of artwork for its time? What do you think it reflects on its then time and society? What do you think it speaks to in its legacy even now?
+3. Merce Cunningham and John Cage use Chance Operations, a fundamental concept in their work and likened to Binary code, Randomness and Algorithms — why do you think it was so successful, unique or intriguing of artwork for its time? What do you think it speaks to in its legacy even now?
 4. Sol LeWitt’s work is both the instruction and the visual output; what does it mean to you to write instructions that you may not execute, but for a computer / another human / another entity to do on your behalf?
 
----
 
 ## Unplugged Activities
 ### Chance Operations
@@ -87,14 +86,14 @@ Part 1:
     | (Shape) | Circle | Triangle |
     | (Line style) | Straight | Squiggly  |
     | (Drawing tool) | Color pencil | Marker |
-3. After the list is done, using **Chance Operations,** students will flip a coin to determine aspects of their drawing within each category. For the example of colors, if the coin is Heads — the student will use Green color as their main color. Have students circle which one “won” to make it easy. Here’s my own result:
+3. After the list is done, using **Chance Operations,** students will flip a coin to determine aspects of their drawing within each category. For the example of colors, if the coin is Heads — the student will use Green as their main color. Have students circle which one “won” to make it easy. Here’s my own result:
     
     
     |  | Heads | Tails |
-    | (Color) | Green | Blue |
-    | (Shape) | Circle | Triangle |
-    | (Line style) | Straight | Squiggly  |
-    | (Drawing tool) | Color pencil | Marker |
+    | (Color) | **Green** | Blue |
+    | (Shape) | Circle | **Triangle** |
+    | (Line style) | Straight | **Squiggly**  |
+    | (Drawing tool) | **Color pencil** | Marker |
 
 Part 2: 
 

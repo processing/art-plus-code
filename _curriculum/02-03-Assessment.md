@@ -98,7 +98,7 @@ Feel free to:
 
 For K-8: Create a Collage focused only on form and composition of shapes and choice of color palette.  
 
-- Refer to color wheels for color palette inspiration, and focus on getting students to translate a color from the wheel into an R,G,B code value using the help of RGB Color pickers (accessible on Google using Chrome).
+- Refer to color wheels for color palette inspiration, and focus on getting students to translate a color from the wheel into an R,G,B code value using the help of RGB Color pickers (accessible on Google Chrome).
 - Refer to shape charts to help students understand the relationship of Cartesian coordinate systems to code syntax.
 
 For 9-12: Create an About Me Collage that includes all lessons above. In the provided example, I selected the theme of favorite books. It can be useful to have a “scavenger hunt”-type list to prompt students:
@@ -111,10 +111,10 @@ As an educator and facilitator, we’re looking for a thorough understanding of:
 
 - **Familiarity of syntax**. An ability to locate bracket pairings and identify the differences between various syntax items
     - Can the student highlight the correct bracket pairings in code? And where to put their code between which brackets?
-    - Can the student identify when to use a semicolon? what a function (ie. setup() and draw()) looks like? where the statements or instructions go within functions?
-    - Can the student identify how the Cartesian coordinate system relates to the syntax (what we mean by X and Y position)? Or relationships to mathematics (arithmetic and geometry) - ie. diameter for circle, width and height for rectangles, etc.
+    - Can the student identify when to use a semicolon? Can they identify what a function (ie. setup() and draw()) looks like? Or where the statements or instructions go within functions?
+    - Can the student identify how the Cartesian coordinate system relates to the syntax (what we mean by X and Y position)? Or relationships to mathematics (arithmetic and geometry) - ie. diameter for circle, width and height for rectangles.
 - Develop a productive workflow
-    - Can the student identify where to properly search for help? If it’s a function or code vocab word they don’t know, do they check References? If it’s inspiration, do they check Examples?
+    - Can the student identify where to properly search for help? If it’s a function or code vocabulary word they don’t know, do they check References? If it’s inspiration, do they check Examples?
     - Can the student refer to the Console Log and utilize it for debugging issues?
     - Can the student set up a desktop environment that helps them best navigate the Web Editor and Reference page? Or, even the desk itself: starting with drawing out their code ideas with pen and paper first?
 - Instructional arts
