@@ -2,7 +2,7 @@
 # This is the frontmatter
 
 title: "Collaging with Instructions" # Title and Heading 1
-permalink: /collagingwithinstructions-intro/ # Give your page a permalink
+permalink: /collaginginstructions-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
