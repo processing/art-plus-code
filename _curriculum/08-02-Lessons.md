@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Generative Patterns + Weaving" # Title and Heading 1
-permalink: /generativepatternsweaving-lessons/ # Give your page a permalink
+permalink: /generativeweaving-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery

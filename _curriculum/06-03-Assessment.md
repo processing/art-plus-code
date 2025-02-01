@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Creating with Interactivity" # Title and Heading 1
-permalink: /creatingwithinteractivity-assessment/ # Give your page a permalink
+permalink: /creatinginteractivity-assessment/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery

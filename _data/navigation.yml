@@ -6,23 +6,70 @@ main:
   - title: "Contact"
     url: /contact/
 
-# Curriculum navigation sidebar
-curriculum:
-  - title: "Introduction"
-    #children:
-     # - title: "How to Use This Curriculum"
-      #  url: /introduction/
-  #- title: Capturing Movement with Digital Lines
-   # children:
-    #  - title: "Introduction & Inspiration"
-     #   url: /capturingMovement-intro/
-      #- title: "Lessons & Technical Steps"
-       # url: /capturingMovement-lessons/
-      #- title: "Assessment Activities"
-       # url: /capturingMovement-assessment/
- # - title: "Stream 1"
-  #  children:
-   #   - title: "Unit 1"
-    #    url: /unit-1/
-     # - title: "Unit 2"
-      #  url: /unit-2/
+  - title: "Units"
+    url: /introduction/
+  - title: "Capturing Movement with Digital Lines"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /capturingMovement-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /capturingMovement-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /capturingMovement-assessment/
+  - title: "Instructional Art"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /collaginginstructions-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /collaginginstructions-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /collaginginstructions-assessment/
+  - title: "Art & Time"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /artTime-introduction/
+      - title: "Lesson Plans & Technical Steps"
+        url: /artTime-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /artTime-assessment/
+  - title: "Data Art"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /responsivevisualdata-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /responsivevisualdata-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /responsivevisualdata-assessment/
+  - title: "Movement, Collaboration & Harmony"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /movementCollaborationHarmony-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /movementCollaborationHarmony-steps/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /movementCollaborationHarmony-assessment/
+  - title: "Interactive Art"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /creatinginteractivity-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /creatinginteractivity-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /creatinginteractivity-assessment/
+  - title: "Observing Patterns"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /patterns-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /patterns-steps/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /patterns-assessment/
+  - title: "Generative Art"
+    children:
+      - title: "Introduction & Inspiration"
+        url: /generativeweaving-intro/
+      - title: "Lesson Plans & Technical Steps"
+        url: /generativeweaving-lessons/
+      - title: "Assessment Activities & Checking for Understanding"
+        url: /generativeweaving-assessment/
+
