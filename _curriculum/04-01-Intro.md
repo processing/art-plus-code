@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 
 # Introduction & Inspiration
 
-*How can art transform our relationship to data and information? How can we leverage computation’s ability to cull, sort, and interact with data to produce meaningful or exciting artwork? How might data and its uses engage the audience more deeply?* 
+> *How can art transform our relationship to data and information? How can we leverage computation’s ability to cull, sort, and interact with data to produce meaningful or exciting artwork? How might data and its uses engage the audience more deeply?* 
 
 A fundamental concept in code is the input and the output — taking data in, and creating, refining, remapping something from it. Data, in this sense, is broader than the simple spreadsheet of numbers; but rather, the concept of how information is circulated throughout a system for optimization or curation. Data has become ubiquitous and far-reaching; from the ways that bits and bytes are physically stored to its persistence in organizing information. However, we can use this concept of data structure to look at how modern and contemporary artists are using all kinds of data and information to create meaningful artwork to reflect, resist and understand the current condition.
 
@@ -58,10 +58,10 @@ Romi Morrison, [The Future Conditional](https://elegantcollisions.com/the-future
 
 
 
-# Unplugged Activities
-## Programmatic Drawing
+## Unplugged Activities
+### Programmatic Drawing
 
-Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore grid structures, chance operations, binary trees, collaborative drawing, and other topics.
+Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore chance operations and binary trees.
 
 ### MESH
 
@@ -75,24 +75,4 @@ Let’s create a series of drawings on paper to explore some of the fundamentals
 2. Draw two lines growing from the open endpoint of the line
 3. For each new line drawn in 2, repeat 2
 
-### NETWORK
-
-### (PHASE 1)
-
-A. Draw a dot on the paper
-
-B. Draw another dot in the most empty space on the page
-
-C. Take turns; repeat B until satisfied with the density
-
-### (PHASE 2)
-
-A. Draw a circle around the first dot
-
-B. Draw a circle around the closest dot and make sure the circle overlaps the last drawn circle
-
-C. Take turns; repeat B until each dot has a circle
-
-### (PHASE 3)
-
-A. Take turns drawing a strong, straight line to connect the center points of each overlapping circle
+Bring all the drawings together and as a class, examine the various interpretations of these instructions. Discuss the similarities and differences. 
