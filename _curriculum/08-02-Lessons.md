@@ -51,7 +51,7 @@ gallery: # Below is for including an image gallery
 Remember this:
 
 - **setup()**
-- { code that runs once }
+    -  { code that runs once }
 - **draw()**
     - { code that runs forever until you stop it.
     - But there is an order! The code here runs from top to bottom, then repeats until you quit the program. Each time the code is run through draw() is a frame.
@@ -68,17 +68,11 @@ Well, let’s add some new friends:
     - If this is in your code, it will not continue looping / running continuously like it normally does!
 - **random()**
     - Pulls a “random” digit within a range of specified numbers
-        - random(25,50); will pick a random number ever frame between 25 and 50
+        - random(25,50); will pick a random number every frame between 25 and 50
     - But if you only put in one number, it defaults between that number and 0
-        - random(50); will pick a random number ever frame between 0 and 50
+        - random(50); will pick a random number every frame between 0 and 50
 
-### Prompts
 
-1. What is the difference between a Function (ie. mousePressed) and a Boolean (ie. mouseIsPressed)? And what does the interaction or output look like: how are they similar? how are they different? 
-2. What are the ways we’ve used mouseX and mouseY in this session? How else might we use mouseX and mouseY? (Consider other games: Pong, Lilo & Stitch Sandwich Stacker games) 
-3. What might you use a mouse interaction for? Can you list a few ideas? 
-
----
 
 ## Lesson Plan 2: For-Loops
 
@@ -88,8 +82,8 @@ For loops will generally appear in this format:
 
 ```jsx
 for (i = 0; i < #; i++) {
-
-	Code you want to repeat here
+     
+     Code you want to repeat here
 
 }
 ```
@@ -107,7 +101,6 @@ Here’s another fun example:
 for (let step = 0; step < 5; step++) {
 
 	// Runs 5 times, with values of step 0 through 4.
-
 	console.log("Walking east one step");
 
 }
@@ -152,8 +145,8 @@ function draw() {
 
 This is saying:
 
-- Starting at **0** (”i=0”
-- And keep looping until we reach **width** (aka, the end of the width of canvas)
+- Starting at **0** (”i=0”)
+- And keep looping until we reach **width** (the end of the width of canvas)
 - Repeat the { instructions between the brackets } **once every 100 steps**
 - And what are we doing every step? We’re drawing an ellipse! And the **ellipse is drawn** at the **x-coordinate** of whatever the **variable of “i”** is. The y-coordinate will always be at **100px,** which is what makes it drawn in a line. And the size will always be **100px** in diameter.
 
@@ -236,7 +229,7 @@ Below, we’re saying: every time this instruction is run — draw an ellipse in
 
 **For Different Colors:** 
 
-Using our previous lessons in **random(),** we’re saying - hey, every time we run this instruction in the loop, find a **random number between 0 - 255** and **store it inside the variable: randColor**. 
+Using our previous lessons in **random(),** we’re saying: every time we run this instruction in the loop, find a **random number between 0 - 255** and **store it inside the variable: randColor**. 
 
 ```jsx
   // let's now make each one different (in color)
@@ -278,25 +271,22 @@ function draw() {
 
 This is saying, starting at “size/2” (our variable [20] divided by 2), we’ll keep repeating this code one at a time until we get to “width” (the full width of the canvas), in the increments of “size” (our variable [20] we’re using to maintain a consistency in spacing and sizes). 
 
----
+
+
 
 ## Lesson Plan 3: Adding your own flavor with If-Then Statements
 
-Let’s start making your own weaving patterns. (Check out Assignments below for more inspiration on how to play around with presenting your weavings) 
-
-An easy way to start integrating more uniqueness to your weaving, is by adding an If-Then Statement. This is a concept we’ve covered in Unit 3 Interactivity. If you’re unfamiliar with an If-Then statement, please take a moment to review that lesson. 
-
-Using an if-statement and random(), we can make simple statements that add some unique variability into our generative weaving. 
+Let’s start making your own weaving patterns. An easy way to start integrating more uniqueness to your weaving, is by adding an If-Then Statement. Using an if-statement and random(), we can make simple statements that add some unique variability into our generative weaving. 
 
 ### First, let’s create a “spinner”
 
-In order to make an if-then statement, it has to be conditional on something to happen! So think of us creating the variable “selection” as like a spinner — every time we run draw(), it’s flicking a spinner to select a number. 
+In order to make an if-then statement, it has to be conditional on something to happen! So think of us creating the variable “selection” as a spinner — every time we run draw(), it’s similar to flicking a spinner to select a number. 
 
 In draw(), we can create a variable called “selection” which will store a newly selected random number between 0-6. 
 
 ```jsx
 function draw(){
-	  let selection = int(random(0,6));
+    let selection = int(random(0,6));
 }
 
 ```
@@ -387,18 +377,18 @@ function draw() {
 
 Depending on what number is selected at random, it will go through the spaces of the grid and fill it with the related element. In our code, it follows:
 
-- **if** selection is (==) 0 or (||) 1, **then** draw a circle with a random size between 5-20
-- **if** selection is (==) 2, **then** draw a rectangle with a random size between 3-20
-- **if** selection is (==) 3, **then** draw nothing
-- **if** selection is (==) 4, **then** draw a line in one direction
-- **if** selection is (==) 5, **then** draw a line in another direction
-- **if** selection is (==) 6, **then** draw TWO lines in an X shape
+- if selection is (==) 0 or ( || ) 1, then draw a circle with a random size between 5-20
+- if selection is (==) 2, then draw a rectangle with a random size between 3-20
+- if selection is (==) 3, then draw nothing
+- if selection is (==) 4, then draw a line in one direction
+- if selection is (==) 5, then draw a line in another direction
+- if selection is (==) 6, then draw TWO lines in an X shape
 
 ### Computational choice
 
-Using if-then statements, adding randomness, and toying with computational choice making, we can have the computer generate unique and new patterns are rapid speeds! 
+Using if-then statements, adding randomness, and toying with computational choice-making, we can have the computer generate unique and new patterns at rapid speeds! 
 
-Also in our template, I generate ONE random color at the top of the page, and then in the grid of our for-loop, select additional numbers we can add to so it generates a unique color palette within a specific range: 
+Also in our template, I generate ONE random color at the top of the page, and then in the for-loop grid, select additional numbers we can add so it generates a unique color palette within a specific range: 
 
 ```jsx
 let size = 20;
