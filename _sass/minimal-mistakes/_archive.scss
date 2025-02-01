@@ -245,6 +245,20 @@
   }
 }
 
+// Remove bottom border for curriculum feature row
+.curriculum-row {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+// Wider column widths for curriculum feature rows
+.curriculum-row .feature__item {
+  @include breakpoint($small) {
+    width: span(6 of 12);
+  }
+}
+
 .feature__item {
   position: relative;
   margin-bottom: 2em;

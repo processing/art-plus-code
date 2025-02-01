@@ -6,6 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/adrienne-gifford/resource-thumbnail.png
+excerpt: "Exploring personal connections to place, storytelling, and community empowerment through participatory mapping."
 ---
 
 ## Introduction

@@ -1,11 +1,15 @@
+## Main header navigation bar
 main:
   - title: "Curriculum"
-    url: /introduction/
+    url: /curriculum/
   - title: "Resources"
     url: /resources/
   - title: "Contact"
     url: /contact/
 
+
+# Curriculum navigation sidebar
+curriculum:
   - title: "Units"
     url: /introduction/
   - title: "Capturing Movement with Digital Lines"
@@ -16,7 +20,7 @@ main:
         url: /capturingMovement-lessons/
       - title: "Assessment Activities & Checking for Understanding"
         url: /capturingMovement-assessment/
-  - title: "Instructional Art"
+  - title: "Collaging with Instructions"
     children:
       - title: "Introduction & Inspiration"
         url: /collaginginstructions-intro/
@@ -32,7 +36,7 @@ main:
         url: /artTime-lessons/
       - title: "Assessment Activities & Checking for Understanding"
         url: /artTime-assessment/
-  - title: "Data Art"
+  - title: "Responsive Visual Data"
     children:
       - title: "Introduction & Inspiration"
         url: /responsivevisualdata-intro/
@@ -48,7 +52,7 @@ main:
         url: /movementCollaborationHarmony-steps/
       - title: "Assessment Activities & Checking for Understanding"
         url: /movementCollaborationHarmony-assessment/
-  - title: "Interactive Art"
+  - title: "Creating with Interactivity"
     children:
       - title: "Introduction & Inspiration"
         url: /creatinginteractivity-intro/
@@ -64,7 +68,7 @@ main:
         url: /patterns-steps/
       - title: "Assessment Activities & Checking for Understanding"
         url: /patterns-assessment/
-  - title: "Generative Art"
+  - title: "Generative Patterns & Weaving"
     children:
       - title: "Introduction & Inspiration"
         url: /generativeweaving-intro/
@@ -72,4 +76,3 @@ main:
         url: /generativeweaving-lessons/
       - title: "Assessment Activities & Checking for Understanding"
         url: /generativeweaving-assessment/
-
