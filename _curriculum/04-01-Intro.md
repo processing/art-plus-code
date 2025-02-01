@@ -28,9 +28,9 @@ In this topic, we’ll use p5.js to create a sound-reactive art project, using v
 ## Objectives
 
 - Understanding the basics of variables (storing, containing or passing data), inputs, and outputs
-- Becoming comfortable with creating variables, integrating arithmetic, as well as using new functions (ie. map() or constrain() ).
-- Creating a sound-reactive illustration or face mask that interacts to a mic input’s volume.
-- Learning about how artists use data in their practice, how variables works a metaphor for data art, and various data artists.
+- Becoming comfortable with creating variables, integrating arithmetic, as well as using new functions (ie. map() or constrain() )
+- Creating a sound-reactive illustration or face mask that interacts to a mic input’s volume
+- Learning about how artists use data in their practice, how variables works a metaphor for data art, and various data artists
 
 
 ## References & Artworks for Discussion
@@ -57,7 +57,6 @@ Romi Morrison, [The Future Conditional](https://elegantcollisions.com/the-future
 4. Mimi Onuoha curates a series of datasets that are missing as a new form of a dataset. How can datasets offer narrative, shape representation, or reveal biases? 
 
 
----
 
 # Unplugged Activities
 ## Programmatic Drawing

@@ -18,7 +18,7 @@ gallery: # Below is for including an image gallery
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
 
-- Review the template code:
+Review the template code:
     
     ```jsx
     // This template was modified from a template created by Lauren Lee McCarthy: https://lauren-mccarthy.com/
@@ -72,9 +72,9 @@ gallery: # Below is for including an image gallery
     ```
     
 
-**In this assignment, you will create an sound-reactive art piece.**
+**In this assignment, you will create a sound-reactive art piece.**
 
-This can be a sound-reactive mask someone might wear (ie. put the sketch on your phone, and hold the phone in front of your face) or a character who moves to a spoken word piece, or utilizing the volume variable to modulate unique visuals. 
+This can be a sound-reactive mask someone might wear or a character who moves to a spoken word piece, or utilizing the volume variable to modulate unique visuals. You can load the sketch on your phone, and hold the phone in front of your face like an actual mask. 
 
 Consider how:
 
@@ -94,7 +94,7 @@ As an educator and facilitator, we’re looking for a thorough understanding of:
 
 - Logics of Input and Output
     - Can the student explain how to set up a variable; and what is being “stored” inside the variable?
-    - Can the student properly interpret the differences between an variables they make and special variables from p5.js?
+    - Can the student properly interpret the differences between a variable they make and special variables from p5.js?
 - Console Log and Debugging
     - Can the student be self-motivated to try and debug their code using variables inside the console.log() function?
 - Data in the arts

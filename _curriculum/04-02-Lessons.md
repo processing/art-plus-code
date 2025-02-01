@@ -27,18 +27,21 @@ gallery: # Below is for including an image gallery
 - Computer with p5.js on web browser (Google Chrome)
 - Microphone (Built in or External)
 
+
 ---
 
 # The Lessons
 
 ⏰ Each of the 2 lessons will take approximately 20-25 minutes
 
-🔗 Template link here: ****[https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
+🔗 Template link here: [https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
 
 ## Vocabulary
 
 1. Variables
 2. Special Variables
+
+
 
 ## Lesson Plan 1: Introducing Variables
 
@@ -50,33 +53,30 @@ gallery: # Below is for including an image gallery
 
 ### **How to make a Variable**
 
-Steps 1. Declare 
+**Step 1: Declare**
 
-- You can name them anything you’d like
+- You can name variables anything you’d like
 - “Let” declares and initializes the variables
 
-<aside>
-🧠
 
-Teacher Trick:
+> **🧠Teacher Trick:**
+> Think of yourself as creating a new world, declaring aloud **let** there be light! 
+> By declaring with “let”, we’re proclaiming something (a variable) into existence in our world of code. 
 
-I like to think of it like “god” saying “**let** there be light!,” 
 
-By declaring with “let”, we’re proclaiming something (a variable) into existence in our world of code. 
+**Step 2: Assign a value**
 
-</aside>
+- “=” assigns a value. When we say let **y = 60** we’re saying now there is a **y** and it holds the value **60**.
 
-Step 2. Assign a value 
+**Step 3: Use it!**
 
-- “=” assigns a value. When we say let y = 60 we’re saying now there is a y and it holds the value 60.
+- And then we can use **y** anywhere in lieu of **60**!
 
-Step 3. Use it! 
 
-- And then we can use it anywhere in lieu of 60!
 
 ### **Special Variables**
 
-These are existing variables, initialized and defined by the programmers who made p5.js following some kind of convention. They make our lives a little easier and can do cool things, for example:
+These are existing variables, initialized and defined by the programmers who made p5.js following a convention. They make our lives a little easier and can do cool things, for example:
 
 - mouseX, mouseY;
 - use mouse to control position of ellipse
@@ -126,10 +126,6 @@ function draw() { 
 
 ```
 
-### This Unit is called “Data Art” for a reason..
-
-Even if we’re not yet utilizing large data models (like in machine learning) , spreadsheets of data (ie. sheetsDB), or open-source databases to make art — we’re still using data!~
-
 **console.log()**
 
 There is a cool function called console.log() in p5.js which is great to use for debugging your code. Console.log() can be used in a variety of ways, from adding it to places to check if the code you’ve written is working as you intended, or in this case, to see what is stored inside a variable!
@@ -168,9 +164,11 @@ Below your code, is a grey box called the “Console” — after pressing Play,
     It’s the coordinates of your Mouse position! It’s telling us where our cursor is in the canvas’ space. 
     
 
-Now, we can clearly and plainly see that mouseX and mouseY are storing and rewriting new values of data based on where you mouse position is. Data isn’t just a spreadsheet, but “the quantities, characters, or symbols on which operations are performed by a computer, being stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media” (Oxford Language Dictionary).
+Now, we can clearly and plainly see that mouseX and mouseY are storing and rewriting new values of data based on where you mouse position is. Data isn’t just a spreadsheet, but “the quantities, characters, or symbols on which operations are performed by a computer, being stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media,” (definition from Oxford Language Dictionary).
 
-We can understand Data more expansively, and see how using variables is storing information (data) and then enabling us to utilize it in artistic, creative ways. 
+We can understand data more expansively, and see how using variables is storing information and then enabling us to utilize it in artistic, creative ways. 
+
+
 
 ## Lesson Plan 2: What you can do with Variables
 
@@ -226,12 +224,12 @@ function draw() {
 
 In the example above, I’ve made:
 
-- let y = 60;  a variable called “y” to represent the y coordinate value I want all my circles to be in (so they’re on a straight line!) at 60px from the top
-- let d = 80; is a variable representing my diameter — how big I want the circles to be. Because I want all my circles the same size.
+- **let y = 60;**  a variable called “y” to represent the y-coordinate value I want all my circles to be in (so they’re on a straight line!) at 60px from the top
+- **let d = 80;** is a variable representing my diameter — how big I want the circles to be. Because I want all my circles the same size.
 
-Now, remember, we can name these WHATEVER we’d like: apple, oranges, we can even call is X but use it for the values of Y! 
+Now, remember, we can name these whatever we’d like: call it apple, oranges, we can even call it X but use it for the values of Y! 
 
-BUT, it’s really in the best interest for your future self, as well as good coding hygiene for future sharing with other coders, to name your variables, functions or arrays as self-descriptive names. You can certainly name however you’d like but making it easier for yourself to debug later is always a good practice.
+BUT, it’s really in the best interest for your future self, as well as good coding hygiene for future sharing with other coders, to name your variables as self-descriptive names. You can certainly name them however you’d like but making it easier for yourself to debug later is always a good practice.
 
 Also, using variables makes it super easy to make changes for later. 
 
@@ -375,10 +373,13 @@ function draw() {
 ```
 
 ### Updating a value
+We can also update the value of a variable throughout our code. It can mean one value in a specific context, and then change its value in another.
 
-- replacing the value
-    - updating itself with new information - ie. x = x+1;
-    - if using “let” changing what the variable is used for: holding numbers or text or array of values
-- one way we can check what is stored inside the variable is to use : “console.log” — how to see the output of variables: vol
-    - using it to see all the “data” and numbers taken from the microphone
+- Replacing the value of a variable
+    - Variables can update themselves with new information - ie. x = x+1; This means that x will keep updating to add 1 to itself.
+    - If using “let,” we can change the variable type. The same variable used for storing numbers can also update to be text or array of values.
+    
+
+**🎨 In our Sound-Reactive Mask example:** 
+- One way we can check what is stored inside the variable is to use : **console.log**. Try using consloe.log for the variable "vol" to see the values that come from the microphone input! 
 
