@@ -1,69 +1,29 @@
 ---
 # This is the frontmatter
-title: "Instructional Art: Lessons" # Title and Heading 1
-permalink: /instructionalArt-Lessons/ # Give your page a permalink
+title: "Collaging with Instructions" # Title and Heading 1
+permalink: /collagingwithinstructions-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit2.png
-    image_path: Assets/thumbnails/unit2.png
+  - url: /assets/images/thumbnails/unit2.png
+    image_path: /assets/images/thumbnails/unit2.png
     alt: "Screenshot of a collage on books using the p5.js web editor"
     title: "About Me Collage"
+    
 ---
+# Lesson Plans & Technical Steps
 
 ## Let’s make — an About Me Collage!
 
 **🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq](https://editor.p5js.org/chellyjin/sketches/8-TuqGyaq)
 
-![Screenshot of completed collage in p5.js editor]({{ "/assets/images/curriculum/Screenshot_2024-07-29_at_5.08.31_PM.png" | relative_url }})
+![Screenshot of p5.js collage sketch using images of a library, books and circles!]({{ "/assets/images/unit2.png" | relative_url }})  
+
 
 ## What we need to begin
 
 - Computer with p5.js on web browser (Google Chrome)
 
-## Objectives
-
-- Understanding the basics of the p5.js web editor
-- Becoming comfortable with writing in Javascript syntax: finding, debugging and writing brackets, brackets vs. parenthesis, semi-colons for statements, and functions
-- Creating a digital collage using p5.js code
-- Learning about instructional art, engaging with conceptual artists that use instruction-making as art practice
-- Linking history in instructional art as related and connected to history of computation. Understanding the resonance between computation, code, and art.
-
----
-
-## Unplugged Activities
-### Chance Operations
-**Materials you need:**
-
-- Quarter or any coin, for each student
-- 2 sheets of Paper
-- Pencil, Pen, Markers
-
-**Instructions** 
-
-Part 1: 
-
-1. Create a print out or have students fold a piece of paper in half (portrait / vertical). Have students write at the top of the paper “Heads” and “Tails” on the two halves. 
-2. Then, they create a list of pairs. A pair of shapes, art forms, colors etc. in a duetted list. Feel free to call out the categories, or if older students, allow them to create their own. Like below:
-    
-    
-    |  | Heads | Tails |
-    | (Color) | Green | Blue |
-    | (Shape) | Circle | Triangle |
-    | (Line style) | Straight | Squiggly  |
-    | (Drawing tool) | Color pencil | Marker |
-3. After the list is done, using **Chance Operations,** students will flip a coin to determine aspects of their drawing within each category. For the example of colors, if the coin is Heads — the student will use Green color as their main color. Have students circle which one “won” to make it easy. Here’s my own result:
-    
-    
-    |  | Heads | Tails |
-    | (Color) | Green | Blue |
-    | (Shape) | Circle | Triangle |
-    | (Line style) | Straight | Squiggly  |
-    | (Drawing tool) | Color pencil | Marker |
-
-Part 2: 
-
-1. Students will now create a simple sketch with these results on the back of the paper or on a new sheet of paper. In the previous example, I will make a drawing using Green Color Pencils of Squiggly Triangles.
 
 ---
 
@@ -114,7 +74,8 @@ Part 2:
 
 **Let’s take a look at the editor:** 
 
-![Screenshot 2024-07-28 at 3.58.45 PM.png](Assets/Screenshot_2024-07-28_at_3.58.45_PM.png)
+![Screenshot of p5.js editor!]({{ "/assets/images/canvas.png" | relative_url }})  
+
 
 **What do you notice?**
 
@@ -413,8 +374,8 @@ How might you create a classic yellow smiley face with the shapes and colors you
     }
     ```
     
+![Smiley face!]({{ "/assets/images/smiley.jpg" | relative_url }})  
 
-![smiley.jpg](Assets/smiley.jpg)
 
 ### Prompts
 
@@ -484,4 +445,3 @@ If you want to try using videos: [https://p5js.org/reference/#/p5/createVideo](h
 
 - Example: [https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB](https://editor.p5js.org/Jaesar/sketches/TGyEC6OYB)
 
-## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/instructionalArt-Assessments/)

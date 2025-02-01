@@ -1,16 +1,17 @@
 ---
 # This is the frontmatter
-title: "Data Art: Lessons" # Title and Heading 1
-permalink: /dataArt-Lessons/ # Give your page a permalink
+title: "Responsive Visual Data" # Title and Heading 1
+permalink: /responsivevisualdata-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit4.png
-    image_path: Assets/thumbnails/unit4.png
+  - url: /assets/images/thumbnails/unit4.png
+    image_path: /assets/images/thumbnails/unit4.png
     alt: "Screenshot of a digital mask using the p5.js web editor"
     title: "Sound Reactive Mask"
 
 ---
+# Lesson Plans & Technical Steps
 
 ## Let’s make — Sound-reactive Mask!
 
@@ -18,59 +19,13 @@ gallery: # Below is for including an image gallery
 
 **🖼️ Example Link here:** [https://editor.p5js.org/chellyjin/sketches/NDZxQRSia](https://editor.p5js.org/chellyjin/sketches/NDZxQRSia) 
 
-![Screenshot 2024-07-29 at 11.25.16 PM.png](Assets/3798256c-a8c7-4514-9ec1-b73d67367c64.png)
+![Screenshot of p5.js sketch of a pink and blue mask!]({{ "/assets/images/unit4.png" | relative_url }})  
+
 
 ## What we need to begin
 
 - Computer with p5.js on web browser (Google Chrome)
 - Microphone (Built in or External)
-
-## Objectives
-
-- Understanding the basics of variables (storing, containing or passing data), inputs, and outputs
-- Becoming comfortable with creating variables, integrating arithmetic, as well as using new functions (ie. map() or constrain() ).
-- Creating a sound-reactive illustration or face mask that interacts to a mic input’s volume.
-- Learning about how artists use data in their practice, how variables works a metaphor for data art, and various data artists.
-
----
-
-# Unplugged Activities
-## Programmatic Drawing
-
-Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore grid structures, chance operations, binary trees, collaborative drawing, and other topics.
-
-MESH
-
-1. Draw a triangle
-2. Use one edge of the triangle and two new lines to draw a new triangle, but don’t intersect with another triangle
-3. Repeat 2, until the drawing is finished
-
-BINARY
-
-1. Draw a line from the edge of the drawing area toward the center
-2. Draw two lines growing from the open endpoint of the line
-3. For each new line drawn in 2, repeat 2
-
-NETWORK
-(PHASE 1)
-
-A. Draw a dot on the paper
-
-B. Draw another dot in the most empty space on the page
-
-C. Take turns; repeat B until satisfied with the density
-
-(PHASE 2)
-
-A. Draw a circle around the first dot
-
-B. Draw a circle around the closest dot and make sure the circle overlaps the last drawn circle
-
-C. Take turns; repeat B until each dot has a circle
-
-(PHASE 3)
-
-A. Take turns drawing a strong, straight line to connect the center points of each overlapping circle
 
 ---
 
@@ -427,4 +382,3 @@ function draw() {
 - one way we can check what is stored inside the variable is to use : “console.log” — how to see the output of variables: vol
     - using it to see all the “data” and numbers taken from the microphone
 
-## Ready to move on? [Use the Assessments](https://processing.github.io/art-plus-code/dataArt-Assessments/)

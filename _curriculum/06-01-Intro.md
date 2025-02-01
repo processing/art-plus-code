@@ -1,20 +1,20 @@
 ---
 # This is the frontmatter
-title: "Interactive Art: Introduction" # Title and Heading 1
-permalink: /interactiveArt-Intro/ # Give your page a permalink
+title: "Creating with Interactivity" # Title and Heading 1
+permalink: /creatingwithinteractivity-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit6.png
-    image_path: Assets/thumbnails/unit6.png
+  - url: /assets/images/thumbnails/unit6.png
+    image_path: /assets/images/thumbnails/unit6.png
     alt: "Screenshot of an interactive drawing tool using the p5.js web editor"
     title: "Drawing Tool"
 
 ---
 
-# Unit 6: Interactive Art
+![Create a drawing tool with p5.js!]({{ "/assets/images/unit6.png" | relative_url }})  
 
-## Introduction
+# Introduction & Inspiration
 
 *How can art transform viewers into active participants? How can interactivity catalyze unique, immersive, and responsive experiences? How might a viewer, user, participant deepen their understanding of an art piece’s meaning and expression by interacting with it?*
 
@@ -23,6 +23,15 @@ Throughout history, interactive media has evolved in tandem with technological a
 Interactive art is distinct from generative art in that it fosters a dialogue between the artwork and the participant, granting the viewer agency to influence the piece. From the earliest text-based video games to tools like Kid Pix and MS Paint to modern applications like Photoshop and Illustrator, the evolution of interactive media has profoundly impacted how art is created and experienced. As we delve into this lesson, we'll explore these developments and consider the future of interactivity in the arts.
 
 ***Related spheres: Game Design, Interactive Installation, Toolmaking*** 
+
+
+## Objectives
+
+- Understanding the basics of building a computational logic, specifically Conditional statements to execute interactivity.
+- Becoming comfortable with coding mouse- and key- functions, booleans, special variables and operators.
+- Creating an illustrative tool and program that others and themselves can use to create unique drawings.
+- Learning about programmatic drawings, code-based illustrations, and the relevant artists in this space.
+
 
 ## References & Artworks for Discussion
 
@@ -49,4 +58,7 @@ Everest Pipkin, [Barnacle Goose Experiment](https://everest-pipkin.com/#games/ba
 3. Everest Pipkin, James Friend and Ivan Sutherland utilize toolmaking as part of their practice: some as open-source tools, some as participatory practice, some as tools for the individual artists. In what ways does digital toolmaking in relation to interactive art democratize the creation and consumption of art? In what ways might it be limited?
 4. How might these works and artists reflect the evolution or changes in technology and art of its time?
 
-## Ready to move on? [Let's start the Lessons](https://processing.github.io/art-plus-code/interactiveArt-Lessons/)
+---
+
+# Unplugged Activities
+

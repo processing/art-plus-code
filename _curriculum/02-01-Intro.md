@@ -1,19 +1,21 @@
 ---
 # This is the frontmatter
 
-title: "Instructional Art" # Title and Heading 1
-permalink: /instructionalArt-Intro/ # Give your page a permalink
+title: "Collaging with Instructions" # Title and Heading 1
+permalink: /collagingwithinstructions-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: Assets/thumbnails/unit2.png
-    image_path: Assets/thumbnails/unit2.png
+  - url: /assets/images/thumbnails/unit2.png
+    image_path: /assets/images/thumbnails/unit2.png
     alt: "Screenshot of a collage on books using the p5.js web editor"
     title: "About Me Collage"
 
 ---
 
-# Introduction
+![Create a digital collage with p5.js!]({{ "/assets/images/unit2.png" | relative_url }})  
+
+# Introduction & Inspiration
 
 *How can instructions and systems transform into art? How can computation initiate new ideas of making or propel art forward?*
 
@@ -22,6 +24,16 @@ We could understand computation as a system of mathematical calculations – but
 In this topic, we’ll use p5.js to create an “About Me” Collage, using shapes, colors, text and images to share more about each other; and as a way to explore the p5.js editor with its many features.
 
 ***Related spheres: Performance art, Dadaism, Cubism, Conceptual Art, Anti-art movements, Poetry*** 
+
+
+## Objectives
+
+- Understanding the basics of the p5.js web editor
+- Becoming comfortable with writing in Javascript syntax: finding, debugging and writing brackets, brackets vs. parenthesis, semi-colons for statements, and functions
+- Creating a digital collage using p5.js code
+- Learning about instructional art, engaging with conceptual artists that use instruction-making as art practice
+- Linking history in instructional art as related and connected to history of computation. Understanding the resonance between computation, code, and art.
+
 
 ## References & Artworks for Discussion
 
@@ -52,4 +64,38 @@ Others:
 3. Merce Cunningham and John Cage use Chance Operations, a fundamental concept in their work and likened to Binary code, Randomness and Algorithms — why do you think it was so successful, unique or intriguing of artwork for its time? What do you think it reflects on its then time and society? What do you think it speaks to in its legacy even now?
 4. Sol LeWitt’s work is both the instruction and the visual output; what does it mean to you to write instructions that you may not execute, but for a computer / another human / another entity to do on your behalf?
 
-## Ready to move on? [Let's start the Lessons](https://processing.github.io/art-plus-code/instructionalArt-Lessons/)
+---
+
+## Unplugged Activities
+### Chance Operations
+**Materials you need:**
+
+- Quarter or any coin, for each student
+- 2 sheets of Paper
+- Pencil, Pen, Markers
+
+**Instructions** 
+
+Part 1: 
+
+1. Create a print out or have students fold a piece of paper in half (portrait / vertical). Have students write at the top of the paper “Heads” and “Tails” on the two halves. 
+2. Then, they create a list of pairs. A pair of shapes, art forms, colors etc. in a duetted list. Feel free to call out the categories, or if older students, allow them to create their own. Like below:
+    
+    
+    |  | Heads | Tails |
+    | (Color) | Green | Blue |
+    | (Shape) | Circle | Triangle |
+    | (Line style) | Straight | Squiggly  |
+    | (Drawing tool) | Color pencil | Marker |
+3. After the list is done, using **Chance Operations,** students will flip a coin to determine aspects of their drawing within each category. For the example of colors, if the coin is Heads — the student will use Green color as their main color. Have students circle which one “won” to make it easy. Here’s my own result:
+    
+    
+    |  | Heads | Tails |
+    | (Color) | Green | Blue |
+    | (Shape) | Circle | Triangle |
+    | (Line style) | Straight | Squiggly  |
+    | (Drawing tool) | Color pencil | Marker |
+
+Part 2: 
+
+1. Students will now create a simple sketch with these results on the back of the paper or on a new sheet of paper. In the previous example, I will make a drawing using Green Color Pencils of Squiggly Triangles.
