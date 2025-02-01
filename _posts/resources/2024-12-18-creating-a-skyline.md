@@ -6,8 +6,9 @@ published: true
 
 header:
   teaser: /assets/images/resources/laura-ramirez/resource-thumbnail.png
+excerpt: "A city skyline built with p5.js shapes and loops, brought to life with animations and sound-reactive elements. "
 ---
-
+![Sample skyline created with p5.js]({{ "assets/images/resources/laura-ramirez/Sample_LauraR_Skyline" | relative_url }})  
 ## Learning Audience
 
 4th-5th, ELLs

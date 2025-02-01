@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Please stay tuned for a collection of resources for K-12 Educators by 2024 Art+Code Participants!
+Curricular resources created by Art+Code participants. For more arts driven lesson plans and resources from the Processing Foundation, [click here](https://processing.github.io/art-plus-code/curriculum/).

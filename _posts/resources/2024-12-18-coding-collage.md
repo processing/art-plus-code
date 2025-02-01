@@ -6,11 +6,13 @@ published: true
 
 header:
   teaser: /assets/images/resources/jennie-canning/resource-thumbnail.png
+excerpt: "An interactive collage inspired by Romare Bearden to explore connections to community using images, shapes and audience interactions. "
 ---
 
 ## Introduction/Overview
+![Sample code and image of an interactive collage project in p5.js]({{ "assets/images/resources/jennie-canning/Sample_JennieC_Collage.png" | relative_url }})  
 
-Students will look at who they are in connection to their community. Taking inspiration for one of Pittsburgh’s most notable artist, Romare Bearden, they will explore ways to show their place in their community be it a neighborhood, a family, a street, or their school.  Students will take pictures, find images, and create shapes to create a digital collage in P5JS. After the collage has been created, we will explore ways to invite audience reaction through interactions that have been created in P5JS like the drawing tools, changing objects appearance based on the mouse positioning, and typing with the keyboard. Students will get a chance to reflect on how the audience has changed their piece through the interactions.
+Students will look at who they are in connection to their community. Taking inspiration for one of Pittsburgh’s most notable artist, Romare Bearden, they will explore ways to show their place in their community be it a neighborhood, a family, a street, or their school.  Students will take pictures, find images, and create shapes to create a digital collage in p5.js. After the collage has been created, we will explore ways to invite audience reaction through interactions that have been created in p5.js like the drawing tools, changing objects appearance based on the mouse positioning, and typing with the keyboard. Students will get a chance to reflect on how the audience has changed their piece through the interactions.
 
 - [Full lesson](https://docs.google.com/document/d/1dpokQdBL041a1g545nvVG9Kwu1tM5qwCXXTWxMhQ-HE/edit?usp=sharing)
 
@@ -21,9 +23,9 @@ Students will look at who they are in connection to their community. Taking insp
 
 This lesson plan is specifically for high school students in a STEAM class. They have not had previous JavaScript experience. Some might have had block based coding experience. 
 
-This lesson can be modified for visual art teachers by making the collage on paper, and just the interactions in P5JS or used as an introduction by just doing the collage. 
+This lesson can be modified for visual art teachers by making the collage on paper, and just the interactions in p5.js or used as an introduction by just doing the collage. 
 
-More advanced STEAM classes could incorporate draggin and placing interactions. 
+More advanced STEAM classes could incorporate dragging and placing interactions. 
 
 ## Established Goals
 
@@ -44,7 +46,7 @@ More advanced STEAM classes could incorporate draggin and placing interactions.
   * Audience interprets the meaning of a work of art based on their own personal experiences.   
   * Artist can use  p5.js to create a collage using images, shapes, and colors that allows for viewer participation  
 - **What new *skills* will students gain (or practice)?**
-  * Students will be introduced to P5.js, learn the following:  
+  * Students will be introduced to p5.js, learn the following:  
   * Loading images and placing them on the grid  
   * Drawing shapes on the grid; rect, and ellipse, triangle, line  
   * Changing colors  
@@ -61,7 +63,7 @@ More advanced STEAM classes could incorporate draggin and placing interactions.
   * Only shapes can be used instead of images to simplify the coding.  
   * Collages can first be created out of paper and then manipulated  digitally to create the different part of the collage that the user can manipulate. 
 
-## Technical Terms & P5JS Elements
+## Technical Terms & p5.js Elements
 
 - Code syntax
 - createCanvas(w, h);
@@ -89,8 +91,8 @@ More advanced STEAM classes could incorporate draggin and placing interactions.
 ## External References & Resources
 
 - [Romare Bearden's Artwork](https://beardenfoundation.org/art/)
-- [Topic 1: Instructional Art](https://docs.google.com/document/d/15e8wWkGawdsb5mJHbUPcfmIKxIK8-W4g2T2eMA7OLoc/edit?usp=sharing)
-- [Topic 3: Interactive Art](https://docs.google.com/document/d/1l-uPBb4R9LQCBPZxTUP8PBl1XDzFS0RJQvZrkY_BJxI/edit?usp=sharing)
+- [Art+Code: Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/)
+- [Art+Code: Interactive Art](https://processing.github.io/art-plus-code/interactiveArt-Intro/)
 
 ## Learning Plan
 
@@ -126,8 +128,8 @@ More advanced STEAM classes could incorporate draggin and placing interactions.
 
 **Individual/Pair Share:** Complete the Finding Personal Symbolism, Pair/Share with elbow partner to find out if the personal symbols can be understood by peers.
 
-**Individual:** Log into P5 JS - Create a canvas and load in pictures, draw basic shapes. 
-Start to Laying out the background/environment in P5JS
+**Individual:** Log into p5.js - Create a canvas and load in pictures, draw basic shapes. 
+Start to lay out the background/environment in p5.js
 
 **Functions:**
 - setup()
@@ -159,7 +161,7 @@ Engaged in the process. Walk through creating a portrait from observation.
 **Individual:** Studio work period
 
 **P5JS:** placing objects on the grid. Changing colors.
-Full technical lesson plan created by Jean Y. Kim for art + code: [Topic 1: Instructional Art](https://docs.google.com/document/d/15e8wWkGawdsb5mJHbUPcfmIKxIK8-W4g2T2eMA7OLoc/edit?usp=sharing).
+Full technical lesson plan created by Chelly Jin for Art+Code: [Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/).
 
 **Peer evaluation:** Use peer evaluation rubric and questions with at least one more work day to finish the image and mage changes.
 
@@ -175,17 +177,17 @@ Full technical lesson plan created by Jean Y. Kim for art + code: [Topic 1: Inst
 **Planning and prep:** students will look at the final portrait expectations and work on their proposal (see attached). Students will TPS their decisions and share out explaining their choices. 
 
 **Technology:**
-- P5JS Interactions
+- p5.js Interactions
 - mouseX
 - mouseY
 - Loop
 - Saving pictures
 
-Full technology resources view the lesson plan created by Jean Y. Kim for art + code here: [Topic 3: Interactive Art](https://docs.google.com/document/d/1l-uPBb4R9LQCBPZxTUP8PBl1XDzFS0RJQvZrkY_BJxI/edit?usp=sharing)
+Full technology resources view the lesson plan created by Chelly Jin for Art+Code here: [Interactive Art](https://processing.github.io/art-plus-code/interactiveArt-Intro/)
 
 **Symbolism:** All students should have at least 3 symbols, they can be written, imagery, color ect… students should be able to explain their symbolism choices
 
-**Mixed Media:** Students will use different media as an expression of symbolism and themselves.  They can draw shapes, load images, take photos, and lay them out in P5JS
+**Mixed Media:** Students will use different media as an expression of symbolism and themselves.  They can draw shapes, load images, take photos, and lay them out in p5.js
 
 ### Final Day: Showcase
 

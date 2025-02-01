@@ -6,6 +6,7 @@ published: true
 
 header:
   teaser: /assets/images/resources/jennie-maydew/resource-thumbnail.png
+excerpt: "An immersive carnival experience with options for beginner and advanced artist to contribute games, gifts and elements for visitors to experience."
 ---
 
 ## Unit Design Highlights:
@@ -89,7 +90,7 @@ Customize the theme of the game by replacing characters and background.
 
 ---
 
-**Ball Toss:** [Code by P5.js contributors and Jennie Maydew](https://editor.p5js.org/jemdew/sketches/Nk7t-um7-)
+**Ball Toss:** [Code by p5.js contributors and Jennie Maydew](https://editor.p5js.org/jemdew/sketches/Nk7t-um7-)
 {: .notice--info .text-center}
 
 ![]({{ "/assets/images/resources/jennie-maydew/balltoss.png" | relative_url}}){: width="50%" .align-center}

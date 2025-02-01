@@ -6,9 +6,11 @@ published: true
 
 header:
   teaser: /assets/images/resources/krissie-olson/resource-thumbnail.png
+excerpt: "Bringing a collage to life through animation."
 ---
 
 ## Introduction/Overview
+![Sample animated collage created with p5.js]({{ "assets/images/resources/krissie-olson/Sample_KrissieO.png" | relative_url }})  
 
 Once students have created their own collage in p5.js, they will learn to animate the images they have imported into their collage to create a dynamic and interactive art piece. 
 
@@ -17,7 +19,7 @@ Once students have created their own collage in p5.js, they will learn to animat
 
 ## Learning Audience
 
-This lesson is intended for those students who have created a collage in p5.js based on the instructions given at [Topic 1: Instructional Art](https://docs.google.com/document/d/15e8wWkGawdsb5mJHbUPcfmIKxIK8-W4g2T2eMA7OLoc/edit?usp=sharing). For additional frontloading context, invite students to create analog collages prior to this class. Digital versions using the collage method are also helpful. 
+This lesson is intended for those students who have created a collage in p5.js based on the instructions given at [Instructional Art](https://processing.github.io/art-plus-code/instructionalArt-Intro/). For additional frontloading context, invite students to create analog collages prior to this class. Digital versions using the collage method are also helpful. 
 
 ## Established Goals
 
@@ -25,7 +27,7 @@ Meets California Computer Science Standards: 3-5.AP.13, AP.14, AP.17,
 
 ## Objectives
 
-1. Students will understand that computer programming involves a series of small, explicit steps written in code using the p5.js web editor.  
+1. Students will understand that computer programming involves a series of small, explicit steps written in code using the p5.js editor.  
 2. Students will use their knowledge of graphic design to create a compelling background with the imagery they have collected for their digital collage.  
 3. Students will build upon a previously coded collage to animate images.  
 4. Students will become more comfortable with writing in Javascript syntax: finding, debugging and writing brackets, declaring variables, using brackets vs. parenthesis, ending statements with semicolons, and functions.
@@ -45,8 +47,8 @@ Meets California Computer Science Standards: 3-5.AP.13, AP.14, AP.17,
 
 ## External References & Resources:
 
-- Lotte Reiniger, [Mary’s Birthday](https://www.youtube.com/watch?v=XGu3gRF-Now
-- Nati Golan animated collage, [Moon City](https://www.youtube.com/watch?v=EmliszYz9Ro
+- Lotte Reiniger, [Mary’s Birthday](https://www.youtube.com/watch?v=XGu3gRF-Now)
+- Nati Golan animated collage, [Moon City](https://www.youtube.com/watch?v=EmliszYz9Ro)
 - Zavat animated collage, [El Sueno](https://www.youtube.com/watch?v=LFvERXbr-y0)
 
 ## Timeline
@@ -73,7 +75,7 @@ Whether the **function draw** contains 10 lines or 10,000 lines of code, each li
 
 We can think of the **function draw** command code like the pages in a flipbook, in that it creates a sequence of drawings that change slightly at a timed interval and if we use a math expression, then the values we assign to variables will change.
 
-Demo animated collage artist works (see above in the external resources panel) and link to [teacher collage example](https://editor.p5js.org/krissie.olson/sketches/0\_6CmRjmW).
+Demo animated collage artist works (see above in the external resources panel) and link to [teacher collage example](https://editor.p5js.org/krissie.olson/sketches/0_6CmRjmW).
 
 ### Activity
 
