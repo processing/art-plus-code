@@ -1,7 +1,7 @@
 ## Main header navigation bar
 main:
   - title: "Curriculum"
-    url: /curriculum/
+    url: /introduction/
   - title: "Resources"
     url: /resources/
   - title: "Contact"

@@ -2,7 +2,6 @@
 # This is the frontmatter
 title: "Sample Unit Page" # Title and Heading 1
 permalink: /unit-sample/ # Give your page a permalink
-published: true
 hidden: true # Remove this line for any units you want added to the sidebar navigation
 
 gallery: # Below is for including an image gallery
