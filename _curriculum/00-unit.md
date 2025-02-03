@@ -92,7 +92,7 @@ Each module provides resources to support student artistic development including
 
 The modules here are designed to meet teachers and students where they’re at: first time coders, interactive media art enthusiasts and artists looking for new tools to incorporate into their practice.
 
-For additional curricular resources designed by the Art+Code participants, click [here](https://processing.github.io/art-plus-code/resources/).
+For additional curricular resources designed by the Art+Code participants, visit the [Resources page]({% link _pages/resources.md %}).
 
 ## Start Here!
 
