@@ -10,8 +10,10 @@ main:
 
 # Curriculum navigation sidebar
 curriculum:
-  - title: "Units"
-    url: /introduction/
+  - title: "Introduction"
+    children:
+      - title: "Units"
+        url: /introduction/
   - title: "Capturing Movement with Digital Lines"
     children:
       - title: "Introduction & Inspiration"
