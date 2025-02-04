@@ -6,7 +6,7 @@ hidden: true
 
 The Art + Code Teacher Camp is an immersive professional development program designed to empower US-based educators to integrate fundamental software concepts into their K-12 art classrooms. Over the course of the program, participants explore a diverse curriculum that bridges code and art, predominantly using p5.js.
 
-###Goals:
+### Goals:
 - Train K-12 arts educators how to use and integrate creative coding into arts education practice and classrooms
 - Train teachers to use free and open-source coding tools to make interactive work and build lesson plans with a special focus on the visual arts
 - Prioritize participation of teachers working with underserved student populations 
