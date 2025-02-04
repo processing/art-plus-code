@@ -12,12 +12,12 @@ The Art + Code Teacher Camp is an immersive professional development program des
 - Prioritize participation of teachers working with underserved student populations 
 - Share materials generated from the workshop, for free and accessible to the public
 
-Access the Art+Code curricular materials [here](https://processing.github.io/art-plus-code/introduction/).
+Access the Art + Code curricular materials [here](https://processing.github.io/art-plus-code/introduction/).
 
-The first iteration of Art+Code took place in the fall of 2024. Art+Code educator participants:
+The first iteration of Art + Code took place in the fall of 2024. Art + Code educator participants:
 - Taught in K12 classrooms
 - Worked with underserved populations
 - Did not have a lot of experience with p5.js
 - Had interesting ideas for how they would integrate code into their classrooms
 
-For curricular resources designed by the Art+Code participants, visit the [Resources page](https://processing.github.io/art-plus-code/resources/).
+For curricular resources designed by the Art + Code educators, visit the [Resources page](https://processing.github.io/art-plus-code/resources/).
