@@ -33,7 +33,7 @@ Participatory cartography is a collaborative process in which individuals or com
 ### References & Artworks Discussion Questions
 
 1. How do these works challenge or expand traditional notions of what a map is?   
-2. What role does storytelling plan in these maps, and how does it impact your understanding of the places they depict?  
+2. What role does storytelling play in these maps, and how does it impact your understanding of the places they depict?  
 3. How do these maps engage with the concepts of power, representation, and visibility and/or function as tools of activism or resistance?   
 4. What role does collaboration play in the creation and interpretation of these maps? 
 
