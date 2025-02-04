@@ -99,4 +99,6 @@ Can you think of other ways to think of values and variables?
 Pixels
 
 **Information:**
-[Nearpod Slidedeck](https://np1.nearpod.com/sharePresentation.php?code=dc47f3c31db850954a81552a14b59531-1&oc=user-created&utm_source=link)
+<iframe width="600" height="514" src="https://app.nearpod.com/?pin=F0D409F8D27BC39B1A7076DE8AB710BD-1&oc=user-created&utm_source=embed&he=true" frameborder="0" allowfullscreen="" allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; web-share *; vibrate *; vr *"></iframe>
+
+<!-- [Nearpod Slidedeck](https://np1.nearpod.com/sharePresentation.php?code=dc47f3c31db850954a81552a14b59531-1&oc=user-created&utm_source=link)-->
