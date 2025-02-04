@@ -206,7 +206,7 @@ For visitor entertainment and immersive experience, project a looping slideshow 
 **Visitor Map:** [Code by Adrienne Gifford](https://editor.p5js.org/adrienneg/sketches/dusYfwobq)
 {: .notice--info .text-center}
 
-![]({{ "/assets/images/resources/jennie-maydew/map.png" | relative_url}}){: width="50%" .align-center}
+![]({{ "/assets/images/resources/jennie-maydew/map_updated.png" | relative_url}}){: width="50%" .align-center}
 
 Options to create printed maps, interactive maps on iPads or tablets and/or QR code to pull up a map on visitors’ phones
 
