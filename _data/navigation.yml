@@ -14,17 +14,17 @@ curriculum:
     children:
       - title: "Units"
         url: /introduction/
-  - title: "Capturing Movement with Digital Lines"
+  - title: "Lost and Found"
     children:
-      - title: "Introduction & Inspiration"
-        url: /capturingMovement-intro/
+      - title: "Introduction"
+        url: /lostAndFound-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /capturingMovement-lessons/
+        url: /lostAndFound-lessons/
       - title: "Assessment Activities & Checking for Understanding"
-        url: /capturingMovement-assessment/
+        url: /lostAndFound-assessment/
   - title: "Collaging with Instructions"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /collaginginstructions-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /collaginginstructions-lessons/
@@ -32,7 +32,7 @@ curriculum:
         url: /collaginginstructions-assessment/
   - title: "Art & Time"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /artTime-introduction/
       - title: "Lesson Plans & Technical Steps"
         url: /artTime-lessons/
@@ -40,7 +40,7 @@ curriculum:
         url: /artTime-assessment/
   - title: "Responsive Visual Data"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /responsivevisualdata-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /responsivevisualdata-lessons/
@@ -48,7 +48,7 @@ curriculum:
         url: /responsivevisualdata-assessment/
   - title: "Movement, Collaboration & Harmony"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /movementCollaborationHarmony-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /movementCollaborationHarmony-steps/
@@ -56,7 +56,7 @@ curriculum:
         url: /movementCollaborationHarmony-assessment/
   - title: "Creating with Interactivity"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /creatinginteractivity-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /creatinginteractivity-lessons/
@@ -64,7 +64,7 @@ curriculum:
         url: /creatinginteractivity-assessment/
   - title: "Observing Patterns"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /patterns-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /patterns-steps/
@@ -72,7 +72,7 @@ curriculum:
         url: /patterns-assessment/
   - title: "Generative Patterns & Weaving"
     children:
-      - title: "Introduction & Inspiration"
+      - title: "Introduction"
         url: /generativeweaving-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /generativeweaving-lessons/

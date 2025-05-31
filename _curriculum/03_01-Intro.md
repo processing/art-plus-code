@@ -16,7 +16,7 @@ gallery: # Below is for including an image gallery
 ---
 ![Create your own inspiration of time with p5.js.]({{ "/assets/images/curriculum/Unit-3_Sample-1.png" | relative_url }})
 
-# Introduction & Inspiration
+# Introduction
 
 > I believe that if one takes a closer look at things, there is always a sort of sense of time involved. And I am very interested in how to make that visible. And this time that you take for looking at things, it also becomes a matter of space, of seeing space.
 >

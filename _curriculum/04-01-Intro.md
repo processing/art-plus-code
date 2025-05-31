@@ -14,7 +14,7 @@ gallery: # Below is for including an image gallery
 
 ![Create a sound-reactive mask with p5.js!]({{ "/assets/images/unit4.png" | relative_url }})  
 
-# Introduction & Inspiration
+# Introduction
 
 > *How can art transform our relationship to data and information? How can we leverage computation’s ability to cull, sort, and interact with data to produce meaningful or exciting artwork? How might data and its uses engage the audience more deeply?* 
 

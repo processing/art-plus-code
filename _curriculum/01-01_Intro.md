@@ -1,84 +1,102 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines" # Title and Heading 1
-permalink: /capturingMovement-intro/ # Give your page a permalink
+title: "Lost and Found" # Title and Heading 1
+permalink: /lostAndFound-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
-    image_path: https://whitneymedia.org/assets/artwork/60038/2018_183_cropped.jpeg
+  - url: https://artuk.org/learn/learning-resources/the-superpower-of-looking-yayoi-kusamas-spotty-pumpkin
+    image_path: https://d3d00swyhr67nd.cloudfront.net/w800h800/artuk/yayoi-kusama-pumpkin-2018-1.jpg
     alt: "black and white abstract drawing of curves with handwritten text: too much future "
-    title: "Christine Sun Kim, Too Much Future, 2018, Whitney Museum"
-  - url: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg
-    image_path: https://artmuseum.mtholyoke.edu/sites/default/files/styles/object_image/public/images/mh_1970_1_s_riv_v1-hpr.jpg
+    title: "Pumpkin, 2018, Yayoi Kusama"
+  - url: https://www.youtube.com/watch?v=nrKIGL5ZWNk
+    image_path: https://www.themodern.org/sites/default/files/2019-07/Walker_Slavery%21-Slavery%21_1.jpg
     alt: "abstract drawings of straight and curved lines of varying thickness"
-    title: "Wassily Kandinsky, Untitled (drawing for Diagram 17), 1925, Mount Holyoke College Art Museum"
-  - url: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
-    image_path: https://rubellmuseum.org/images/stories/RFC/HowSoonNow/Peyton-E_Craig-In-Tokyo-300.jpg
+    title: "Exploring Kara Walker’s Radical Use of Silhouettes, Art21"
+  - url: https://www.xubing.com/en/work/details/188?classID=1&type=class#188
+    image_path: https://gwarlingo.com/wp-content/uploads/2021/04/Xu-Bing-06-1.jpg
     alt: "sketched portrait of a young man"
-    title: "Elizabeth Peyton, Craig in Tokyo, 1997, Rubell Museum"
+    title: "Book from the Ground, Xu Bing"
 ---
 
-![Create a digital drawing tool with p5.js!]({{ "/assets/images/curriculum/Unit-1_Sample-1.png" | relative_url }})  
+![Create a digital drawing tool with p5.js!]({{ "/assets/images/curriculum/Unit-1_Sample-6.png" | relative_url }})  
+[The Necklace](https://cc-lab-portfolio-ardak.glitch.me/p1.html). Made in [p5.js](https://p5js.org/) by Ardak Mukanova.
 
-# Introduction & Inspiration
+# Introduction
 
-> A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.” 
->
-> \- Donis A. Dondis, A Primer of Visual Literacy
+We remember the past through words and images. When we describe a memory to a friend, our spoken words construct an image in their mind. This image is their interpretation of our memory and, most likely, will look very different from the actual image in our mind. 
 
-In many of her drawings, artist Christine Sun Kim captures the motions of sign language through lines. Words like “future” and “time” are depicted with arching curves, mimicking the vertical and horizontal movements of the hand making the sign in ASL. The scale of Kim’s work ranges from intimate drawings to monumental murals. In each of her works, her deliberate choices around the form, weight, and composition of the lines she uses are essential in communicating a unique sense of motion and personality. 
+If I ask you to describe your friend’s face to me, you might say, “brown hair, brown eyes, freckles,” but that description applies to many people, and might not help me identify your friend when  I run into them next time. Humans can communicate imperfectly and still convey meaning because we expect and accept some level of ambiguity. In contrast, when we communicate with a computer through code, we must be very precise because it doesn’t interpret or infer the way a human does.
 
-In this topic, we’ll use p5.js to design a unique drawing tool. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing. 
+For example, this is how a smiley face is described in human language and computer language: 
 
+![Smily face described in human language and computer language]({{ "/assets/images/curriculum/Unit-1_Sample-7.png" | relative_url }})  
 
-## Objectives
-- Gaining insight into diverse practices in traditional and contemporary drawing
-- Understanding the relationship between drawing tools and artistic intention
-- **Visual Arts Vocabulary**: line, space, value, form, texture, color
+This topic explores the ambiguity in human language, as well as the gap between human language and computer language. Even with the advancement of computer-generated imagery, exemplified by OpenAI’s ChatGPT and Google’s Gemini, the same text prompt will still generate a wide variety of different outputs, revealing the differences between how humans and computers process information.    
+
+Completed in pairs of two, you will work with a partner and exchange detailed descriptions of a personal object you have lost in the past. Then, based on the descriptions, you will re-create the object for your partner in p5.js.
+
+## Premise
+Draw an object described to you in plain language through code.
+
+## Learning Objectives
+### Grade 6~8
+- Foundational understanding of the p5.js Editor environment and basic drawing features. 
+- Gaining insights into assembling complex shapes using primitive shapes only. 
+- Comprehending visual arts vocabularies, including shape, size, color, composition, symmetry, and asymmetry.
+- Comparing tradeoffs between allowing information to be public and keeping information private and secure.
+- Ability to explain potential security threats and security measures to mitigate threats.
+
+### Grade 9~12
+- Comprehending and translating between different representations of data abstractions in color. 
+- Gaining insights into transformation features in p5.js.
 
 
 ## Technical Terms & p5.js Elements
-- functions: [setup()](https://p5js.org/reference/p5/setup/), [draw()](https://p5js.org/reference/p5/draw/)
-- canvas methods and variables: [windowWidth](https://p5js.org/reference/p5/windowWidth/), [windowHeight](https://p5js.org/reference/p5/windowHeight/), [background()](https://p5js.org/reference/p5/background/), [frameRate()](https://p5js.org/reference/p5/frameRate/)
-- drawing methods: [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/),  [fill()](https://p5js.org/reference/p5/fill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
-- mouse variables and methods: [mouseX](https://p5js.org/reference/p5/mouseX/), [mouseY](https://p5js.org/reference/p5/mouseY/), [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/), [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/)
-- [save()](https://p5js.org/reference/p5/save/)
-- console.log()
+### Grade 6~8
+- [setup()](https://p5js.org/reference/p5/setup/), [draw()](https://p5js.org/reference/p5/draw/)
+- Cartesian coordinate system
+- [rect()](https://p5js.org/reference/p5/rect/), [ellipse()](https://p5js.org/reference/p5/ellipse/)
+- Anchor point
+- [rectMode()](https://beta.p5js.org/reference/p5/rectmode/), [ellipseMode()](https://beta.p5js.org/reference/p5/ellipsemode/)
+- [fill()](https://p5js.org/reference/p5/fill/)
+- [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
+- Arithmetic operators: +, -
 
+### Grade 9~12
+- [colorMode()](https://beta.p5js.org/reference/p5/colormode/)
+- [blendMode()](https://beta.p5js.org/reference/p5/blendmode/)
+- [scale()](https://beta.p5js.org/reference/p5/scale/), [translate()](https://beta.p5js.org/reference/p5/translate/), [push()](https://beta.p5js.org/reference/p5/push/), [pop()](https://beta.p5js.org/reference/p5/pop/)
 
-## References & Artworks for Discussion: Line Quality
+## References & Artworks for Discussion
 {% include gallery%}
-* A Primer of Visual Literacy, Donis A. Dondis
-* [Art21: Christine Sun Kim](https://art21.org/watch/art-in-the-twenty-first-century/s11/christine-sun-kim-in-friends-strangers/)
-* Christine Sun Kim, [Time Owes Me Rest Again](https://queensmuseum.org/exhibition/christine-sun-kim/), 2022, Queens Museum
-* Christine Sun Kim, [Too Much Future](https://whitney.org/exhibitions/christine-sun-kim), 2018, Whitney Museum
-* Hilma af Klint, [Spiritual Drawing](https://www.guggenheim.org/audio/track/spiritual-drawings-of-the-five-ca-1903-04), ca. 1903, Guggenheim Museum
-* Jean-Michel Basquiat, [Untitled](https://www.moma.org/collection/works/34633?artist_id=370&page=1&sov_referrer=artist), 1981, Museum of Modern Art
-* Wassily Kandinsky, [Untitled (drawing for Diagram 17)](https://artmuseum.mtholyoke.edu/object/untitled-drawing-diagram-17), 1925, Mount Holyoke College Art Museum
-* William Kentridge, [Learning the Flute](https://www.moma.org/collection/works/91559), 2003, Museum of Modern Art
-* Elizabeth Peyton, [Craig in Tokyo](https://rubellmuseum.org/elizabeth-peyton), 1997, Rubell Museum
-
+* [Pumpkin, 2018](https://artuk.org/learn/learning-resources/the-superpower-of-looking-yayoi-kusamas-spotty-pumpkin), Yayoi Kusama
+* [Exploring Kara Walker’s Radical Use of Silhouettes](https://www.youtube.com/watch?v=nrKIGL5ZWNk), Art21
+* [Book from the Ground](https://www.xubing.com/en/work/details/188?classID=1&type=class#188), Xu Bing
 
 ## Timeline
-This project will take approximately two to three 45minute sessions:
-1. Discussing artists and line, Warm-up Exercises, Introduction to p5.js
-2. Creating a drawing tool, Extending the tool
-3. Finishing the tool, Using the Tool & Sharing Out (Assessment)
+This project will take approximately two to three 45-minute sessions:
 
+1. Discussing art references, Warm-up Exercises, Introduction to p5.js
+1. Assigning partners. Exchanging detailed descriptions of lost objects. 
+1. Recreating the partner’s lost object using p5.js.
+1. Sharing out.
 
 ## Warm-Up Exercises
 Some options for unplugged exercises:
-### Blind Contour Drawing
-- Using different drawing utensils (pencil, marker, charcoal, ink) students create blind contour drawings of a single object. Comparing the different drawings, students discuss how the quality of the lines affects the tone and effect of the drawing. 
-- Divide students into pairs and have them create blind contour drawings of each other using different drawing materials. Students discuss how the features of the lines made by different drawing tools supports or doesn’t support the ‘portrait’ of their classmate. 
-- Once the initial p5.js drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features. 
+### Planning your Lost & Found Project 
+1. Once students know what their lost object is, they take turns describing it to their partner. Taking notes on what their partner says is encouraged. 
+1. Then, each partner creates a “paper prototype” of the object by drawing it using simple shapes (rectangles, squares, circles, ellipsesovals, pointsarcs, lines, etc) and writing down what color each shape should be. 
+1. After 5 minutes of drawing, students take turns showing their drawing to the other for feedback. Feedback should be minimal and should not add too many complicated elements to the original drawing. 
 
-### Depicting Movement with Lines
-- Provide students with a simple reference object for drawing (e.g. cube, pencil, eraser) and multiple sheets of paper. For 3 minutes at a time, have random words related to motion (fast, awkwardly, quietly, laboriously) displayed on the board. Have students draw the object moving according to the word on the board.
-- Have students display their work on tables or the board according to the descriptors (e.g. all the quickly drawings on one table). Discuss what are qualities the images have in common for different descriptors. 
-- Students choose one descriptor, and create an intermediate sketch depicting that descriptor. 
-- Students use the p5.js drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.
+### Draw me a Pattern!
+1. In pairs of two, students place a tall object (e.g., a laptop) between them so that they can’t see what their partner is working on. 
+1. Working separately, students design and draw simple patterns on paper. 
+1. Using plain language, students take turns to describe the pattern they’ve designed to their partner. The goal is for their partner to render the pattern on their paper as accurately as possible.
+1. Once students have completed their interpretative drawings, remove the tall object and compare the original and interpretive patterns. 
 
-### Make Your Own Paintbrush
-- Using found materials, students create their own paintbrush. While creating a drawing with their brush, students make observations about the relationship between the shape of their brush and the lines they are creating.
+### Emoji Letter
+1. Students draft a short introduction of themselves in plain language first, then encode their introductions using emojis. 
+1. In pairs of two, students exchange email addresses with one another and send their introductions, written in emoji language, to their partners. 
+1. After receiving their partner’s emoji letter, students attempt to decode their partner’s introductions back to plain language and email their interpretation back to them. 
+

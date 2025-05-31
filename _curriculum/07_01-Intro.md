@@ -15,7 +15,7 @@ gallery: # Below is for including an image gallery
     title: "Alma Thomas, Spring Grass, 1973, Smithsonian American Art Museum"
 
 ---
-# Introduction & Inspiration
+# Introduction
 ![Recreate a pattern using p5.js]({{ "/assets/images/curriculum/Unit-7_Sample-1.png" | relative_url }})
 > The relation between what we see and what we know is never settled. 
 >

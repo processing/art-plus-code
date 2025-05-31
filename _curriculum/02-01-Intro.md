@@ -15,7 +15,7 @@ gallery: # Below is for including an image gallery
 
 ![Create a digital collage with p5.js!]({{ "/assets/images/unit2.png" | relative_url }})  
 
-# Introduction & Inspiration
+# Introduction
 
 > *How can instructions and systems transform into art? How can computation initiate new ideas of making or propel art forward?*
 

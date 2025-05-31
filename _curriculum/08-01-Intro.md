@@ -14,7 +14,7 @@ gallery: # Below is for including an image gallery
 
 ![Create a generative weaving-inspired pattern with p5.js!]({{ "/assets/images/unit8.png" | relative_url }})  
 
-# Introduction & Inspiration
+# Introduction
 
 > *How can we manipulate computational instruction as source for generative, collaborative process? How can we define a system that allows room for randomness, spontaneity and the unexpected or unintended?* 
 

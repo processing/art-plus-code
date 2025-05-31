@@ -5,13 +5,13 @@ permalink: /introduction/
 # Include links, images, and descriptions for each unit row below:
 unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-1_Sample-0.png # Add image in /assets/images and link it here
-    title: "Capturing Movement with Digital Lines" # Include a title
+    title: "Lost and Found" # Include a title
     excerpt: | # Multi-line description
         *Design a digital drawing tool using p5.js. Customize your tool to express unique qualities of line and composition!* 
         - p5.js setup & structure
         - drawing methods
         - mouse and key inputs
-    url: /capturingMovement-intro/ # Include the permalink specified on the unit's page
+    url: /lostAndFound-intro/ # Include the permalink specified on the unit's page
 
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
     title: "Collaging with Instructions"

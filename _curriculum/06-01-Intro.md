@@ -14,7 +14,7 @@ gallery: # Below is for including an image gallery
 
 ![Create a drawing tool with p5.js!]({{ "/assets/images/unit6.png" | relative_url }})  
 
-# Introduction & Inspiration
+# Introduction
 
 > *How can art transform viewers into active participants? How can interactivity catalyze unique, immersive, and responsive experiences? How might a viewer, user, participant deepen their understanding of an art piece’s meaning and expression by interacting with it?*
 

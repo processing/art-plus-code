@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines" # Title and Heading 1
-permalink: /capturingMovement-lessons/ # Give your page a permalink
+title: "Lost and Found" # Title and Heading 1
+permalink: /lostAndFound-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery

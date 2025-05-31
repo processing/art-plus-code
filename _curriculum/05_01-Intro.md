@@ -17,7 +17,7 @@ gallery: # Below is for including an image gallery
 ---
 ![A collaborative garden created by Art+Code Teacher Participants (2024)]({{ "/assets/images/curriculum/Unit-5_Sample-1.png" | relative_url }})
 
-# Introduction & Inspiration
+# Introduction
 
 > I  think as you evolve and grow as an artist, if you’re not willing to bring people with you and just share your success, then I mean, you’re not really creating impact or inspiring. 
 >
