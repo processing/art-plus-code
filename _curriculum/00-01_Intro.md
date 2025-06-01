@@ -77,16 +77,14 @@ Installation view at the Rituals of Recursion exhibition, Spill 180, NY.
 ### [*Glance Back*](https://glanceback.info/) (2021)
 Maya Man
 
-> With this chrome extension, once a day at random when you open a new tab, Glance Back will quickly snap a photo of you and inquire: “What are you thinking about?”. Once you type your answer and press enter, the photo and thought will be collectively saved to your history of glances, cumulatively creating an archive of moments you share with your screen... When using our devices, we’re pulled into and solely focused on the glowing world that exists on the screen. We lose both an awareness of self and of the real world context surrounding us.
->
-> \- Maya Man
+> With this chrome extension, once a day at random when you open a new tab, Glance Back will quickly snap a photo of you and inquire: “What are you thinking about?”. Once you type your answer and press enter, the photo and thought will be collectively saved to your history of glances, cumulatively creating an archive of moments you share with your screen. 
 
 ![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/question.png" | relative_url }})  
 Software screenshot of *Glance Back*, a custom chrome extension software. 
 
-> In every single photo Glance Back took, I was in the same room, wearing a near-identical sweatshirt, with a very similar expression on my face: intense concentration, with a tinge of agitation at my work being interrupted by the extension switching on. Each picture rankled me more than the previous day’s. Is that what I looked like? Why was I always scowling? Did I hate my job? Is that what my coworkers used to stare at every day in real life — a pinched, ferocious glower? 
+> When using our devices, we’re pulled into and solely focused on the glowing world that exists on the screen. We lose both an awareness of self and of the real world context surrounding us. Glance Back is ready to disrupt that trance and remind you that you are here and your computer is there and you are just starring at it getting lost in its eyes.
 >
-> \-Mirel Zaman, REFINERY29
+> \- Maya Man
 
 ![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
 Maya Man's *Glance Back* archive. 
