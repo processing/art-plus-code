@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Collaging with Instructions" # Title and Heading 1
+title: "Mask Generator" # Title and Heading 1
 permalink: /collaginginstructions-assessment/ # Give your page a permalink
 published: true
 

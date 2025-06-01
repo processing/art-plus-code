@@ -14,7 +14,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
     url: /lostAndFound-intro/ # Include the permalink specified on the unit's page
 
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
-    title: "Collaging with Instructions"
+    title: "Mask Generator"
     excerpt: |
         *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait while exploring the p5.js editor and its many features.* 
         - p5.js Editor
@@ -25,7 +25,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
 
 unit2_row:
   - image_path: /assets/images/curriculum/Unit-3_Sample-4.png
-    title: "Art & Time"
+    title: "A Walk in the Neighborhood"
     excerpt: |
         *Bring together drawing, animation and the computer's clock to engage with **time** as an artistic concept and design your own clock!*
         - working with text in p5.js
@@ -36,7 +36,7 @@ unit2_row:
     url: /artTime-introduction/
 
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
-    title: "Responsive Visual Data"
+    title: "Drawing Machine"
     excerpt: |
         *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs*
         - variables
@@ -86,7 +86,7 @@ unit4_row:
 
 ---
 
-The Art + Code Teacher Camp’s curriculum is a visual arts forward approach that drives an understanding of core programming concepts through an art-focused lens. Designed for K-12 Educators, this curriculum explore a range of technical and artistic topics grouped into four categories: Start Here!, Bringing Numbers to Life, Creative Coding, and Generating Patterns. 
+The Art + Code’s curriculum is a visual arts forward approach that drives an understanding of core programming concepts through an art-focused lens. Designed for K-12 Educators, this curriculum explore a range of technical and artistic topics grouped into four categories: Start Here!, Bringing Numbers to Life, Creative Coding, and Generating Patterns. 
 
 Each module provides resources to support student artistic development including 'unplugged' warm-up activities, tips for teaching code, discussion prompts and suggestions for assessment activities. Each unit provides a glimpse into an artistic practice supported by code, or digital media driven by visual arts ideas. 
 

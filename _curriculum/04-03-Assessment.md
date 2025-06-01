@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Responsive Visual Data" # Title and Heading 1
+title: "Drawing Machine" # Title and Heading 1
 permalink: /responsivevisualdata-assessment/ # Give your page a permalink
 published: true
 

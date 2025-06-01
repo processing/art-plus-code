@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Art & Time" # Title and Heading 1
+title: "A Walk in the Neighborhood" # Title and Heading 1
 permalink: /artTime-introduction/ # Give your page a permalink
 published: true
 

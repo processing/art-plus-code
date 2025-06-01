@@ -1,10 +1,13 @@
 ---
-title: "Welcome to Art + Code!"
+title: "Welcome to Art + Code 2025!"
 layout: single
 hidden: true
 ---
 
-Art + Code is an immersive professional development program designed to empower US-based educators to integrate fundamental software concepts into their K-12 art classrooms. Over the course of the program, participants explore a diverse curriculum that bridges code and art, predominantly using [p5.js](https://p5js.org/).
+## Introduction
+Art + Code is an immersive professional development program, designed to empower US-based educators to integrate fundamental software concepts into K-12 art classrooms. 
+
+Over the course of the program, participants explore a diverse curriculum that bridges code and art, predominantly using [p5.js](https://p5js.org/).
 
 ## What is p5.js?
 [p5.js](https://p5js.org/) is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. [p5.js](https://p5js.org/) welcomes artists, designers, beginners, educators, and anyone else!
