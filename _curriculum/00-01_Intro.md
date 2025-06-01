@@ -76,18 +76,23 @@ Installation view at the Rituals of Recursion exhibition, Spill 180, NY.
 ## Photography
 ### [*Glance Back*](https://glanceback.info/) (2021)
 Maya Man
-![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/question.png" | relative_url }})  
-Software screenshot of *Glance Back*, a custom chrome extension software. 
+
 > With this chrome extension, once a day at random when you open a new tab, Glance Back will quickly snap a photo of you and inquire: “What are you thinking about?”. Once you type your answer and press enter, the photo and thought will be collectively saved to your history of glances, cumulatively creating an archive of moments you share with your screen... When using our devices, we’re pulled into and solely focused on the glowing world that exists on the screen. We lose both an awareness of self and of the real world context surrounding us.
 >
 > \- Maya Man
 
-![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
-Maya Man's *Glance Back* archive. 
+![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/question.png" | relative_url }})  
+Software screenshot of *Glance Back*, a custom chrome extension software. 
 
 > In every single photo Glance Back took, I was in the same room, wearing a near-identical sweatshirt, with a very similar expression on my face: intense concentration, with a tinge of agitation at my work being interrupted by the extension switching on. Each picture rankled me more than the previous day’s. Is that what I looked like? Why was I always scowling? Did I hate my job? Is that what my coworkers used to stare at every day in real life — a pinched, ferocious glower? 
 >
 > \-Mirel Zaman, REFINERY29
+
+![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
+Maya Man's *Glance Back* archive. 
+
+**Tips:** If you use the chrome browser, you can try Glance Back by installing the [chrome extension](https://chromewebstore.google.com/detail/glance-back/hgickafobcmcfffbjiamhhejkockfccm?pli=1).
+{: .notice--success}
 
 # 3D Art
 
