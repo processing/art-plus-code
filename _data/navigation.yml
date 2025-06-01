@@ -4,8 +4,8 @@ main:
     url: /introduction/
   - title: "Resources"
     url: /resources/
-  - title: "Contact"
-    url: /contact/
+  - title: "About"
+    url: /About/
 
 
 # Curriculum navigation sidebar
