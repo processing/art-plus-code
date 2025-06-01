@@ -95,6 +95,25 @@ Maya Man's *Glance Back* archive.
 # 3D Art
 
 ## Sculpture
+### [She Who Sees the Unknown](https://shewhoseestheunknown.com/) (2017-2021)
+Morehshin Allahyari (Persian: موره شین اللهیاری‎)
+
+![Morehshin Allahyari, She Who Sees the Unknown]({{ "https://i0.wp.com/shewhoseestheunknown.com/wp-content/uploads/2020/03/AllahyariM-SWSTU-TheLaughingSnake-01-5428x7286-1-scaled.jpg?ssl=1" | relative_url }})  
+Close-up view of *The Laughing Snake (Persian: مار قهقهه)*, a 3D-printed figure.
+
+> She Who Sees The Unknown (2017-2021) is a research-based project by Morehshin Allahyari, that uses 3D simulation, sculpture, archiving, and storytelling to re-figure monstrous female/queer figures of Islamicate origin; using the traditions and myths associated with them to explore the catastrophes of colonialism, patriarchism and environmental degradation in relation to the Middle East.
+>
+> \- Morehshin Allahyari
+
+![Morehshin Allahyari, She Who Sees the Unknown]({{ "https://i0.wp.com/shewhoseestheunknown.com/wp-content/uploads/2019/03/morehshin_allahyari-she_who_sees_the_unknown-transfer_gallery-19.jpg?ssl=1" | relative_url }})  
+Installation view at the She Who Sees the Unknown exhibition, Transfer Gallery, NY
+
+>She who saw all things in the broad-boned earth and beyond
+and knew what was to be known
+In her city, there was no ‘outside’, yet doors remained open and unlocked
+>
+>Text from the video ‘She Who Sees The Unknown: HUMA’ (2016).
+
 ## Textile
 ### [Doilies](https://www.laurasplan.com/projects/doilies) (2004)
 Laura Splan
