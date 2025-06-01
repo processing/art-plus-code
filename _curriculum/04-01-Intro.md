@@ -16,63 +16,59 @@ gallery: # Below is for including an image gallery
 
 # Introduction
 
-> *How can art transform our relationship to data and information? How can we leverage computation’s ability to cull, sort, and interact with data to produce meaningful or exciting artwork? How might data and its uses engage the audience more deeply?* 
+> A line could also be defined as a dot in motion, or the history of a dot’s movement, since, when we make a continuous mark or a line, we make it by placing a marker point on a surface and moving it along, leaving the formed marks as a record.”
+>
+> \- Donis A. Dondis, A Primer of Visual Literacy
 
-A fundamental concept in code is the input and the output — taking data in, and creating, refining, remapping something from it. Data, in this sense, is broader than the simple spreadsheet of numbers; but rather, the concept of how information is circulated throughout a system for optimization or curation. Data has become ubiquitous and far-reaching; from the ways that bits and bytes are physically stored to its persistence in organizing information. However, we can use this concept of data structure to look at how modern and contemporary artists are using all kinds of data and information to create meaningful artwork to reflect, resist and understand the current condition.
+The human body, particularly the human hands, is the most rudimentary tool we have for mark-making. Throughout human history, a variety of tools have been developed to extend the hands and diversify the marks we're able to make. Unlike analog drawing tools such as a charcoal stick or a paintbrush, digital drawing tools rely on code instructions to simulate pixel transformation. Therefore, what to simulate and how to simulate it becomes the central question in the creation of drawing software.
 
-In this topic, we’ll use p5.js to create a sound-reactive art project, using variables to understand the way data can feed into various inputs and output.
+In this topic, you're asked to design a drawing software that makes marks in a novel way. We’ll design the drawing tool to be compatible with an idea for a drawing. Then we’ll use the tool to create and then save a drawing.
 
-***Related spheres: Data Visualization, Infographic Design, Immersive Data Installations***
-
+## Premise
+Design and code a drawing software that makes marks in a novel way.
 
 ## Objectives
+### Grade 6~8
+- Gaining insight into diverse practices in traditional and contemporary drawing
+- Understanding the relationship between drawing tools and artistic intention
+- Comprehending visual arts vocabularies, including line, texture, transparency, and gradient
 
-- Understanding the basics of variables (storing, containing or passing data), inputs, and outputs
-- Becoming comfortable with creating variables, integrating arithmetic, as well as using new functions (ie. map() or constrain() )
-- Creating a sound-reactive illustration or face mask that interacts to a mic input’s volume
-- Learning about how artists use data in their practice, how variables works a metaphor for data art, and various data artists
+## Technical Terms & p5.js Elements
+### Grade 6~8
+- System functions vs. user-defined functions
+- Argument and parameters
+- Passing parameters
+- Default parameters
 
 
 ## References & Artworks for Discussion
 
-Mimi Onuoha, [The Library of Missing Datasets](https://mimionuoha.com/the-library-of-missing-datasets)
-
-Mimi Onuoha, [Machine Sees More Than it Says](https://mimionuoha.com/machine-sees-more-than-it-says)
-
-Golan Levin, [Re:FACE](https://www.flong.com/archive/projects/reface-anchorage/index.html)
-
-Refik Anadol, [Archive Dreaming - AI Data Sculpture](https://refikanadol.com/works/archive-dreaming/) 
-
-Aaron Koblin, [Flight Patterns](https://www.aaronkoblin.com/project/flight-patterns/) 
-
-Romi Morrison, [Decoding Possibilities](https://elegantcollisions.com/decoding-possibilities) 
-
-Romi Morrison, [The Future Conditional](https://elegantcollisions.com/the-future-conditional) 
+- [Time Owes Me Rest Again](https://queensmuseum.org/exhibition/christine-sun-kim/) (2022), Christine Sun Kim
+- [No Paint](https://nopaint.art/) (2020), Jeffrey Scudder
+- [ASCII Blaster](https://asdf.us/asciiblaster/)
+- [Make 8-Bit Art](https://make8bitart.com/)
+- [ASCII Flow](https://asciiflow.com/#/)
+- [RGB painter](https://rgb.constraint.systems/)
+- [Etch](https://etch.constraint.systems/)
+- [Sketchpad](https://sketch.io/sketchpad/)
+- [Youl Draw](https://www.youidraw.com/apps/painter/)
+- [Hex](https://hex.constraint.systems/)
+- [Superinternet Space](https://superinternet.space/)
+- [Rebelle](https://www.escapemotions.com/experiments/rebelle/index.php)
+- [Icicles Bubbles](https://edankwan.com/experiments/icicle-bubbles/)
 
 ## Related Artists Discussion Questions
 
-1. In what ways do these artists challenge traditional notions of computation and coding? Conversely, how might they challenge traditional notions of art?
-2. Some of the artists are utilizing art as a visualization technique for the data they’re wishing to delve deeper in; whereas some artists are utilizing art as a means to disrupt or remix the data from its initial origins to reproduce new meaning. What are some ways you’ve seen artists or communities take information and data to help bridge various understandings, reconnect to histories that were suppressed, or highlight archives that might be lost to the sands of time? 
-3. Romi Morrison’s work takes physical manifestations of data (archived prints, archival material, and primary sources) and revisits them in a curation that allows for deeper conversation. How does this change or illicit new understandings of data in art? 
-4. Mimi Onuoha curates a series of datasets that are missing as a new form of a dataset. How can datasets offer narrative, shape representation, or reveal biases? 
-
-
-
 ## Unplugged Activities
-### Programmatic Drawing
+### Blind Contour Drawing
+1. Using different drawing utensils (pencil, marker, charcoal, ink) students create blind contour drawings of a single object. Comparing the different drawings, students discuss how the quality of the lines affects the tone and effect of the drawing.
+1. Divide students into pairs and have them create blind contour drawings of each other using different drawing materials. Students discuss how the features of the lines made by different drawing tools supports or doesn’t support the ‘portrait’ of their classmate.
+1. Once the initial p5.js drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features.
+### Depicting Movement with Lines
+1. Provide students with a simple reference object for drawing (e.g. cube, pencil, eraser) and multiple sheets of paper. For 3 minutes at a time, have random words related to motion (fast, awkwardly, quietly, laboriously) displayed on the board. Have students draw the object moving according to the word on the board.
+1. Have students display their work on tables or the board according to the descriptors (e.g. all the quickly drawings on one table). Discuss what are qualities the images have in common for different descriptors.
+1. Students choose one descriptor, and create an intermediate sketch depicting that descriptor.
+1. Students use the p5.js drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.
+### Make Your Own Paintbrush
+1. Using found materials, students create their own paintbrush. While creating a drawing with their brush, students make observations about the relationship between the shape of their brush and the lines they are creating.
 
-Let’s create a series of drawings on paper to explore some of the fundamentals of thinking in systems and writing code. We’ll explore chance operations and binary trees.
-
-### MESH
-
-1. Draw a triangle
-2. Use one edge of the triangle and two new lines to draw a new triangle, but don’t intersect with another triangle
-3. Repeat 2, until the drawing is finished
-
-### BINARY
-
-1. Draw a line from the edge of the drawing area toward the center
-2. Draw two lines growing from the open endpoint of the line
-3. For each new line drawn in 2, repeat 2
-
-Bring all the drawings together and as a class, examine the various interpretations of these instructions. Discuss the similarities and differences. 
