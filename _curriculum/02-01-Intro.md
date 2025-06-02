@@ -24,7 +24,7 @@ gallery: # Below is for including an image gallery
 
 In [parameterized design](https://formandcode.com/code-examples/parameterize-chair), you are a conductor rather than an individual musician. Instead of producing a single design where you have to draw out all the details step by step, you are using code to create a set of parameters that generate a variety of results.
 
-For this topic, you will create a mask generator using customized variables and the random() function. Plug the maximum/minimum values into the random() for each mask feature. The mask generator will create multiple variations of the mask through mouse or keyboard interactions. Test, iterate, and refine the parameters, paying close attention to details.
+The kabuki theater in Japan uses highly expressive masks to illustrate different roles in the society. For this topic, you will reflect on your own background and design a mask generator using customized variables and the random() function. Plug the maximum/minimum values into the random() for each mask feature. The mask generator will create multiple variations of the mask through mouse or keyboard interactions. Test, iterate, and refine the parameters, paying close attention to details.
 
 ## Premise
 Build a simple generator that makes multiple variations of the same mask.
@@ -54,6 +54,30 @@ on larger social, economic, and political structures, with evidence from credibl
 ### Grade 9~12
 - Iterative design
 
-## Unplugged Activities
+## Warm-Up Exercises
+Some options for unplugged exercises:
+
+### Planning your Lost & Found Project 
+
+1. Draw Your Grid (5–10 mins)
+    1. Use your paper and pencil to draw a large square (around 4x4 inches).
+    1. Divide the square into a 20 x 20 grid with a ruler.
+    1. This will help you keep things lined up and make variations easier to compare.
+
+1. Create Two Key Expressions (10 mins)
+    1. Using the [Wheel of Emotions](https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf) as a reference and select two types of emotional expressions. 
+    1. In the first square, draw a mask showing Expression 1 (e.g., inspired, courageous, respected).
+    1. In the second square, draw the same face showing Expression 2 (e.g., worried, overwhelmed, alienated).
+
+1. Keep the features the same, but change features like:
+    1. Eyes: big, small, squinted
+    1. Mouth: smiling, frowning, open, closed
+    1. Eyebrows: raised, tilted, flat
+
+1. Design the In-Between Faces (10–15 mins)
+    1. Now, imagine how the mask moves from the first expression to the second.
+    1. On a new piece of paper, draw 2–3 versions that mix parts of each expression. For example: a mask that’s just starting to frown, or eyes that are half-closed.
+1. Observe & Reflect (5–10 mins)
+    1. Compare your key expressions. What changes the most between expressions? Which parts stay mostly the same? What combinations feel natural or interesting?
 
 
