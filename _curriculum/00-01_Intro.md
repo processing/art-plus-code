@@ -43,7 +43,7 @@ In this art piece, the programmer uses cameras to detect human movement. The pro
 
 <iframe src="https://player.vimeo.com/video/344447606?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1013" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Precarious, 2018"></iframe>
 
-##### Think About
+##### Let's Discuss
 - How does the computer "see" people moving?
 - What makes this artwork different from a regular painting?
 
@@ -62,7 +62,7 @@ This artist wrote code that draws pictures, but he let the computer make some ch
 
 <iframe src="https://player.vimeo.com/video/143076578?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Superficie – Possible, plausible, potential"></iframe>
 
-##### Think About
+##### Let's Discuss
 - How does Nóbrega use code to create a balance between randomness and structure?
 - What creative decisions are made through writing code, and what are left to the machine?
 - In what ways does code become an artistic collaborator in this work?
@@ -91,7 +91,7 @@ By converting characters into binary code and mapping them onto a grid, Akkapedd
 ![Aarati Akkapeddi, Decode Kolams]({{ "https://aarati.online/media/pages/rituals-of-recursion/198e667c76-1744573500/prints.jpg" | relative_url }})  
 Installation view at the Rituals of Recursion exhibition, Spill 180, NY.
 
-##### Think About
+##### Let's Discuss
 - How is code used to translate texts into visual form?
 - How can technology help keep old traditions alive?
 - Can you think of other ways to represent code?
@@ -117,7 +117,7 @@ Software screenshot of *Glance Back*, a custom chrome extension software.
 ![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
 Maya Man's *Glance Back* archive. 
 
-##### Think About
+##### Let's Discuss
 - How does the use of code shape the interaction between the viewer and the artwork in this piece?
 - What does this work tell us about how code can collect, curate, and reframe everyday behavior?
 - How does this creative use of code shape our understanding of who is in control in digital spaces?
@@ -143,7 +143,7 @@ Installation view at the She Who Sees the Unknown exhibition, Transfer Gallery, 
 >
 > \- Morehshin Allahyari
 
-##### Think About
+##### Let's Discuss
 - How can 3D printing help save stories from the past?
 - What stories from your culture could be brought back with technology?
 - How is making 3D art with code different from carving with your hands?
@@ -159,7 +159,7 @@ Have you ever seen those fancy lace decorations someone might put under their te
 ![Laura Splan, Doilies]({{ "https://cdn.prod.website-files.com/6391e5efd5c2c1a8b351b8b8/640681a40983f6e9610d3f3f_Laura_Splan%E2%80%942009%E2%80%94commissioned_installation_for_Re-Formations_at_Van_Every-Smith_Galleries%E2%80%943.jpg" | relative_url }})  
 Installation view at the Re/Formations exhibition, Van Every/Smith Galleries, NC
 
-##### Think About
+##### Let's Discuss
 - How does using a computer change traditional crafts like embroidery?
 - How does using code to generate visual patterns change the meaning of an art form or craft conventionally designed by hand?
 - How can code help us see everyday things in new ways?
@@ -181,7 +181,7 @@ Close-up view of *Lantern Vessel in Collage*, 3D-printed ceramic inspired by Vie
 ![Jolie Ngo, installation]({{ "https://images.prismic.io/sayhito/5730abb2-712d-4314-83d9-449a82e425c1_sayhito_Jolie-Ngo_4.png?auto=compress,format" | relative_url }})  
 Studio photography of Ngo's 3D-printed ceramic series. 
 
-##### Think About
+##### Let's Discuss
 - How can you tell which parts were made by a computer and which by hand?
 - What opportunities does generative design through code offer to ceramic or physical practices?
 - How does code expand the definition of craft?
@@ -202,7 +202,7 @@ Linda Nguyen Lopez
 ![Linda Nguyen Lopez, installation]({{ "https://artlogic-res.cloudinary.com/w_2400,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1040/usr/exhibitions/images/exhibitions/10/lopez-somebody-install7-web.jpg" | relative_url }})  
 Installation view at the ʎpoqǝɯos exhibition, David B. Smith Gallery, CO
 
-##### Think About
+##### Let's Discuss
 
 - What adjectives might you use to describe Lopez's visual language?
 - How might this work shift our understanding of what kinds of forms or textures code can generate?
@@ -227,7 +227,7 @@ Using code, these artists created an endless animation that tells a story about 
 
 <iframe src="https://player.vimeo.com/video/1074718891?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Marina Zurkow, &quot;The Earth Eaters&quot; (single channel), 2025"></iframe>
 
-##### Think About
+##### Let's Discuss
 - How can code help tell stories that never end?
 - What emotions do you feel watching things being built and destroyed?
 - How is this artwork different from a regular movie?
@@ -243,7 +243,7 @@ This artwork connects people in Mexico and the United States using light and sou
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sX-VXlweApI?si=BhtyT-8vmbE7lPca&amp;start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-##### Think About
+##### Let's Discuss
 
 - How are human inputs sensed, interpreted, and responded to in this piece?
 - How can technology bring people together instead of keeping them apart?
