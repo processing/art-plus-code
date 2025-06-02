@@ -75,9 +75,9 @@ Draw an object described to you in plain language through code.
 * [Book from the Ground](https://www.xubing.com/en/work/details/188?classID=1&type=class#188), Xu Bing
 
 ## Timeline
-This project will take approximately two to three 45-minute sessions:
+This project will take approximately three to four 45-minute sessions:
 
-1. Discussing art references, Warm-up Exercises, Introduction to p5.js
+1. Discussing art references, warm-up Exercise, introduction to p5.js.
 1. Assigning partners. Exchanging detailed descriptions of lost objects. 
 1. Recreating the partner’s lost object using p5.js.
 1. Sharing out.

@@ -54,15 +54,23 @@ on larger social, economic, and political structures, with evidence from credibl
 ### Grade 9~12
 - Iterative design
 
-## Warm-Up Exercises
-### Planning your Lost & Found Project 
+## Timeline
+This project will take approximately four 45-minute sessions:
 
-1. Draw Your Grid (5–10 mins)
+1. Discussing art references and warm-up cxercise.
+1. Designing the mask generator.
+1. Coding the mask generator in p5.js.
+1. Making iterations as needed. Sharing out.
+
+## Warm-Up Exercises
+### Planning your Mask Generator Project 
+
+1. Draw Your Grid
     1. Use your paper and pencil to draw a large square (around 4x4 inches).
     1. Divide the square into a 20 x 20 grid with a ruler.
     1. This will help you keep things lined up and make variations easier to compare.
 
-1. Create Two Key Expressions (10 mins)
+1. Create Two Key Expressions
     1. Using the [Wheel of Emotions](https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf) as a reference and select two types of emotional expressions. 
     1. In the first square, draw a mask showing Expression 1 (e.g., inspired, courageous, respected).
     1. In the second square, draw the same face showing Expression 2 (e.g., worried, overwhelmed, alienated).
@@ -72,7 +80,7 @@ on larger social, economic, and political structures, with evidence from credibl
     1. Mouth: smiling, frowning, open, closed
     1. Eyebrows: raised, tilted, flat
 
-1. Design the In-Between Faces (10–15 mins)
+1. Design the In-Between Faces
     1. Now, imagine how the mask moves from the first expression to the second.
     1. On a new piece of paper, draw 2–3 versions that mix parts of each expression. For example: a mask that’s just starting to frown, or eyes that are half-closed.
 1. Observe & Reflect (5–10 mins)
