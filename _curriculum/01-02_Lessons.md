@@ -58,7 +58,7 @@ function setup(){
 **Mini-Challenge:** Can you tell which value determines the canvas width and which value determines the canvas height?
 {: .notice--warning} 
 
-**Tips:** Similar to the logic of image editing software, you can only create one canvas per sketch. 
+**Tip:** Similar to the logic of image editing software, you can only create one canvas per sketch. 
 Additionally, it’s not possible to animate canvas size while a sketch is playing. 
 {: .notice--success}
 
@@ -156,7 +156,7 @@ function draw() {
 **Code Snippet:** [ellipseMode()](https://editor.p5js.org/xinemata/sketches/-AxE_NPc-).
 {: .notice--info} 
 
-**Tips:** Alternatively, if you want to set the anchor point for rectangles to the center, you can use the [rectMode()](https://p5js.org/reference/p5/rectMode/) feature and set it to CENTER. 
+**Tip:** Alternatively, if you want to set the anchor point for rectangles to the center, you can use the [rectMode()](https://p5js.org/reference/p5/rectMode/) feature and set it to CENTER. 
 {: .notice--success}
 
 After adding the [ellipseMode()](https://p5js.org/reference/p5/ellipseMode/) feature, your ellipse should be aligned to the upper-left corner. Now, let’s combine this drawing with the rectangle we drew:

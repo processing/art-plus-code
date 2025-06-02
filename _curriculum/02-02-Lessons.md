@@ -406,7 +406,7 @@ Images can be loaded directly into your p5.js sketch on the Editor, using the â€
 
 Images can be loaded using links from websites: refer to class About Me template.
 
-Tips
+Tip
 
 - Make sure that your file name is exactly as written on your file, and you can always rename it in the Editor
 - Always make sure your put media in preload() and within a variable (you can dig deeper into variables in other units).

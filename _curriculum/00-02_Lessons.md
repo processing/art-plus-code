@@ -65,7 +65,7 @@ Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of t
 1. By default, the [p5.js Editor](https://editor.p5js.org/) will generate a playful name for your first sketch. You can rename your sketch by clicking on the pencil icon above the text editor and typing in a name for your project.  ![Renaming a sketch]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_naming_a_sketch.png?raw=true" | relative_url }}) 
 1. Save projects by clicking on File in the top toolbar and selecting Save. Alternatively, you can use the shortcut keys Control+S (PC) or Command+S (Mac).  ![Saving a sketch]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_saving_a_sketch.png?raw=true" | relative_url }})  ![Saved notification]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_saved_sketch_notification.png?raw=true" | relative_url }})  
 
-**Tips:** Make sure you are logged in to your account, or you will not be able to save the sketch. Saving projects frequently helps ensure that code isn’t lost if something happens to your computer, browser, or internet connection while you're coding.
+**Tip:** Make sure you are logged in to your account, or you will not be able to save the sketch. Saving projects frequently helps ensure that code isn’t lost if something happens to your computer, browser, or internet connection while you're coding.
 {: .notice--success}
 
 ### 1E. Sharing, downloading, and deleting your sketches
