@@ -55,8 +55,6 @@ on larger social, economic, and political structures, with evidence from credibl
 - Iterative design
 
 ## Warm-Up Exercises
-Some options for unplugged exercises:
-
 ### Planning your Lost & Found Project 
 
 1. Draw Your Grid (5–10 mins)

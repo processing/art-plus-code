@@ -82,21 +82,8 @@ This project will take approximately two to three 45-minute sessions:
 1. Recreating the partner’s lost object using p5.js.
 1. Sharing out.
 
-## Warm-Up Exercises
-Some options for unplugged exercises:
+## Warm-Up Exercise
 ### Planning your Lost & Found Project 
-1. Once students know what their lost object is, they take turns describing it to their partner. Taking notes on what their partner says is encouraged. 
-1. Then, each partner creates a “paper prototype” of the object by drawing it using simple shapes (rectangles, squares, circles, ellipsesovals, pointsarcs, lines, etc) and writing down what color each shape should be. 
-1. After 5 minutes of drawing, students take turns showing their drawing to the other for feedback. Feedback should be minimal and should not add too many complicated elements to the original drawing. 
-
-### Draw me a Pattern!
-1. In pairs of two, students place a tall object (e.g., a laptop) between them so that they can’t see what their partner is working on. 
-1. Working separately, students design and draw simple patterns on paper. 
-1. Using plain language, students take turns to describe the pattern they’ve designed to their partner. The goal is for their partner to render the pattern on their paper as accurately as possible.
-1. Once students have completed their interpretative drawings, remove the tall object and compare the original and interpretive patterns. 
-
-### Emoji Letter
-1. Students draft a short introduction of themselves in plain language first, then encode their introductions using emojis. 
-1. In pairs of two, students exchange email addresses with one another and send their introductions, written in emoji language, to their partners. 
-1. After receiving their partner’s emoji letter, students attempt to decode their partner’s introductions back to plain language and email their interpretation back to them. 
-
+1. Students exchange written descriptions of their objects with one another. 
+1. Then, each partner draw the object on paper by using simple shapes (rectangles, squares, circles, ellipsesovals, pointsarcs, lines, etc) and writing down what color each shape should be.
+1. After 5 minutes of drawing, students take turns showing their drawing to the other for feedback. Feedback should be minimal and should not add too many complicated elements to the original drawing.
