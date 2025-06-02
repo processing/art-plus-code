@@ -1,8 +1,8 @@
 ---
 # This is the frontmatter
 title: "A Walk in the Neighborhood" # Title and Heading 1
-permalink: /artTime-assessment/ # Give your page a permalink
-published: true
+permalink: /walkInNeighborhood-assessment/ # Give your page a permalink
+published: false
 
 
 

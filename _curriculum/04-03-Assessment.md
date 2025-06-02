@@ -1,8 +1,8 @@
 ---
 # This is the frontmatter
 title: "Drawing Machine" # Title and Heading 1
-permalink: /responsivevisualdata-assessment/ # Give your page a permalink
-published: true
+permalink: /drawingMachine-assessment/ # Give your page a permalink
+published: false
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/thumbnails/unit4.png

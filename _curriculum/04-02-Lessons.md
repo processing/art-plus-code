@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Drawing Machine" # Title and Heading 1
-permalink: /responsivevisualdata-lessons/ # Give your page a permalink
+permalink: /drawingMachine-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
@@ -13,373 +13,204 @@ gallery: # Below is for including an image gallery
 ---
 # Lesson Plans & Technical Steps
 
-## Let’s make — Sound-reactive Mask!
+## 1: Functions
+![Creating custom functions.]({{ "/assets/images/curriculum/Unit-5_Sample-4.png" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/Tw4-5FrJY) 
 
-**🔗 Template link here:** [https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
+You may be familiar with p5.js included functions like mouseDragged(). Just like with variables, we can create our own functions to reuse code. This helps keep code modular and efficient. The syntax for creating a function is: 
+```js
+function functionName() { // beginning of function
+// everything in between these curly brackets 
+// will run when the function is called
+} // end of function
+```
 
-**🖼️ Example Link here:** [https://editor.p5js.org/chellyjin/sketches/NDZxQRSia](https://editor.p5js.org/chellyjin/sketches/NDZxQRSia) 
-
-![Screenshot of p5.js sketch of a pink and blue mask!]({{ "/assets/images/unit4.png" | relative_url }})  
-
-
-## What we need to begin
-
-- Computer with p5.js on web browser (Google Chrome)
-- Microphone (Built in or External)
-
-
----
-
-# The Lessons
-
-⏰ Each of the 2 lessons will take approximately 20-25 minutes
-
-🔗 Template link here: [https://editor.p5js.org/chellyjin/sketches/D10NZG0tW](https://editor.p5js.org/chellyjin/sketches/D10NZG0tW) 
-
-## Vocabulary
-
-1. Variables
-2. Special Variables
-
-
-
-## Lesson Plan 1: Introducing Variables
-
-**What is a Variable?**
-
-- A variable stores a value in memory so that it can be used later in a program.
-- A variable can be used many times within a single program, and the value is easily changed while the program is running.
-- The primary reason we use variables is to avoid repeating ourselves in the code.
-
-### **How to make a Variable**
-
-**Step 1: Declare**
-
-- You can name variables anything you’d like
-- “Let” declares and initializes the variables
-
-
-> **🧠Teacher Trick:**
-> Think of yourself as creating a new world, declaring aloud **let** there be light! 
-> By declaring with “let”, we’re proclaiming something (a variable) into existence in our world of code. 
-
-
-**Step 2: Assign a value**
-
-- “=” assigns a value. When we say let **y = 60** we’re saying now there is a **y** and it holds the value **60**.
-
-**Step 3: Use it!**
-
-- And then we can use **y** anywhere in lieu of **60**!
-
-
-
-### **Special Variables**
-
-These are existing variables, initialized and defined by the programmers who made p5.js following a convention. They make our lives a little easier and can do cool things, for example:
-
-- mouseX, mouseY;
-- use mouse to control position of ellipse
-- use mouse to control scale
-- use mouse to control color
-- create a simple drawing program
-- windowWidth, windowHeight, width, height, img.width, img.height
-- Indicated by the pink color in code.
-
-**mouseX + mouse Y**
-
-```jsx
-
+Typically, we write functions near the bottom of the code, after the draw() function’s curly braces. This example uses a function to draw an eye:
+```js 
 function setup() {
-
-	createCanvas(600, 400);
-
-	fill(0, 102);
-
-	noStroke();
-
+  createCanvas(600, 600);
 }
 
 function draw() {
+  background(255, 225, 255);
+  noStroke();
+  fill(255, 255, 100);
+  ellipse(300, 300, 400, 400);
+}
 
-	background(mouseY); // background color changes based on mouseY
-
-	ellipse(300, 200, mouseX, 50); // width changes based on mouseX
-
-	ellipse(mouseX, mouseY, 10, 10); // ellipse follows mouse
-
+function eye() {
+  strokeWeight(1);
+  fill(255);
+  ellipse(400, 280, 60, 60);
+  fill(0, 0, 0);
+  ellipse(400, 285, 40, 40);
 }
 ```
 
-**width and height**
+You’ll notice that nothing happened. This is because in order for the code inside of a function’s curly braces to execute, the function needs to be called. To do so, you write the name of the function followed by parentheses: 
 
-```jsx
-function setup() {
-	createCanvas(480, 120);
-}
-
-function draw() {  
-	background(204);
-  line(0, 0, width, height);  // Line from (0,0) to (480, 120)
-  line(width, 0, 0, height);  // Line from (480, 0) to (0, 120) ellipse(width/2, height/2, 60, 60);
-}
-
+```js
+functionName();
 ```
 
-**console.log()**
-
-There is a cool function called console.log() in p5.js which is great to use for debugging your code. Console.log() can be used in a variety of ways, from adding it to places to check if the code you’ve written is working as you intended, or in this case, to see what is stored inside a variable!
-
-Learning about our Special Variables, try putting them into Console.log to see what happens?
-
-```jsx
-
+You might notice that this syntax looks very similar to the commands for shapes like ellipse() and rect(). This is because those commands are functions that are included in the p5.js library! Let’s now call the function in the example:
+```js
 function setup() {
-
-	createCanvas(600, 400);
-
-	fill(0, 102);
-
-	noStroke();
-
+  createCanvas(600, 600);
 }
 
 function draw() {
-
-	background(mouseY); // background color changes based on mouseY
-
-	ellipse(300, 200, mouseX, 50); // width changes based on mouseX
-
-	ellipse(mouseX, mouseY, 10, 10); // ellipse follows mouse
-	
-	console.log(mouseX, mouseY);
-
+  background(255, 225, 255);
+  noStroke();
+  fill(255, 255, 100);
+  ellipse(300, 300, 400, 400);
+  eye(); // calling the eye function
 }
+
+function eye() { // setting up the eye function
+  strokeWeight(1);
+  fill(255);
+  ellipse(400, 280, 60, 60);
+  fill(0, 0, 0);
+  ellipse(400, 285, 40, 40);
+} // end of the eye function
 ```
 
-Below your code, is a grey box called the “Console” — after pressing Play, you should see number appear. Can you figure out what the numbers are?
+## 2: Parameters
+![Modifying functions with parameters.]({{ "/assets/images/curriculum/Unit-5_Sample-5.png" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/SoSuHE6Cl) 
 
-- 🙋🏻‍♀️ Answer
-    
-    It’s the coordinates of your Mouse position! It’s telling us where our cursor is in the canvas’ space. 
-    
+We can call a function as many times as we want, by writing the command to call the function again and again:
+```js
+eye();
+eye();
+```
 
-Now, we can clearly and plainly see that mouseX and mouseY are storing and rewriting new values of data based on where you mouse position is. Data isn’t just a spreadsheet, but “the quantities, characters, or symbols on which operations are performed by a computer, being stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media,” (definition from Oxford Language Dictionary).
+But this is not very helpful as it will draw the same drawing in the same place. To make the function more flexible, we will use parameters. A parameter is a useful way of passing value into a function:
+```js
+function myFunction(parameter1, parameter2) {
+	console.log("parameter 1 is: " + parameter1);
+	console.log("parameter 2 is: " + parameter2);
+}
 
-We can understand data more expansively, and see how using variables is storing information and then enabling us to utilize it in artistic, creative ways. 
+myFunction(10, 100); // here, we are passing the value 10 into parameter1, and 100 into parameter2
+myFunction(77, 81); // here, we are passing the value 77 into parameter1, and 81 into parameter2
+```
 
-
-
-## Lesson Plan 2: What you can do with Variables
-
-**Prompt**: Why might creating a variable be helpful, valuable or efficient?
-
-### Repeatability
-
-I want to make 3 ellipses
-
-```jsx
+Again, you’ll see that the syntax looks a lot like the commands for drawing shapes. That is because the values set for things like x, y, width and height are parameters for the shape drawing functions. One easy way to think about functions is that we are creating our own drawing commands.
+```js
 function setup() {
-
-	createCanvas(600, 600);
-
+  createCanvas(600, 600);
 }
 
 function draw() {
+  background(255, 225, 255);
+  noStroke();
+  fill(255, 255, 100);
+  ellipse(300, 300, 400, 400);
+  eye(200, 280); // left eye
+  eye(400, 280); // right eye
+}
 
-	ellipse(75, 60, 80, 80);   // left
-
-	ellipse(175, 60, 80, 80);  // middle
-
-	ellipse(275, 60, 80, 80);  // right
-
+function eye(x, y) {
+  strokeWeight(1);
+  fill(255);
+  ellipse(x, y, 60, 60); // using x and y instead of hardcoded numbers
+  fill(0, 0, 0);
+  ellipse(x, y+5, 40, 40);
 }
 ```
 
-But do you see all those redundant numbers?
+Parameters are essentially variables that are a part of a function. In this example, we replaced the set numbers for the x and y coordinates of an eye with the x and y parameters. That way, those values are actually decided when the function eye() is called in the draw function, allowing us to reuse the same components but with more control.
 
-Instead of having to repeat the same number over and over again, I can store numbers that will always continue to be the same value as one variable:  
+The scope of parameters are limited to the curly braces of a function. In other words, the variables x and y that are being used in the function eye won’t be recognized outside of the eye() function’s curly braces. If you try to use x and y outside of the eye() function’s curly braces, you’ll get an error. This also means that you can use the labels x and y for other functions. 
 
-```jsx
-let y = 60; // 100
-
-let d = 80; // 130
-
+You can set as many parameters as you’d like to make your function work for you.
+```js
 function setup() {
-
-	createCanvas(600, 600);
-
+  createCanvas(600, 600);
 }
 
 function draw() {
+  background(255, 225, 255);
+  noStroke();
+  fill(255, 255, 100);
+  ellipse(300, 300, 400, 400);
+  eye(200, 280, 48, 30, 11, 100); // left eye
+  eye(400, 280, 0, 56, 200, 80); // right eye
+  eye(300, 200, 0, 217, 108, 40); // third eye
+  
+}
 
-	ellipse(75, y, d, d);   // left
-
-	ellipse(175, y, d, d);  // middle
-
-	ellipse(275, y, d, d);  // right
-
+function eye(x, y, r, g, b, size) {
+  strokeWeight(1);
+  fill(255);
+  ellipse(x, y, size, size);
+  fill(r,g,b);
+  ellipse(x, y+5, size * .67, size * .67);
+  fill(0);
+  ellipse(x, y+5, size/2, size/2);
 }
 ```
 
-In the example above, I’ve made:
+## 3: Using Global and Local Variables
+![Global and Local Variables]({{ "/assets/images/curriculum/Unit-5_Sample-6.gif" | relative_url }})
+[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tuuCIAUrm) 
 
-- **let y = 60;**  a variable called “y” to represent the y-coordinate value I want all my circles to be in (so they’re on a straight line!) at 60px from the top
-- **let d = 80;** is a variable representing my diameter — how big I want the circles to be. Because I want all my circles the same size.
+When a variable’s scope is limited to the curly braces of a single function, that is called a local variable. Variables that are declared outside of any function, and can be used inside any function are called global variables. Programmers use a combination of local and global variables to serve different purposes. In our case, we’ll use local variables to set the rules of our drawing components and global variables to animate them.
 
-Now, remember, we can name these whatever we’d like: call it apple, oranges, we can even call it X but use it for the values of Y! 
-
-BUT, it’s really in the best interest for your future self, as well as good coding hygiene for future sharing with other coders, to name your variables as self-descriptive names. You can certainly name them however you’d like but making it easier for yourself to debug later is always a good practice.
-
-Also, using variables makes it super easy to make changes for later. 
-
-Instead of having to rewrite all new values, I can simply change the value at the top and the change will trickle throughout: 
-
-```jsx
-let y = 60; // 100 or change it to whatever value or size you want! 
-
-let d = 80; // 130 or change it to whatever value or size you want! 
-
+In this example, we will use global variables leftEye, rightEye, and sideEye with if/else statements to make the pupil/irises of the eye go from side to side:
+```js
 function setup() {
-
-	createCanvas(600, 600);
-
+  createCanvas(600, 600);
 }
+
+let leftEye = 200;
+let rightEye = 400;
+let sideEye = 0.25;
 
 function draw() {
+  background(255, 225, 255);
+  noStroke();
+  fill(255, 255, 100);
+  ellipse(300, 300, 400, 400);
+  eye(200, 290, leftEye); // left eye
+  eye(400, 290, rightEye); // right eye
+  
+  if (leftEye >= 215 || leftEye < 185) {
+    sideEye *= -1;
+  }
+  
+  leftEye += sideEye;
+  rightEye += sideEye; // we don't need another if statement because we want the eyes to move in the same way
+}
 
-	ellipse(75, y, d, d);   // left
-
-	ellipse(175, y, d, d);  // middle
-
-	ellipse(275, y, d, d);  // right
-
+function eye(x, y, pupil) {
+  strokeWeight(1);
+  fill(255);
+  ellipse(x, y, 100, 80);
+  fill(82, 57, 0);
+  ellipse(pupil, y, 60, 60);
+  fill(0);
+  ellipse(pupil, y, 40, 40);
 }
 ```
 
-### Arithmetic
-
-**Add arithmetic to your variables!**
-
-- variable arithmetic (you can modify variables)
-- order of operations (), * /, + -
-- +=, ++, –
-- You can use this to make increments of your variables, animate your elements, and so much more!
-
-Let’s revisit our 3 circles: 
+**🎨  In our Drawing Tool:** We’ve made color changes for one key, but now we can assign different colors to different keys! Read the comments below to see how we’ve added to our initial If-Then-Else statement by adding Else-if. 
 
 ```jsx
-let y = 60; // 100
+function keyPressed() { // When the key is pressed
 
-let d = 80; // 130
-
-function setup() {
-
-	createCanvas(600, 600);
-
-}
-
-function draw() {
-
-	ellipse(75, y, d, d);   // left
-
-	ellipse(175, y, d, d);  // middle
-
-	ellipse(275, y, d, d);  // right
-
+  if (key == "r") {  // And if the key is "r" , fill the circle with red 
+    fill(255,0,0);
+  } else if (key == "g") {  // Otherwise, if the key is "g" , fill the circle with green 
+    fill(0,255,0); 
+  } else if (key == "b"){   // Otherwise, if the key is "b" , fill the circle with blue 
+    fill(0,0,255);
+  } else {      // And, if the key pressed is anything else other than r, g, b, or x, fill the circle with white 
+	  fill(255);
+	  }
 }
 ```
 
-If you notice, each of the circle’s X value is following some kind of an increment. It’s adding 100px every time!
-
-We can utilize the power of variables WITH arithmetic to make it easier for us. 
-
-```jsx
-let x = 75; // where we want the first circle's X to start
-
-let y = 60; // 100
-
-let d = 80; // 130
-
-function setup() {
-
-	createCanvas(600, 600);
-
-}
-
-function draw() {
-
-	ellipse(x, y, d, d);   // left
-
-	ellipse(x+100, y, d, d);  // middle
-
-	ellipse(x+200, y, d, d);  // right
-
-}
-```
-
-OR we can even modify it further. How would you go about it?
-
-- Answer
-    
-    There are SO many ways you can answer this question actually, and there is no right or wrong way. Here is one example of how I might streamline this so I can make iterations or easy changes in the future:
-    
-    ```jsx
-    let x = 75; // where we want the first circle's X to start
-    
-    let y = 60; // 100
-    
-    let d = 80; // 130
-    
-    let s = 20; // the spacing between each circle
-    
-    function setup() {
-    
-    	createCanvas(600, 600);
-    
-    }
-    
-    function draw() {
-    
-    	ellipse(x, y, d, d);   // x = 75, which is the same
-    
-    	ellipse(x + (d+s), y, d, d);  // now, we're adding the d (our circle's diameter, so they don't overlap)
-    																// +s, which adds 20px gap so the circle's aren't touching
-    
-    	ellipse(x + (2*(d+s)), y, d, d);  // and then multipled by 2 so it keeps the same distance + width 
-    
-    	ellipse(x + (3*(d+s)), y, d, d); // and then we make it super easy for our future selves
-    	
-    	ellipse(x + (4*(d+s)), y, d, d);
-    }
-    ```
-    
-
-```jsx
-let x = 25;
-let h = 20;
-let y = 25;
-function setup() {
-  createCanvas(480, 120);
-}
-function draw() {
-  background(204);
-  rect(x, y, 300, h);        // Top
-  x = x + 100;
-  rect(x, y + h, 300, h);    // Middle
-  x = x - 250;
-  rect(x, y + h*2, 300, h);  // Bottom
-}
-```
-
-### Updating a value
-We can also update the value of a variable throughout our code. It can mean one value in a specific context, and then change its value in another.
-
-- Replacing the value of a variable
-    - Variables can update themselves with new information - ie. x = x+1; This means that x will keep updating to add 1 to itself.
-    - If using “let,” we can change the variable type. The same variable used for storing numbers can also update to be text or array of values.
-    
-
-**🎨 In our Sound-Reactive Mask example:** 
-- One way we can check what is stored inside the variable is to use : **console.log**. Try using consloe.log for the variable "vol" to see the values that come from the microphone input! 
-
+Functions are important for coding because they allow us to organize our projects in a modular way, that is with multiple pieces making up a whole. See how functions can help us collaborate with code!

@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "A Walk in the Neighborhood" # Title and Heading 1
-permalink: /artTime-introduction/ # Give your page a permalink
+permalink: /walkInNeighborhood-introduction/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery

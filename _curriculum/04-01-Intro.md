@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Drawing Machine" # Title and Heading 1
-permalink: /responsivevisualdata-intro/ # Give your page a permalink
+permalink: /drawingMachine-intro/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
@@ -12,7 +12,8 @@ gallery: # Below is for including an image gallery
 
 ---
 
-![Create a sound-reactive mask with p5.js!]({{ "/assets/images/unit4.png" | relative_url }})  
+![No Paint, Jeffrey Scudder]({{ "https://scrippscollege.github.io/MS_053_S24/assets/nopaint.png" | relative_url }})  
+[No Paint](https://nopaint.art/) (2020), Jeffrey Scudder
 
 # Introduction
 
@@ -32,6 +33,13 @@ Design and code a drawing software that makes marks in a novel way.
 - Gaining insight into diverse practices in traditional and contemporary drawing
 - Understanding the relationship between drawing tools and artistic intention
 - Comprehending visual arts vocabularies, including line, texture, transparency, and gradient
+- Collaborating with many contributors when creating a computational artifact
+- Comparing tradeoffs associated with licenses for computational artifacts to balance the protection of the creators’ rights and the ability for others to use and modify the artifacts
+
+### Grade 9~12
+- Comparing the differences between open-source and proprietary software
+- Studying, discussing, and thinking critically about the potential impacts and implications of emerging technologies on larger social, economic, and political structures, with evidence from credible sources.
+- Explaining the beneficial and harmful effects that intellectual property laws can have on innovation.
 
 ## Technical Terms & p5.js Elements
 ### Grade 6~8
@@ -39,7 +47,8 @@ Design and code a drawing software that makes marks in a novel way.
 - Argument and parameters
 - Passing parameters
 - Default parameters
-
+### Grade 9~12
+- Playtesting
 
 ## References & Artworks for Discussion
 
@@ -57,18 +66,20 @@ Design and code a drawing software that makes marks in a novel way.
 - [Rebelle](https://www.escapemotions.com/experiments/rebelle/index.php)
 - [Icicles Bubbles](https://edankwan.com/experiments/icicle-bubbles/)
 
-## Related Artists Discussion Questions
+<!-- ## Related Artists Discussion Questions -->
 
 ## Unplugged Activities
 ### Blind Contour Drawing
 1. Using different drawing utensils (pencil, marker, charcoal, ink) students create blind contour drawings of a single object. Comparing the different drawings, students discuss how the quality of the lines affects the tone and effect of the drawing.
 1. Divide students into pairs and have them create blind contour drawings of each other using different drawing materials. Students discuss how the features of the lines made by different drawing tools supports or doesn’t support the ‘portrait’ of their classmate.
-1. Once the initial p5.js drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features.
+1. Once the initial p5.js drawing tool is completed, students use the drawing tool they designed to create a blind contour drawing. Compare the drawings with the ones they did using physical materials. Students can then adjust their drawing tool to modify the features.  
+
 ### Depicting Movement with Lines
 1. Provide students with a simple reference object for drawing (e.g. cube, pencil, eraser) and multiple sheets of paper. For 3 minutes at a time, have random words related to motion (fast, awkwardly, quietly, laboriously) displayed on the board. Have students draw the object moving according to the word on the board.
 1. Have students display their work on tables or the board according to the descriptors (e.g. all the quickly drawings on one table). Discuss what are qualities the images have in common for different descriptors.
 1. Students choose one descriptor, and create an intermediate sketch depicting that descriptor.
-1. Students use the p5.js drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.
+1. Students use the p5.js drawing tool to create drawings of the descriptors (or chosen one). Students discuss the difference between digital and physical drawings and compare the drawing experiences.  
+
 ### Make Your Own Paintbrush
 1. Using found materials, students create their own paintbrush. While creating a drawing with their brush, students make observations about the relationship between the shape of their brush and the lines they are creating.
 

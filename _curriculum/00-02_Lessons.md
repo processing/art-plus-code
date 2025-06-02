@@ -7,7 +7,6 @@ published: true
 gallery: # Below is for including an image gallery
 ---
 # Lesson Plans & Technical Steps
-
 ## 1. Setting Up Your Environment
 
 To begin writing code using [p5.js](https://p5js.org/), you need to set up the coding environment to write and save your programs. [Processing Foundation](https://processingfoundation.org/) provides the [p5.js Editor](https://editor.p5js.org/), a website where programmers can write, test, share, and remix p5.js programs without needing to download or install a code editor on a computer. 
@@ -26,7 +25,7 @@ To begin writing code using [p5.js](https://p5js.org/), you need to set up the c
 1. Open the latest version of Chrome or Firefox browser on your computer and visit the [p5.js Editor](https://editor.p5js.org/) website. 
 1. Click the “Sign up” link on the top right of the web page.
 
-![p5.js Editor sign-up link]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_sign_up.png?raw=true" | relative_url }})  
+![p5.js Editor sign-up link]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_sign_up.png?raw=true" | relative_url}})  
 
 ### 1B. Creating an Account
 Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of the following options:

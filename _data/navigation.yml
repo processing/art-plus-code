@@ -1,7 +1,7 @@
 ## Main header navigation bar
 main:
   - title: "Curriculum"
-    url: /introduction/
+    url: /codeAsCreativeMedium-intro/
   - title: "Resources"
     url: /resources/
   - title: "About"
@@ -31,27 +31,27 @@ curriculum:
   - title: "Mask Generator"
     children:
       - title: "Introduction"
-        url: /collaginginstructions-intro/
+        url: /maskGenerator-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /collaginginstructions-lessons/
+        url: /maskGenerator-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /collaginginstructions-assessment/
+      #   url: /maskGenerator-assessment/
   - title: "A Walk in the Neighborhood"
     children:
       - title: "Introduction"
-        url: /artTime-introduction/
+        url: /walkInNeighborhood-introduction/
       - title: "Lesson Plans & Technical Steps"
-        url: /artTime-lessons/
+        url: /walkInNeighborhood-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /artTime-assessment/
+      #   url: /walkInNeighborhood-assessment/
   - title: "Drawing Machine"
     children:
       - title: "Introduction"
-        url: /responsivevisualdata-intro/
+        url: /drawingMachine-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /responsivevisualdata-lessons/
+        url: /drawingMachine-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /responsivevisualdata-assessment/
+      #   url: /drawingMachine-assessment/
   # - title: "Movement, Collaboration & Harmony"
   #   children:
   #     - title: "Introduction"

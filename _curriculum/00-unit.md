@@ -1,6 +1,7 @@
 ---
 title: "Units"
 permalink: /introduction/
+published: false
 
 # Include links, images, and descriptions for each unit row below:
 unit1_row: # One row that has two columns (1 column for each unit)
@@ -21,7 +22,7 @@ unit1_row: # One row that has two columns (1 column for each unit)
         - drawing methods
         - text methods
         - loading and displaying images
-    url: /collaginginstructions-intro/
+    url: /maskGenerator-intro/
 
 unit2_row:
   - image_path: /assets/images/curriculum/Unit-3_Sample-4.png
@@ -33,7 +34,7 @@ unit2_row:
         - arithmetic operators and expressions
         - if/else statements
         - boolean expressions and operators
-    url: /artTime-introduction/
+    url: /walkInNeighborhood-introduction/
 
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
     title: "Drawing Machine"
@@ -42,7 +43,7 @@ unit2_row:
         - variables
         - map(), constrain() functions
         - p5.js Sound Library
-    url: /responsivevisualdata-intro/
+    url: /drawingMachine-intro/
 
 unit3_row:
   - image_path: /assets/images/curriculum/Unit-5_Sample-0.png

@@ -25,10 +25,10 @@ When we think of code, we often picture functionality—algorithms, instructions
 
 Artists working with code aren’t just telling a computer what to do—they’re shaping a conversation between rules and randomness, intention and chance. What makes code a powerful medium is not just what it produces, but how it makes us think. It teaches precision while opening space for abstraction. It demands structure while allowing play. In this way, code is not only a tool—it’s a collaborator, a material, and a mirror to the way we imagine.
 
-# 2D Art
+## 2D Art
 
-## Drawing & Painting
-### [Precarious](https://camilleutterback.com/projects/precarious/) (2018)
+### Drawing & Painting
+#### [Precarious](https://camilleutterback.com/projects/precarious/) (2018)
 Camille Utterback
 
 ![Camille Utterback, Precarious]({{ "https://camilleutterback.com/wp2022/wp-content/gallery/precarious-new/06.24.2019_Precarious_ScreenShot_001.jpg" | relative_url }})  
@@ -38,12 +38,12 @@ In *Precarious*, Utterback transforms the ephemeral nature of human presence int
 
 <iframe src="https://player.vimeo.com/video/344447606?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1013" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Precarious, 2018"></iframe>
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How does code enable the artwork to respond to human movement in real time?
 - In what ways does coding turn ephemeral human presence into a lasting visual trace?
 - How might the meaning of this piece shift if it were created through analog means instead of code?
 
-### [*Possible, Plausible, Potential*](https://www.creativeapplications.net/project/possible-plausible-potential-drawings-of-architecture-generated-by-code/) (2015)
+#### [*Possible, Plausible, Potential*](https://www.creativeapplications.net/project/possible-plausible-potential-drawings-of-architecture-generated-by-code/) (2015)
 Made in [Processing](https://processing.org/) by Miguel Nóbrega
 
 ![Miguel Nóbrega, Possible, Plausible, Potential]({{ "/assets/images/curriculum/Unit-0_Sample-2.jpg" | relative_url }})  
@@ -57,7 +57,7 @@ Nóbrega's *Possible, Plausible, Potential* embraces the unpredictability inhere
 
 <iframe src="https://player.vimeo.com/video/143076578?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Superficie – Possible, plausible, potential"></iframe>
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How does Nóbrega use code to create a balance between randomness and structure?
 - What creative decisions are made through writing code, and what are left to the machine?
 - In what ways does code become an artistic collaborator in this work?
@@ -65,8 +65,8 @@ Nóbrega's *Possible, Plausible, Potential* embraces the unpredictability inhere
 **Tip:** [p5.plotSvg](https://github.com/golanlevin/p5.plotSvg) is a tool that supports p5.js artists to download their sketches as SVG files, making it possible to connect p5.js with pen plotters. 
 {: .notice--success}
 
-## Printmaking
-### [*Decode Kolams*](https://aarati.online/rituals-of-recursion) (2025)
+### Printmaking
+#### [*Decode Kolams*](https://aarati.online/rituals-of-recursion) (2025)
 Made in [p5.js](https://p5js.org) by Aarati Akkapeddi
 
 ![Aarati Akkapeddi, Decode Kolams]({{ "https://aarati.online/media/pages/rituals-of-recursion/cf3c70f922-1744573498/print_detail2.jpg" | relative_url }})  
@@ -86,7 +86,7 @@ By converting characters into binary code and mapping them onto a grid, Akkapedd
 ![Aarati Akkapeddi, Decode Kolams]({{ "https://aarati.online/media/pages/rituals-of-recursion/198e667c76-1744573500/prints.jpg" | relative_url }})  
 Installation view at the Rituals of Recursion exhibition, Spill 180, NY.
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How is code used to translate linguistic information into visual form?
 - What does this piece show us about how code can preserve or extend tradition?
 - How does encoding text into binary and turning it into pattern expand our idea of how code can be represented?
@@ -94,8 +94,8 @@ Installation view at the Rituals of Recursion exhibition, Spill 180, NY.
 **Tip:** You are invited to encode text into a kolam pattern using Akkapeddi's software, [kolam.codes](https://kolam.codes/).
 {: .notice--success}
 
-## Photography
-### [*Glance Back*](https://glanceback.info/) (2021)
+### Photography
+#### [*Glance Back*](https://glanceback.info/) (2021)
 Maya Man
 
 *Glance Back* captures the fleeting nature of digital interactions by collecting and displaying selfies taken when one least expects it. This participatory artwork reflects on the performative aspects of online presence and the ways we curate our identities. By archiving these transient moments, it prompts contemplation on memory, self-representation, and the ephemerality of digital life.
@@ -112,7 +112,7 @@ Software screenshot of *Glance Back*, a custom chrome extension software.
 ![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
 Maya Man's *Glance Back* archive. 
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How does the use of code shape the interaction between viewer and artwork in this piece?
 - What does this work tell us about how code can collect, curate, and reframe everyday behavior?
 - How is the creative use of code shaping our understanding of authorship and agency in digital spaces?
@@ -120,10 +120,10 @@ Maya Man's *Glance Back* archive.
 **Tip:** If you use the chrome browser, you can try Glance Back by installing the [chrome extension](https://chromewebstore.google.com/detail/glance-back/hgickafobcmcfffbjiamhhejkockfccm?pli=1).
 {: .notice--success}
 
-# 3D Art
+## 3D Art
 
-## Sculpture
-### [She Who Sees the Unknown](https://shewhoseestheunknown.com/) (2017-2021)
+### Sculpture
+#### [She Who Sees the Unknown](https://shewhoseestheunknown.com/) (2017-2021)
 Morehshin Allahyari (Persian: موره شین اللهیاری‎)
 
 ![Morehshin Allahyari, She Who Sees the Unknown]({{ "https://i0.wp.com/shewhoseestheunknown.com/wp-content/uploads/2020/03/AllahyariM-SWSTU-TheLaughingSnake-01-5428x7286-1-scaled.jpg?ssl=1" | relative_url }})  
@@ -138,13 +138,13 @@ Installation view at the She Who Sees the Unknown exhibition, Transfer Gallery, 
 >
 > \- Morehshin Allahyari
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How does 3D modeling software allow the artist to recreate mythological figures?
 - What role does 3D printing play in reconstructing lost or marginalized narratives?
 - How is the 3D printing used not just to replicate, but to speculate and resist?
 
-## Textile
-### [Doilies](https://www.laurasplan.com/projects/doilies) (2004)
+### Textile
+#### [Doilies](https://www.laurasplan.com/projects/doilies) (2004)
 Laura Splan
 ![Laura Splan, Doilies]({{ "https://cdn.prod.website-files.com/6391e5efd5c2c1a8b351b8b8/64078a19a76aa391400a0de0_Laura_Splan%E2%80%942004%E2%80%94Doilies-SARS%E2%80%94computerized_machine_embroidered_lace.jpg" | relative_url }})  
 Close-up view of *Dollies (SARS)*, computerized machine embroidered lace mounted on velvet.
@@ -158,8 +158,7 @@ Close-up view of *Dollies (SARS)*, computerized machine embroidered lace mounted
 ![Laura Splan, Doilies]({{ "https://cdn.prod.website-files.com/6391e5efd5c2c1a8b351b8b8/640681a40983f6e9610d3f3f_Laura_Splan%E2%80%942009%E2%80%94commissioned_installation_for_Re-Formations_at_Van_Every-Smith_Galleries%E2%80%943.jpg" | relative_url }})  
 Installation view at the Re/Formations exhibition, Van Every/Smith Galleries, NC
 
-#### Discussion Prompts
-
+##### Discussion Prompts
 - What role did code play in the embroidery design?
 - How does using code to generate visual patterns change the meaning or context of a form conventionally designed by hand?
 - What does this piece teach us about the aesthetic potential of procedueral design?
@@ -167,9 +166,8 @@ Installation view at the Re/Formations exhibition, Van Every/Smith Galleries, NC
 **Tip:** [PEmbroider](https://github.com/CreativeInquiry/PEmbroider) is an add-on tool that empowers Processing artists to export their sketches to a home embroidery machine!
 {: .notice--success}
 
-## Ceramic
-
-### [*Lantern Vessel in Collage*](https://design-milk.com/f5-jolie-ngo-on-chicago-bricks-her-favorite-clogs-more/) (2024)
+### Ceramic
+#### [*Lantern Vessel in Collage*](https://design-milk.com/f5-jolie-ngo-on-chicago-bricks-her-favorite-clogs-more/) (2024)
 Jolie Ngo
 
 > Ngo blends 3D-printing technology with hand-painted imagery influenced by the digital aesthetics of her childhood, as seen in Minecraft and The Sims. A Vietnamese-American creative, she also references her heritage. Faceted forms echo the look of traditional silk lanterns, while layered textures recall the topographic views of rice paddies.
@@ -186,12 +184,12 @@ Close-up view of *Lantern Vessel in Collage*, 3D-printed ceramic inspired by Vie
 ![Jolie Ngo, installation]({{ "https://images.prismic.io/sayhito/5730abb2-712d-4314-83d9-449a82e425c1_sayhito_Jolie-Ngo_4.png?auto=compress,format" | relative_url }})  
 Studio photography of Ngo's 3D-printed ceramic series. 
 
-#### Discussion Prompts
+##### Discussion Prompts
 - Are you able to recognize and describe the hand-made/machine-made tensions Ngo referred to in her ceramics? 
 - What opportunities does generative design through code offer to ceramic or physical practices?
 - How does code expand the definition of craft?
 
-### [*Dust Furries*](https://www.unitedstatesartists.org/artists/linda-nguyen-lopez) (2019)
+#### [*Dust Furries*](https://www.unitedstatesartists.org/artists/linda-nguyen-lopez) (2019)
 Linda Nguyen Lopez
 
 ![Linda Nguyen Lopez, Dust Furries]({{ "/assets/images/curriculum/Unit-0_Sample-3.png" | relative_url }})  
@@ -206,7 +204,7 @@ Linda Nguyen Lopez
 ![Linda Nguyen Lopez, installation]({{ "https://artlogic-res.cloudinary.com/w_2400,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1040/usr/exhibitions/images/exhibitions/10/lopez-somebody-install7-web.jpg" | relative_url }})  
 Installation view at the ʎpoqǝɯos exhibition, David B. Smith Gallery, CO
 
-#### Discussion Prompts
+##### Discussion Prompts
 
 - What adjectives might you use to describe Lopez's visual language?
 - How might this work shift our understanding of what kinds of forms or textures code can generate?
@@ -219,9 +217,9 @@ Installation view at the ʎpoqǝɯos exhibition, David B. Smith Gallery, CO
 ## Architecture
 ## Public Art -->
 
-# 4D Art
-## Video & Animation
-### The Earth Eaters (2025)
+## 4D Art
+### Video & Animation
+#### The Earth Eaters (2025)
 Made in [Processing](https://processing.org/) by Marina Zurkow and James Schmitz
 
 ![Marina Zurkow and James Schmitz, The Earth Eaters]({{ "/assets/images/curriculum/Unit-0_Sample-1.jpg" | relative_url }})  
@@ -233,13 +231,13 @@ Installation view at the Parting Worlds exhibition, Whitney Museum, NY.
 
 <iframe src="https://player.vimeo.com/video/1074718891?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Marina Zurkow, &quot;The Earth Eaters&quot; (single channel), 2025"></iframe>
 
-#### Discussion Prompts
+##### Discussion Prompts
 - How is code used to generate time-based narratives or environmental systems in this piece?
 - What role does algorithmic design play in shaping the emotional arc of the work?
 - How can code as a medium help us explore cycles of destruction, transformation, or growth?
 
-## Performance
-### [Border Tuner / Sintonizador Fronterizo](https://www.lozano-hemmer.com/border_tuner__sintonizador_fronterizo.php) (2019)
+### Performance
+#### [Border Tuner / Sintonizador Fronterizo](https://www.lozano-hemmer.com/border_tuner__sintonizador_fronterizo.php) (2019)
 Rafael Lozano-Hemmer
 
 ![Rafael Lozano-Hemmer, Border Tuner]({{ "/assets/images/curriculum/Unit-0_Sample-0.png" | relative_url }})  
@@ -253,7 +251,7 @@ Lozano-Hemmer's *Border Tuner / Sintonizador Fronterizo* is an interactive insta
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sX-VXlweApI?si=BhtyT-8vmbE7lPca&amp;start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### Discussion Prompts
+##### Discussion Prompts
 
 - How are human inputs sensed, interpreted, and responded to in this piece?
 - What does this work reveal about code’s ability to bridge—or highlight—distances between people?

@@ -1,8 +1,8 @@
 ---
 # This is the frontmatter
 title: "Mask Generator" # Title and Heading 1
-permalink: /collaginginstructions-assessment/ # Give your page a permalink
-published: true
+permalink: /maskGenerator-assessment/ # Give your page a permalink
+published: false
 
 gallery: # Below is for including an image gallery
   - url: /assets/images/thumbnails/unit2.png
