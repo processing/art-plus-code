@@ -123,7 +123,7 @@ Maya Man's *Glance Back* archive.
 ## 3D Art
 
 ### Sculpture
-#### [She Who Sees the Unknown](https://shewhoseestheunknown.com/) (2017-2021)
+#### [*She Who Sees the Unknown*](https://shewhoseestheunknown.com/) (2017-2021)
 Morehshin Allahyari (Persian: موره شین اللهیاری‎)
 
 ![Morehshin Allahyari, She Who Sees the Unknown]({{ "https://i0.wp.com/shewhoseestheunknown.com/wp-content/uploads/2020/03/AllahyariM-SWSTU-TheLaughingSnake-01-5428x7286-1-scaled.jpg?ssl=1" | relative_url }})  
@@ -144,7 +144,7 @@ Installation view at the She Who Sees the Unknown exhibition, Transfer Gallery, 
 - How is the 3D printing used not just to replicate, but to speculate and resist?
 
 ### Textile
-#### [Doilies](https://www.laurasplan.com/projects/doilies) (2004)
+#### [*Doilies*](https://www.laurasplan.com/projects/doilies) (2004)
 Laura Splan
 ![Laura Splan, Doilies]({{ "https://cdn.prod.website-files.com/6391e5efd5c2c1a8b351b8b8/64078a19a76aa391400a0de0_Laura_Splan%E2%80%942004%E2%80%94Doilies-SARS%E2%80%94computerized_machine_embroidered_lace.jpg" | relative_url }})  
 Close-up view of *Dollies (SARS)*, computerized machine embroidered lace mounted on velvet.
@@ -219,7 +219,7 @@ Installation view at the ʎpoqǝɯos exhibition, David B. Smith Gallery, CO
 
 ## 4D Art
 ### Video & Animation
-#### The Earth Eaters (2025)
+#### *The Earth Eaters* (2025)
 Made in [Processing](https://processing.org/) by Marina Zurkow and James Schmitz
 
 ![Marina Zurkow and James Schmitz, The Earth Eaters]({{ "/assets/images/curriculum/Unit-0_Sample-1.jpg" | relative_url }})  
@@ -237,7 +237,7 @@ Installation view at the Parting Worlds exhibition, Whitney Museum, NY.
 - How can code as a medium help us explore cycles of destruction, transformation, or growth?
 
 ### Performance
-#### [Border Tuner / Sintonizador Fronterizo](https://www.lozano-hemmer.com/border_tuner__sintonizador_fronterizo.php) (2019)
+#### [*Border Tuner / Sintonizador Fronterizo*](https://www.lozano-hemmer.com/border_tuner__sintonizador_fronterizo.php) (2019)
 Rafael Lozano-Hemmer
 
 ![Rafael Lozano-Hemmer, Border Tuner]({{ "/assets/images/curriculum/Unit-0_Sample-0.png" | relative_url }})  
