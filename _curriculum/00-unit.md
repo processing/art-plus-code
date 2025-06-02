@@ -1,31 +1,32 @@
 ---
 title: "Units"
 permalink: /introduction/
+published: false
 
 # Include links, images, and descriptions for each unit row below:
 unit1_row: # One row that has two columns (1 column for each unit)
   - image_path: /assets/images/curriculum/Unit-1_Sample-0.png # Add image in /assets/images and link it here
-    title: "Capturing Movement with Digital Lines" # Include a title
+    title: "Lost and Found" # Include a title
     excerpt: | # Multi-line description
         *Design a digital drawing tool using p5.js. Customize your tool to express unique qualities of line and composition!* 
         - p5.js setup & structure
         - drawing methods
         - mouse and key inputs
-    url: /capturingMovement-intro/ # Include the permalink specified on the unit's page
+    url: /lostAndFound-intro/ # Include the permalink specified on the unit's page
 
   - image_path: /assets/images/curriculum/Unit-2_Sample-0.png
-    title: "Collaging with Instructions"
+    title: "Mask Generator"
     excerpt: |
         *Use shapes, images, text and color to create an "About Me" collage to create a self-portrait while exploring the p5.js editor and its many features.* 
         - p5.js Editor
         - drawing methods
         - text methods
         - loading and displaying images
-    url: /collaginginstructions-intro/
+    url: /maskGenerator-intro/
 
 unit2_row:
   - image_path: /assets/images/curriculum/Unit-3_Sample-4.png
-    title: "Art & Time"
+    title: "A Walk in the Neighborhood"
     excerpt: |
         *Bring together drawing, animation and the computer's clock to engage with **time** as an artistic concept and design your own clock!*
         - working with text in p5.js
@@ -33,16 +34,16 @@ unit2_row:
         - arithmetic operators and expressions
         - if/else statements
         - boolean expressions and operators
-    url: /artTime-introduction/
+    url: /walkInNeighborhood-introduction/
 
   - image_path: /assets/images/curriculum/Unit-4_Sample-0.png
-    title: "Responsive Visual Data"
+    title: "Drawing Machine"
     excerpt: |
         *Use variables to create a sound-reactive art project and understand the way data can feed into inputs and outputs*
         - variables
         - map(), constrain() functions
         - p5.js Sound Library
-    url: /responsivevisualdata-intro/
+    url: /drawingMachine-intro/
 
 unit3_row:
   - image_path: /assets/images/curriculum/Unit-5_Sample-0.png
@@ -86,9 +87,9 @@ unit4_row:
 
 ---
 
-The Art + Code Teacher Camp’s curriculum is a visual arts forward approach that drives an understanding of core programming concepts through an art-focused lens. Designed for K-12 Educators, this curriculum explore a range of technical and artistic topics grouped into four categories: Start Here!, Bringing Numbers to Life, Creative Coding, and Generating Patterns. 
+The Art + Code’s curriculum is a visual arts forward approach that drives an understanding of core programming concepts through an art-focused lens. Designed for K-12 Educators, this curriculum explore a range of technical and artistic topics grouped into four categories: Start Here!, Bringing Numbers to Life, Creative Coding, and Generating Patterns. 
 
-Each module provides resources to support student artistic development including 'unplugged' warm-up activities, tips for teaching code, discussion prompts and suggestions for assessment activities. Each unit provides a glimpse into an artistic practice supported by code, or digital media driven by visual arts ideas. 
+Each module provides resources to support student artistic development including 'unplugged' warm-up activities, Tip for teaching code, discussion prompts and suggestions for assessment activities. Each unit provides a glimpse into an artistic practice supported by code, or digital media driven by visual arts ideas. 
 
 The modules here are designed to meet teachers and students where they’re at: first time coders, interactive media art enthusiasts and artists looking for new tools to incorporate into their practice.
 

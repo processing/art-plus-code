@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Art + Code Teacher Camp
+title: Art + Code
 description: >- # this means to ignore newlines until "baseurl:"
-  The Art + Code Teacher Camp is an immersive professional development 
+  The Art + Code is an immersive professional development 
   program designed to empower US-based educators to integrate fundamental 
   software concepts into their K-12 art classrooms.
 url: "" # base hostname & protocol for your site, e.g. http://example.com

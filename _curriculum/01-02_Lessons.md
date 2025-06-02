@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
-title: "Capturing Movement with Digital Lines" # Title and Heading 1
-permalink: /capturingMovement-lessons/ # Give your page a permalink
+title: "Lost and Found" # Title and Heading 1
+permalink: /lostAndFound-lessons/ # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
@@ -24,248 +24,303 @@ gallery: # Below is for including an image gallery
 ---
 # Lesson Plans & Technical Steps
 
-## 1. Drawing with p5.js
-![Following your mouse's x and y position!]({{ "/assets/images/curriculum/Unit-1_Sample-2.gif" | relative_url }})  
-[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/tS5O2kwg9)
+## 1. Shape
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hISICBkFa4Q?si=U-LWuegXM9xtLfXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Let’s get some code on the board to start fiddling around. When we open the [p5.js editor](http://editor.p5js.org), we see the following code: 
+#### 1A. p5.js canvas coordinates
+By default, every new p5.js sketch you create on the p5.js Editor will contain the following code:
+
+```jsx
+function setup(){
+  createCanvas(400,400);
+}
+```
+
+The [createCanvas()](https://p5js.org/reference/p5/createCanvas/) feature enables you to set the width and height of the canvas. This will determine the physical limit of your drawing surface. Try updating the numbers in between the parentheses in the following sequence, click the Play button, and see what happens:
+
+```jsx
+function setup(){
+  createCanvas(600,400);
+}
+```
+
+```jsx
+function setup(){
+  createCanvas(400,600);
+}
+```
+
+```jsx
+function setup(){
+  createCanvas(600,600);
+}
+```
+**Mini-Challenge:** Can you tell which value determines the canvas width and which value determines the canvas height?
+{: .notice--warning} 
+
+**Tip:** Similar to the logic of image editing software, you can only create one canvas per sketch. 
+Additionally, it’s not possible to animate canvas size while a sketch is playing. 
+{: .notice--success}
+
+#### 1B. p5.js coordinate system
+We’re on our way to placing shapes on the canvas. Do you recall the Cartesian coordinate system taught in math classes? Don’t worry, we believe this to be much simpler! The p5.js canvas features an invisible coordinate system that originates from an X position of 0 and a Y location of 0 in the top-left corner. 
+
+![p5.js coordinate system]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/coordinates.png?raw=true" | relative_url }}) 
+
+As a shape on the canvas moves to the right of this point, its [X-coordinate value increases](https://editor.p5js.org/Msqcoding/full/AM5ZwrmNo/). As an object on the canvas moves down from this point, its [Y-coordinate value rises](https://editor.p5js.org/Msqcoding/full/jZeTUjZfZ/).
+
+**Code Snippet:** Explore the p5.js coordinate system with this [pixel ruler tool](https://editor.p5js.org/xinemata/sketches/gjWtrowcK) created by Alp Tugǎn, a p5.js Contributor. 
+{: .notice--info} 
+
+#### 1C. Drawing simple shapes
+Now that we’ve covered the basics of the coordinate system, let’s draw a rectangle on the canvas by using the [rect()](https://p5js.org/reference/p5/rect/) feature!    
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+}
+
+function draw() { 
+  background(220); 
+  rect(0, 0, 40, 40); // x, y, w, h
+}
+```  
+
+**Code Snippet:** [Single rect()](https://editor.p5js.org/xinemata/sketches/F71Lv0ddE).
+{: .notice--info} 
+
+You should see an adorable white rectangle appearing in the upper-left corner of the canvas. Digging deeper into the syntax of [rect()](https://p5js.org/reference/p5/rect/), we’d learn that within the parentheses, the first number sets the X position; the second number sets the Y position; the third number sets the width; and the fourth number sets the height of the rectangle. 
+
+![p5.js rectangle illustration]({{ "/assets/images/curriculum/Unit-1_Sample-8.png" | relative_url }}) 
+
+Now, add a couple more rectangles to the canvas. You’re invited to experiment with different x, y, width, and height values. Go wild! 
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+}
+
+function draw() { 
+  background(220); 
+  rect(0, 0, 40, 40); // x, y, w, h
+  rect(40, 40, 40, 40); // x, y, w, h
+  rect(80, 80, 40, 40); // x, y, w, h
+}
+```
+**Code Snippet:** [Multiple rect()](https://editor.p5js.org/xinemata/sketches/gWHc2OalC).
+{: .notice--info} 
+
+**Mini-Challenge:** The example above uses rectangles to form the start of a diagonal line. Can you complete it so that the diagonal line extends across the entire canvas to reach the bottom-right corner?
+{: .notice--warning} 
+
+Once you feel more comfortable with drawing rectangles on canvas, we’ll switch over to drawing ellipses using the [ellipse()](https://p5js.org/reference/p5/ellipse/) feature. In coding, it’s always a good idea to start small. So let’s begin by drawing a single ellipse on the canvas:
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+}
+
+function draw() { 
+  background(220); 
+  ellipse(0, 0, 40, 40); // x, y, w, h
+}
+```
+**Code Snippet:** [Single ellipse()](https://editor.p5js.org/xinemata/sketches/jW_Pq_vCu).
+{: .notice--info} 
+Hmmm... 🤔 Even though I’m trying to align the ellipse with the upper-left corner by setting X and Y to 0, it’s not behaving as expected. It is as if the edge of the canvas is cutting off the ellipse, and we're only seeing a quarter of the shape. Why is this happening?
+
+It turns out that in computer graphics, rectangles and ellipses have different anchor points:
+
+![rect diagram]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/rect-diagram.png?raw=true" | relative_url }})
+
+The rectangle’s anchor point is on the upper left corner, and the ellipse’s anchor point is in the center of the shape.
+
+![ellipse diagram]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/ellipse-diagram.png?raw=true" | relative_url }}) 
+
+If you want to set the anchor point for ellipses to the upper-left corner, you can add the [ellipseMode()](https://p5js.org/reference/p5/ellipseMode/) feature and set it to CORNER.
+
+![p5.js ellipseMode illustration]({{ "/assets/images/curriculum/Unit-1_Sample-9.png" | relative_url }}) 
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+  ellipseMode(CORNER);
+}
+
+function draw() { 
+  background(220); 
+  ellipse(0, 0, 40, 40); // x, y, w, h
+}
+```
+
+**Code Snippet:** [ellipseMode()](https://editor.p5js.org/xinemata/sketches/-AxE_NPc-).
+{: .notice--info} 
+
+**Tip:** Alternatively, if you want to set the anchor point for rectangles to the center, you can use the [rectMode()](https://p5js.org/reference/p5/rectMode/) feature and set it to CENTER. 
+{: .notice--success}
+
+After adding the [ellipseMode()](https://p5js.org/reference/p5/ellipseMode/) feature, your ellipse should be aligned to the upper-left corner. Now, let’s combine this drawing with the rectangle we drew:
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+  ellipseMode(CORNER);
+}
+
+function draw() { 
+  background(220); 
+  ellipse(0, 0, 40, 40); // x, y, w, h
+  rect(0, 0, 40, 40); // x, y, w, h
+}
+```
+
+Something is not quite right. We’ve drawn both [ellipse()](https://p5js.org/reference/p5/ellipse/) and [rect()](https://p5js.org/reference/p5/rect/), but the rectangle is the only visible shape on the canvas. What happens if we switch the order of the [ellipse()](https://p5js.org/reference/p5/ellipse/) and [rect()](https://p5js.org/reference/p5/rect/) code?
+
+```jsx
+function setup() {  
+  createCanvas(400, 400); // w, h
+  ellipseMode(CORNER);
+}
+
+function draw() { 
+  background(220); 
+  rect(0, 0, 40, 40); // x, y, w, h
+  ellipse(0, 0, 40, 40); // x, y, w, h
+}
+```
+
+**Code Snippet:** [ellipse() + rect()](https://editor.p5js.org/xinemata/sketches/29C52nZDz).
+{: .notice--info} 
+
+The ellipse should now be sitting on top of your rectangle. What this tells us is that the order in which you code your shapes matters. [p5.js](https://p5js.org) is built on JavaScript, and JavaScript renders code on the fly from top to bottom. Coding the rectangle first means that the rectangle is drawn first, and then it gets covered by the ellipse, which comes later. 
+
+### 2. Color
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fTEvHLLwSBE?si=O-3UMF0ZjaUhQb6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Grade 6~8
+##### 2A. Story Behind the Screen
+Look at the screen in front of you right now. Every color you see—bright pinks, glowing greens, stormy blues—is made from just three colors of light: red, green, and blue—also known as RGB.
+
+You can’t always see it, but it’s true. If you looked at your phone or computer screen under a microscope (cool science class moment!), you’d see tiny red, green, and blue lights—called pixels—turning on and off in different combinations. That’s how screens make color: by mixing light.
+
+![RGB screen]({{ "https://upload.wikimedia.org/wikipedia/commons/9/9d/TFT_Bildschirm_RGB_Pixel.JPG" | relative_url }}) 
+
+This kind of color mixing is called additive color. It’s different from mixing paint, where adding more makes things darker. With light, adding more actually make things brighter.
+
+![RGB mixing]({{ "https://upload.wikimedia.org/wikipedia/commons/5/59/RGB_combination_on_wall.png" | relative_url }}) 
+
+
+In this topic, we'll learn to cast some color spells together using code. You’ll learn how to control the RGB colors in p5.js, a creative coding environment made for artists, designers, and anyone curious about how code can be expressive.
+
+##### 2B. Meet RGB
+
+Let’s start by updating the [background()](https://p5js.org/reference/p5/background/) in the [p5.js editor](https://editor.p5js.org/):
+
 ```js
 function setup() {
   createCanvas(400, 400);
 }
 
 function draw() {
-  background(220);
+  background(255, 0, 0);  // r, g, b
 }
 ```
 
-Our p5.js sketch is divided into 2 sections, function [setup() {}](https://p5js.org/reference/p5/setup/) and function [draw() {}](https://p5js.org/reference/p5/draw/). All of the code between the curly brackets **{}** after setup() will run once from top to bottom when the page loads. All of the code between the draw() {} curly brackets will repeat.
+If you click the Play button, the background of the canvas should be filled in bright red. Let's break this down to better understand what's going on:
 
-Let’s modify this code to start drawing. First, we’ll set the size of the canvas to take up the entire width and height of the browser window using the [windowWidth](https://p5js.org/reference/p5/windowWidth/) and [windowHeight](https://p5js.org/reference/p5/windowHeight/) variables. windowWidth and windowHeight are examples of variables that come with the p5.js library. We’ll be using a few of these to make our drawing tool. Here, windowWidth is keeping track of the width of the browser, and by using the keyword windowWidth, we are referring to that number. So if the width of your browser window  is 804 and the height of your browser is 476, writing in createCanvas(windowWidth, windowHeight) is the same as writing[ createCanvas(804, 476)](https://p5js.org/reference/p5/createCanvas/). 
+- RGB ranges from a minimum value of 0, to a maximum value of 255. These numbers control the brightness levels of the red, green, and blue lights. 
+- In this case, the sketch is coloring the background in the brightest possible red in RGB. `background(255, 0, 0);` means: full red light, no green light, and no blue light. 
 
-Next, we’ll change the color of the [background](https://p5js.org/reference/p5/background/) to white using R, G, B values. For commands related to color, we’ll typically use three numbers representing red, green, and blue values. Red, green, and blue are the primary colors for mixing light (positive color system). The maximum value we can put in is 255 and the minimum value is 0.
+**Mini-Challenge:** Can you update background() to fill the canvas with the brightest blue possible?
+{: .notice--warning} 
 
-```js
-background(255, 0, 0); 	// 255 red, 0 green, 0 blue makes red
-fill(0, 166, 147); 		// 0 red, 166 green, 147 blue makes teal
-stroke(228, 204, 255);		// 228 red, 204 green, 255 blue makes lavender
-```
+**Tip**: In the RGB world, `background(255, 255, 0);` creates yellow, `background(255, 0, 255);` creates magenta, and `background(0, 255, 255);` creates cyan.
+{: .notice--success} 
 
-We’ll also use the line [noStroke()](https://p5js.org/reference/p5/noStroke/) to get rid of the shape’s outline. 
+Play around! What happens with:
+- `background(255, 255, 255)`?
+- `background(0, 0, 0)`?
 
-Then we’ll add an [ellipse](https://p5js.org/reference/p5/ellipse/). To draw an ellipse, you set the X position, the Y position, then the width and the height:
+**Tip**: If you only type one number like `background(150)`, it fills the background with a shade of gray. That’s a shortcut for `background(150, 150, 150)`.
+{: .notice--success} 
 
-```js
-function setup() { // this function runs once when the page loads
-  createCanvas(windowWidth, windowHeight); // making the dimensions of the canvas take up the entire window
-  background(255,255,255); // making the background color white
-} // end of the setup() function
+---
 
-function draw() { // this function will loop 60x a second
-  background(255,255,255);
-  noStroke();
-  fill(0,0,0); // fill(r, g, b)
-  ellipse(100, 100, 40, 40); // ellipse(x, y, w, h);
-}
-```
+##### 2C. Filling Shapes with Color
 
-Now you should see a little circle on your white page! Try changing around the numbers so that you can get a sense of what the different components are doing. 
-
-Next, we’ll use the [mouseX](https://p5js.org/reference/p5/mouseX/) and [mouseY](https://p5js.org/reference/p5/mouseY/) variables. These are like windowWidth and windowHeight except they are used to keep track of the mouse’s X and Y position. 
-
-You can output messages to the console to keep track of changing values like this one:
-```js
-console.log("your message between these quotation marks");
-console.log(nameOfAVariable);
-console.log("your message between these quotation marks" + nameOfAVariableNoQuotes);
-```
-
-Notice how the messages are popping up over and over again in the console with different numbers. This is because the code in the draw function is looping. That means that the command to print a message in the console is being executed again and again and the mouseX and mouseY values are constantly being updated. 
-
-You can also try substituting any of the numbers in the sketch with mouseX and mouseY to see how they might respond to the movement of the mouse.
-
-```js
-function draw() { // this function will loop 60x a second
-  background(255,255,255);
-  noStroke();
-  fill(0,0,0);
-  console.log("mouse X: " + mouseX); // displaying the mouseX value in the console
-  console.log("mouse Y: " + mouseY);
-  ellipse(mouseX, mouseY, 40, 40); // making the circle move with the mouse
-}
-```
-## 2. Making a Drawing Tool
-!['Drawing' with the mouse]({{ "/assets/images/curriculum/Unit-1_Sample-3.gif" | relative_url }})  
-[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/vyLR0YpM-)
-
-Now that we have the basic interaction mechanism for our drawing tool, we now need to make the drawing ‘stick’ to the canvas. 
-
-Notice that the command to draw the background is in between the **draw()** curly braces. This means that everytime the code inside the draw function repeats, the background is drawn again over the previous drawing. Sometimes this is a useful mechanism, but not very helpful for our current goal. 
-
-We’ll instead move the background command between the **setup()** curly brackets. This will make the background draw once when the page loads.
-
-We’ll also add opacity to our color commands. In [fill](https://p5js.org/reference/p5/fill/), if we add a fourth value, we can control the opacity of the color. 255 is fully opaque and 0 is completely transparent. 
-
-Now, we have something more like a basic drawing tool. Try modifying the size, color, and opacity of the circle to customize the form of the line. 
-
-```js
-function setup() { // this function runs once when the page loads
-  createCanvas(windowWidth, windowHeight);
-  background(255,255,255); // making the background color white
-}
-
-function draw() { // this function will loop 60x a second
-  noStroke();
-  fill(0,0,0,20);
-  ellipse(mouseX, mouseY, 40, 40);
-} // end of the draw() function
-```
-
-## 3. Refining the Tool for Drawing
-![Making the drawing tool more user friendly!]({{ "/assets/images/curriculum/Unit-1_Sample-4.gif" | relative_url }})  
-[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/sSzIOAtiP)
-
-
-Let’s find some way to make this drawing tool more conducive to the experience of drawing by adding some controls. 
-
-The first thing that we’ll use is the [mouseDragged()](https://p5js.org/reference/p5/mouseDragged/) function. You’ll notice that the syntax for this is very similar to the setup() {} and draw() {} sections. These are called **functions**. Functions are a way to group a section of code together. This lets us control when a selection of code lines will execute. The way we make a function is: 
-
-```js
-function functionName() { // beginning of function
-// everything in between these curly brackets 
-// will run when the function is called
-} // end of function
-```
-
-Like variables, the p5.js library comes with functions that will be triggered, or called automatically for specific purposes. For instance, the setup() function automatically runs once when the browser window opens. We’ll try out the mouseDragged() function which will run while the mouse is clicked and dragged:
-
-```js
-function mouseDragged() {
-// these lines will run when
-// the mouse is clicked and dragged
-}
-```
-
-Let’s move the drawing commands from between the draw() curly braces to the mouseDragged() curly braces. Now, our tool will only draw when the mouse is dragged! 
+Let’s add an ellipse and give it color using the [fill()](https://p5js.org/reference/p5/fill/) feature:
 
 ```js
 function setup() {  
-  createCanvas(windowWidth, windowHeight);
-  background(255,255,255); 
-} // end of the setup() function
+  createCanvas(400, 400); // w, h
+  rectMode(CENTER);
+}
 
 function draw() { 
-
-} // end of the draw function
-
-function mouseDragged() {
-  noStroke(); 
-  fill(0,0,0, 20);
-  ellipse(mouseX, mouseY, 40, 40);
+  background(220); 
+  fill(255, 255, 0); // r, g, b
+  rect(200, 200, 40, 40); // x, y, w, h
+  ellipse(200, 200, 40, 40); // x, y, w, h
 }
 ```
 
-In addition to mouseDragged(), there are several functions that we can use to make use of the [mouse input](https://p5js.org/reference/#Events). Try adding one or many of these to the bottom of your code:
-- function [mouseClicked()](https://p5js.org/reference/p5/mouseClicked/) { ... }
-- function [mousePressed()](https://p5js.org/reference/p5/mousePressed/) { ... }
-- function [mouseMoved()](https://p5js.org/reference/p5/mouseMoved/) { ... }
-- function [mouseReleased()](https://p5js.org/reference/p5/mouseReleased/) { ... }
-- function [mouseWheel()](https://p5js.org/reference/p5/mouseWheel/) { ... }
-- function [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) { ... }
-
-
-We can also use the [save()](https://p5js.org/reference/p5/save/) command to save the drawing. We’ll combine that with the [doubleClicked()](https://p5js.org/reference/p5/doubleClicked/) function so that when the mouse is double-clicked, a copy of our drawing will be saved to the computer. 
+By default, [fill()](https://p5js.org/reference/p5/fill/) recognizes RGB values and sets the color of the shapes you draw. But what if you want to fill the ellipse with a different color? You will need to place another [fill()](https://p5js.org/reference/p5/fill/) right before the ellipse. 
 
 ```js
 function setup() {  
-  createCanvas(windowWidth, windowHeight);
-  background(255,255,255); 
-  frameRate(60); // this line will adjust how fast the draw() background repeats
-} // end of the setup() function
+  createCanvas(400, 400); // w, h
+  rectMode(CENTER);
+}
 
 function draw() { 
-
-}
-
-function mouseDragged() {
-  noStroke(); 
-  fill(0,0,0, 20);
-  ellipse(mouseX, mouseY, 40, 40);
-}
-
-function doubleClicked() {
-  save('my_drawing.png');
+  background(220); 
+  fill(255,255,0); // r, g, b
+  rect(200, 200, 40, 40); // x, y, w, h
+  fill(255,0,255); // r, g, b
+  ellipse(200, 200, 40, 40); // x, y, w, h
 }
 ```
+**Code Snippet:** [fill()](https://editor.p5js.org/xinemata/sketches/sU7-2LedO).
+{: .notice--info} 
 
-If you want to control the sensitivity of the drawing tool, you can also adjust the rate at which the draw() function repeats using the [frameRate()](https://p5js.org/reference/p5/frameRate/) command: 
+Once you feel comfortable with using RGB colors, you have the option of going further by adding a fourth number to [fill()](https://editor.p5js.org/xinemata/sketches/sU7-2LedO)  to make something see-through!
 
 ```js
-function setup() {  
-  createCanvas(windowWidth, windowHeight);
-  background(255,255,255); 
-  frameRate(60); // this line will adjust how fast the draw() background repeats
-} // end of the setup() function
-
-function draw() { 
-
-}
-
-function mouseDragged() {
-  noStroke(); 
-  fill(0,0,0, 20);
-  ellipse(mouseX, mouseY, 40, 40);
-}
-
-function doubleClicked() {
-  save('my_drawing.png');
-}
+fill(255, 0, 0, 100);  // r, g, b, alpha
 ```
 
-## 4. Extending the Tool with Complexity
-![Adding more features to the drawing tool.]({{ "/assets/images/curriculum/Unit-1_Sample-5.gif" | relative_url }})  
-[➡️ Sample Sketch](https://editor.p5js.org/jyk/sketches/AbvL7apEE)
+The last number is called the alpha value. It also ranges from 0 (fully transparent) to 255 (fully opaque).
 
+**Mini-Challenge:** Try overlapping shapes with different alpha values. What kinds of layering effects can you make?
+{: .notice--warning} 
 
-Now that we have the basics for a drawing tool, we can refine the details of the tool to design a line to best capture movement and support our drawing’s goals. 
+##### 2D. Draw your favorite snack
+Let’s use everything you’ve learned so far to draw a snack you love. Think about ways you could represent your snack using 2D primitives like ellipses and rectangles. And instead of guessing the RGB values of a color you want to use, play around with this [color picker](https://g.co/kgs/6fssxMC) to choose specific colors. Below is an example of a lollipop:
 
-You use a variety of shapes in addition to the ellipse to create unique lines:
-- [ellipse(x, y, w, h);](https://p5js.org/reference/p5/ellipse/)
-- [rect(x, y, w, h);](https://p5js.org/reference/p5/rect/)
-- [line(x1, y1, x2, y2);](https://p5js.org/reference/p5/line/) *(Note that for the line, you'll need a stroke() command)*
-- [triangle(x1, y1, x2, y2, x3, y3);](https://p5js.org/reference/p5/triangle/)
-- [quad(x1, y1, x2, y2, x3, y3, x4, y4);](https://p5js.org/reference/p5/quad/)
+![lollipop made in p5.js]({{ "/assets/images/curriculum/Unit-1_Sample-10.png" | relative_url }}) 
 
-You can also incorporate key functions. These are similar to the mouse functions, but instead are triggered by [key inputs](https://p5js.org/reference/#Events). You can add these functions to the bottom of your code:
-- function [keyPressed()](https://p5js.org/reference/p5/keyPressed/) { ... }
-- function [keyReleased()](https://p5js.org/reference/p5/keyReleased/) { ... }
+**Code Snippet:** [lollipop example](https://editor.p5js.org/xinemata/sketches/reojWdPOp).
+{: .notice--info} 
 
-You can mix and match these components with the ones already being used to add complexity to the drawing tool. 
+**Tip:** Adding [noStroke()](https://p5js.org/reference/p5/noStroke/) removes the black outline around shapes. [stroke()](https://p5js.org/reference/p5/stroke/) sets the outline to a different color. [strokeWeight()](https://p5js.org/reference/p5/strokeWeight/) alters the thickness of the outline.
+{: .notice--success} 
+
+#### Grade 9~12
+##### 3. Blend Modes
+
+Want your colors to mix in cool ways—like in Photoshop or Instagram filters? Try this:
 
 ```js
-function setup() {  
-  createCanvas(windowWidth, windowHeight);
-  background(255,255,255); 
-  frameRate(20); // this line will adjust how fast the draw() background repeats
-} // end of the setup() function
+function setup() {
+  createCanvas(400, 400);
+  blendMode(LIGHTEST);  // Try other modes: DARKEST, MULTIPLY, DIFFERENCE
 
-function draw() { 
+  fill(255, 0, 0);
+  ellipse(150, 200, 200, 200);
 
-}
-
-function mouseDragged() {
-  stroke(0, 0, 100, 60);
-  strokeWeight(2);
-  line(mouseX, mouseY -10, mouseX, mouseY + 10)
-}
-
-function keyPressed() {
-  noStroke(); 
-  fill(mouseX,0,0, mouseY);
-  ellipse(mouseX, mouseY, 60, 20);
-}
-
-function doubleClicked() {
-  save('my_drawing.png');
+  fill(0, 0, 255);
+  ellipse(250, 200, 200, 200);
 }
 ```
+
+Blend modes change how colors mix when they overlap. Each one creates different visual effects.

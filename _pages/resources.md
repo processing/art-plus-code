@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Curricular resources created by Art+Code participants. For more arts driven lesson plans and resources from the Processing Foundation, visit the [Curriculum page]({{ site.baseurl }}{% link _curriculum/00-unit.md %}).
+Teaching resources created by Art+Code participants.

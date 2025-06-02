@@ -1,2 +1,2 @@
 # art-plus-code
-Website for the 2024 Art + Code Teacher Camp.
+Website for the 2025 Art + Code.

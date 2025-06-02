@@ -1,6 +1,6 @@
 ---
 # This is the frontmatter
-title: "Digital Drawing Tool: Capturing Movement with Digital Lines" # Title and Heading 1
+title: "Digital Drawing Tool: Lost and Found" # Title and Heading 1
 permalink: /1-drawing/ # Give your page a permalink
 published: false
 

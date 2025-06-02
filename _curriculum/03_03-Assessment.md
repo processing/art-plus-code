@@ -1,8 +1,8 @@
 ---
 # This is the frontmatter
-title: "Art & Time" # Title and Heading 1
-permalink: /artTime-assessment/ # Give your page a permalink
-published: true
+title: "A Walk in the Neighborhood" # Title and Heading 1
+permalink: /walkInNeighborhood-assessment/ # Give your page a permalink
+published: false
 
 
 

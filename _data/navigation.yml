@@ -1,80 +1,86 @@
 ## Main header navigation bar
 main:
   - title: "Curriculum"
-    url: /introduction/
+    url: /codeAsCreativeMedium-intro/
   - title: "Resources"
     url: /resources/
-  - title: "Contact"
-    url: /contact/
+  - title: "About"
+    url: /About/
 
 
 # Curriculum navigation sidebar
 curriculum:
-  - title: "Introduction"
+  - title: "Code as Creative Medium"
     children:
-      - title: "Units"
-        url: /introduction/
-  - title: "Capturing Movement with Digital Lines"
-    children:
-      - title: "Introduction & Inspiration"
-        url: /capturingMovement-intro/
+      - title: "Introduction"
+        url: /codeAsCreativeMedium-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /capturingMovement-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /capturingMovement-assessment/
-  - title: "Collaging with Instructions"
+        url: /codeAsCreativeMedium-lessons/
+      # - title: "Assessment Activities & Checking for Understanding"
+      #   url: /codeAsCreativeMedium-assessment/
+      # - title: "Units"
+      #   url: /introduction/
+  - title: "Lost and Found"
     children:
-      - title: "Introduction & Inspiration"
-        url: /collaginginstructions-intro/
+      - title: "Introduction"
+        url: /lostAndFound-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /collaginginstructions-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /collaginginstructions-assessment/
-  - title: "Art & Time"
+        url: /lostAndFound-lessons/
+      # - title: "Assessment Activities & Checking for Understanding"
+      #   url: /lostAndFound-assessment/
+  - title: "Mask Generator"
     children:
-      - title: "Introduction & Inspiration"
-        url: /artTime-introduction/
+      - title: "Introduction"
+        url: /maskGenerator-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /artTime-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /artTime-assessment/
-  - title: "Responsive Visual Data"
+        url: /maskGenerator-lessons/
+      # - title: "Assessment Activities & Checking for Understanding"
+      #   url: /maskGenerator-assessment/
+  - title: "A Walk in the Neighborhood"
     children:
-      - title: "Introduction & Inspiration"
-        url: /responsivevisualdata-intro/
+      - title: "Introduction"
+        url: /walkInNeighborhood-introduction/
       - title: "Lesson Plans & Technical Steps"
-        url: /responsivevisualdata-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /responsivevisualdata-assessment/
-  - title: "Movement, Collaboration & Harmony"
+        url: /walkInNeighborhood-lessons/
+      # - title: "Assessment Activities & Checking for Understanding"
+      #   url: /walkInNeighborhood-assessment/
+  - title: "Drawing Machine"
     children:
-      - title: "Introduction & Inspiration"
-        url: /movementCollaborationHarmony-intro/
+      - title: "Introduction"
+        url: /drawingMachine-intro/
       - title: "Lesson Plans & Technical Steps"
-        url: /movementCollaborationHarmony-steps/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /movementCollaborationHarmony-assessment/
-  - title: "Creating with Interactivity"
-    children:
-      - title: "Introduction & Inspiration"
-        url: /creatinginteractivity-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /creatinginteractivity-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /creatinginteractivity-assessment/
-  - title: "Observing Patterns"
-    children:
-      - title: "Introduction & Inspiration"
-        url: /patterns-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /patterns-steps/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /patterns-assessment/
-  - title: "Generative Patterns & Weaving"
-    children:
-      - title: "Introduction & Inspiration"
-        url: /generativeweaving-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /generativeweaving-lessons/
-      - title: "Assessment Activities & Checking for Understanding"
-        url: /generativeweaving-assessment/
+        url: /drawingMachine-lessons/
+      # - title: "Assessment Activities & Checking for Understanding"
+      #   url: /drawingMachine-assessment/
+  # - title: "Movement, Collaboration & Harmony"
+  #   children:
+  #     - title: "Introduction"
+  #       url: /movementCollaborationHarmony-intro/
+  #     - title: "Lesson Plans & Technical Steps"
+  #       url: /movementCollaborationHarmony-steps/
+  #     # - title: "Assessment Activities & Checking for Understanding"
+  #     #   url: /movementCollaborationHarmony-assessment/
+  # - title: "Creating with Interactivity"
+  #   children:
+  #     - title: "Introduction"
+  #       url: /creatinginteractivity-intro/
+  #     - title: "Lesson Plans & Technical Steps"
+  #       url: /creatinginteractivity-lessons/
+  #     # - title: "Assessment Activities & Checking for Understanding"
+  #     #   url: /creatinginteractivity-assessment/
+  # - title: "Observing Patterns"
+  #   children:
+  #     - title: "Introduction"
+  #       url: /patterns-intro/
+  #     - title: "Lesson Plans & Technical Steps"
+  #       url: /patterns-steps/
+  #     # - title: "Assessment Activities & Checking for Understanding"
+  #     #   url: /patterns-assessment/
+  # - title: "Generative Patterns & Weaving"
+  #   children:
+  #     - title: "Introduction"
+  #       url: /generativeweaving-intro/
+  #     - title: "Lesson Plans & Technical Steps"
+  #       url: /generativeweaving-lessons/
+  #     # - title: "Assessment Activities & Checking for Understanding"
+  #     #   url: /generativeweaving-assessment/
