@@ -28,7 +28,7 @@ Artists working with code aren’t just telling a computer what to do—they’r
 ## 2D Art
 
 ### Drawing & Painting
-#### [Precarious](https://camilleutterback.com/projects/precarious/) (2018)
+#### [*Precarious*](https://camilleutterback.com/projects/precarious/) (2018)
 Camille Utterback
 
 ![Camille Utterback, Precarious]({{ "https://camilleutterback.com/wp2022/wp-content/gallery/precarious-new/06.24.2019_Precarious_ScreenShot_001.jpg" | relative_url }})  
