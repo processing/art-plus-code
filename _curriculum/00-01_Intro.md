@@ -117,7 +117,7 @@ Software screenshot of *Glance Back*, a custom chrome extension software.
 ![Maya Man, Glance Back]({{ "https://glanceback.info/assets/2022/collection.png" | relative_url }})  
 Maya Man's *Glance Back* archive. 
 
-##### Discussion Prompts
+##### Think About
 - How does the use of code shape the interaction between the viewer and the artwork in this piece?
 - What does this work tell us about how code can collect, curate, and reframe everyday behavior?
 - How does this creative use of code shape our understanding of who is in control in digital spaces?
@@ -202,7 +202,7 @@ Linda Nguyen Lopez
 ![Linda Nguyen Lopez, installation]({{ "https://artlogic-res.cloudinary.com/w_2400,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite1040/usr/exhibitions/images/exhibitions/10/lopez-somebody-install7-web.jpg" | relative_url }})  
 Installation view at the ʎpoqǝɯos exhibition, David B. Smith Gallery, CO
 
-##### Discussion Prompts
+##### Think About
 
 - What adjectives might you use to describe Lopez's visual language?
 - How might this work shift our understanding of what kinds of forms or textures code can generate?

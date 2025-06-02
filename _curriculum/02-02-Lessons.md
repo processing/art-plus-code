@@ -27,7 +27,6 @@ gallery: # Below is for including an image gallery
 - Computer with p5.js on web browser (Google Chrome)
 - Microphone (Built in or External)
 
-
 ---
 
 # The Lessons
