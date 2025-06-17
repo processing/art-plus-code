@@ -28,22 +28,54 @@ We remember the past through words and images. When we describe a memory to a fr
 
 If I ask you to describe your friend’s face to me, you might say, “brown hair, brown eyes, freckles,” but that description applies to many people, and might not help me identify your friend when I run into them next time. Humans can communicate imperfectly and still convey meaning because we expect and accept some level of ambiguity. In contrast, when we communicate with a computer through code, we must be very precise because it doesn’t interpret or infer the way a human does.
 
-For example, this is how a smiley face is described in human language and computer language:
+For example, this is how a smiley face is described in human language (what we might say) versus computer language (code):
 
-| **Human Language**                   | **Computer Language**           |
-| ------------------------------------ | ------------------------------- |
-| The person is looking straight ahead | `noFill();`                     |
-| and carrying a smile.                | `strokeWeight(4);`              |
-|                                      | `stroke(0);`                    |
-|                                      | `ellipse(200, 200, 100, 100);`  |
-|                                      | `arc(200, 215, 33, 30, 0, PI);` |
-|                                      | `fill(0);`                      |
-|                                      | `ellipse(180, 190, 10, 10);`    |
-|                                      | `ellipse(220, 190, 10, 10);`    |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color: black; color: white;">
+      <th style="padding: 8px; text-align: left;">Human Language</th>
+      <th style="padding: 8px; text-align: left;">Computer Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px;">The person is looking straight ahead</td>
+      <td style="padding: 8px;"><code>noFill();</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">and carrying a smile.</td>
+      <td style="padding: 8px;"><code>strokeWeight(4);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>stroke(0);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>ellipse(200, 200, 100, 100);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>arc(200, 215, 33, 30, 0, PI);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>fill(0);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>ellipse(180, 190, 10, 10);</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;"></td>
+      <td style="padding: 8px;"><code>ellipse(220, 190, 10, 10);</code></td>
+    </tr>
+  </tbody>
+</table>
 
-This topic explores the ambiguity in human language, as well as the gap between human language and computer language. Even with the advancement of computer-generated imagery, exemplified by OpenAI’s ChatGPT and Google’s Gemini, the same text prompt will still generate a wide variety of different outputs, revealing the differences between how humans and computers process information.
+This topic explores the ambiguity in human language and the gap between how humans and computers understand it. Even with the advancement of computer-generated imagery, like OpenAI’s ChatGPT, DALL-E, and even AI-generated TikTok filters, the same text prompt will still generate a wide variety of different results, revealing the differences between human intention and machine interpretation.
 
-Completed in pairs of two, you will work with a partner and exchange detailed descriptions of a personal object you have lost in the past. Then, based on the descriptions, you will re-create the object for your partner in p5.js.
+Completed in pairs of two, you will work with a partner and exchange detailed descriptions of a personal object you have lost in the past. Then, based on the descriptions, you will re-create the object for your partner using computer code with p5.js.
 
 ## Premise
 

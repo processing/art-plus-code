@@ -1,10 +1,10 @@
 ---
-
 # This is the frontmatter
 
 title: "Rubric" # Title and Heading 1
 permalink: /rubric/ # Give your page a permalink
 published: true
+---
 
 ## **Rubric for Art \+ Code Projects**
 

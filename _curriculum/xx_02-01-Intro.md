@@ -21,9 +21,9 @@ gallery: # Below is for including an image gallery
 >
 > \- Shunsuke Takawo, Right Click Save
 
-In [parameterized design](https://formandcode.com/code-examples/parameterize-chair), you are a conductor rather than an individual musician. Instead of producing a single design where you have to draw out all the details step by step, you are using code to create a set of parameters that generate a variety of results.
+In [parameterized design](https://formandcode.com/code-examples/parameterize-chair), you are a conductor, not just one musician. Instead of creating a single design by drawing every detail step-by-step, you use code to set up rules (called parameters) that can create many different versions of a design.
 
-The kabuki theater in Japan uses highly expressive masks to illustrate different roles in the society. For this topic, you will reflect on your own background and design a mask generator using customized variables and the random() function. Plug the maximum/minimum values into the random() for each mask feature. The mask generator will create multiple variations of the mask through mouse or keyboard interactions. Test, iterate, and refine the parameters, paying close attention to details.
+Kabuki theater in Japan uses expressive masks to show different roles in society. For this topic, you will reflect on your own background and design a “mask generator” using customized variables and the random() function. You’ll set the maximum and minimum values into the random() for each mask feature. The mask generator will create multiple values for each mask feature. The generator will use mouse or keyboard interactions to create different versions of your mask. Test it, make changes, and pay close attention to the details as you improve your design.
 
 ## Premise
 
@@ -97,4 +97,7 @@ This project will take approximately four 45-minute sessions:
    - Now, imagine how the mask moves from the first expression to the second.
    - On a new piece of paper, draw 2–3 versions that mix parts of each expression. For example: a mask that’s just starting to frown, or eyes that are half-closed.
 1. Observe & Reflect (5–10 mins)
-   - Compare your key expressions. What changes the most between expressions? Which parts stay mostly the same? What combinations feel natural or interesting?
+   - Compare your key expressions:
+     - What changes the most between expressions?
+     - Which parts stay mostly the same?
+     - What combinations feel natural or interesting?
