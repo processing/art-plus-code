@@ -12,14 +12,29 @@ main:
 curriculum:
   - title: "Code as Creative Medium"
     children:
-      - title: "Introduction"
+      - title: "What is Creative Coding?"
         url: /codeAsCreativeMedium-intro/
+      - title: "Drawing & Painting"
+        url: /codeAsCreativeMedium-intro/2
+      - title: "Printmaking"
+        url: /codeAsCreativeMedium-intro/3
+      - title: "Photography"
+        url: /codeAsCreativeMedium-intro/4
+      - title: "Sculpture"
+        url: /codeAsCreativeMedium-intro/5
+      - title: "Textile"
+        url: /codeAsCreativeMedium-intro/6
+      - title: "Ceramic"
+        url: /codeAsCreativeMedium-intro/7
+      - title: "Video & Animation"
+        url: /codeAsCreativeMedium-intro/8
+      - title: "Interactive Performance"
+        url: /codeAsCreativeMedium-intro/9
+      - title: "Why Use Code to Make Art?"
+        url: /codeAsCreativeMedium-intro/10
+      
       - title: "Lesson Plans & Technical Steps"
         url: /codeAsCreativeMedium-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /codeAsCreativeMedium-assessment/
-      # - title: "Units"
-      #   url: /introduction/
   - title: "Lost and Found"
     children:
       - title: "Introduction"

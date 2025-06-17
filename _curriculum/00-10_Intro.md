@@ -1,7 +1,7 @@
 ---
 # This is the frontmatter
 title: "Code as Creative Medium" # Title and Heading 1
-permalink: /codeAsCreativeMedium-intro/ # Give your page a permalink
+permalink: /codeAsCreativeMedium-intro/10 # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
@@ -19,14 +19,11 @@ gallery: # Below is for including an image gallery
     title: "Book from the Ground, Xu Bing"
 ---
 
-## What is Creative Coding?
+## Why Use Code to Make Art?
+Code is special because it can:
+- Respond to people - Art can change based on how you move or what you do
+- Never stop changing - Digital art can keep evolving and growing
+- Combine old and new - Artists can mix traditional techniques with computer power
+- Tell interactive stories - You can be part of the artwork, not just look at it
+- Preserve culture - Old traditions can be saved and shared in new ways
 
-Computer code is a set of directions we give a computer to carry out commands. When working on a website, a computer programmer tells the computer where to put a button and what that button should do when we click on it. What we code doesn’t only have to be functional; it can make us feel, think, and connect. We can make art with code.  
-
-We call this creative coding. Coding is a powerful tool for artistic expression because it is dynamic. If you want the colors on the screen to change when the user clicks a button or if you want an animated scene, code can help you bring those ideas to life.
-
-With creative coding, artists can:
-- Draw pictures that move and react
-- Make art that changes when people interact with it
-- Use 3D printers to turn digital art into real objects
-- Build digital experiences that tell stories
