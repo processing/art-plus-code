@@ -7,10 +7,9 @@ main:
   - title: "About"
     url: /About/
 
-
 # Curriculum navigation sidebar
 curriculum:
-  - title: "Code as Creative Medium"
+  - title: "Project 0: Code as Creative Medium"
     children:
       - title: "What is Creative Coding?"
         url: /codeAsCreativeMedium-intro/
@@ -32,10 +31,10 @@ curriculum:
         url: /codeAsCreativeMedium-intro/9
       - title: "Why Use Code to Make Art?"
         url: /codeAsCreativeMedium-intro/10
-      
+
       - title: "Lesson Plans & Technical Steps"
         url: /codeAsCreativeMedium-lessons/
-  - title: "Lost and Found"
+  - title: "Project 1: Lost and Found"
     children:
       - title: "Introduction"
         url: /lostAndFound-intro/
@@ -43,7 +42,7 @@ curriculum:
         url: /lostAndFound-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /lostAndFound-assessment/
-  - title: "Mask Generator"
+  - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"
         url: /maskGenerator-intro/
@@ -51,7 +50,7 @@ curriculum:
         url: /maskGenerator-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /maskGenerator-assessment/
-  - title: "A Walk in the Neighborhood"
+  - title: "Project 3: A Walk in the Neighborhood"
     children:
       - title: "Introduction"
         url: /walkInNeighborhood-introduction/
@@ -59,12 +58,17 @@ curriculum:
         url: /walkInNeighborhood-lessons/
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /walkInNeighborhood-assessment/
-  - title: "Drawing Machine"
+  - title: "Project 4: Drawing Machine"
     children:
       - title: "Introduction"
         url: /drawingMachine-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /drawingMachine-lessons/
+  - title: "Rubric for Art + Code Projects"
+    children:
+      - title: "Rubric"
+        url: /rubric/
+
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /drawingMachine-assessment/
   # - title: "Movement, Collaboration & Harmony"

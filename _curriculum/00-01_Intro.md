@@ -21,11 +21,12 @@ gallery: # Below is for including an image gallery
 
 ## What is Creative Coding?
 
-Computer code is a set of directions we give a computer to carry out commands. When working on a website, a computer programmer tells the computer where to put a button and what that button should do when we click on it. What we code doesn’t only have to be functional; it can make us feel, think, and connect. We can make art with code.  
+Computer code is a set of directions we give a computer to carry out commands. When working on a website, a computer programmer tells the computer where to put a button and what that button should do when we click on it. What we code doesn’t only have to be functional; it can make us feel, think, and connect. We can make art with code.
 
 We call this creative coding. Coding is a powerful tool for artistic expression because it is dynamic. If you want the colors on the screen to change when the user clicks a button or if you want an animated scene, code can help you bring those ideas to life.
 
 With creative coding, artists can:
+
 - Draw pictures that move and react
 - Make art that changes when people interact with it
 - Use 3D printers to turn digital art into real objects
