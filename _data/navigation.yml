@@ -32,16 +32,18 @@ curriculum:
       - title: "Why Use Code to Make Art?"
         url: /codeAsCreativeMedium-intro/10
 
-      - title: "Lesson Plans & Technical Steps"
+      - title: "Setting Up Your Environment"
         url: /codeAsCreativeMedium-lessons/
   - title: "Project 1: Lost and Found"
     children:
       - title: "Introduction"
         url: /lostAndFound-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /lostAndFound-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /lostAndFound-assessment/
+      - title: "Shape"
+        url: /lostAndFound-lessons/1
+      - title: "Color"
+        url: /lostAndFound-lessons/2
+      - title: "Transformation"
+        url: /lostAndFound-lessons/2
   - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"

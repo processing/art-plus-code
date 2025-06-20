@@ -7,15 +7,13 @@ published: true
 gallery: # Below is for including an image gallery
 ---
 
-# Getting Started
-
-## 1. Setting Up Your Environment
+## Setting Up Your Environment
 
 To begin writing code using [p5.js](https://p5js.org/), you need to set up the coding environment to write and save your programs. [Processing Foundation](https://processingfoundation.org/) provides the [p5.js Editor](https://editor.p5js.org/), a website where programmers can write, test, share, and remix p5.js programs without needing to download or install a code editor on a computer.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MXs1cOlidWs?si=h8uilatDVzeLCl_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### What you will need
+#### What you will need
 
 - Access to the internet and the latest version of a desktop browser such as:
   - Chrome (recommended)
@@ -24,14 +22,14 @@ To begin writing code using [p5.js](https://p5js.org/), you need to set up the c
   - Edge
 - A desktop computer, laptop, or Chromebook
 
-### 1A. Opening the p5.js Editor
+#### A. Opening the p5.js Editor
 
 1. Open the latest version of Chrome or Firefox browser on your computer and visit the [p5.js Editor](https://editor.p5js.org/) website.
 1. Click the “Sign up” link on the top right of the web page.
 
 ![p5.js Editor sign-up link]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_sign_up.png?raw=true" | relative_url}})
 
-### 1B. Creating an Account
+#### B. Creating an Account
 
 Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of the following options:
 
@@ -53,7 +51,7 @@ Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of t
   - Follow the prompts to enter your username and password for GitHub.
   - Authorize the [p5.js Editor](https://editor.p5js.org/) to access your GitHub details by clicking the “Authorize processing” button.
 
-### 1C. Exploring the p5.js Editor and running your first “sketch”
+#### C. Exploring the p5.js Editor and running your first “sketch”
 
 ![p5.js Editor interface breakdown]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_interface_breakdown.png?raw=true" | relative_url }})
 
@@ -67,7 +65,7 @@ Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of t
    ![p5.js Editor version switcher]({{ "/assets/images/ui/version_switcher_2.png" | relative_url }})
    ![p5.js Editor version switcher]({{ "/assets/images/ui/version_switcher_3.png" | relative_url }})
 
-### 1D. Renaming, saving, and sharing sketches
+#### D. Renaming, saving, and sharing sketches
 
 1. By default, the [p5.js Editor](https://editor.p5js.org/) will generate a playful name for your first sketch. You can rename your sketch by clicking on the pencil icon above the text editor and typing in a name for your project. ![Renaming a sketch]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_naming_a_sketch.png?raw=true" | relative_url }})
 1. Save projects by clicking on File in the top toolbar and selecting Save. Alternatively, you can use the shortcut keys Control+S (PC) or Command+S (Mac). ![Saving a sketch]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_saving_a_sketch.png?raw=true" | relative_url }}) ![Saved notification]({{ "https://github.com/processing/p5.js-website/blob/main/src/content/tutorials/images/introduction/p5_editor_saved_sketch_notification.png?raw=true" | relative_url }})
@@ -75,7 +73,7 @@ Create an account on the [p5.js Editor](https://editor.p5js.org/) using one of t
 **Tip:** Make sure you are logged in to your account, or you will not be able to save the sketch. Saving projects frequently helps ensure that code isn’t lost if something happens to your computer, browser, or internet connection while you're coding.
 {: .notice--success}
 
-### 1E. Sharing, downloading, and deleting your sketches
+#### E. Sharing, downloading, and deleting your sketches
 
 1. Once your project is saved, you can share it! Click on File in the navigation menu, select Share, and copy one of the links provided to share your project in Embed, Fullscreen, and Edit modes.
 1. If you share your project link with a teacher or classmate, you are giving them the permission to view all of your sketches stored on the [p5.js Editor](https://editor.p5js.org/). This is because all sketches stored in the [p5.js Editor](https://editor.p5js.org/) are publicly viewable. Additionally, it’s also possible for your sketches to show up in search engine results.
