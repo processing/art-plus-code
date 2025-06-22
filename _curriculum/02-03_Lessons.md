@@ -112,11 +112,11 @@ While the leaves are symmetrical on the X-axis, they are asymmetrical on the Y-a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/maTfm84mLbo?si=Orx71C5hl7owLq78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipbo a ard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-#### B. Translate
+#### B. Grouped Drawing
 
 As your p5.js journey unfold, you might find yourself wanting to move or resize a group of shapes all at the same time. This is achievable through features listed under the [Transform](https://p5js.org/reference/#transform) category. 
 
-To begin, let's draw a cloud using the [translate()](https://p5js.org/reference/p5/translate/) feature. 
+To begin, let's draw a cloud using the [translate()](https://p5js.org/reference/p5/translate/) feature:
 
 ![Symmetrical cloud sketch]({{ "/assets/images/curriculum/Unit-1_Sample-11.png" | relative_url }}) 
 
@@ -167,7 +167,144 @@ function draw() {
 
  ![Symmetrical cloud sketch]({{ "/assets/images/curriculum/Unit-1_Sample-19.png" | relative_url }}) 
 
- Great work! Before moving on to draw another shape, make sure that you finish grouping your cloud drawing by sandwitching the code we've written so far in between [push()](https://p5js.org/reference/p5/push/) and [pop()](https://p5js.org/reference/p5/pop/). Doing this will make sure that any new shapes you draw won't get affected by the cloud's custom [translate()](https://p5js.org/reference/p5/translate/) values.
+ Great work! Before moving on to draw another shape, make sure that you sort your cloud drawing into a group using [push()](https://p5js.org/reference/p5/push/) and [pop()](https://p5js.org/reference/p5/pop/). 
 
 **Code Snippet:** [cloud example](https://editor.p5js.org/xinemata/sketches/deDhLjr2Q).
+{: .notice--info} 
+
+From this point on, you can draw a new shape, or copy and paste the cloud drawing into a new position on the canvas by manipulating the [translate()](https://p5js.org/reference/p5/translate/) values: 
+
+```js
+function setup() {
+  createCanvas(400, 400);
+  rectMode(CENTER);
+  noStroke();
+}
+
+function draw() {
+  background(122, 122, 190);
+  fill(255);
+
+  // Cloud 1
+
+  // Begin tranformation
+  push();
+
+  // Shifts canvas origin to a new location
+  translate(60, 60); // x, y
+  
+  // The rectangle refers to the new canvas origin to determine X, Y positions
+  rect(0, 0, 100, 50);
+
+  ellipse(-80, 0, 70, 70); // offset ellipse 80 pixel to the left
+  ellipse(80, 0, 70, 70); // offset ellipse 80 pixel to the right
+
+  ellipse(-40, -40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the top
+  ellipse(40, 40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the bottom
+  ellipse(-40, 40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the bottom
+  ellipse(40, -40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the top
+
+  ellipse(0, -50, 70, 70); // offset ellipse 50 pixel to the top
+  ellipse(0, 50, 70, 70); // offset ellipse 50 pixel to the bottom
+
+  // End transformation
+  pop();
+
+  // Cloud 2
+
+  // Begin tranformation
+  push();
+
+  // Shifts canvas origin to a new location
+  translate(200, 200); // x, y
+  
+  // The rectangle refers to the new canvas origin to determine X, Y positions
+  rect(0, 0, 100, 50);
+
+  ellipse(-80, 0, 70, 70); // offset ellipse 80 pixel to the left
+  ellipse(80, 0, 70, 70); // offset ellipse 80 pixel to the right
+
+  ellipse(-40, -40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the top
+  ellipse(40, 40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the bottom
+  ellipse(-40, 40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the bottom
+  ellipse(40, -40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the top
+
+  ellipse(0, -50, 70, 70); // offset ellipse 50 pixel to the top
+  ellipse(0, 50, 70, 70); // offset ellipse 50 pixel to the bottom
+
+  // End transformation
+  pop();
+
+  // Cloud 3
+
+  // Begin tranformation
+  push();
+
+  // Shifts canvas origin to a new location
+  translate(350, 350); // x, y
+  
+  // The rectangle refers to the new canvas origin to determine X, Y positions
+  rect(0, 0, 100, 50);
+
+  ellipse(-80, 0, 70, 70); // offset ellipse 80 pixel to the left
+  ellipse(80, 0, 70, 70); // offset ellipse 80 pixel to the right
+
+  ellipse(-40, -40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the top
+  ellipse(40, 40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the bottom
+  ellipse(-40, 40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the bottom
+  ellipse(40, -40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the top
+
+  ellipse(0, -50, 70, 70); // offset ellipse 50 pixel to the top
+  ellipse(0, 50, 70, 70); // offset ellipse 50 pixel to the bottom
+
+  // End transformation
+  pop();
+}
+```
+
+ ![Symmetrical cloud sketch]({{ "/assets/images/curriculum/Unit-1_Sample-21.png" | relative_url }}) 
+
+#### C. Illusion of Depth
+
+[scale()](https://p5js.org/reference/p5/scale/) is a p5.js feature that makes it possible to resize the things we drew:
+
+```js
+  // Begin tranformation
+  push();
+
+  // Shifts canvas origin to the center of the canvas
+  translate(400 / 2, 400 / 2); // x, y
+  
+  scale(0.5); // Shrink the drawing to 50% of its original size
+
+  // The rectangle refers to the new canvas origin to determine X, Y positions
+  rect(0, 0, 100, 50);
+
+  ellipse(-80, 0, 70, 70); // offset ellipse 80 pixel to the left
+  ellipse(80, 0, 70, 70); // offset ellipse 80 pixel to the right
+
+  ellipse(-40, -40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the top
+  ellipse(40, 40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the bottom
+  ellipse(-40, 40, 70, 70); // offset ellipse 40 pixel to the left, and 40 pixel to the bottom
+  ellipse(40, -40, 70, 70); // offset ellipse 40 pixel to the right, and 40 pixel to the top
+
+  ellipse(0, -50, 70, 70); // offset ellipse 50 pixel to the top
+  ellipse(0, 50, 70, 70); // offset ellipse 50 pixel to the bottom
+
+  // End transformation
+  pop();
+```
+
+ ![Symmetrical cloud sketch]({{ "/assets/images/curriculum/Unit-1_Sample-22.png" | relative_url }}) 
+
+ **Code Snippet:** [shrunk cloud example](https://editor.p5js.org/xinemata/sketches/9C6-u82S6).
+{: .notice--info} 
+
+Combining [translate()](https://p5js.org/reference/p5/translate/), [scale()](https://p5js.org/reference/p5/scale/), [push()](https://p5js.org/reference/p5/push/) and [pop()](https://p5js.org/reference/p5/pop/) opens up enormous potentials for creating illusion of depth.  
+
+Play around with the [multiple clouds example](https://editor.p5js.org/xinemata/sketches/Uox1dH1Mc) by resizing each cloud. Are you able to use [scale()](https://p5js.org/reference/p5/scale/) to make a cloud appear closer or further away?
+
+ ![Symmetrical cloud sketch]({{ "/assets/images/curriculum/Unit-1_Sample-23.png" | relative_url }}) 
+
+  **Code Snippet:** [multiple clouds with depth example]( https://editor.p5js.org/xinemata/sketches/VMZ2Qc8NW).
 {: .notice--info} 
