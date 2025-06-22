@@ -137,5 +137,5 @@ This project will take approximately three to four 45-minute sessions:
 ### Planning your Lost & Found Project
 
 1. Students exchange written descriptions of their objects with one another.
-1. Then, each partner draw the object on paper by using simple shapes (rectangles, squares, circles, ellipsesovals, pointsarcs, lines, etc) and writing down what color each shape should be.
+1. Then, each partner sketch out the lost object on paper. 
 1. After 5 minutes of drawing, students take turns showing their drawing to the other for feedback. Feedback should be minimal and should not add too many complicated elements to the original drawing.

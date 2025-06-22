@@ -42,8 +42,8 @@ curriculum:
         url: /lostAndFound-lessons/1
       - title: "Color"
         url: /lostAndFound-lessons/2
-      - title: "Transformation"
-        url: /lostAndFound-lessons/2
+      - title: "Composition"
+        url: /lostAndFound-lessons/3
   - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"
