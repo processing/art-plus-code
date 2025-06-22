@@ -13,7 +13,7 @@ gallery: # Below is for including an image gallery
 ---
 
 ![Create a digital collage with p5.js!]({{ "https://verse.works/image/w3840/static%2F1dbce05a-42de-4250-a1b7-4f22d3e61886.png@webp" | relative_url }})  
-[Generativemasks](https://generativemasks.io/gallery) by Shunsuke Takawo
+[Generativemasks](https://generativemasks.io/gallery). Made in [p5.js](https://p5js.org/) by Shunsuke Takawo.
 
 # Introduction
 
@@ -23,7 +23,9 @@ gallery: # Below is for including an image gallery
 
 In [parameterized design](https://formandcode.com/code-examples/parameterize-chair), you are a conductor, not just one musician. Instead of creating a single design by drawing every detail step-by-step, you use code to set up rules (called parameters) that can create many different versions of a design.
 
-Kabuki theater in Japan uses expressive masks to show different roles in society. For this topic, you will reflect on your own background and design a “mask generator” using customized variables and the random() function. You’ll set the maximum and minimum values into the random() for each mask feature. The mask generator will create multiple values for each mask feature. The generator will use mouse or keyboard interactions to create different versions of your mask. Test it, make changes, and pay close attention to the details as you improve your design.
+Kabuki theater in Japan uses expressive masks to show different roles in society. For this topic, you will reflect on your own background and design a “mask generator” using customized variables and the [random()](https://p5js.org/reference/p5/random/) feature. 
+
+The generator will use mouse or keyboard interactions to create different versions of your mask. Test it, make changes, and pay close attention to the details as you improve your design.
 
 ## Premise
 
@@ -50,12 +52,12 @@ Build a simple generator that makes multiple variations of the same mask.
 ### Grade 6~8
 
 - System Variables vs. User-Defined Variables
-- mouseX, mouseY
-- width, height
+- [mouseX](https://p5js.org/reference/p5/mouseX/), [mouseY](https://p5js.org/reference/p5/mouseY/)
+- [width](https://p5js.org/reference/p5/width/), [height](https://p5js.org/reference/p5/height/)
 - Data types
 - Global vs. local variables
-- random()
-- mousePressed(), keyPressed()
+- [random()](https://p5js.org/reference/p5/random/)
+- [mousePressed()](https://p5js.org/reference/p5/mousePressed/), [keyPressed()](https://p5js.org/reference/p5/keyPressed/)
 - console.log()
 
 ### Grade 9~12
@@ -76,19 +78,16 @@ This project will take approximately four 45-minute sessions:
 ### Planning your Mask Generator Project
 
 1. Draw Your Grid
-
-   - Use your paper and pencil to draw a large square (around 4x4 inches).
-   - Divide the square into a 20 x 20 grid with a ruler.
-   - This will help you keep things lined up and make variations easier to compare.
+- Use your paper and pencil to draw a large square (around 4x4 inches).
+- Divide the square into a 20 x 20 grid with a ruler.
+- This will help you keep things lined up and make variations easier to compare.
 
 1. Create Two Key Expressions
-
    - Using the [Wheel of Emotions](<https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf>) as a reference and select two types of emotional expressions.
    - In the first square, draw a mask showing Expression 1 (e.g., inspired, courageous, respected).
    - In the second square, draw the same face showing Expression 2 (e.g., worried, overwhelmed, alienated).
 
 1. Keep the features the same, but change features like:
-
    - Eyes: big, small, squinted
    - Mouth: smiling, frowning, open, closed
    - Eyebrows: raised, tilted, flat
@@ -96,7 +95,7 @@ This project will take approximately four 45-minute sessions:
 1. Design the In-Between Faces
    - Now, imagine how the mask moves from the first expression to the second.
    - On a new piece of paper, draw 2–3 versions that mix parts of each expression. For example: a mask that’s just starting to frown, or eyes that are half-closed.
-1. Observe & Reflect (5–10 mins)
+1. Observe & Reflect
    - Compare your key expressions:
      - What changes the most between expressions?
      - Which parts stay mostly the same?
