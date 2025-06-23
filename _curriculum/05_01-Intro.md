@@ -53,21 +53,18 @@ This is your chance to share memories, places, and stories that make your neighb
 ## Technical Terms & p5.js Elements
 
 ### Grade 6~8
-
-- async setup()
-- image()
+- [image()](https://beta.p5js.org/reference/p5/image/)
 - IF, Else, Else If
 - Operators
-- mouseIsPresse(), keyIsPressed()
+- [mouseIsPressed()](https://p5js.org/reference/p5/mouseIsPressed/), [keyIsPressed()](https://p5js.org/reference/p5/keyIsPressed/)
 - Flowchart
-- dist()
+- [dist()](https://p5js.org/reference/p5/dist/)
 
 ### Grade 9~12
-
 - Boolean variable
-- text()
+- [text()](https://p5js.org/reference/p5/text/)
+- [describe()](https://p5js.org/reference/p5/describe/)
 - Parallel IFs vs. nested IFs
-- describe()
 - Playtest
 
 ## References & Artworks for Discussion: Interpretations of Time
