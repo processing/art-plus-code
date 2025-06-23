@@ -6,10 +6,19 @@ permalink: /maskGenerator-intro/1 # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
-  - url: /assets/images/thumbnails/unit2.png
-    image_path: /assets/images/thumbnails/unit2.png
-    alt: "Screenshot of a collage on books using the p5.js web editor"
-    title: "About Me Collage"
+  - url: https://www.mokafolio.de/works/Weird-Faces
+    image_path: https://www.mokafolio.de/thumbs/works/Weird-Faces/01-2400x1526.jpg
+    alt: "Weird Faces by Matthias Dörfelt"
+    title: "Weird Faces by Matthias Dörfelt"
+  - url: https://vimeo.com/257272785
+    image_path: https://deweyhagborg.com/media/pages/projects/stranger-visions/0677cc51bf-1643025593/sample6_face_web.jpg
+    alt: "Stranger Vision by Heather Dewey-Hagborg"
+    title: "Stranger Vision by Heather Dewey-Hagborg"
+  - url: https://harriskornstein.com/screen-queen-face-fail/
+    image_path: https://harriskornstein.com/wp-content/uploads/2024/11/Face-Fail-grid-white-bg-2048x1792.jpg
+    alt: "Screen Queen Face Fail"
+    title: "Screen Queen Face Fail"
+
 ---
 
 ![Create a digital collage with p5.js!]({{ "https://verse.works/image/w3840/static%2F1dbce05a-42de-4250-a1b7-4f22d3e61886.png@webp" | relative_url }})  
@@ -63,6 +72,14 @@ Build a simple generator that makes multiple variations of the same mask.
 ### Grade 9~12
 
 - Iterative design
+
+## References & Artworks for Discussion
+
+{% include gallery%}
+
+- [Weird Faces](https://www.mokafolio.de/works/Weird-Faces), Matthias Dörfelt
+- [Stranger Vision](https://vimeo.com/257272785), Heather Dewey-Hagborg
+- [Screen Queen Face Fail](https://harriskornstein.com/screen-queen-face-fail/), Harris Kornstein
 
 ## Timeline
 
