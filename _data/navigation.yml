@@ -7,49 +7,70 @@ main:
   - title: "About"
     url: /About/
 
-
 # Curriculum navigation sidebar
 curriculum:
-  - title: "Code as Creative Medium"
+  - title: "Project 0: Code as Creative Medium"
     children:
-      - title: "Introduction"
+      - title: "What is Creative Coding?"
         url: /codeAsCreativeMedium-intro/
-      - title: "Lesson Plans & Technical Steps"
+      - title: "Drawing & Painting"
+        url: /codeAsCreativeMedium-intro/2
+      - title: "Printmaking"
+        url: /codeAsCreativeMedium-intro/3
+      - title: "Photography"
+        url: /codeAsCreativeMedium-intro/4
+      - title: "Sculpture"
+        url: /codeAsCreativeMedium-intro/5
+      - title: "Textile"
+        url: /codeAsCreativeMedium-intro/6
+      - title: "Ceramic"
+        url: /codeAsCreativeMedium-intro/7
+      - title: "Video & Animation"
+        url: /codeAsCreativeMedium-intro/8
+      - title: "Interactive Performance"
+        url: /codeAsCreativeMedium-intro/9
+      - title: "Why Use Code to Make Art?"
+        url: /codeAsCreativeMedium-intro/10
+
+      - title: "Setting Up Your Environment"
         url: /codeAsCreativeMedium-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /codeAsCreativeMedium-assessment/
-      # - title: "Units"
-      #   url: /introduction/
-  - title: "Lost and Found"
+  - title: "Project 1: Lost and Found"
     children:
       - title: "Introduction"
         url: /lostAndFound-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /lostAndFound-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /lostAndFound-assessment/
-  - title: "Mask Generator"
+      - title: "Shape"
+        url: /lostAndFound-lessons/1
+      - title: "Color"
+        url: /lostAndFound-lessons/2
+      - title: "Composition"
+        url: /lostAndFound-lessons/3
+  - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"
         url: /maskGenerator-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /maskGenerator-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /maskGenerator-assessment/
-  - title: "A Walk in the Neighborhood"
+      - title: "Variables"
+        url: /maskGenerator-lessons/1
+      - title: "Randomness"
+        url: /maskGenerator-lessons/2
+      - title: "Mouse and Keyboard Interaction"
+        url: /maskGenerator-lessons/3
+  - title: "Project 3: A Walk in the Neighborhood"
     children:
       - title: "Introduction"
         url: /walkInNeighborhood-introduction/
       - title: "Lesson Plans & Technical Steps"
         url: /walkInNeighborhood-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /walkInNeighborhood-assessment/
-  - title: "Drawing Machine"
+  - title: "Project 4: Drawing Machine"
     children:
       - title: "Introduction"
         url: /drawingMachine-intro/
       - title: "Lesson Plans & Technical Steps"
         url: /drawingMachine-lessons/
+  - title: "Rubric for Art + Code Projects"
+    children:
+      - title: "Rubric"
+        url: /rubric/
+
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /drawingMachine-assessment/
   # - title: "Movement, Collaboration & Harmony"

@@ -18,18 +18,21 @@ gallery: # Below is for including an image gallery
     alt: Pepón Osorio, No Crying Allowed in the Barbershop (En la barbería no se llora)
     title: Pepón Osorio, No Crying Allowed in the Barbershop (En la barbería no se llora)
 ---
+
 ![Flat game example]({{ "https://s3.amazonaws.com/koaad7prod/s3fs-public/2023-01/field_enhanced_activity_image/Flatgames.jpeg" | relative_url }})
 
 # Introduction
 
-Every street, building, and corner in your neighborhood has a story. Maybe it’s where your classmate used to live, where your friends hang out after school, or where you had your first ice cream meltdown.
+Every street, building, and corner in your neighborhood has a story. Maybe it’s where your classmate used to live, where your friends hang out after school, or where you learned how to ride your bike.
 
-In this project, you’ll mix hand-drawn drawings and p5.js to build an interactive digital collage of your neighborhood. You’ll create a character (that can be you, a made-up guide, or even a stray cat), who takes us on a tour of your world.
+In this project, you’ll mix hand-drawn artwork with p5.js to build an interactive digital collage of your neighborhood. You’ll create a character (this could be you, a made-up guide, or even a stray cat) who takes us on a tour of your world.
 
-This is your chance to share memories, conversations, and stories that make your neighborhood yours.
+This is your chance to share memories, places, and stories that make your neighborhood yours.
 
 ## Learning Objectives
+
 ### Grade 6~8
+
 - Using images and code together to build a digital scene
 - Making characters move and react using your keyboard or mouse
 - Telling a story through interactive art
@@ -39,57 +42,65 @@ This is your chance to share memories, conversations, and stories that make your
 - Designing and iteratively developing programs that combine control structures and use compound conditions
 - Decomposing problems and subproblems into parts to facilitate the design, implementation, and review of programs
 - Seeking and incorporating feedback from team members and users to refine a
-solution that meets user needs
+  solution that meets user needs
 - Using flowcharts and/or pseudocode to design and illustrate algorithms that solve complex problems
 
 ### Grade 9~12
+
 - Justifying the selection of specific control structures by identifying tradeoffs
 - Creating more generalized computational solutions using collections instead of repeatedly using simple variables.
 
 ## Technical Terms & p5.js Elements
+
 ### Grade 6~8
-- async setup()
-- image()
+- [image()](https://beta.p5js.org/reference/p5/image/)
 - IF, Else, Else If
 - Operators
-- mouseIsPresse(), keyIsPressed()
+- [mouseIsPressed()](https://p5js.org/reference/p5/mouseIsPressed/), [keyIsPressed()](https://p5js.org/reference/p5/keyIsPressed/)
 - Flowchart
-- dist()
+- [dist()](https://p5js.org/reference/p5/dist/)
 
 ### Grade 9~12
 - Boolean variable
-- text()
+- [text()](https://p5js.org/reference/p5/text/)
+- [describe()](https://p5js.org/reference/p5/describe/)
 - Parallel IFs vs. nested IFs
-- describe()
 - Playtest
-  
+
 ## References & Artworks for Discussion: Interpretations of Time
+
 {% include gallery%}
-* Faith Ringgold's [quit works](https://www.craftinamerica.org/artist/faith-ringgold/). 
-* Jacolby Satterwhite, [Country Ball](https://www.munchmuseet.no/globalassets/cads/country-ball-1989---2012-video-still-8.jpeg?mode=max&quality=95&w=1400)
-* Pepón Osorio, [No Crying Allowed in the Barbershop (En la barbería no se llora)](https://smarthistory.org/osorio-en-la-barberia-no-se-llora-no-crying-allowed-in-the-barbershop/)
+
+- Faith Ringgold's [quit works](https://www.craftinamerica.org/artist/faith-ringgold/).
+- Jacolby Satterwhite, [Country Ball](https://www.munchmuseet.no/globalassets/cads/country-ball-1989---2012-video-still-8.jpeg?mode=max&quality=95&w=1400)
+- Pepón Osorio, [No Crying Allowed in the Barbershop (En la barbería no se llora)](https://smarthistory.org/osorio-en-la-barberia-no-se-llora-no-crying-allowed-in-the-barbershop/)
 
 ## Timeline
+
 This project will take approximately eight 45-minute sessions:
 
 1. Discussing art references and warm-up cxercise.
-1. Researching and gathering materials to represent the neighborhood. 
-1. Illustrating the neighborhood by drawing on paper. 
+1. Researching and gathering materials to represent the neighborhood.
+1. Illustrating the neighborhood by drawing on paper.
 1. Digitizing the images and importing them to p5.js.
 1. Coding the neighborhood in p5.js.
 1. Making iterations as needed. Sharing out.
 
-Optional: 
+Optional:
+
 - This project can begin with interviews with family members or neighbors to gather different anecdotes of the neighborhood.
 - Students who live in the same neighborhood have the option to collaborate on interviews and/or visual assets.
 
 ## Warm-Up Exercises
-### Planning A Walk in the Neighborhood Project 
+
+### Planning A Walk in the Neighborhood Project
+
 1. Collecting Visual Assets
-    1. Researching and taking photos of landmarks, buildings, parks, plants, homes, shops, etc that hold special meaning to you in your neighborhood. You can take photos by physically visiting the space or taking screenshots using Google Street View.
-    1. Writing down important memories associated with photos you've taken. Write in the tone and voice your character would speak in. The writing could take the form of short descriptions, conversations, monologues, etc. 
+
+   1. Researching and taking photos of landmarks, buildings, parks, plants, homes, shops, etc that hold special meaning to you in your neighborhood. You can take photos by physically visiting the space or taking screenshots using Google Street View.
+   1. Writing down important memories associated with photos you've taken. Write in the tone and voice your character would speak in. The writing could take the form of short descriptions, conversations, monologues, etc.
 
 1. Hand-Drawn Illustrations!
-    1. With a large sheet of paper, color pencils or crayons, and scissor, illustrate the different buildings, objects, people, and animals you'd like to include in your neighborhood drawing. 
-    1. Take photos of individual item you've drawn, and remove the white background of these photos on a computer. 
-    1. Import the photos into the p5.js Editor.
+   1. With a large sheet of paper, color pencils or crayons, and scissor, illustrate the different buildings, objects, people, and animals you'd like to include in your neighborhood drawing.
+   1. Take photos of individual item you've drawn, and remove the white background of these photos on a computer.
+   1. Import the photos into the p5.js Editor.
