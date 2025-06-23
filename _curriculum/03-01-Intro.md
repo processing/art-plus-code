@@ -2,7 +2,7 @@
 # This is the frontmatter
 
 title: "Mask Generator" # Title and Heading 1
-permalink: /maskGenerator-intro/ # Give your page a permalink
+permalink: /maskGenerator-intro/1 # Give your page a permalink
 published: true
 
 gallery: # Below is for including an image gallery
