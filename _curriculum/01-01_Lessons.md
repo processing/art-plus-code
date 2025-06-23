@@ -3,8 +3,6 @@
 title: "Code as Creative Medium" # Title and Heading 1
 permalink: /codeAsCreativeMedium-lessons/ # Give your page a permalink
 published: true
-
-gallery: # Below is for including an image gallery
 ---
 
 ## Setting Up Your Environment

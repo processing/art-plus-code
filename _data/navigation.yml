@@ -48,18 +48,18 @@ curriculum:
     children:
       - title: "Introduction"
         url: /maskGenerator-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /maskGenerator-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /maskGenerator-assessment/
+      - title: "Variables"
+        url: /maskGenerator-lessons/1
+      - title: "Randomness"
+        url: /maskGenerator-lessons/2
+      - title: "Mouse and Keyboard Interaction"
+        url: /maskGenerator-lessons/3
   - title: "Project 3: A Walk in the Neighborhood"
     children:
       - title: "Introduction"
         url: /walkInNeighborhood-introduction/
       - title: "Lesson Plans & Technical Steps"
         url: /walkInNeighborhood-lessons/
-      # - title: "Assessment Activities & Checking for Understanding"
-      #   url: /walkInNeighborhood-assessment/
   - title: "Project 4: Drawing Machine"
     children:
       - title: "Introduction"

@@ -3,24 +3,6 @@
 title: "Lost and Found" # Title and Heading 1
 permalink: /lostAndFound-lessons/3 # Give your page a permalink
 published: true
-
-gallery: # Below is for including an image gallery
-  - url: /assets/images/curriculum/Unit-1_Sample-2.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-2.gif
-    alt: "black circle following a mouse"
-    title: "Digital Drawing Tool Step 1"
-  - url: /assets/images/curriculum/Unit-1_Sample-3.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-3.gif
-    alt: "cursor drawing a black line made up of a series of translucent circles"
-    title: "Digital Drawing Tool Step 2"
-  - url: /assets/images/curriculum/Unit-1_Sample-4.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-4.gif
-    alt: "cursor drawing multiple black arches made up of translucent circles"
-    title: "Digital Drawing Tool Step 3"
-  - url: /assets/images/curriculum/Unit-1_Sample-5.gif
-    image_path: /assets/images/curriculum/Unit-1_Sample-5.gif
-    alt: "cursor creating a drawing of vertical blue lines and stamping red ellipses"
-    title: "Digital Drawing Tool Step 4"
 ---
 
 ## Composition

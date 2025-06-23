@@ -214,3 +214,10 @@ function keyPressed() { // When the key is pressed
 ```
 
 Functions are important for coding because they allow us to organize our projects in a modular way, that is with multiple pieces making up a whole. See how functions can help us collaborate with code!
+
+
+### Grade 9~12
+
+#### Make a Rainbow Brush!
+
+Because the hue property of the [HSB color model](/lostAndFound-lessons/2#e-color-modes) uses the 0~360 range to cycle through the color wheel, we can make a rainbow brush tha
