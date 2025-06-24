@@ -60,8 +60,10 @@ curriculum:
     children:
       - title: "Introduction"
         url: /walkInNeighborhood-introduction/
-      - title: "Lesson Plans & Technical Steps"
-        url: /walkInNeighborhood-lessons/
+      - title: "Loading and Displaying Images"
+        url: /walkInNeighborhood-lessons/1
+      - title: "Conditional Statements"
+        url: /walkInNeighborhood-lessons/2
   - title: "Project 4: Drawing Machine"
     children:
       - title: "Introduction"
