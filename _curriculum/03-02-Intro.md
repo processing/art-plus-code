@@ -24,7 +24,8 @@ In order to make this invisible algorithm visible, we made this [facial recognit
 The facial recognition software traces our faces and assigns numbers to our contours as an attempt to understand our feelings. But how often does it get it right? We can test this out by picking one emotion from the [Wheel of Emotions](https://www.isu.edu/media/libraries/counseling-and-testing/documents/Wheel-of-Emotions-Handout-(3).pdf) and performing it in front of this [emotion recognition example](https://editor.p5js.org/jodiechifunyise/sketches/zdV2SqBiD).
 
 #### Let’s Discuss
-- Did you notice any differences between the emotion you chose from the wheel and the emotion deteced in the p5.js sketch? 
-- Reflect on the different people you have met throughout your life, do they express emotions like joy, fraustration, or vulnerability with the same facial expressions? 
-- What are some potential consequences when software misread human emotions?
+- Did you notice any differences between the emotion you chose from the wheel and the emotion detected in the p5.js sketch?
+- Reflect on the different people you have met throughout your life. Do they express emotions like joy, frustration, or vulnerability with the same facial expressions?
+- What are some potential consequences when software misreads human emotions?
+
 
