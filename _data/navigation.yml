@@ -47,7 +47,9 @@ curriculum:
   - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"
-        url: /maskGenerator-intro/
+        url: /maskGenerator-intro/1
+      - title: "Software that Makes Mistakes"
+        url: /maskGenerator-intro/2
       - title: "Variables"
         url: /maskGenerator-lessons/1
       - title: "Randomness"

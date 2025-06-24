@@ -5,6 +5,31 @@ permalink: /walkInNeighborhood-lessons/ # Give your page a permalink
 published: true
 
 ---
+
+```jsx
+let x = 25;
+let h = 20;
+let y = 25;
+function setup() {
+  createCanvas(480, 120);
+}
+function draw() {
+  background(204);
+  rect(x, y, 300, h);        // Top
+  x = x + 100;
+  rect(x, y + h, 300, h);    // Middle
+  x = x - 250;
+  rect(x, y + h*2, 300, h);  // Bottom
+}
+```
+
+### Updating a value
+We can also update the value of a variable throughout our code. It can mean one value in a specific context, and then change its value in another.
+
+- Replacing the value of a variable
+    - Variables can update themselves with new information - ie. x = x+1; This means that x will keep updating to add 1 to itself.
+    - If using “let,” we can change the variable type. The same variable used for storing numbers can also update to be text or array of values.
+    
 # Lesson Plans & Technical Steps
 ## 1. Variables + Animation
 ![Animating with p5.js]({{ "/assets/images/curriculum/Unit-5_Sample-2.gif" | relative_url }})  
