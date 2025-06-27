@@ -74,6 +74,10 @@ curriculum:
     children:
       - title: "Rubric"
         url: /rubric/
+  - title: "Handouts"
+    children:
+      - title: "Handouts for Students"
+        url: /handouts/
 
       # - title: "Assessment Activities & Checking for Understanding"
       #   url: /drawingMachine-assessment/
