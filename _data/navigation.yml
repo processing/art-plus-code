@@ -44,6 +44,12 @@ curriculum:
         url: /lostAndFound-lessons/2
       - title: "Composition"
         url: /lostAndFound-lessons/3
+      - title: "Variation"
+        url: /lostAndFound-lessons/4
+      - title: "Randomness"
+        url: /lostAndFound-lessons/5
+      - title: "System Variables"
+        url: /lostAndFound-lessons/6
   - title: "Project 2: Mask Generator"
     children:
       - title: "Introduction"
@@ -60,16 +66,20 @@ curriculum:
     children:
       - title: "Introduction"
         url: /walkInNeighborhood-introduction/
-      - title: "Loading and Displaying Images"
-        url: /walkInNeighborhood-lessons/1
       - title: "Conditional Statements"
         url: /walkInNeighborhood-lessons/2
+      - title: "Loading and Displaying Images"
+        url: /walkInNeighborhood-lessons/1
+      - title: "Making Your Project"
+        url: /walkInNeighborhood-lessons/3
   - title: "Project 4: Drawing Machine"
     children:
       - title: "Introduction"
         url: /drawingMachine-intro/
-      - title: "Lesson Plans & Technical Steps"
-        url: /drawingMachine-lessons/
+      - title: "How to Use Functions"
+        url: /drawingMachine-lessons/1
+      - title: "Making your Paintbrush"
+        url: /drawingMachine-lessons/2
   - title: "Rubric for Art + Code Projects"
     children:
       - title: "Rubric"
