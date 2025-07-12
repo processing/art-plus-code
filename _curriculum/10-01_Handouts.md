@@ -1,12 +1,14 @@
 ---
 # This is the frontmatter
 
-title: "" # Title and Heading 1
-permalink: /handouts/ # Give your page a permalink
+title: "Handouts for Students"
+permalink: /handouts/
 published: true
 ---
 
-# Handouts for Students
+## p5.js Cheat Sheet for Beginners
+
+[![Open p5.js Cheat Sheet](https://bmoren.github.io/p5js-cheat-sheet/thumb.png)](https://bmoren.github.io/p5js-cheat-sheet/)
 
 ## Radians Diagram
 
