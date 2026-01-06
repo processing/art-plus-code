@@ -6,6 +6,8 @@ permalink: /maskGenerator-intro/2 # Give your page a permalink
 published: true
 ---
 
+Mask Generator remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+
 ## Software that Makes Mistakes
 
  ![Sentiment analysis]({{ "/assets/images/curriculum/hito_s.webp" | relative_url }}) 

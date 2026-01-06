@@ -4,6 +4,9 @@ title: "Mask Generator" # Title and Heading 1
 permalink: /maskGenerator-lessons/2 # Give your page a permalink
 published: true
 ---
+
+Mask Generator remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+
 ## Randomness
 
 ### Grade 6~8
