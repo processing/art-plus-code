@@ -21,6 +21,8 @@ gallery: # Below is for including an image gallery
 
 ---
 
+Mask Generator remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+
 ![Create a digital collage with p5.js!]({{ "https://verse.works/image/w3840/static%2F1dbce05a-42de-4250-a1b7-4f22d3e61886.png@webp" | relative_url }})  
 [Generativemasks](https://generativemasks.io/gallery). Made in [p5.js](https://p5js.org/) by Shunsuke Takawo.
 

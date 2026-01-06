@@ -19,6 +19,8 @@ gallery: # Below is for including an image gallery
     title: "Book from the Ground, Xu Bing"
 ---
 
+Lost and Found remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+
 ![Create a digital drawing tool with p5.js!]({{ "/assets/images/curriculum/Unit-1_Sample-6.png" | relative_url }})  
 [The Necklace](https://cc-lab-portfolio-ardak.glitch.me/p1.html). Made in [p5.js](https://p5js.org/) by Ardak Mukanova.
 

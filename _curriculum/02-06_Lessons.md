@@ -5,6 +5,8 @@ permalink: /lostAndFound-lessons/6 # Give your page a permalink
 published: true
 ---
 
+Lost and Found remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+
 #### System Variables
 
 The [p5.js contributors](https://github.com/processing/p5.js?tab=readme-ov-file#contributors) have created a couple of variables that are available for us to load and use. These system variables were created to bring joy and ease to the coding process. We will spend the rest of Art + Code to try them out.

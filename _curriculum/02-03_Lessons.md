@@ -5,6 +5,8 @@ permalink: /lostAndFound-lessons/3 # Give your page a permalink
 published: true
 ---
 
+Lost and Found remixes Critical Computation by Xin Xin and Katherine Moriwaki, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+
 ## Composition
 
 ### Grade 6~8
